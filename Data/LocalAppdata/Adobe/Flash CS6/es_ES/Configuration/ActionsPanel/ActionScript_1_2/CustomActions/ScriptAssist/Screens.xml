@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xul-overlay href="../../../../XULControls/ScreenControls.xml"?>
+
+<customactions>
+	<actionspanelsupplement>
+		<ifedition edition="pro">
+			<string name="addEventListener" text=".addEventListener(% %)" object="[mx.screens.Form]">
+				<parametersdialog>
+					<block id="EVENT_FORM"/>
+					<block id="LISTENER"/>
+				</parametersdialog>
+			</string>						
+			<string name="addEventListener" text=".addEventListener(% %)" object="[mx.screens.Slide]">
+				<parametersdialog>
+					<block id="EVENT_SLIDE"/>
+					<block id="LISTENER"/>
+				</parametersdialog>
+			</string>	
+		</ifedition>
+	</actionspanelsupplement>
+</customactions>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+
+<!-- **************************************************************************** -->
+<!-- Copyright 2003 Macromedia, Inc. All Rights Reserved.                         -->
+<!-- The following is Sample Code and is subject to all restrictions on           -->
+<!-- such code as contained in the End User License Agreement accompanying        -->
+<!-- this product.                                                                -->
+<!-- **************************************************************************** -->
+
+<flash_behavior version="1.0">
+
+<behavior_definition dialogID="Transitions-dialog" defaultEvent="reveal" category="Pantalla" class="screen" name="Transición">
+
+<properties>
+  <property id="type" default="Iris"/> 
+  <property id="direction" default="0"/>
+  <property id="duration" default="2"/> 
+  <property id="easing" default="None.easeNone"/>
+  <property id="param1Name" default="startPoint"/> 
+  <property id="param1Value" default="5"/>
+  <property id="param2Name" default="shape"/> 
+  <property id="param2Value" default="SQUARE"/>
+</properties>
+
+   <dialog id="Transitions-dialog" title="Transiciones" buttons="accept, cancel">
+
+     <flash id="Transitions" src="Transitions.swf" width="475" height="305"/> 
+
+   </dialog>
+   
+<actionscript>
+<![CDATA[
+	// Transition behavior
+	if (!eventObj.target._isSlide || (eventObj.target._isSlide && eventObj.target.currentSlide)) {
+		mx.transitions.TransitionManager.start (eventObj.target,
+			{type:mx.transitions.$type$, 
+			direction:$direction$, duration:$duration$, easing:mx.transitions.easing.$easing$, 
+			$param1Name$:$param1Value$, $param2Name$:$param2Value$}); 
+
+		eventObj.target.__transitionManager._triggerEvent = eventObj.type;
+	}
+	// End Transition behavior
+]]>
+</actionscript>
+
+</behavior_definition>
+</flash_behavior>

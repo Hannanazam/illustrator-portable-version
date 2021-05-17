@@ -1,0 +1,179 @@
+#
+# Expert Font Table
+#
+# Modified 7/14/98 by Darin Tomack 
+# - to follow formatting specified below
+# - and to remove all the redundant MM instance mapping that is now 
+#	handled in the code.
+# - fixed AJensonMM-It mapping.
+#
+# Updated 7/7/98 by Thomas Phinney to add new fonts:
+# - added 6 entries for BellMT
+# - added 18 entries for ChaparralMM & ChaparralMM-It
+# - added 18 entries for CronosMM & CronosMM-It
+# - added 6 entries for Dante MT
+# - added 2 entries for Fournier MT
+# - added 12 entries for KinesisMM & KinesisMM-It
+#
+# Modified 12/12/95 by Neal Tucker to follow formatting specified below.
+#
+# Generated 11/21/95 by Dan Mills (based on 3/11/93 version by Glenn Reid)
+# Changes:
+# - added 20 entries for AJensonMM & AJensonMM-It
+# - added 92 entries for KeplerMM & KeplerMM-It
+# - added  6 entries for BulmerMT
+# - changed "MyriadMM" to "MinionMM" in two buggy entries.
+#
+# This file is used by the Text/Smart Punctuation filter and must reside
+# in the Plug-Ins folder of Adobe Illustrator. Lines must be of the form:
+# "Expert<tab>FontName-Base<tab>FontName-Expert"
+# Some multiple-master font names contain spaces, so use tab as a separator
+#
+Expert	ACaslon-Bold	ACaslonExp-Bold
+Expert	ACaslon-BoldItalic	ACaslonExp-BoldItalic
+Expert	ACaslon-Italic	ACaslonExp-Italic
+Expert	ACaslon-Regular	ACaslonExp-Regular
+Expert	ACaslon-Semibold	ACaslonExp-Semibold
+Expert	ACaslon-SemiboldItalic	ACaslonExp-SemiboldItalic
+Expert	AGaramond-Bold	AGaramondExp-Bold
+Expert	AGaramond-BoldItalic	AGaramondExp-BoldItalic
+Expert	AGaramond-Italic	AGaramondExp-Italic
+Expert	AGaramond-Regular	AGaramondExp-Regular
+Expert	AGaramond-Semibold	AGaramondExp-Semibold
+Expert	AGaramond-SemiboldItalic	AGaramondExp-SemiboldItalic
+Expert	AJensonMM	AJensonMM-Ep
+Expert	AJensonMM-It	AJensonMM-ItEp
+Expert	ApolloMT	ApolloMT-Expert
+Expert	ApolloMT-Italic	ApolloMT-ItalicExpert
+Expert	ApolloMT-SemiBold	ApolloMT-SemiBoldExpert
+Expert	BellMT-Bold	BellMT-BoldExpert
+Expert	BellMT-BoldItalic	BellMT-BoldItalicExpert
+Expert	BellMT-Italic	BellMT-ItalicExpert
+Expert	BellMT-Regular	BellMT-RegularExpert
+Expert	BellMT-SemiBold	BellMT-SemiBoldExpert
+Expert	BellMT-SemiBoldItalic	BellMT-SemiBoldItalicExpert
+Expert	Bembo	Bembo-Expert
+Expert	Bembo-Bold	Bembo-BoldExpert
+Expert	Bembo-BoldItalic	Bembo-BoldItalicExpert
+Expert	Bembo-ExtraBold	Bembo-ExtraBoldExpert
+Expert	Bembo-ExtraBoldItalic	Bembo-ExtraBoldItalicExpert
+Expert	Bembo-Italic	Bembo-ItalicExpert
+Expert	Bembo-Semibold	Bembo-SemiboldExpert
+Expert	Bembo-SemiboldItalic	Bembo-SemiboldItalicExpert
+Expert	BodoniBE-Bold	BodoniBE-BoldExp
+Expert	BodoniBE-BoldItalic	BodoniBE-BoldItalicExp
+Expert	BodoniBE-Italic	BodoniBE-ItalicExp
+Expert	BodoniBE-Light	BodoniBE-LightExp
+Expert	BodoniBE-LightItalic	BodoniBE-LightItalicExp
+Expert	BodoniBE-Medium	BodoniBE-MediumExp
+Expert	BodoniBE-MediumItalic	BodoniBE-MediumItalicExp
+Expert	BodoniBE-Regular	BodoniBE-RegularExp
+Expert	BodoniOldFaceBE-Bold	BodoniOldFaceBE-BoldExp
+Expert	BodoniOldFaceBE-BoldItalic	BodoniOldFaceBE-BoldItExp
+Expert	BodoniOldFaceBE-Italic	BodoniOldFaceBE-ItalicExp
+Expert	BodoniOldFaceBE-Medium	BodoniOldFaceBE-MediumExp
+Expert	BodoniOldFaceBE-MediumItalic	BodoniOldFaceBE-MediumItExp
+Expert	BodoniOldFaceBE-Regular	BodoniOldFaceBE-RegularExp
+Expert	BulmerMT-Bold	BulmerMT-BoldExpert
+Expert	BulmerMT-BoldItalic	BulmerMT-BoldItalicExpert
+Expert	BulmerMT-Italic	BulmerMT-ItalicExpert
+Expert	BulmerMT-Regular	BulmerMT-RegularExpert
+Expert	BulmerMT-SemiBold	BulmerMT-SemiBoldExpert
+Expert	BulmerMT-SemiBoldItalic	BulmerMT-SemiBoldItalicExpert
+Expert	CaslonBookBE-Bold	CaslonBookBE-BoldExp
+Expert	CaslonBookBE-Italic	CaslonBookBE-ItalicExp
+Expert	CaslonBookBE-Medium	CaslonBookBE-MediumExp
+Expert	CaslonBookBE-Regular	CaslonBookBE-RegularExp
+Expert	CentaurMT	CentaurMT-Expert
+Expert	CentaurMT-Bold	CentaurMT-BoldExpert
+Expert	CentaurMT-BoldItalic	CentaurMT-BoldItalicExpert
+Expert	CentaurMT-Italic	CentaurMT-ItalicExpert
+Expert	ChaparralMM	ChaparralMM-Ep
+Expert	ChaparralMM-It	ChaparralMM-ItEp
+Expert	Christiana-Regular	Christiana-RegularExpert
+Expert	ConcordeBE-Italic	ConcordeBE-ItalicExp
+Expert	ConcordeBE-Medium	ConcordeBE-MediumExp
+Expert	ConcordeBE-MediumItalic	ConcordeBE-MediumItalicExp
+Expert	ConcordeBE-Regular	ConcordeBE-RegularExp
+Expert	ConcordeNova-Italic	ConcordeNova-ItalicExp
+Expert	ConcordeNova-Medium	ConcordeNova-MediumExp
+Expert	ConcordeNova-Regular	ConcordeNova-RegularExp
+Expert	CronosMM	CronosMM-Ep
+Expert	CronosMM-It	CronosMM-ItEp
+Expert	DanteMT-Bold	DanteMT-BoldExpert
+Expert	DanteMT-BoldItalic	DanteMT-BoldItalicExpert
+Expert	DanteMT-Italic	DanteMT-ItalicExpert
+Expert	DanteMT-Medium	DanteMT-MediumExpert
+Expert	DanteMT-MediumItalic	DanteMT-MediumItalicExpert
+Expert	DanteMT-Regular	DanteMT-RegularExpert
+Expert	Formata-Condensed	Formata-CondensedExpert
+Expert	Formata-CondensedItalic	Formata-CnItalicExpert
+Expert	Formata-Italic	Formata-ItalicExpert
+Expert	Formata-Light	Formata-LightExpert
+Expert	Formata-LightCondensed	Formata-LightCnExpert
+Expert	Formata-LightCondensedItalic	Formata-LightCnItalicExpert
+Expert	Formata-LightItalic	Formata-LightItalicExpert
+Expert	Formata-Regular	Formata-RegularExpert
+Expert	FournierMT-Italic	FournierMT-ItalicExpert
+Expert	FournierMT-Regular	FournierMT-RegularExpert
+Expert	GaramondBE-Bold	GaramondBE-BoldExpert
+Expert	GaramondBE-Condensed	GaramondBE-CnExpert
+Expert	GaramondBE-Italic	GaramondBE-ItalicExpert
+Expert	GaramondBE-Medium	GaramondBE-MediumExpert
+Expert	GaramondBE-MediumCn	GaramondBE-MediumCnExpert
+Expert	GaramondBE-MediumItalic	GaramondBE-MediumItalicExpert
+Expert	GaramondBE-Regular	GaramondBE-RegularExpert
+Expert	KeplerMM	KeplerMM-Ep
+Expert	KeplerMM-It	KeplerMM-ItEp
+Expert	KinesisMM	KinesisMM-Ep
+Expert	KinesisMM-It	KinesisMM-ItEp
+Expert	Minion-Black	MinionExp-Black
+Expert	Minion-Bold	MinionExp-Bold
+Expert	Minion-BoldItalic	MinionExp-BoldItalic
+Expert	Minion-DisplayItalic	MinionExp-DisplayItalic
+Expert	Minion-DisplayRegular	MinionExp-DisplayRegular
+Expert	Minion-Italic	MinionExp-Italic
+Expert	Minion-Regular	MinionExp-Regular
+Expert	Minion-Semibold	MinionExp-Semibold
+Expert	Minion-SemiboldItalic	MinionExp-SemiboldItalic
+Expert	MinionMM	MinionMM-Ep
+Expert	MinionMM-It	MinionMM-ItEp
+Expert	Nofret-Bold	Nofret-BoldExpert
+Expert	Nofret-BoldItalic	Nofret-BoldItalicExpert
+Expert	Nofret-Italic	Nofret-ItalicExpert
+Expert	Nofret-Light	Nofret-LightExpert
+Expert	Nofret-LightItalic	Nofret-LightItalicExpert
+Expert	Nofret-Medium	Nofret-MediumExpert
+Expert	Nofret-MediumItalic	Nofret-MediumItalicExpert
+Expert	Nofret-Regular	Nofret-RegularExpert
+Expert	OctavianMT	OctavianMT-Expert
+Expert	OctavianMT-Italic	OctavianMT-ItalicExpert
+Expert	Perpetua	Perpetua-Exp
+Expert	Perpetua-Bold	Perpetua-BoldExp
+Expert	Perpetua-BoldItalic	Perpetua-BoldItalicExp
+Expert	Perpetua-Italic	Perpetua-ItalicExp
+Expert	Poetica-ChanceryI	Poetica-ChanceryExpert
+Expert	Poetica-ChanceryII	Poetica-ChanceryExpert
+Expert	Poetica-ChanceryIII	Poetica-ChanceryExpert
+Expert	Poetica-ChanceryIV	Poetica-ChanceryExpert
+Expert	PopplPontifexBE-Bold	PopplPontifexBE-BoldExp
+Expert	PopplPontifexBE-Italic	PopplPontifexBE-ItalicExp
+Expert	PopplPontifexBE-Medium	PopplPontifexBE-MediumExp
+Expert	PopplPontifexBE-MediumCn	PopplPontifexBE-MediumCnExp
+Expert	PopplPontifexBE-Regular	PopplPontifexBE-RegularExp
+Expert	SpectrumMT	SpectrumMT-Expert
+Expert	SpectrumMT-Italic	SpectrumMT-ItalicExpert
+Expert	SpectrumMT-SemiBold	SpectrumMT-SemiBoldExpert
+Expert	Utopia-Black	UtopiaExp-Black
+Expert	Utopia-Bold	UtopiaExp-Bold
+Expert	Utopia-BoldItalic	UtopiaExp-BoldItalic
+Expert	Utopia-Italic	UtopiaExp-Italic
+Expert	Utopia-Regular	UtopiaExp-Regular
+Expert	Utopia-Semibold	UtopiaExp-Semibold
+Expert	Utopia-SemiboldItalic	UtopiaExp-SemiboldItalic
+Expert	WalbaumBook-Bold	WalbaumBook-BoldExpert
+Expert	WalbaumBook-BoldItalic	WalbaumBook-BoldItalicExpert
+Expert	WalbaumBook-Italic	WalbaumBook-ItalicExpert
+Expert	WalbaumBook-Medium	WalbaumBook-MdExpert
+Expert	WalbaumBook-MediumItalic	WalbaumBook-MdItalicExpert
+Expert	WalbaumBook-Regular	WalbaumBook-RegularExpert

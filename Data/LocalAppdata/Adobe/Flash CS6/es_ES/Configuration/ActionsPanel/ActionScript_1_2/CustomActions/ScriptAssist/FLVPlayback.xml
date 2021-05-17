@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xul-overlay href="../../../../XULControls/FLVPlaybackControls.xml"?>
+
+<customactions>
+	<actionspanelsupplement>
+		<string name="addEventListener" text=".addEventListener(% %)" object="[mx.video.FLVPlayback]">
+			<parametersdialog>
+				<block id="EVENT_FLVPLAYBACK"/>
+				<block id="LISTENER"/>
+			</parametersdialog>
+		</string>
+
+	</actionspanelsupplement>
+</customactions>

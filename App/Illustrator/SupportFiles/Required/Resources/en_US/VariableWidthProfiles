@@ -1,0 +1,115 @@
+/collection6 {
+	/attributes {
+		/VariableWidth_ProfileType 1
+		/VariableWidth_Distances [ 22
+			3020302e343938333939393732393135363439203120
+		]
+		/VariableWidth_LeftWidths [ 54
+			302e30343939393939393730313937363820302e393030303030303335373632
+			37383720302e30343939393939393730313937363820
+		]
+		/VariableWidth_RightWidths [ 54
+			302e30343939393939393730313937363820302e313030303030303031343930
+			31313620302e30343939393939393730313937363820
+		]
+		/collectionName [ 15
+			57696474682050726f66696c652036
+		]
+	}
+	/canEdit 0
+	/canDelete 0
+}
+/collection5 {
+	/attributes {
+		/VariableWidth_ProfileType 0
+		/VariableWidth_Distances [ 18
+			3020302e323520302e3520302e3735203120
+		]
+		/VariableWidth_Widths [ 60
+			302e31303030303030303134393031313620302e3520302e3830303030303031
+			31393230393239203120302e31303030303030303134393031313620
+		]
+		/collectionName [ 15
+			57696474682050726f66696c652035
+		]
+	}
+	/canEdit 0
+	/canDelete 0
+}
+/collection4 {
+	/attributes {
+		/VariableWidth_ProfileType 0
+		/VariableWidth_Distances [ 4
+			30203120
+		]
+		/VariableWidth_Widths [ 4
+			31203020
+		]
+		/collectionName [ 15
+			57696474682050726f66696c652034
+		]
+	}
+	/canEdit 0
+	/canDelete 0
+}
+/collection3 {
+	/attributes {
+		/VariableWidth_ProfileType 0
+		/VariableWidth_Distances [ 76
+			3020302e31323331393939393933333234323820302e31343632303030303132
+			333937373720302e38353531393939393236353637303820302e383735303030
+			303539363034363435203120
+		]
+		/VariableWidth_Widths [ 12
+			302031203120312031203020
+		]
+		/collectionName [ 15
+			57696474682050726f66696c652033
+		]
+	}
+	/canEdit 0
+	/canDelete 0
+}
+/collection2 {
+	/attributes {
+		/VariableWidth_ProfileType 0
+		/VariableWidth_Distances [ 76
+			3020302e32303030303030303239383032333220302e34303030303030303539
+			363034363420302e36303030303030323338343138353820302e383030303030
+			303131393230393239203120
+		]
+		/VariableWidth_Widths [ 92
+			302e31303030303030303134393031313620302e393030303030303335373632
+			37383720302e33303030303030313139323039323920302e3930303030303033
+			35373632373837203120302e31303030303030303134393031313620
+		]
+		/collectionName [ 15
+			57696474682050726f66696c652032
+		]
+	}
+	/canEdit 0
+	/canDelete 0
+}
+/collection1 {
+	/attributes {
+		/VariableWidth_ProfileType 0
+		/VariableWidth_Distances [ 22
+			3020302e353031353939393637343739373036203120
+		]
+		/VariableWidth_Widths [ 6
+			302031203020
+		]
+		/collectionName [ 15
+			57696474682050726f66696c652031
+		]
+	}
+	/canEdit 0
+	/canDelete 0
+}
+/Sketch {
+	/Version 1
+	/Description (Variable Width catalog)
+	/Owner (Adobe Variable Width Profile Manager)
+}
+/NumberOfCollections 6
+/CatalogName (Adobe Variable Width Profiles)

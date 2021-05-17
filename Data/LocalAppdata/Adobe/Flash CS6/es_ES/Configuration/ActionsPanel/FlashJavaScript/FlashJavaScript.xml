@@ -1,0 +1,2043 @@
+\ufeff<?xml version="1.0" encoding="utf-8"?>
+<toolbox>
+		<actionspanel filetype="jsfl" tooltip="Archivo JavaScript de Flash">
+			<folder name="Funciones y métodos de nivel superior" index="true" tiptext="Funciones y métodos de nivel superior de JavaScript de Flash" helpid="x210B3">
+				<folder name="Métodos globales" index="true" sort="false" tiptext="Métodos que pueden llamarse desde cualquier script de la API JavaScript" helpid="x22958">
+					<string name="alert" index="true" text="alert()" tiptext="Muestra una cadena en un cuadro de diálogo modal Alerta, junto con un botón Aceptar" helpid="x228D2"/>
+					<string name="confirm" index="true" text="confirm(% cadenaAlerta %)" tiptext="Muestra una cadena en un cuadro de diálogo modal Alerta, junto con los botones Aceptar y Cancelar" helpid="x228D3"/>
+					<string name="prompt" index="true" text="prompt(% promptMsg, [ texto ] %)" tiptext="Muestra un mensaje en un cuadro de diálogo modal Alerta, junto con los botones Aceptar y Cancelar" helpid="x228D4"/>
+				</folder>
+				<folder name="Efectos de línea de tiempo" index="true" sort="false" tiptext="Funciones específicas de los efectos de línea de tiempo" helpid="x22959">
+					<string name="configureEffect" object="Function" text="configureEffect()" tiptext="Se llama una sola vez cuando se carga Flash" helpid="x2295B"/>
+					<string name="executeEffect" object="Function" text="executeEffect()" tiptext="Se llama cuando el usuario aplica por primera vez un efecto o cambia las propiedades de un efecto" helpid="x2295C"/>
+					<string name="removeEffect" object="Function" text="removeEffect()" tiptext="Se llama cuando el usuario cambia las propiedades de un efecto o elimina el efecto" helpid="x2295D"/>
+				</folder>
+				<folder name="Herramientas ampliables" index="true" sort="false" tiptext="Funciones disponibles en los scripts que crean herramientas ampliables" helpid="x2295A">
+					<string name="activate" object="Function" text="activate()" tiptext="Se invoca cuando la herramienta pasa a estar activa" helpid="x210B5"/>
+					<string name="configureTool" object="Function" text="configureTool()" tiptext="Se invoca cuando la herramienta se carga al inicio" helpid="x210B6"/>
+					<string name="deactivate" object="Function" text="deactivate()" tiptext="Se invoca cuando la herramienta pasa a estar inactiva" helpid="x210B7"/>
+					<string name="keyDown" object="Function" text="keyDown()" tiptext="Si la herramienta está activa, se invoca si se presiona una tecla" helpid="x210B8"/>
+					<string name="keyUp" object="Function" text="keyUp()" tiptext="Si la herramienta está activa, se invoca si se suelta una tecla" helpid="x210B9"/>
+					<string name="mouseDoubleClick" object="Function" text="mouseDoubleClick()" tiptext="Si la herramienta está activa, se invoca si se hace doble clic con el botón del ratón" helpid="x210BA"/>
+					<string name="mouseDown" object="Function" text="mouseDown(% pto %)" tiptext="Si la herramienta está activa, se invoca si se hace clic con el ratón" helpid="x210BB"/>
+					<string name="mouseMove" object="Function" text="mouseMove(% pto %)" tiptext="Si la herramienta está activa, se invoca si se mueve el ratón sobre el escenario" helpid="x210BC"/>
+					<string name="mouseUp" object="Function" text="mouseUp()" tiptext="Si la herramienta está activa, se invoca si se suelta el botón del ratón sobre el escenario" helpid="x210BD"/>
+					<string name="notifySettingsChanged" object="Function" text="notifySettingsChanged()" tiptext="Notifica a la herramienta si el usuario cambia las opciones en el inspector de propiedades" helpid="x210BE"/>
+					<string name="setCursor" object="Function" text="setCursor()" tiptext="Permite a la herramienta establecer cursores personalizados" helpid="x210BF"/>
+				</folder>
+			</folder>
+			<folder name="ActionsPanel" index="true" tiptext="Representa el panel Acciones" helpid="x22B5D">
+				<folder name="Métodos" tiptext="Métodos del objeto ActionsPanel" helpid="x22B69">
+					<string name="getClassForObject" object="actionsPanel" text=".getClassForObject(% NombreVariableAS %)" tiptext="Devuelve la clase de una variable especificada" helpid="x22B5F"/>
+					<string name="getScriptAssistMode" object="actionsPanel" text=".getScriptAssistMode()" tiptext="Indica si está activado el modo de asistente de script" helpid="x22B60"/>
+					<string name="getSelectedText" object="actionsPanel" text=".getSelectedText()" tiptext="Devuelve el texto seleccionado actualmente en el panel Acciones" helpid="x22B61"/>
+					<string name="getText" object="actionsPanel" text=".getText()" tiptext="Devuelve el texto del panel Acciones" helpid="x22B62"/>
+					<string name="hasSelection" object="actionsPanel" text=".hasSelection()" tiptext="Indica si hay algún texto seleccionado actualmente en el panel Acciones" helpid="x22B63"/>
+					<string name="replaceSelectedText" object="actionsPanel" text=".replaceSelectedText(% textoSustitución %)" tiptext="Sustituye el texto seleccionado actualmente por el texto especificado" helpid="x22B64"/>
+					<string name="setScriptAssistMode" object="actionsPanel" text=".setScriptAssistMode(% bAsistenteScript %)" tiptext="Activa o desactiva el modo del asistente de script" helpid="x22B65"/>
+					<string name="setSelection" object="actionsPanel" text=".setSelection(% índiceInicio, longitudEjecución %)" tiptext="Selecciona un conjunto de caracteres especificado en el panel Acciones" helpid="x22B66"/>
+					<string name="setText" object="actionsPanel" text=".setText(% textoSustitución %)" tiptext="Borra cualquier texto del panel Acciones y añade el texto especificado" helpid="x22B67"/>
+				</folder>
+			</folder>
+			<folder name="BitmapInstance" index="true" tiptext="Subclase de Instance; un mapa de bits en el escenario" helpid="x20FA1">
+				<folder name="Métodos" tiptext="Métodos del objeto BitmapInstance" helpid="x20FA2">
+					<string name="getBits" object="bitmapInstance" text=".getBits()" tiptext="Obtiene bits de un mapa de bits" helpid="x20FA3"/>
+					<string name="setBits" object="bitmapInstance" text=".setBits(% mapa de bits %)" tiptext="Establece bits de un mapa de bits" helpid="x20FA4"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto BitmapInstance" helpid="x20FA5">
+					<string name="hPixels" object="bitmapInstance" text=".hPixels" tiptext="Anchura de la instancia de mapa de bits en píxeles" helpid="x20FA6"/>
+					<string name="vPixels" object="bitmapInstance" text=".vPixels" tiptext="Altura de la instancia de mapa de bits en píxeles" helpid="x20FA7"/>
+				</folder>
+			</folder>
+			<folder name="BitmapItem" index="true" tiptext="Subclase de Item; un símbolo de mapa de bits en la biblioteca" helpid="x20FA8">
+				<folder name="Métodos" tiptext="Métodos del objeto BitmapItem" helpid="x22C78">
+					<string name="exportToFile" object="bitmapItem" text=".exportToFile(% uriArchivo %)" tiptext="Devuelve true si el elemento se exporta correctamente" helpid="x22C34"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto BitmapItem" helpid="x20FA9">
+					<string name="allowSmoothing" object="bitmapItem" text=".allowSmoothing" tiptext="Si el valor es true, suaviza los bordes de un mapa de bits con suavizado" helpid="x20FAA"/>
+					<string name="compressionType" object="bitmapItem" text=".compressionType" tiptext="Especifica el tipo de compresión para exportar" helpid="x20FAB"/>
+					<string name="quality" object="bitmapItem" text=".quality" tiptext="Calidad para la compresión JPEG" helpid="x20FAC"/>
+					<string name="useImportedJPEGQuality" object="bitmapItem" text=".useImportedJPEGQuality" tiptext="Si es true, utilice la calidad del JPEG importado para la exportación" helpid="x20FAD"/>
+					<string name="fileLastModifiedDate" object="bitmapItem" text=".fileLastModifiedDate" tiptext="Marca de hora del archivo cuando se importó" helpid="x22C35"/>
+					<string name="originalCompressionType" object="bitmapItem" text=".originalCompressionType" tiptext="Indicador de datos JPEG originales" helpid="x22C36"/>
+					<string name="sourceFileExists" object="bitmapItem" text=".sourceFileExists" tiptext="Si es true, el archivo original existe" helpid="x22C37"/>
+					<string name="sourceFileIsCurrent " object="bitmapItem" text=".sourceFileIsCurrent " tiptext="Si es true, el archivo no se ha modificado desde su importación." helpid="x22C38"/>
+					<string name="sourceFilePath" object="bitmapItem" text=".sourceFilePath" tiptext="URI de archivo de la imagen de mapa de bits importada" helpid="x22C39"/>
+					<string name="useDeblocking" object="bitmapItem" text=".useDeblocking" tiptext="Si es true, se activa el desbloqueo." helpid="x22C3A"/>
+				</folder>
+			</folder>
+			<folder name="CompiledClipInstance" index="true" tiptext="Subclase de SymbolInstance; una instancia de clip compilado en el escenario" helpid="x20FAE">
+				<folder name="Propiedades" tiptext="Propiedades del objeto CompiledClipInstance" helpid="x20FAF">
+					<string name="accName" object="compiledClipInstance" text=".accName" tiptext="Nombre de un objeto, utilizado por el lector de pantalla" helpid="x20FB0"/>
+					<string name="actionScript" object="compiledClipInstance" text=".actionScript" tiptext="Cadena que representa el ActionScript de una instancia" helpid="x20FB1"/>
+					<string name="description" object="compiledClipInstance" text=".description" tiptext="Descripción del objeto, utilizada por el lector de pantalla" helpid="x20FB2"/>
+					<string name="forceSimple" object="compiledClipInstance" text=".forceSimple" tiptext="Si el valor es true, el lector de pantalla no puede acceder a los secundarios del objeto" helpid="x20FB3"/>
+					<string name="shortcut" object="compiledClipInstance" text=".shortcut" tiptext="Tecla de método abreviado en tiempo de ejecución de un objeto" helpid="x20FB4"/>
+					<string name="silent" object="compiledClipInstance" text=".silent" tiptext="Si el valor es true, el lector de pantalla no lee el objeto" helpid="x20FB5"/>
+					<string name="tabIndex" object="compiledClipInstance" text=".tabIndex" tiptext="Valor tabIndex de un objeto" helpid="x20FB6"/>
+				</folder>
+			</folder>
+			<folder name="compilerErrors" index="true" tiptext="Representa el panel de errores del compilador" helpid="x22B03">
+				<folder name="Métodos" tiptext="Métodos del objeto compilerErrors" helpid="x22B47">
+					<string name="clear" object="compilerErrors" text=".clear()" tiptext="Borra el contenido del panel de errores del compilador" helpid="x22B06"/>
+					<string name="save" object="compilerErrors" text=".save()" tiptext="Guarda el contenido del panel de errores del compilador en un archivo de texto local." helpid="x22B07"/>
+				</folder>
+			</folder>
+			<folder name="ComponentInstance" index="true" tiptext="Subclase de SymbolInstance; una instancia de componente en el escenario" helpid="x20FB7">
+				<folder name="Propiedades" tiptext="Propiedades del objeto ComponentInstance" helpid="x20FB8">
+					<string name="parameters" object="componentInstance" text=".parameters" tiptext="Parámetros del componente" helpid="x20FB9"/>
+				</folder>
+			</folder>
+			<folder name="ComponentsPanel" index="true" tiptext="Panel Componentes" helpid="x20FBA">
+				<folder name="Métodos" tiptext="Métodos del objeto ComponentsPanel" helpid="x20FBB">
+					<string name="addItemToDocument" object="componentsPanel" text=".addItemToDocument(% posición, nombreCategoría, nombreComponente %)" tiptext="Añade un componente al documento" helpid="x20FBC"/>
+					<string name="componentsPanel.reload" object="componentInstance" text=".reload()" tiptext="Actualiza la lista de componentes del panel Componentes" helpid="x228D8"/>
+				</folder>
+			</folder>
+			<folder name="Contour" index="true" tiptext="Un trazado cerrado de bordes partidos" helpid="x20FBD">
+				<folder name="Métodos" tiptext="Métodos del objeto Contour" helpid="x20FBE">
+					<string name="getHalfEdge" object="contour" text=".getHalfEdge()" tiptext="Devuelve un objeto Borde partido" helpid="x20FBF"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Contour" helpid="x20FC0">
+					<string name="interior" object="contour" text=".interior" tiptext="Si el valor es true, el contorno encierra un área" helpid="x20FC1"/>
+					<string name="orientation" object="contour" text=".orientation" tiptext="Número entero que indica la orientación de un contorno" helpid="x20FC2"/>
+					<string name="fill" object="contour" text=".fill" tiptext="Objeto Fill del contorno" helpid="x22C3B"/>
+				</folder>
+			</folder>
+			<folder name="Document" index="true" tiptext="Escenario" helpid="x20FC3">
+				<folder name="Métodos" tiptext="Métodos del objeto Document" helpid="x20FC4">
+					<string name="addDataToDocument" object="document" text=".addDataToDocument(% nombre, tipo, datos %)" tiptext="Almacena datos con un documento" helpid="x20FC5"/>
+					<string name="addDataToSelection" object="document" text=".addDataToSelection(% nombre, tipo, datos %)" tiptext="Almacena datos con los objetos seleccionados" helpid="x20FC6"/>
+					<string name="addFilter" object="document" text=".addFilter(% nombreFiltro %)" tiptext="Añade un filtro a los objetos seleccionados" helpid="x228D9"/>
+					<string name="addItem" object="document" text=".addItem(% posición, elemento %)" tiptext="Añade un elemento de la biblioteca al escenario" helpid="x20FC7"/>
+					<string name="addNewLine" object="document" text=".addNewLine(% puntoInicial, puntoFinal %)" tiptext="Dibuja una línea en el escenario" helpid="x20FC8"/>
+					<string name="addNewOval" object="document" text=".addNewOval(% rectánguloLímite [, bSuprimirRelleno] [, bSuprimirTrazo] %)" tiptext="Dibuja un óvalo en el escenario" helpid="x20FC9"/>
+					<string name="addNewPrimitiveOval" object="document" text=".addNewPrimitiveOval(% rectánguloLímite [, bSuprimirRelleno] [, bSuprimirTrazo] %)" tiptext="Dibujo un nuevo óvalo primitivo en el escenario" helpid="x22C3C"/>
+					<string name="addNewPrimitiveRectangle" object="document" text=".addNewPrimitiveRectangle(% rectánguloLímite, redondez [, bSuprimirRelleno] [, bSuprimirTrazo] %)" tiptext="Dibujo un nuevo rectángulo primitivo en el escenario" helpid="x22C3D"/>
+					<string name="addNewPublishProfile" object="document" text=".addNewPublishProfile(% [nombrePerfil] %)" tiptext="Añade un nuevo perfil de publicación" helpid="x20FCA"/>
+					<string name="addNewRectangle" object="document" text=".addNewRectangle(% rectánguloLímite, redondez [, bSuprimirRelleno] [, bSuprimirTrazo] %)" tiptext="Dibuja un nuevo rectángulo en el escenario" helpid="x20FCB"/>
+					<string name="addNewScene" object="document" text=".addNewScene(% [nombre] %)" tiptext="Añade una nueva escena" helpid="x20FCC"/>
+					<string name="addNewText" object="document" text=".addNewText(% rectánguloLímite %)" tiptext="Inserta un nuevo campo de texto vacío" helpid="x20FCD"/>
+					<string name="align" object="document" text=".align(% modoalineación [, bUsarLímitesDocumento] %)" tiptext="Alinea la selección" helpid="x20FCE"/>
+					<string name="allowScreens" object="document" text=".allowScreens()" tiptext="Comprueba si el contorno de pantalla está disponible" helpid="x20FCF"/>
+					<string name="arrange" object="document" text=".arrange(% modoOrganización %)" tiptext="Organiza la selección" helpid="x20FD0"/>
+					<string name="breakApart" object="document" text=".breakApart()" tiptext="Separa la selección actual" helpid="x20FD1"/>
+					<string name="canEditSymbol" object="document" text=".canEditSymbol()" tiptext="Si el valor es true, puede utilizarse el método editSymbol()" helpid="x20FD2"/>
+					<string name="canRevert" object="document" text=".canRevert()" tiptext="Indica si pueden descartarse los cambios de un documento" helpid="x20FD3"/>
+					<string name="canTestMovie" object="document" text=".canTestMovie()" tiptext="Indica si se puede probar la película" helpid="x20FD4"/>
+					<string name="canTestScene" object="document" text=".canTestScene()" tiptext="Indica si se puede probar la escena actual" helpid="x20FD5"/>
+					<string name="changeFilterOrder" object="document" text=".changeFilterOrder(% índiceAntiguo, índiceNuevo%)" tiptext="Mueve el filtro de oldIndex a newIndex" helpid="x228DA"/>
+					<string name="clipCopy" object="document" text=".clipCopy()" tiptext="Copia la selección en el portapapeles" helpid="x20FD6"/>
+					<string name="clipCut" object="document" text=".clipCut()" tiptext="Corta la selección y la coloca en el portapapeles" helpid="x20FD7"/>
+					<string name="clipPaste" object="document" text=".clipPaste(% [bInSitu] %)" tiptext="Pega el contenido del portapapeles en el documento" helpid="x20FD8"/>
+					<string name="close" object="document" text=".close(% [bSolicitarGuardarCambios] %)" tiptext="Cierra el documento actual" helpid="x20FD9"/>
+					<string name="convertLinesToFills" object="document" text=".convertLinesToFills()" tiptext="Convierte líneas en rellenos en los objetos seleccionados" helpid="x20FDA"/>
+					<string name="convertToSymbol" object="document" text=".convertToSymbol(% tipo, nombre, puntoRegistro %)" tiptext="Convierte los elementos seleccionados en un nuevo símbolo" helpid="x20FDB"/>
+					<string name="crop" object="document" text=".crop()" tiptext="Recorta los objetos Drawing actualmente seleccionados" helpid="x228DB"/>
+					<string name="deletePublishProfile" object="document" text=".deletePublishProfile()" tiptext="Elimina el perfil de publicación actual" helpid="x20FDC"/>
+					<string name="deleteEnvelope" object="document" text=".deleteEnvelope()" tiptext="Elimina la envoltura (recuadro de delimitación) de los objetos seleccionados" helpid="x228DC"/>
+					<string name="deleteScene" object="document" text=".deleteScene()" tiptext="Elimina la escena actual" helpid="x20FDD"/>
+					<string name="deleteSelection" object="document" text=".deleteSelection()" tiptext="Elimina la selección del escenario" helpid="x20FDE"/>
+					<string name="disableAllFilters" object="document" text=".disableAllFilters()" tiptext="Desactiva todos los filtros de los objetos seleccionados" helpid="x228DD"/>
+					<string name="disableFilter" object="document" text=".disableFilter(% índice %)" tiptext="Desactiva el filtro en el índice" helpid="x228DE"/>
+					<string name="disableOtherFilters" object="document" text=".disableOtherFilters(% índice % )" tiptext="Desactiva todos los filtros excepto el del índice" helpid="x228DF"/>
+					<string name="distribute" object="document" text=".distribute(% mododistribución [, bUsarLímitesDocumento] %)" tiptext="Distribuye la selección" helpid="x20FDF"/>
+					<string name="distributeToLayers" object="document" text=".distributeToLayers()" tiptext="Distribuye la selección actual en capas" helpid="x20FE0"/>
+					<string name="documentHasData" object="document" text=".documentHasData(% nombre %)" tiptext="Si el valor es true, hay datos continuos" helpid="x20FE1"/>
+					<string name="duplicatePublishProfile" object="document" text=".duplicatePublishProfile(% [nombrePerfil] %)" tiptext="Duplica el perfil actual" helpid="x20FE2"/>
+					<string name="duplicateScene" object="document" text=".duplicateScene()" tiptext="Duplica la escena actual" helpid="x20FE3"/>
+					<string name="duplicateSelection" object="document" text=".duplicateSelection()" tiptext="Duplica la selección" helpid="x20FE4"/>
+					<string name="editScene" object="document" text=".editScene(% índice %)" tiptext="Establece que la escena especificada sea la actual" helpid="x20FE5"/>
+					<string name="enableAllFilters" object="document" text=".enableAllFilters()" tiptext="Activa todos los filtros de los objetos seleccionados" helpid="x228E1"/>
+					<string name="enableFilter" object="document" text=".enableFilter(% índice %)" tiptext="Activa el filtro en el índice" helpid="x228E2"/>
+					<string name="enterEditMode" object="document" text=".enterEditMode(% [modoEdición] %)" tiptext="Pasa al modo de edición para un símbolo o un grupo" helpid="x20FE6"/>
+					<string name="exitEditMode" object="document" text=".exitEditMode()" tiptext="Sale del modo de edición" helpid="x20FE7"/>
+					<string name="exportPublishProfile" object="document" text=".exportPublishProfile(% URIArchivo %)" tiptext="Exporta el perfil de publicación actual al archivo" helpid="x20FE8"/>
+					<string name="exportPublishProfileString" object="document" text=".exportPublishProfileString()" tiptext="Devuelve una cadena con el perfil predeterminado o con un perfil de publicación especificado" helpid="x22C3E"/>
+					<string name="exportPNG" object="document" text=".exportPNG(% URIArchivo [, bConfiguraciónPNGActual] [, bFotogramaActual] %)" tiptext="Exporta el documento como uno o varios archivos PNG" helpid="x22966"/>
+					<string name="exportSWF" object="document" text=".exportSWF(% [URIArchivo] [, bCurrentSettings] %)" tiptext="Exporta el documento como SWF" helpid="x20FE9"/>
+					<string name="getAlignToDocument" object="document" text=".getAlignToDocument()" tiptext="Devuelve el valor de la configuración de Alinear en escenario" helpid="x20FEA"/>
+					<string name="getBlendMode" object="document" text=".getBlendMode()" tiptext="Devuelve el modo de mezcla de los objetos seleccionados" helpid="x228E4"/>
+					<string name="getCustomFill" object="document" text=".getCustomFill(% [ubicaciónDeRelleno] %)" tiptext="Devuelve el objeto de selección Fill o el panel Herramientas" helpid="x20FEB"/>
+					<string name="getCustomStroke" object="document" text=".getCustomStroke(% [ubicaciónDeRelleno] %)" tiptext="Devuelve la configuración del objeto Stroke o del panel Herramientas" helpid="x20FEC"/>
+					<string name="getDataFromDocument" object="document" text=".getDataFromDocument(% nombre %)" tiptext="Devuelve el valor de los datos especificados" helpid="x20FED"/>
+					<string name="getElementProperty" object="document" text=".getElementProperty(% nombrePropiedad %)" tiptext="Devuelve la propiedad del elemento especificado" helpid="x20FEE"/>
+					<string name="getElementTextAttr" object="document" text=".getElementTextAttr(% attrName [, inicioÍndice] [, finÍndice] %)" tiptext="Devuelve la propiedad de atributos de texto especificada" helpid="x20FEF"/>
+					<string name="getFilters" object="document" text=".getFilters()" tiptext="Devuelve la matriz de filtros de los objetos seleccionados" helpid="x228E5"/>
+					<string name="getMetadata" object="document" text=".getMetadata()" tiptext="Devuelve los metadatos XML" helpid="x228E6"/>
+					<string name="getMobileSettings" object="document" text=".getMobileSettings()" tiptext="Devuelve la cadena transferida a document.setMobileSettings()" helpid="x22B0F"/>
+					<string name="getPlayerVersion" object="document" text=".getPlayerVersion()" tiptext="Devuelve una cadena que representa la versión del reproductor de destino para el documento especificado" helpid="x22B10"/>
+					<string name="getSelectionRect" object="document" text=".getSelectionRect()" tiptext="Devuelve el rectángulo de límite de la selección" helpid="x20FF0"/>
+					<string name="getTextString" object="document" text=".getTextString(% [inicioÍndice] [, finÍndice] %)" tiptext="Devuelve la cadena de texto del texto seleccionado" helpid="x20FF1"/>
+					<string name="getTimeline" object="document" text=".getTimeline()" tiptext="Devuelve la línea de tiempo actual" helpid="x20FF2"/>
+					<string name="getTransformationPoint" object="document" text=".getTransformationPoint()" tiptext="Devuelve la ubicación del punto de transformación" helpid="x20FF3"/>
+					<string name="group" object="document" text=".group()" tiptext="Convierte la selección en un grupo" helpid="x20FF4"/>
+					<string name="importFile" object="document" text=".importFile(% URIArchivo [ , importarABiblioteca] %)" tiptext="Importa un archivo en el documento o biblioteca" helpid="x22962"/>
+					<string name="importPublishProfile" object="document" text=".importPublishProfile(% URIArchivo %)" tiptext="Importa un perfil de publicación de un archivo" helpid="x20FF5"/>
+					<string name="importPublishProfileString" object="document" text=".importPublishProfileString(% xml %)" tiptext="Importa los datos XML como un perfil de publicación" helpid="x22C83"/>
+					<string name="importSWF" object="document" text=".importSWF(% URIArchivo %)" tiptext="Importa un archivo SWF al documento" helpid="x20FF6"/>
+					<string name="intersect" object="document" text=".intersect()" tiptext="Crea un objeto Drawing de intersección a partir de todos los objetos Drawing seleccionados" helpid="x228E7"/>
+					<string name="match" object="document" text=".match(% bAnchura, bAltura [, bUsarLímitesDocumento] %)" tiptext="Iguala el tamaño de los objetos seleccionados" helpid="x20FF7"/>
+					<string name="mouseClick" object="document" text=".mouseClick(% posición, bAlternarSelec, bMayúsSelec %)" tiptext="Efectúa un clic de ratón" helpid="x20FF8"/>
+					<string name="mouseDblClk" object="document" text=".mouseDblClk(% posición, bAltAbajo, bMayúsAbajo, bMayúsSelec %)" tiptext="Efectúa un doble clic de ratón" helpid="x20FF9"/>
+					<string name="moveSelectedBezierPointsBy" object="document" text=".moveSelectedBezierPointsBy(% delta %)" tiptext="Mueve los puntos Bezier seleccionados" helpid="x20FFA"/>
+					<string name="moveSelectionBy" object="document" text=".moveSelectionBy(% distanciaParaMover %)" tiptext="Mueve la selección" helpid="x20FFB"/>
+					<string name="optimizeCurves" object="document" text=".optimizeCurves(% suavizado, bUtilizarVariasPasadas %)" tiptext="Optimiza las curvas de la forma seleccionada" helpid="x20FFC"/>
+					<string name="publish" object="document" text=".publish()" tiptext="Publica un documento" helpid="x20FFD"/>
+					<string name="punch" object="document" text=".punch()" tiptext="Perfora todos los objetos Drawing seleccionados" helpid="x228E8"/>
+					<string name="removeDataFromDocument" object="document" text=".removeDataFromDocument(% nombre %)" tiptext="Elimina los datos continuos del documento" helpid="x20FFE"/>
+					<string name="removeDataFromSelection" object="document" text=".removeDataFromSelection(% nombre %)" tiptext="Elimina los datos continuos de los objetos seleccionados" helpid="x20FFF"/>
+					<string name="removeAllFilters" object="document" text=".removeAllFilters()" tiptext="Elimina todos los filtros de los objetos seleccionados" helpid="x228E9"/>
+					<string name="removeFilter" object="document" text=".removeFilter(% índice %)" tiptext="Elimina el filtro en el índice" helpid="x228EA"/>
+					<string name="renamePublishProfile" object="document" text=".renamePublishProfile(% [nuevoNombrePerfil] %)" tiptext="Cambia el nombre del perfil de publicación actual" helpid="x21000"/>
+					<string name="renameScene" object="document" text=".renameScene(% nombre %)" tiptext="Cambia el nombre de la escena seleccionada" helpid="x21001"/>
+					<string name="reorderScene" object="document" text=".reorderScene(% escenaParaMover, escenaParaPonerAntes %)" tiptext="Reordena la escena especificada" helpid="x21002"/>
+					<string name="resetOvalObject" object="document" text=".resetOvalObject()" tiptext="Define todos los valores del inspector de propiedades en su configuración predeterminada de objetos ovalados" helpid="x22B12"/>
+					<string name="resetRectangleObject" object="document" text=".resetRectangleObject()" tiptext="Define todos los valores del inspector de propiedades en su configuración predeterminada de objetos rectangulares" helpid="x22B13"/>
+					<string name="resetTransformation" object="document" text=".resetTransformation()" tiptext="Restablece la matriz de transformación" helpid="x21003"/>
+					<string name="revert" object="document" text=".revert()" tiptext="Descarta los cambios del documento especificado" helpid="x21004"/>
+					<string name="rotate3DSelection" object="document" text=".rotate3DSelection(% Rotación_XYZ, Modo de transformación %)" tiptext="Rotación 3D del documento" helpid="x22C42"/>
+					<string name="rotateSelection" object="document" text=".rotateSelection(% ángulo [, puntoRotación] %)" tiptext="Gira una selección" helpid="x21005"/>
+					<string name="save" object="document" text=".save(% [bAceptarGuardarComo] %)" tiptext="Guarda el documento" helpid="x21006"/>
+					<string name="saveAndCompact" object="document" text=".saveAndCompact(% [bAceptarGuardarComo] %)" tiptext="Guarda y compacta un documento" helpid="x21007"/>
+					<string name="scaleSelection" object="document" text=".scaleSelection(% escalaX, escalaY [, quéEsquina] %)" tiptext="Escala una selección" helpid="x21008"/>
+					<string name="selectAll" object="document" text=".selectAll()" tiptext="Selecciona todos los elementos en el escenario" helpid="x21009"/>
+					<string name="selectNone" object="document" text=".selectNone()" tiptext="Deselecciona todos los elementos en el escenario" helpid="x2100A"/>
+					<string name="setAlignToDocument" object="document" text=".setAlignToDocument(% bParaEscenario %)" tiptext="Si el valor es true, los objetos se alinean, se distribuyen, o cambian de tamaño o espaciado en el escenario" helpid="x2100B"/>
+					<string name="setBlendMode" object="document" text=".setBlendMode(% modo %)" tiptext="Establece el modo de mezcla de los objetos seleccionados" helpid="x228EB"/>
+					<string name="setCustomFill" object="document" text=".setCustomFill(% relleno %)" tiptext="Establece la configuración actual de relleno de la selección o del panel Herramientas" helpid="x2100C"/>
+					<string name="setCustomStroke" object="document" text=".setCustomStroke(% trazo %)" tiptext="Establece la configuración actual de trazo de la selección o del panel Herramientas" helpid="x2100D"/>
+					<string name="setElementProperty" object="document" text=".setElementProperty(% propiedad, valor %)" tiptext="Establece la propiedad especificada de un objeto Elemento" helpid="x2100E"/>
+					<string name="setElementTextAttr" object="document" text=".setElementTextAttr(% attrName, attrValue [, inicioÍndice] [, finÍndice] %)" tiptext="Establece la propiedad especificada de los elementos de texto seleccionados" helpid="x2100F"/>
+					<string name="setFillColor" object="document" text=".setFillColor(% color %)" tiptext="Cambia el color de relleno de una selección" helpid="x21010"/>
+					<string name="setFilterProperty" object="document" text=".setFilterProperty(% propiedad, índice, valor %)" tiptext="Establece la propiedad de filtro especificada de los objetos seleccionados" helpid="x228EC"/>
+					<string name="setFilters" object="document" text=".setFilters(% Filtros %)" tiptext="Establece la matriz de filtros en los objetos seleccionados" helpid="x228ED"/>
+					<string name="setInstanceAlpha" object="document" text=".setInstanceAlpha(% opacidad %)" tiptext="Establece la opacidad de una instancia" helpid="x21011"/>
+					<string name="setInstanceBrightness" object="document" text=".setInstanceBrightness(% brillo %)" tiptext="Establece el brillo de una instancia" helpid="x21012"/>
+					<string name="setInstanceTint" object="document" text=".setInstanceTint(% color, intensidad %)" tiptext="Establece la tinta de una instancia" helpid="x21013"/>
+					<string name="setMetadata" object="document" text=".setMetadata(% xml %)" tiptext="Establece los metadatos XML; devuelve false si no puede establecerse" helpid="x228EE"/>
+					<string name="setMobileSettings" object="document" text=".setMobileSettings(% cadenaXML %)" tiptext="Define el valor de una cadena de configuración XML en un archivo FLA móvil" helpid="x22B16"/>
+					<string name="setOvalObjectProperty" object="document" text=".setOvalObjectProperty(% nombrePropiedad, valor %)" tiptext="Especifica un valor para la propiedad especificada de los objetos ovalados simples" helpid="x22B17"/>
+					<string name="setPlayerVersion" object="document" text=".setPlayerVersion(% versión %)" tiptext="Define la versión del reproductor Flash Player al que va dirigido el documento especificado" helpid="x22B18"/>
+					<string name="setRectangleObjectProperty" object="document" text=".setRectangleObjectProperty(% nombrePropiedad, valor %)" tiptext="Especifica un valor para la propiedad especificada de los objetos rectangulares simples" helpid="x22B19"/>
+					<string name="setSelectionBounds" object="document" text=".setSelectionBounds(% rectánguloDelimitación [ , bSelecciónPorContacto ] %)" tiptext="Mueve y cambia el tamaño de una selección" helpid="x21014"/>
+					<string name="setSelectionRect" object="document" text=".setSelectionRect(% rect [, bReemplazarSelecciónActual [ , bSelecciónPorContacto ] ] %)" tiptext="Establece el rectángulo de selección" helpid="x21015"/>
+					<string name="setStageVanishingPoint" object="document" text=".setStageVanishingPoint(% punto de desvanecimiento %)" tiptext="Define el punto de desvanecimiento 3D" helpid="x22C40"/>
+					<string name="setStageViewAngle" object="document" text=".setStageViewAngle(% ángulo %)" tiptext="Define el ángulo de visión 3D" helpid="x22C41"/>
+					<string name="setStroke" object="document" text=".setStroke(% color, tamaño, trazo %)" tiptext="Establece las propiedades del trazo seleccionado" helpid="x21016"/>
+					<string name="setStrokeColor" object="document" text=".setStrokeColor(% color %)" tiptext="Cambia el color del trazo seleccionado" helpid="x21017"/>
+					<string name="setStrokeSize" object="document" text=".setStrokeSize(% tamaño %)" tiptext="Cambia el grosor del trazo seleccionado" helpid="x21018"/>
+					<string name="setStrokeStyle" object="document" text=".setStrokeStyle(% trazo %)" tiptext="Cambia el estilo del trazo seleccionado" helpid="x21019"/>
+					<string name="setTextRectangle" object="document" text=".setTextRectangle(% rectánguloLímite %)" tiptext="Cambia el rectángulo de límite para el elemento de texto seleccionado" helpid="x2101A"/>
+					<string name="setTextSelection" object="document" text=".setTextSelection(% inicioÍndice, finÍndice %)" tiptext="Establece la selección de texto del campo de texto seleccionado" helpid="x2101B"/>
+					<string name="setTextString" object="document" text=".setTextString(% texto [, inicioÍndice] [, finÍndice] %)" tiptext="Añade la cadena de texto especificada al campo de texto seleccionado" helpid="x2101C"/>
+					<string name="setTransformationPoint" object="document" text=".setTransformationPoint(% puntoTransformación %)" tiptext="Mueve el punto de transformación de la selección" helpid="x2101D"/>
+					<string name="skewSelection" object="document" text=".skewSelection(% sesgoX, sesgoY [, quéEsquina] %)" tiptext="Sesga la selección" helpid="x2101E"/>
+					<string name="smoothSelection" object="document" text=".smoothSelection()" tiptext="Suaviza la curva seleccionada de una forma" helpid="x2101F"/>
+					<string name="space" object="document" text=".space(% dirección [, bUsarLímitesDocumento] %)" tiptext="Espacia uniformemente los objetos de una selección" helpid="x21020"/>
+					<string name="straightenSelection" object="document" text=".straightenSelection()" tiptext="Endereza la curva seleccionada de una forma" helpid="x21021"/>
+					<string name="swapElement" object="document" text=".swapElement(% nombre %)" tiptext="Intercambia el símbolo seleccionado con el especificado" helpid="x21022"/>
+					<string name="swapStrokeAndFill" object="document" text=".swapStrokeAndFill()" tiptext="Intercambia los colores de Trazo y Relleno" helpid="x22965"/>
+					<string name="testMovie" object="document" text=".testMovie()" tiptext="Probar película" helpid="x21023"/>
+					<string name="testScene" object="document" text=".testScene()" tiptext="Probar escena actual" helpid="x21024"/>
+					<string name="traceBitmap" object="document" text=".traceBitmap(% umbral, áreaMínima, ajustarACurva, umbralEsquina %)" tiptext="Traza un mapa de bits" helpid="x21025"/>
+					<string name="transformSelection" object="document" text=".transformSelection(% a, b, c, d %)" tiptext="Lleva a cabo una transformación general" helpid="x21026"/>
+					<string name="translate3DCenter" object="document" text=".translate3DCenter(% Punto XYZ %)" tiptext="Define el centro de traslación 3D" helpid="x22C44"/>
+					<string name="translate3DSelection" object="document" text=".translate3DSelection(% Traslación_XYZ, Modo de Transformación %)" tiptext="Define la traslación XYZ" helpid="x22C43"/>
+					<string name="unGroup" object="document" text=".unGroup()" tiptext="Desagrupa el grupo seleccionado" helpid="x21027"/>
+					<string name="union" object="document" text=".union()" tiptext="Combina todas las formas seleccionadas en un objeto Drawing" helpid="x228EF"/>
+					<string name="unlockAllElements" object="document" text=".unlockAllElements()" tiptext="Desbloquea todos los símbolos del fotograma actual" helpid="x21028"/>
+					<string name="xmlPanel" object="document" text=".xmlPanel(% URIArchivo %)" tiptext="Muestra el cuadro de diálogo XMLIU especificado" helpid="x21029"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Document" helpid="x2102A">
+					<string name="accName" object="document" text=".accName" tiptext="Nombre de película, utilizado por el lector de pantalla" helpid="x2102B"/>
+					<string name="as3AutoDeclare" object="document" text=".as3AutoDeclare" tiptext="Si las instancias colocadas en el escenario se declaran automáticamente en las clases de línea de tiempo definidas por el usuario" helpid="x22B0A"/>
+					<string name="as3Dialect" object="document" text=".as3Dialect" tiptext="Cadena que describe el &apos;dialecto&apos; de ActionScript 3.0 que se utiliza en el documento especificado" helpid="x22B0B"/>
+					<string name="as3ExportFrame" object="document" text=".as3ExportFrame" tiptext="Índice del fotograma para exportar como AS 3.0" helpid="x22B5A"/>
+					<string name="as3StrictMode" object="document" text=".as3StrictMode" tiptext="Activar opción de modo estricto para el compilador AS 3.0" helpid="x22B5B"/>
+					<string name="as3WarningsMode" object="document" text=".as3WarningsMode" tiptext="Activar opción de modo de advertencia para el compilador AS 3.0" helpid="x22B5C"/>
+					<string name="asVersion" object="document" text=".asVersion" tiptext="Entero que especifica qué versión de ActionScript se utiliza en el archivo especificado" helpid="x22B0C"/>
+					<string name="autoLabel" object="document" text=".autoLabel" tiptext="Si el valor es true, activa el etiquetado automático para el lector de pantalla" helpid="x2102C"/>
+					<string name="backgroundColor" object="document" text=".backgroundColor" tiptext="Color que representa el fondo" helpid="x2102D"/>
+					<string name="currentPublishProfile" object="document" text=".currentPublishProfile" tiptext="Establece y devuelve el nombre del perfil de publicación activo" helpid="x2102E"/>
+					<string name="currentTimeline" object="document" text=".currentTimeline" tiptext="Representa la línea de tiempo activa" helpid="x2102F"/>
+					<string name="description" object="document" text=".description" tiptext="Descripción de la película principal, utilizada por el lector de pantalla" helpid="x21030"/>
+					<string name="docClass" object="document" text=".docClass" tiptext="Especifica la clase de ActionScript 3.0 de nivel superior asociada al documento" helpid="x22B0E"/>
+					<string name="externalLibraryPath" object="document" text=".externalLibraryPath" tiptext="Elementos de la ruta de biblioteca externa del documento" helpid="x22C84"/>
+					<string name="forceSimple" object="document" text=".forceSimple" tiptext="Si el valor es true, el lector de pantalla no puede acceder a los secundarios del objeto" helpid="x21031"/>
+					<string name="frameRate" object="document" text=".frameRate" tiptext="Fotogramas por segundo del documento" helpid="x21032"/>
+					<string name="height" object="document" text=".height" tiptext="Altura del documento" helpid="x21033"/>
+					<string name="id" object="document" text=".id" tiptext="Entero único (asignado automáticamente) que identifica un documento durante una sesión de Flash" helpid="x22B11"/>
+					<string name="library" object="document" text=".library" tiptext="Representa la biblioteca del documento" helpid="x21034"/>
+					<string name="libraryPath" object="document" text=".libraryPath" tiptext="Elementos de la ruta de biblioteca del documento" helpid="x22C85"/>
+					<string name="livePreview" object="document" text=".livePreview" tiptext="Si el valor es true, muestra visualmente componentes durante la edición" helpid="x21035"/>
+					<string name="name" object="document" text=".name" tiptext="Nombre del documento" helpid="x21036"/>
+					<string name="path" object="document" text=".path" tiptext="Ruta de archivo del documento" helpid="x21037"/>
+					<string name="pathURI" object="document" text=".pathURI" tiptext="URI de archivo del documento" helpid="x22C3F"/>
+					<string name="publishProfiles" object="document" text=".publishProfiles" tiptext="Matriz que contiene los perfiles de publicación del documento" helpid="x21038"/>
+					<string name="selection" object="document" text=".selection" tiptext="Matriz de objetos Elemento seleccionados" helpid="x2103A"/>
+					<string name="silent" object="document" text=".silent" tiptext="Si el valor es true, el lector de pantalla no lee la película" helpid="x2103B"/>
+					<string name="sourcePath" object="document" text=".sourcePath" tiptext="Elementos de la ruta de origen del documento" helpid="x22C86"/>
+					<string name="timelines" object="document" text=".timelines" tiptext="Matriz que contiene los objetos Línea de tiempo del documento" helpid="x2103C"/>
+					<string name="viewMatrix" object="document" text=".viewMatrix" tiptext="Hace referencia al objeto Matriz de transformación" helpid="x21096"/>
+					<string name="width" object="document" text=".width" tiptext="Anchura del documento" helpid="x2103D"/>
+					<string name="zoomFactor" object="document" text=".zoomFactor" tiptext="Especifica el porcentaje de zoom del escenario en tiempo de edición" helpid="x228F0"/>
+				</folder>
+			</folder>
+			<folder name="DrawingLayer" index="true" tiptext="Lo utilizan las herramientas para dibujar temporalmente mientras se arrastra el ratón" helpid="x2103E">
+				<folder name="Métodos" tiptext="Métodos del objeto DrawingLayer" helpid="x2103F">
+					<string name="beginDraw" object="drawingLayer" text=".beginDraw(% [dibujoPersistente] %)" tiptext="Establece el modo de dibujo en Flash" helpid="x21040"/>
+					<string name="beginFrame" object="drawingLayer" text=".beginFrame()" tiptext="Punto de inicio para delimitar un conjunto de líneas" helpid="x21041"/>
+					<string name="cubicCurveTo" object="drawingLayer" text=".cubicCurveTo(% CtrlXInic, CtrlYInic, CtrlXMed, CtrlYMed, CtrlXFin, CtrlYFin %)" tiptext="Dibuja una curva cúbica" helpid="x21042"/>
+					<string name="curveTo" object="drawingLayer" text=".curveTo(% CtrlXInic, CtrlYInic, CtrlXFin, CtrlYFin %)" tiptext="Dibuja un segmento de curva cuadrática" helpid="x21043"/>
+					<string name="drawPath" object="drawingLayer" text=".drawPath(% ruta %)" tiptext="Dibuja el trazado especificado" helpid="x21044"/>
+					<string name="endDraw" object="drawingLayer" text=".endDraw()" tiptext="Sale del modo de dibujo" helpid="x21045"/>
+					<string name="endFrame" object="drawingLayer" text=".endFrame()" tiptext="Borra los trazados dibujados por el objeto Capa de dibujo" helpid="x21046"/>
+					<string name="lineTo" object="drawingLayer" text=".lineTo(% x, y %)" tiptext="Dibuja una línea" helpid="x21047"/>
+					<string name="moveTo" object="drawingLayer" text=".moveTo(% x, y %)" tiptext="Establece la posición de dibujo actual" helpid="x21048"/>
+					<string name="newPath" object="drawingLayer" text=".newPath()" tiptext="Devuelve un objeto de nueva ruta" helpid="x21049"/>
+					<string name="setColor" object="drawingLayer" text=".setColor(% color %)" tiptext="Establece el color de los datos extraídos posteriormente" helpid="x2104A"/>
+					<string name="setFill" object="drawingLayer" text=".setFill(% rellenoObjeto %)" tiptext="Define el objeto Fill de la capa de dibujo" helpid="x22C8B"/>
+					<string name="setStroke" object="drawingLayer" text=".setStroke(% trazoObjeto %)" tiptext="Define el objeto Stroke de la capa de dibujo" helpid="x22C8C"/>
+				</folder>
+			</folder>
+			<folder name="Edge" index="true" tiptext="Representa un borde de un objeto en el escenario" helpid="x2104B">
+				<folder name="Métodos" tiptext="Métodos del objeto Edge" helpid="x2104C">
+					<string name="getControl" object="edge" text=".getControl(% int i %)" tiptext="Devuelve el punto de control del objeto Borde especificado" helpid="x2104D"/>
+					<string name="getHalfEdge" object="edge" text=".getHalfEdge(% índice %)" tiptext="Devuelve un objeto Borde partido" helpid="x2104E"/>
+					<string name="setControl" object="edge" text=".setControl(% índice, x, y %)" tiptext="Establece el punto de control de un borde" helpid="x2104F"/>
+					<string name="splitEdge" object="edge" text=".splitEdge(% t %)" tiptext="Divide en dos el objeto Borde especificado" helpid="x21050"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Edge" helpid="x21051">
+					<string name="cubicSegmentIndex" object="edge" text=".cubicSegmentIndex" tiptext="Índice de segmento cúbico del objeto Edge" helpid="x22C91"/>
+					<string name="id" object="edge" text=".id" tiptext="Identificador exclusivo del objeto Edge" helpid="x21052"/>
+					<string name="isLine" object="edge" text=".isLine" tiptext="Si el valor es true, el borde es una línea recta" helpid="x21053"/>
+					<string name="stroke" object="edge" text=".stroke" tiptext="Objeto de trazo de la esquina seleccionada" helpid="x22C92"/>
+				</folder>
+			</folder>
+			<folder name="Element" index="true" tiptext="Representa todos los objetos en el escenario" helpid="x2105B">
+				<folder name="Métodos" tiptext="Métodos del objeto Element" helpid="x2105C">
+					<string name="getPersistentData" object="element" text=".getPersistentData(% nombre %)" tiptext="Devuelve el valor de los datos especificados" helpid="x2105D"/>
+					<string name="getTransformationPoint" object="element" text=".getTransformationPoint()" tiptext="Obtiene el valor del punto de transformación del elemento especificado" helpid="x22B1B"/>
+					<string name="hasPersistentData" object="element" text=".hasPersistentData(% nombre %)" tiptext="Si el valor es true, se adjuntan al objeto los datos con el nombre especificado" helpid="x2105E"/>
+					<string name="removePersistentData" object="element" text=".removePersistentData(% nombre %)" tiptext="Elimina los datos continuos adjuntos al objeto" helpid="x2105F"/>
+					<string name="setPersistentData" object="element" text=".setPersistentData(% nombre, tipo, valor %)" tiptext="Almacena los datos especificados con un objeto" helpid="x21060"/>
+					<string name="setTransformationPoint" object="element" text=".setTransformationPoint(% puntoTransformación %)" tiptext="Define la posición del punto de transformación del elemento" helpid="x22B1F"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Element" helpid="x21061">
+					<string name="depth" object="element" text=".depth" tiptext="Devuelve el orden de dibujo del elemento seleccionado" helpid="x21062"/>
+					<string name="elementType" object="element" text=".elementType" tiptext="Tipo de objeto Elemento" helpid="x21063"/>
+					<string name="height" object="element" text=".height" tiptext="Altura del elemento" helpid="x21064"/>
+					<string name="layer" object="element" text=".layer" tiptext="Representa el objeto Layer en el que se encuentra el elemento" helpid="x228F1"/>
+					<string name="left" object="element" text=".left" tiptext="Lado izquierdo del elemento" helpid="x21065"/>
+					<string name="locked" object="element" text=".locked" tiptext="Si el valor es true, el elemento está bloqueado" helpid="x21066"/>
+					<string name="matrix" object="element" text=".matrix" tiptext="Hace referencia al objeto Matriz de transformación" helpid="x21067"/>
+					<string name="name" object="element" text=".name" tiptext="Nombre de instancia de Elemento" helpid="x21068"/>
+					<string name="rotation" object="element" text=".rotation" tiptext="Rotación de un elemento, expresada en grados en sentido horario" helpid="x22B1C"/>
+					<string name="selected" object="element" text=".selected" tiptext="Especifica si el elemento está seleccionado o no" helpid="x228F2"/>
+					<string name="scaleX" object="element" text=".scaleX" tiptext="Valor x de la escala de un elemento" helpid="x22B1D"/>
+					<string name="scaleY" object="element" text=".scaleY" tiptext="Valor y de la escala de un elemento" helpid="x22B1E"/>
+					<string name="skewX" object="element" text=".skewX" tiptext="Valor x del sesgo de un elemento" helpid="x22B20"/>
+					<string name="skewY" object="element" text=".skewY" tiptext="Valor y del sesgo de un elemento" helpid="x22B21"/>
+					<string name="top" object="element" text=".top" tiptext="Lado superior del elemento" helpid="x21069"/>
+					<string name="transformX" object="element" text=".transformX" tiptext="Valor x del punto de transformación de un elemento" helpid="x22B22"/>
+					<string name="transformY" object="element" text=".transformY" tiptext="Valor y del punto de transformación de un elemento" helpid="x22B23"/>
+					<string name="width" object="element" text=".width" tiptext="Anchura del elemento" helpid="x2106A"/>
+					<string name="x" object="element" text=".x" tiptext="Valor x del punto de registro de un elemento" helpid="x22B24"/>
+					<string name="y" object="element" text=".y" tiptext="Valor y del punto de registro de un elemento" helpid="x22B25"/>
+				</folder>
+			</folder>
+			<folder name="Fill" index="true" tiptext="Configuración de relleno de la selección o panel Herramientas" helpid="x2106D">
+				<folder name="Propiedades" tiptext="Propiedades del objeto Fill" helpid="x2106E">
+					<string name="bitmapIsClipped" object="fill" text=".bitmapIsClipped" tiptext="Si es true, el relleno del mapa de bits se superpone; si es false, el relleno se repite" helpid="x22C48"/>
+					<string name="bitmapPath" object="fill" text=".bitmapPath" tiptext="Si style=&apos;bitmap,&apos; la ruta del mapa de bits se utiliza como relleno" helpid="x22C49"/>
+					<string name="color" object="fill" text=".color" tiptext="Color de relleno" helpid="x2106F"/>
+					<string name="colorArray" object="fill" text=".colorArray" tiptext="Matriz de colores de un degradado" helpid="x21070"/>
+					<string name="focalPoint" object="fill" text=".focalPoint" tiptext="Especifica el desplazamiento horizontal del punto focal del degradado desde el punto de transformación" helpid="x228F3"/>
+					<string name="linearRGB" object="fill" text=".linearRGB" tiptext="Especifica si se debe representar el relleno como un degradado RGB radial o lineal" helpid="x228F4"/>
+					<string name="matrix" object="fill" text=".matrix" tiptext="Define la ubicación, la orientación y las escalas de los rellenos con degradado" helpid="x22964"/>
+					<string name="overflow" object="fill" text=".overflow" tiptext="Especifica el comportamiento del desbordamiento de un degradado" helpid="x228F5"/>
+					<string name="posArray" object="fill" text=".posArray" tiptext="Indica la posición del color correspondiente en un degradado" helpid="x21071"/>
+					<string name="style" object="fill" text=".style" tiptext="Estilo de relleno" helpid="x21072"/>
+				</folder>
+			</folder>
+			<folder name="Filter" index="true" tiptext="Contiene todas las propiedades de todos los filtros" helpid="x228F6">
+				<folder name="Propiedades" tiptext="Propiedades del objeto Filter" helpid="x228F7">
+					<string name="angle" object="filter" text=".angle" tiptext="Ángulo del filtro, expresado en grados" helpid="x228F8"/>
+					<string name="blurX" object="filter" text=".blurX" tiptext="Cantidad de desenfoque en la dirección x, expresada en píxeles" helpid="x228F9"/>
+					<string name="blurY" object="filter" text=".blurY" tiptext="Cantidad de desenfoque en la dirección y, expresada en píxeles" helpid="x228FA"/>
+					<string name="brightness" object="filter" text=".brightness" tiptext="Brillo del filtro, de -100 a 100" helpid="x228FB"/>
+					<string name="color" object="filter" text=".color" tiptext="Color del filtro" helpid="x228FC"/>
+					<string name="contrast" object="filter" text=".contrast" tiptext="Valor de contraste del filtro, de -100 a 100" helpid="x228FD"/>
+					<string name="distance" object="filter" text=".distance" tiptext="Extensión del filtro desde un objeto, de 0 a 255 píxeles" helpid="x228FE"/>
+					<string name="enabled" object="filter" text=".enabled" tiptext="Valor booleano que indica si está activado el filtro especificado" helpid="x22B56"/>
+					<string name="hideObject" object="filter" text=".hideObject" tiptext="Especifica si la imagen de origen está visible u oculta" helpid="x228FF"/>
+					<string name="highlightColor" object="filter" text=".highlightColor" tiptext="Color del resaltado" helpid="x22900"/>
+					<string name="hue" object="filter" text=".hue" tiptext="Matiz del filtro, entre -180 y 180" helpid="x22901"/>
+					<string name="inner" object="filter" text=".inner" tiptext="Especifica si la sombra es una sombra interior" helpid="x22902"/>
+					<string name="knockout" object="filter" text=".knockout" tiptext="Especifica si el filtro es un filtro extractor" helpid="x22903"/>
+					<string name="name" object="filter" text=".name" tiptext="Tipo de filtro" helpid="x22904"/>
+					<string name="quality" object="filter" text=".quality" tiptext="Calidad de desenfoque" helpid="x22905"/>
+					<string name="saturation" object="filter" text=".saturation" tiptext="Valor de saturación del filtro, de -100 a 100" helpid="x22906"/>
+					<string name="shadowColor" object="filter" text=".shadowColor" tiptext="Color de la sombra" helpid="x22907"/>
+					<string name="strength" object="filter" text=".strength" tiptext="Porcentaje de intensidad del filtro, entre 0 y 25.500" helpid="x22908"/>
+					<string name="type" object="filter" text=".type" tiptext="Tipo de filtro de bisel o iluminado" helpid="x22909"/>
+				</folder>
+			</folder>
+			<folder name="Flash ( fl )" index="true" tiptext="Aplicación Flash" helpid="x21073">
+				<folder name="Métodos" tiptext="Métodos del objeto Flash" helpid="x21074">
+					<string name="addEventListener" object="fl" text=".addEventListener(% tipoEvento %)" tiptext="Registra una función a la que se llama cuando se recibe un evento concreto" helpid="x22B26"/>
+					<string name="browseForFolderURL" object="fl" text=".browseForFolderURL( % [ descripción ] % )" tiptext="Devuelve la URL de la carpeta" helpid="x2290A"/>
+					<string name="browseForFileURL" object="fl" text=".browseForFileURL(% tipoNavegación [, título] [, áreaPrevisualización] %)" tiptext="Hace aparecer un cuadro de diálogo Abrir o Guardar" helpid="x21075"/>
+					<string name="closeAll" object="fl" text=".closeAll(% preguntarParaGuardar %)" tiptext="Cierra todos los documentos abiertos" helpid="x21076"/>
+					<string name="closeAllPlayerDocuments" object="fl" text=".closeAllPlayerDocuments()" tiptext="Cierra todas las ventanas de películas (archivos SWF, no FLA) actualmente abiertas" helpid="x22B57"/>
+					<string name="closeDocument" object="fl" text=".closeDocument(% objetoDocumento [, bSolicitarGuardarCambios] %)" tiptext="Cierra el documento especificado" helpid="x21077"/>
+					<string name="copyClipString" object="fl" text=".copyClipString(% cadena %)" tiptext="Copia la cadena especificada en el portapapeles" helpid="x22B28"/>
+					<string name="createDocument" object="fl" text=".createDocument(% [tipoDocumento] %)" tiptext="Abre un nuevo documento" helpid="x21078"/>
+					<string name="enableImmediateUpdates" object="fl" text=".enableImmediateUpdates()" tiptext="Especifica si debe actualizarse la visualización de la línea de tiempo cuando se ejecuta un efecto. Sólo se utiliza para depurar el efecto." helpid="x21079"/>
+					<string name="fileExists" object="fl" text=".fileExists(% URIArchivo %)" tiptext="Devuelve el valor true si existe el archivo especificado" helpid="x2107A"/>
+					<string name="findDocumentDOM" object="fl" text=".findDocumentDOM(% id %)" tiptext="Permite dirigirse a un archivo concreto mediante su identificador exclusivo" helpid="x22B2D"/>
+					<string name="findDocumentIndex" object="fl" text=".findDocumentIndex(% nombre %)" tiptext="Devuelve el índice del objeto Documento especificado" helpid="x2107B"/>
+					<string name="findObjectInDocByName" object="fl" text=".findObjectInDocByName(% nombreInstancia %)" tiptext="Devuelve una matriz de elementos que coincide con el nombre de instancia facilitado" helpid="x22B48"/>
+					<string name="findObjectInDocByType" object="fl" text=".findObjectInDocByType(% tipoInstancia %)" tiptext="Devuelve una matriz de elementos que coincide con el tipo de instancia facilitado" helpid="x22B49"/>
+					<string name="getAppMemoryInfo" object="fl" text=".getAppMemoryInfo( % tipoMem % )" tiptext="(Sólo en Windows); devuelve el número de bytes utilizados en un área de memoria Flash.exe" helpid="x2290E"/>
+					<string name="getDocumentDOM" object="fl" text=".getDocumentDOM()" tiptext="Devuelve el objeto Documento activo" helpid="x2107D"/>
+					<string name="getPrefInteger" object="fl" text=".getPrefInteger(% categoría, configuración %)" tiptext="Devuelve el valor de preferencia definido por fl.setPrefInteger()" helpid="x22B2E"/>
+					<string name="getPrefString" object="fl" text=".getPrefString(% categoría, configuración %)" tiptext="Devuelve el valor de preferencia definido por fl.setPrefString()" helpid="x22B2F"/>
+					<string name="isFontInstalled" object="fl" text=".isFontInstalled(% nombreFuente %)" tiptext="Si es true, la fuente especificada está instalada" helpid="x22C4A"/>
+					<string name="openDocument" object="fl" text=".openDocument(% URIArchivo %)" tiptext="Abre el archivo FLA especificado" helpid="x2107F"/>
+					<string name="quit" object="fl" text=".quit(% [bPreguntarSiEsNecesario] %)" tiptext="Sale de Flash" helpid="x21080"/>
+					<string name="reloadEffects" object="fl" text=".reloadEffects()" tiptext="Vuelve a cargar todos los descriptores de efectos" helpid="x21081"/>
+					<string name="reloadTools" object="fl" text=".reloadTools()" tiptext="Regenera el panel Herramientas" helpid="x21082"/>
+					<string name="removeEventListener" object="fl" text=".removeEventListener(% tipoEvento %)" tiptext="Anula el registro de una función registrada con fl.addEventListener()" helpid="x22B32"/>
+					<string name="resetAS3PackagePaths" object="fl" text=".resetAS3PackagePaths()" tiptext="Restablece las rutas de paquetes globales de AS 3.0 en su configuración predeterminada" helpid="x22B6C"/>
+					<string name="resetPackagePaths" object="fl" text=".resetPackagePaths()" tiptext="Restablece las rutas de paquetes globales de AS 2.0 en su configuración predeterminada" helpid="x22B6D"/>
+					<string name="revertDocument" object="fl" text=".revertDocument(% objetoDocumento %)" tiptext="Descarta los cambios del documento especificado" helpid="x21083"/>
+					<string name="runScript" object="fl" text=".runScript(% URIArchivo [, nombreFunc] [, arg] %)" tiptext="Ejecuta un archivo JavaScript" helpid="x21084"/>
+					<string name="saveAll" object="fl" text=".saveAll()" tiptext="Guarda todos los documentos abiertos" helpid="x21085"/>
+					<string name="saveDocument" object="fl" text=".saveDocument(% documento [, URIArchivo] %)" tiptext="Guarda el documento especificado" helpid="x21086"/>
+					<string name="saveDocumentAs" object="fl" text=".saveDocumentAs(% documento %)" tiptext="Visualiza el diálogo Guardar como" helpid="x21087"/>
+					<string name="selectElement" object="fl" text=".selectElement(% objetoElemento, modoEdición %)" tiptext="Selecciona el elemento transferido" helpid="x22B4A"/>
+					<string name="selectTool" object="fl" text=".selectTool(% IDHerramienta %)" tiptext="Selecciona la herramienta especificada en la barra de herramientas" helpid="x22B6B"/>
+					<string name="setActiveWindow" object="fl" text=".setActiveWindow(% documento [, bActivateFrame] %)" tiptext="Establece que la ventana activa sea el documento especificado" helpid="x21088"/>
+					<string name="setPrefInteger" object="fl" text=".setPrefInteger(% categoría, preferencia, valor %)" tiptext="Especifica un valor entero para asignarlo a una categoría de preferencia concreta" helpid="x22B35"/>
+					<string name="setPrefString" object="fl" text=".setPrefString(% categoría, preferencia, valor %)" tiptext="Especifica un valor de cadena para asignarlo a una categoría de preferencia concreta" helpid="x22B36"/>
+					<string name="showIdleMessage" object="fl" text=".showIdleMessage( % mostrar % )" tiptext="Permite desactivar la advertencia sobre la ejecución demasiado larga de un script" helpid="x22910"/>
+					<string name="trace" object="fl" text=".trace(% mensaje %)" tiptext="Envía una cadena de prueba al panel Salida" helpid="x21089"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Flash" helpid="x2108A">
+					<string name="actionsPanel" object="fl" text=".actionsPanel" tiptext="Referencia al objeto del panel Acciones" helpid="x22B5E"/>
+					<string name="as3PackagePaths" object="fl" text=".as3PackagePaths" tiptext="Configuración de ruta del paquete global para AS 3.0" helpid="x22B6E"/>
+					<string name="compilerErrors" object="fl" text=".compilerErrors" tiptext="Objeto compilerErrors que representa el panel Errores" helpid="x22B27"/>
+					<string name="contactSensitiveSelection" object="fl" text=".contactSensitiveSelection" tiptext="Especifica si está activado el modo de selección Por contacto" helpid="x22961"/>
+					<string name="componentsPanel" object="fl" text=".componentsPanel" tiptext="Referencia al panel Componentes" helpid="x2108C"/>
+					<string name="configDirectory" object="fl" text=".configDirectory" tiptext="Contiene el nombre de ruta completo del directorio de configuración del usuario local" helpid="x2108D"/>
+					<string name="configURI" object="fl" text=".configURI" tiptext="Devuelve la URI al directorio de configuración del usuario local" helpid="x2108E"/>
+					<string name="documents" object="fl" text=".documents" tiptext="Matriz de objetos Documento" helpid="x2108F"/>
+					<string name="externalLibraryPath" object="fl" text=".externalLibraryPath" tiptext="Elementos de la ruta de biblioteca externa global de ActionScript 3.0" helpid="x22C90"/>
+					<string name="flexSDKPath" object="fl" text=".flexSDKPath" tiptext="Ruta del SDK de Flex" helpid="x22C80"/>
+					<string name="languageCode" object="fl" text=".languageCode" tiptext="Devuelve un código de 5 caracteres para la configuración regional en la que se esté ejecutando la interfaz de usuario." helpid="x22CA6"/>
+					<string name="libraryPath" object="fl" text=".libraryPath" tiptext="Elementos de la ruta de biblioteca global de ActionScript 3.0" helpid="x22C81"/>
+					<string name="Math" object="fl" text=".Math" tiptext="Referencia al objeto Matem." helpid="x21091"/>
+					<string name="objectDrawingMode" object="fl" text=".objectDrawingMode" tiptext="Especifica si está activado el modo de dibujo de objeto" helpid="x2290D"/>
+					<string name="outputPanel" object="fl" text=".outputPanel" tiptext="Referencia al objeto Panel Salida" helpid="x21092"/>
+					<string name="packagePaths" object="fl" text=".packagePaths" tiptext="Configuración de ruta del paquete global para AS 2.0" helpid="x22B6F"/>
+					<string name="presetPanel" object="fl" text=".presetPanel" tiptext="Referencia al objeto presetPanel" helpid="x22C95"/>
+					<string name="scriptURI" object="fl" text=".scriptURI" tiptext="Cadena URI file:/// que representa la ruta del script JSFL en ejecución" helpid="x22B59"/>
+					<string name="sourcePath" object="fl" text=".sourcePath" tiptext="Elementos de la ruta de origen global de AS3." helpid="x22C82"/>
+					<string name="swfPanels" object="fl" text=".swfPanels" tiptext="Matriz de objetos swfPanel" helpid="x22C4B"/>
+					<string name="tools" object="fl" text=".tools" tiptext="Matriz de objetos Objeto de herramienta" helpid="x21094"/>
+					<string name="version" object="fl" text=".version" tiptext="Devuelve la versión de la herramienta de edición de Flash" helpid="x21095"/>
+					<string name="xmlui" object="fl" text=".xmlui" tiptext="Hace referencia a un cuadro de diálogo XMLIU" helpid="x21097"/>
+				</folder>
+			</folder>
+			<folder name="Objeto FLfile" index="true" tiptext="Permite escribir extensiones de Flash que pueden acceder al sistema de archivos local" helpid="x22911">
+				<folder name="Métodos" tiptext="Métodos del objeto FLfile" helpid="x22912">
+					<string name="copy" object="FLfile" text=".copy( % URIArchivo, URICopia % )" tiptext="Copia fileURI en copyURI" helpid="x22913"/>
+					<string name="createFolder" object="FLfile" text=".createFolder( % URICarpeta % )" tiptext="Crea una carpeta en la ubicación folderURI" helpid="x22914"/>
+					<string name="exists" object="FLfile" text=".exists( % URIArchivo % )" tiptext="Determina si existe un archivo" helpid="x22915"/>
+					<string name="getAttributes" object="FLfile" text=".getAttributes( % URIArchivoOCarpeta % )" tiptext="Devuelve una cadena que representa los atributos de fileOrFolderURI" helpid="x22916"/>
+					<string name="getCreationDate" object="FLfile" text=".getCreationDate( % URIArchivo % )" tiptext="Obtiene la hora de creación del archivo" helpid="x22917"/>
+					<string name="getCreationDateObj" object="FLfile" text=".getCreationDateObj( % URIArchivo % )" tiptext="Devuelve un objeto Date de JavaScript que representa la fecha de creación del archivo" helpid="x22918"/>
+					<string name="getModificationDate" object="FLfile" text=".getModificationDate( % URIArchivo % )" tiptext="Obtiene la hora de la última modificación del archivo" helpid="x22919"/>
+					<string name="getModificationDateObj" object="FLfile" text=".getModificationDateObj( % URIArchivo % )" tiptext="Devuelve un objeto Date de JavaScript que representa la fecha de la última modificación del archivo" helpid="x2291A"/>
+					<string name="getSize" object="FLfile" text=".getSize( % URIArchivo % )" tiptext="Devuelve el tamaño del archivo en bytes" helpid="x2291B"/>
+					<string name="listFolder" object="FLfile" text=".listFolder( % URICarpeta [, archivosODirectorios ] % )" tiptext="Devuelve una matriz de cadenas que representa el contenido de la carpeta" helpid="x2291C"/>
+					<string name="platformPathToURI" object="FLfile" text=".platformPathToURI()" tiptext="Devuelve una URI de archivo independiente de la plataforma para la ruta especificada para una plataforma concreta" helpid="x22C4C"/>
+					<string name="read" object="FLfile" text=".read( % URIArchivoOCarpeta % )" tiptext="Devuelve el contenido del archivo como una cadena" helpid="x2291D"/>
+					<string name="remove" object="FLfile" text=".remove( % URIArchivoOCarpeta % )" tiptext="Elimina el archivo o carpeta" helpid="x2291E"/>
+					<string name="setAttributes" object="FLfile" text=".setAttributes( % URIArchivo, atributosCadena % )" tiptext="Especifica los atributos de sistema del archivo" helpid="x2291F"/>
+					<string name="uriToPlatformPath" object="FLfile" text=".uriToPlatformPath(% uriArchivo %)" tiptext="Devuelve una ruta de archivo específica de la plataforma para la URI de archivo indicada" helpid="x22C4D"/>
+					<string name="write" object="FLfile" text=".write( % URIArchivo, textoParaEscribir [ , modoAdicCadena ] % )" tiptext="Escribe una cadena en el archivo (como UTF-8)" helpid="x22920"/>
+				</folder>
+			</folder>
+			<folder name="FolderItem" index="true" tiptext="Subclase de Item; una carpeta en la biblioteca" helpid="x21098">
+				<folder name="Consulte el objeto Elemento para obtener información sobre propiedades o métodos" tiptext="Consulte el objeto Elemento para obtener información sobre propiedades o métodos" helpid="x21099">
+				</folder>
+			</folder>
+			<folder name="FontItem" index="true" tiptext="Subclase de Item; un símbolo de fuente en la biblioteca" helpid="x2109A">
+				<folder name="Propiedades" tiptext="Propiedades del objeto FontItem" helpid="x22C77">
+					<string name="bitmap" object="FontItem" text=".bitmap" tiptext="Si es true, la fuente tiene mapas de bits" helpid="x22C4E"/>
+					<string name="bold" object="FontItem" text=".bold" tiptext="Si es true, la fuente está en negrita" helpid="x22C4F"/>
+					<string name="embeddedCharacters" object="FontItem" text=".embeddedCharacters" tiptext="Permite que el usuario elija caracteres específicos para incorporar. Es equivalente a introducirlos desde el diálogo Incorporación de fuentes." helpid="x22C97"/>
+					<string name="embedRanges" object="FontItem" text=".embedRanges" tiptext="Consta de una serie de enteros delimitados que corresponden a los elementos que se pueden seleccionar en el diálogo Incorporación de fuentes" helpid="x22C98"/>
+					<string name="embedVariantGlyphs" object="FontItem" text=".embedVariantGlyphs" tiptext="Si es true, se incorporan glifos de variantes" helpid="x22C7E"/>
+					<string name="font" object="FontItem" text=".font" tiptext="Nombre de la fuente" helpid="x22C50"/>
+					<string name="italic" object="FontItem" text=".italic" tiptext="Si es true, la fuente está en cursiva" helpid="x22C51"/>
+					<string name="size" object="FontItem" text=".size" tiptext="Tamaño de punto de la fuente" helpid="x22C52"/>
+				</folder>
+			</folder>
+			<folder name="Frame" index="true" tiptext="Un fotograma de la línea de tiempo" helpid="x2109C">
+				<folder name="Métodos" tiptext="Métodos del objeto Frame" helpid="x22921">
+					<string name="convertMotionObjectTo2D" object="frame" text=".convertMotionObjectTo2D()" tiptext="Convierte el objeto de movimiento seleccionado en un objeto de movimiento 2D." helpid="x22C99"/>
+					<string name="convertMotionObjectTo3D" object="frame" text=".convertMotionObjectTo3D()" tiptext="Convierte el objeto de movimiento seleccionado en un objeto de movimiento 3D." helpid="x22C9A"/>
+					<string name="getCustomEase" object="frame" text=".getCustomEase( % [ propiedad ] % )" tiptext="Devuelve una matriz de puntos de control que definen la curva de suavizado" helpid="x22922"/>
+					<string name="getMotionObjectXML" object="frame" text=".getMotionObjectXML()" tiptext="Proporciona el XML del movimiento a partir del objeto de movimiento." helpid="x22C9B"/>
+					<string name="hasMotionPath" object="frame" text=".hasMotionPath()" tiptext="Permite saber si la selección actual tiene un trazado de movimiento." helpid="x22C9C"/>
+					<string name="is3DMotionObject" object="frame" text=".is3DMotionObject()" tiptext="Permite saber si la selección actual es un objeto de movimiento 3D." helpid="x22C9D"/>
+					<string name="isMotionObject" object="frame" text=".isMotionObject()" tiptext="Detecta si la selección actual es un objeto de movimiento o no." helpid="x22C9E"/>
+					<string name="selectMotionPath" object="frame" text=".selectMotionPath( % seleccionar % )" tiptext="Selecciona o anula la selección de un trazado de objeto de movimiento." helpid="x22C9F"/>
+					<string name="setMotionObjectDuration" object="frame" text=".setMotionObjectDuration( % duración [, ajustarFotogramasExistentes] % )" tiptext="Define la duración (longitud de grupo de interpolación) del objeto de movimiento seleccionado." helpid="x22CA0"/>
+					<string name="setCustomEase" object="frame" text=".setCustomEase( % propiedad, curvaSuavizado % )" tiptext="Especifica una matriz de coordenadas que describen una curva de suavizado personalizada" helpid="x22924"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Frame" helpid="x2109D">
+					<string name="actionScript" object="frame" text=".actionScript" tiptext="Cadena que contiene el ActionScript de un fotograma" helpid="x2109E"/>
+					<string name="duration" object="frame" text=".duration" tiptext="Número de fotogramas de una selección de fotogramas" helpid="x2109F"/>
+					<string name="elements" object="frame" text=".elements" tiptext="Matriz de objetos Elemento" helpid="x210A0"/>
+					<string name="hasCustomEase" object="frame" text=".hasCustomEase" tiptext="Especifica si el fotograma obtiene la información de suavizado de la curva de suavizado personalizada" helpid="x22923"/>
+					<string name="labelType" object="frame" text=".labelType" tiptext="Especifica el tipo de etiqueta de fotograma" helpid="x210A1"/>
+					<string name="motionTweenOrientToPath" object="frame" text=".motionTweenOrientToPath" tiptext="Si el valor es true, el objeto se interpola hacia el trazado" helpid="x210A2"/>
+					<string name="motionTweenRotate" object="frame" text=".motionTweenRotate" tiptext="Especifica si el objeto rota durante la interpolación" helpid="x210A3"/>
+					<string name="motionTweenRotateTimes" object="frame" text=".motionTweenRotateTimes" tiptext="Número de rotaciones" helpid="x210A4"/>
+					<string name="motionTweenScale" object="frame" text=".motionTweenScale" tiptext="Si el valor es true, se modifica la escala del objeto al interpolarse" helpid="x210A5"/>
+					<string name="motionTweenSnap" object="frame" text=".motionTweenSnap" tiptext="Si el valor es true, el objeto se ajusta a la guía de movimiento" helpid="x210A6"/>
+					<string name="motionTweenSync" object="frame" text=".motionTweenSync" tiptext="Si el valor es true, la interpolación sincroniza los símbolos" helpid="x210A7"/>
+					<string name="name" object="frame" text=".name" tiptext="Etiqueta del fotograma" helpid="x210A8"/>
+					<string name="shapeTweenBlend" object="frame" text=".shapeTweenBlend" tiptext="Especifica la configuración de fusión de una interpolación de formas" helpid="x210A9"/>
+					<string name="soundEffect" object="frame" text=".soundEffect" tiptext="Efectos del sonido" helpid="x210AA"/>
+					<string name="soundLibraryItem" object="frame" text=".soundLibraryItem" tiptext="Elemento de biblioteca utilizado para crear instancias de un sonido" helpid="x210AB"/>
+					<string name="soundLoop" object="frame" text=".soundLoop" tiptext="Especifica el número de veces que se reproduce un sonido" helpid="x210AC"/>
+					<string name="soundLoopMode" object="frame" text=".soundLoopMode" tiptext="Especifica si el sonido debe reproducirse o repetirse indefinidamente" helpid="x210AD"/>
+					<string name="soundName" object="frame" text=".soundName" tiptext="Nombre del sonido" helpid="x210AE"/>
+					<string name="soundSync" object="frame" text=".soundSync" tiptext="Especifica el comportamiento de sincronización de un sonido" helpid="x210AF"/>
+					<string name="startFrame" object="frame" text=".startFrame" tiptext="Número de fotograma del primer fotograma de una selección" helpid="x210B0"/>
+					<string name="tweenEasing" object="frame" text=".tweenEasing" tiptext="Cantidad de aceleración" helpid="x210B1"/>
+					<string name="tweenInstanceName" object="frame" text=".tweenInstanceName" tiptext="Determina el nombre de instancia del objeto de movimiento seleccionado o se lo asigna. " helpid="x22CA1"/>
+					<string name="tweenType" object="frame" text=".tweenType" tiptext="Tipo de interpolación" helpid="x210B2"/>
+					<string name="useSingleEaseCurve" object="frame" text=".useSingleEaseCurve" tiptext="Especifica si una curva de suavizado personalizada se utiliza para todas las propiedades" helpid="x22925"/>
+				</folder>
+			</folder>
+			<folder name="HalfEdge" index="true" tiptext="Mitad de un borde del contorno" helpid="x210C0">
+				<folder name="Métodos" tiptext="Métodos del objeto HalfEdge" helpid="x210C1">
+					<string name="getEdge" object="halfEdge" text=".getEdge()" tiptext="Devuelve el objeto Borde que contiene el borde partido" helpid="x210C2"/>
+					<string name="getNext" object="halfEdge" text=".getNext()" tiptext="Devuelve el siguiente borde partido" helpid="x210C3"/>
+					<string name="getOppositeHalfEdge" object="halfEdge" text=".getOppositeHalfEdge()" tiptext="Devuelve el objeto Borde partido opuesto" helpid="x210C4"/>
+					<string name="getPrev" object="halfEdge" text=".getPrev()" tiptext="Devuelve el borde partido anterior" helpid="x210C5"/>
+					<string name="getVertex" object="halfEdge" text=".getVertex()" tiptext="Devuelve el vértice del borde partido" helpid="x210C6"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto HalfEdge" helpid="x210C7">
+					<string name="id" object="halfEdge" text=".id" tiptext="Identificador exclusivo del borde partido" helpid="x210C8"/>
+					<string name="index" object="halfEdge" text=".index" tiptext="Índice del objeto Borde partido en el borde principal" helpid="x210C9"/>
+				</folder>
+			</folder>
+			<folder name="Instance" index="true" tiptext="Subclase de Element; una instancia en el escenario" helpid="x210CA">
+				<folder name="Propiedades" tiptext="Propiedades del objeto Instance" helpid="x210CB">
+					<string name="instanceType" object="instance" text=".instanceType" tiptext="Tipo de instancia" helpid="x210CC"/>
+					<string name="libraryItem" object="instance" text=".libraryItem" tiptext="Elemento de biblioteca utilizado para crear instancias de una instancia" helpid="x210CD"/>
+				</folder>
+			</folder>
+			<folder name="Item" index="true" tiptext="Elementos de la biblioteca" helpid="x210CE">
+				<folder name="Métodos" tiptext="Métodos del objeto Item" helpid="x210CF">
+					<string name="addData" object="item" text=".addData(% nombre, tipo, datos %)" tiptext="Añade datos al elemento de biblioteca" helpid="x210D0"/>
+					<string name="getData" object="item" text=".getData(% nombre %)" tiptext="Devuelve el valor de los datos especificados" helpid="x210D1"/>
+					<string name="hasData" object="item" text=".hasData(% nombre %)" tiptext="Si el valor es true, el elemento de biblioteca tiene los datos especificados" helpid="x210D2"/>
+					<string name="removeData" object="item" text=".removeData(% nombre %)" tiptext="Elimina datos del elemento de biblioteca" helpid="x210D3"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Item" helpid="x210D4">
+					<string name="itemType" object="item" text=".itemType" tiptext="Tipo de símbolo del elemento" helpid="x210D5"/>
+					<string name="linkageBaseClass" object="item" text=".linkageBaseClass" tiptext="Cadena que especifica la clase de ActionScript 3.0 que se asociará al símbolo" helpid="x22B58"/>
+					<string name="linkageClassName" object="item" text=".linkageClassName" tiptext="Especifica una clase de ActionScript 2 para asociar al símbolo" helpid="x210D6"/>
+					<string name="linkageExportForAS" object="item" text=".linkageExportForAS" tiptext="Si el valor es true, el elemento se exportará para ActionScript" helpid="x210D7"/>
+					<string name="linkageExportForRS" object="item" text=".linkageExportForRS" tiptext="Si el valor es true, el elemento se exportará para compartirlo en tiempo de ejecución" helpid="x210D8"/>
+					<string name="linkageExportInFirstFrame" object="item" text=".linkageExportInFirstFrame" tiptext="Si el valor es true, el elemento se exportará en el primer fotograma" helpid="x210D9"/>
+					<string name="linkageIdentifier" object="item" text=".linkageIdentifier" tiptext="Nombre del símbolo cuando ActionScript hace referencia a él o para compartir en tiempo de ejecución" helpid="x210DA"/>
+					<string name="linkageImportForRS" object="item" text=".linkageImportForRS" tiptext="Si el valor es true, el elemento se importará para compartirlo en tiempo de ejecución" helpid="x210DB"/>
+					<string name="linkageURL" object="item" text=".linkageURL" tiptext="Ubicación del archivo SWF del elemento compartido" helpid="x210DC"/>
+					<string name="name" object="item" text=".name" tiptext="Nombre del elemento de biblioteca" helpid="x210DD"/>
+				</folder>
+			</folder>
+			<folder name="Layer" index="true" tiptext="Una capa en la línea de tiempo" helpid="x210DE">
+				<folder name="Propiedades" tiptext="Propiedades del objeto Layer" helpid="x210DF">
+					<string name="color" object="layer" text=".color" tiptext="Color utilizado para el contorno de los objetos de la capa" helpid="x210E0"/>
+					<string name="frameCount" object="layer" text=".frameCount" tiptext="Número total de fotogramas de la capa" helpid="x210E1"/>
+					<string name="frames" object="layer" text=".frames" tiptext="Matriz de objetos Fotograma" helpid="x210E2"/>
+					<string name="height" object="layer" text=".height" tiptext="Altura de la capa" helpid="x210E3"/>
+					<string name="layerType" object="layer" text=".layerType" tiptext="Especifica el tipo de capa" helpid="x210E4"/>
+					<string name="locked" object="layer" text=".locked" tiptext="Si el valor es true, la capa está bloqueada" helpid="x210E5"/>
+					<string name="name" object="layer" text=".name" tiptext="Nombre de la capa" helpid="x210E6"/>
+					<string name="outline" object="layer" text=".outline" tiptext="Si el valor es TRUE, la capa se muestra como contornos" helpid="x210E7"/>
+					<string name="parentLayer" object="layer" text=".parentLayer" tiptext="Define la capa principal de la capa" helpid="x210E8"/>
+					<string name="visible" object="layer" text=".visible" tiptext="Si el valor es true, la capa es visible" helpid="x210E9"/>
+				</folder>
+			</folder>
+			<folder name="Library" index="true" tiptext="Panel Biblioteca" helpid="x210EA">
+				<folder name="Métodos" tiptext="Métodos del objeto Library" helpid="x210EB">
+					<string name="addItemToDocument" object="library" text=".addItemToDocument(% posición [, nombreRuta] %)" tiptext="Añade un elemento de la biblioteca al documento" helpid="x210EC"/>
+					<string name="addNewItem" object="library" text=".addNewItem(% tipo [, nombreRuta] %)" tiptext="Crea un elemento nuevo" helpid="x210ED"/>
+					<string name="deleteItem" object="library" text=".deleteItem(% [nombreRuta] %)" tiptext="Elimina un elemento" helpid="x210EE"/>
+					<string name="duplicateItem" object="library" text=".duplicateItem(% [nombreRuta] %)" tiptext="Copia el elemento seleccionado actualmente" helpid="x210EF"/>
+					<string name="editItem" object="library" text=".editItem(% [nombreRuta] %)" tiptext="Devuelve true si el elemento especificado es editable" helpid="x210F0"/>
+					<string name="expandFolder" object="library" text=".expandFolder(% bExpandir [, bRecurseNestedParents] [, nombreRuta] %)" tiptext="Si el valor es true, expande la carpeta; si es false, la contrae" helpid="x210F1"/>
+					<string name="findItemIndex" object="library" text=".findItemIndex(% nombreRuta %)" tiptext="Devuelve un objeto que contiene el índice del elemento" helpid="x210F2"/>
+					<string name="getItemProperty" object="library" text=".getItemProperty(% propiedad %)" tiptext="Devuelve la propiedad especificada para un elemento seleccionado" helpid="x210F3"/>
+					<string name="getItemType" object="library" text=".getItemType(% [nombreRuta] %)" tiptext="Devuelve el tipo del elemento especificado" helpid="x210F4"/>
+					<string name="getSelectedItems" object="library" text=".getSelectedItems()" tiptext="Devuelve una matriz con los elementos seleccionados" helpid="x210F5"/>
+					<string name="importEmbeddedSWF" object="library" text=".importEmbeddedSWF(% nombre de vinculación, swfData [, nombreBiblio] %)" tiptext="Importa un archivo SWF contenido a la biblioteca" helpid="x210F6"/>
+					<string name="itemExists" object="library" text=".itemExists(% nombreRuta %)" tiptext="Devuelve true si el elemento especificado existe" helpid="x210F7"/>
+					<string name="moveToFolder" object="library" text=".moveToFolder(% rutaCarpeta [, ítemParaMover] [, reemplazar] %)" tiptext="Mueve el elemento a una carpeta" helpid="x210F8"/>
+					<string name="newFolder" object="library" text=".newFolder(% [nombreRuta] %)" tiptext="Crea una nueva carpeta" helpid="x210F9"/>
+					<string name="renameItem" object="library" text=".renameItem(% nombreRuta %)" tiptext="Cambia el nombre del elemento seleccionado" helpid="x210FA"/>
+					<string name="selectAll" object="library" text=".selectAll(% [bSeleccioneTodo] %)" tiptext="Selecciona todos los elementos" helpid="x210FB"/>
+					<string name="selectItem" object="library" text=".selectItem(% nombreRuta [, bReplaceCurrentSelection] [, bSelect] %)" tiptext="Selecciona el elemento especificado" helpid="x210FC"/>
+					<string name="selectNone" object="library" text=".selectNone()" tiptext="Deselecciona todos los elementos" helpid="x210FD"/>
+					<string name="setItemProperty" object="library" text=".setItemProperty(% propiedad, valor %)" tiptext="Establece la propiedad especificada para los elementos seleccionados actualmente" helpid="x210FE"/>
+					<string name="updateItem" object="library" text=".updateItem(% [nombreRuta] %)" tiptext="Actualiza el elemento especificado" helpid="x210FF"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Library" helpid="x21100">
+					<string name="items" object="library" text=".items" tiptext="Matriz que contiene todos los objetos Elemento de la biblioteca" helpid="x21101"/>
+				</folder>
+			</folder>
+			<folder name="Math" index="true" tiptext="Utilizada para realizar operaciones matemáticas comunes" helpid="x21104">
+				<folder name="Métodos" tiptext="Métodos del objeto Math." helpid="x21105">
+					<string name="concatMatrix" object="Math" text=".concatMatrix(% mat1, mat2 %)" tiptext="Concatena los objetos de la matriz especificada" helpid="x21106"/>
+					<string name="invertMatrix" object="Math" text=".invertMatrix(% mat %)" tiptext="Devuelve el inverso de la matriz especificada" helpid="x21107"/>
+					<string name="pointDistance" object="Math" text=".pointDistance(% pto1, pto2 %)" tiptext="Calcula la distancia entre los puntos especificados" helpid="x21108"/>
+				</folder>
+			</folder>
+			<folder name="Matrix" index="true" tiptext="Matriz de transformación" helpid="x21109">
+				<folder name="Propiedades" tiptext="Propiedades del objeto Matrix" helpid="x2110A">
+					<string name="a" object="matrix" text=".a" tiptext="Factor de escala para el eje X" helpid="x2110B"/>
+					<string name="b" object="matrix" text=".b" tiptext="Sesga un objeto moviendo el borde derecho a lo largo del eje vertical" helpid="x2110C"/>
+					<string name="c" object="matrix" text=".c" tiptext="Sesga un objeto moviendo el borde inferior a lo largo del eje horizontal" helpid="x2110D"/>
+					<string name="d" object="matrix" text=".d" tiptext="Factor de escala para el eje Y" helpid="x2110E"/>
+					<string name="tx" object="matrix" text=".tx" tiptext="Ubicación del objeto en el eje X" helpid="x2110F"/>
+					<string name="ty" object="matrix" text=".ty" tiptext="Ubicación del objeto en el eje Y" helpid="x21110"/>
+				</folder>
+			</folder>
+			<folder name="outputPanel" index="true" tiptext="Panel Salida" helpid="x21111">
+				<folder name="Métodos" tiptext="Métodos del objeto outputPanel" helpid="x21112">
+					<string name="clear" object="outputPanel" text=".clear()" tiptext="Borra el contenido del panel" helpid="x21113"/>
+					<string name="save" object="outputPanel" text=".save(% URIArchivo [, bAppendToFile] %)" tiptext="Guarda el contenido del panel Salida en un archivo" helpid="x21114"/>
+					<string name="trace" object="outputPanel" text=".trace(% mensaje %)" tiptext="Envía una cadena de prueba al panel Salida" helpid="x21115"/>
+				</folder>
+			</folder>
+			<folder name="Oval" index="true" tiptext="Forma que se dibuja con la herramienta Óvalo" helpid="x22B04">
+				<folder name="Propiedades" tiptext="Propiedades del objeto Oval" helpid="x22B4B">
+					<string name="closePath" object="oval" text=".closePath " tiptext="Indicador que muestra si se ha seleccionado la casilla de verificación Cerrar trazado en el inspector de propiedades" helpid="x22B4C"/>
+					<string name="endAngle" object="oval" text=".endAngle " tiptext="Valor flotante que especifica el ángulo inicial del objeto ovalado" helpid="x22B4D"/>
+					<string name="innerRadius" object="oval" text=".innerRadius " tiptext="Valor flotante que especifica el radio interno del objeto ovalado, expresado como porcentaje" helpid="x22B4E"/>
+					<string name="startAngle" object="oval" text=".startAngle " tiptext="Valor flotante que especifica el ángulo final del objeto ovalado" helpid="x22B4F"/>
+				</folder>
+			</folder>
+			<folder name="Parameter" index="true" tiptext="Parámetros para un componente" helpid="x21116">
+				<folder name="Métodos" tiptext="Métodos del objeto Parameter" helpid="x21117">
+					<string name="insertItem" object="parameter" text=".insertItem(% índice, nombre, valor, tipo %)" tiptext="Inserta el parámetro en una lista, un objeto o una matriz" helpid="x21118"/>
+					<string name="removeItem" object="parameter" text=".removeItem(% índice %)" tiptext="Elimina el parámetro de una lista, un objeto o una matriz" helpid="x21119"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Parameter" helpid="x2111A">
+					<string name="category" object="parameter" text=".category" tiptext="Agrupa elementos en el panel Componentes" helpid="x2111B"/>
+					<string name="listIndex" object="parameter" text=".listIndex" tiptext="Valor del elemento especificado; sólo para lista de tipo" helpid="x2111C"/>
+					<string name="name" object="parameter" text=".name" tiptext="Nombre del parámetro" helpid="x2111D"/>
+					<string name="value" object="parameter" text=".value" tiptext="Valor de la propiedad" helpid="x2111E"/>
+					<string name="valueType" object="parameter" text=".valueType" tiptext="Tipo de valor de la propiedad" helpid="x2111F"/>
+					<string name="verbose" object="parameter" text=".verbose" tiptext="Especifica si el parámetro aparece en el inspector de propiedades" helpid="x21120"/>
+				</folder>
+			</folder>
+			<folder name="Path" index="true" tiptext="Contiene una secuencia definida de segmentos de línea" helpid="x21121">
+				<folder name="Métodos" tiptext="Métodos del objeto Path" helpid="x21122">
+					<string name="addCubicCurve" object="newPath" text=".addCubicCurve(% anclajeX, anclajeY, x2, y2, x3, y3, x4, y4 %)" tiptext="Anexa un segmento de curva Bezier cúbica al trazado" helpid="x21123"/>
+					<string name="addCurve" object="newPath" text=".addCurve(% anclajeX, anclajeY, x2, y2, x3, y3 %)" tiptext="Anexa un segmento Bezier cuadrático al trazado" helpid="x21124"/>
+					<string name="addPoint" object="newPath" text=".addPoint(% x, y %)" tiptext="Añade un punto al trazado" helpid="x21125"/>
+					<string name="clear" object="newPath" text=".clear()" tiptext="Elimina todos los puntos del trazado" helpid="x21126"/>
+					<string name="close" object="newPath" text=".close()" tiptext="Anexa un punto en la posición del primer punto del trazado" helpid="x21127"/>
+					<string name="makeShape" object="newPath" text=".makeShape(% [bSuprimirRelleno] [, bSuprimirTrazo] %)" tiptext="Crea una forma" helpid="x21128"/>
+					<string name="newContour" object="newPath" text=".newContour()" tiptext="Inicia un nuevo contorno en el trazado" helpid="x21129"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Path" helpid="x2112A">
+					<string name="nPts" object="newPath" text=".nPts" tiptext="Devuelve un entero que representa el número de puntos del trazado" helpid="x2112B"/>
+				</folder>
+			</folder>
+			<folder name="presetItem " index="true" tiptext="Representa un elemento del panel Configuración predefinida de movimiento" helpid="x22C8E">
+				<folder name="Propiedades" tiptext="Propiedades del objeto presetItem" helpid="x22C8F">
+					<string name="isDefault" object="presetItem" text=".isDefault" tiptext="Si es true, el objeto presetItem se incluye con Flash CS4 (no lo crea el usuario)" helpid="x22C60"/>
+					<string name="isFolder" object="presetItem" text=".isFolder" tiptext="Si es true, el objeto presetItem es una carpeta (no un ajuste preestablecido)" helpid="x22C61"/>
+					<string name="level" object="presetItem" text=".level" tiptext="Nivel de sangría empleado en la estructura del árbol del panel de ajustes preestablecidos" helpid="x22C63"/>
+					<string name="name" object="presetItem" text=".name" tiptext="Nombre del objeto presetItem" helpid="x22C64"/>
+					<string name="open" object="presetItem" text=".open" tiptext="Si es true, el objeto presetItem es una carpeta expandida" helpid="x22C65"/>
+					<string name="path" object="presetItem" text=".path" tiptext="Ruta del objeto presetItem de la estructura del árbol del panel de ajustes preestablecidos" helpid="x22C66"/>
+				</folder>
+			</folder>
+			<folder name="presetPanel" index="true" tiptext="Panel Configuración predefinida de movimiento" helpid="x22C88">
+				<folder name="Métodos" tiptext="Métodos del objeto presetPanel" helpid="x22C7C">
+					<string name="addNewItem" object="presetPanel" text=".addNewItem(% [rutaNombre] %)" tiptext="Añade un valor al panel de ajustes preestablecidos" helpid="x22C53"/>
+					<string name="applyPreset" object="presetPanel" text=".applyPreset(% [rutaNombre] %)" tiptext="Aplica el ajuste preestablecido seleccionado al símbolo seleccionado en el escenario" helpid="x22C54"/>
+					<string name="deleteFolder" object="presetPanel" text=".deleteFolder(% [rutaCarpeta] %)" tiptext="Elimina la carpeta especificada del panel de ajustes preestablecidos" helpid="x22C55"/>
+					<string name="deleteItem" object="presetPanel" text=".deleteItem(% [nombreRuta] %)" tiptext="Elimina un valor del panel de ajustes preestablecidos" helpid="x22C56"/>
+					<string name="expandFolder" object="presetPanel" text=".expandFolder(% bExpandir [, bRecurseNestedParents] [, nombreRuta] %)" tiptext="Expande o cierra una carpeta en el panel de ajustes preestablecidos" helpid="x22C57"/>
+					<string name="exportItem" object="presetPanel" text=".exportItem(% URI [, rutaNombre] %)" tiptext="Exporta un ajuste preestablecido a un archivo" helpid="x22C58"/>
+					<string name="findItemIndex" object="presetPanel" text=".findItemIndex(% [rutaNombre] %)" tiptext="Devuelve el índice de un valor preestablecido" helpid="x22C59"/>
+					<string name="getSelectedItems" object="presetPanel" text=".getSelectedItems()" tiptext="Devuelve una matriz con los valores preestablecidos seleccionados" helpid="x22C5A"/>
+					<string name="importItem" object="presetPanel" text=".importItem(% URI [, rutaNombre] %)" tiptext="Importa un valor preestablecido en el panel de ajustes preestablecidos" helpid="x22C5B"/>
+					<string name="moveToFolder" object="presetPanel" text=".moveToFolder(% rutaCarpeta [, nombreRuta] %)" tiptext="Mueve el valor preestablecido especificado a la carpeta indicada" helpid="x22C5C"/>
+					<string name="newFolder" object="presetPanel" text=".newFolder(% [carpetaRuta] %)" tiptext="Crea una carpeta en el panel de ajustes preestablecidos" helpid="x22C5D"/>
+					<string name="renameItem" object="presetPanel" text=".renameItem(% nombre %)" tiptext="Cambia el nombre del ajuste preestablecido seleccionado actualmente" helpid="x22C5E"/>
+					<string name="selectItem" object="presetPanel" text=".selectItem(% nombreRuta [, bReplaceCurrentSelection] [, bSelect] %)" tiptext="Selecciona o anula la selección de los valores del panel de ajustes preestablecidos." helpid="x22C5F"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto presetPanel" helpid="x22C7B">
+					<string name="items" object="presetPanel" text=".items" tiptext="Matriz de objetos presetItem" helpid="x22C62"/>
+				</folder>
+			</folder>
+			<folder name="Rectangle" index="true" tiptext="Forma que se dibuja con la herramienta Rectángulo" helpid="x22B05">
+				<folder name="Propiedades" tiptext="Propiedades del objeto Rectangle" helpid="x22B50">
+					<string name="bottomLeftRadius" object="rectangle" text=".bottomLeftRadius " tiptext="Valor flotante que define el radio de la esquina inferior izquierda del objeto rectangular" helpid="x22B51"/>
+					<string name="bottomRightRadius" object="rectangle" text=".bottomRightRadius " tiptext="Valor flotante que define el radio de la esquina inferior derecha del objeto rectangular" helpid="x22B52"/>
+					<string name="lockFlag" object="rectangle" text=".lockFlag " tiptext="Indicador que determina si las distintas esquinas del rectángulo pueden tener valores de radio diferentes" helpid="x22B53"/>
+					<string name="topLeftRadius" object="rectangle" text=".topLeftRadius " tiptext="Valor flotante que define el radio de todas las esquinas del rectángulo" helpid="x22B54"/>
+					<string name="topRightRadius" object="rectangle" text=".topRightRadius " tiptext="Valor flotante que define el radio de la esquina superior derecha del objeto rectangular" helpid="x22B55"/>
+				</folder>
+			</folder>
+			<folder name="Shape" index="true" tiptext="Subclase de Element; representa una forma en el escenario" helpid="x21157">
+				<folder name="Métodos" tiptext="Métodos del objeto Shape" helpid="x21158">
+					<string name="beginEdit" object="shape" text=".beginEdit()" tiptext="Define el inicio de una sesión de edición" helpid="x21159"/>
+					<string name="deleteEdge" object="shape" text=".deleteEdge(% índice %)" tiptext="Elimina el borde especificado" helpid="x2115A"/>
+					<string name="endEdit" object="shape" text=".endEdit()" tiptext="Define el final de una sesión de edición" helpid="x2115B"/>
+					<string name="getCubicSegmentPoints" object="shape" text=".getCubicSegmentPoints()" tiptext="Matriz de puntos de la curva cúbica" helpid="x22C8A"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Shape" helpid="x2115C">
+					<string name="contours" object="shape" text=".contours" tiptext="Matriz de objetos Contorno" helpid="x2115D"/>
+					<string name="edges" object="shape" text=".edges" tiptext="Matriz de objetos Borde" helpid="x2115E"/>
+					<string name="isDrawingObject" object="shape" text=".isDrawingObject" tiptext="Si su valor es true, el elemento seleccionado es un objeto Drawing" helpid="x2293E"/>
+					<string name="isGroup" object="shape" text=".isGroup" tiptext="Si su valor es true, el elemento seleccionado es un grupo" helpid="x2115F"/>
+					<string name="isOvalObject" object="shape" text=".isOvalObject" tiptext="Si es true, la forma es un objeto ovalado simple (creado con la herramienta Óvalo)" helpid="x22B43"/>
+					<string name="isRectangleObject" object="shape" text=".isRectangleObject" tiptext="Si es true, la forma es un objeto rectangular simple (creado con la herramienta Rectángulo)" helpid="x22B44"/>
+					<string name="members" object="shape" text=".members" tiptext="Matriz de objetos contenidos en el grupo" helpid="x22C67"/>
+					<string name="numCubicSegments" object="shape" text=".numCubicSegments" tiptext="Número de segmentos cúbicos del objeto Shape" helpid="x22C68"/>
+					<string name="vertices" object="shape" text=".vertices" tiptext="Matriz de objetos Vértice" helpid="x21160"/>
+				</folder>
+			</folder>
+			<folder name="SoundItem" index="true" tiptext="Subclase de Item; un sonido en la biblioteca" helpid="x21161">
+				<folder name="Métodos" tiptext="Métodos del objeto SoundItem" helpid="x22C79">
+					<string name="exportToFile" object="soundItem" text=".exportToFile(% uriArchivo %)" tiptext="Devuelve true si el sonido se exporta correctamente" helpid="x22C69"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto SoundItem" helpid="x21162">
+					<string name="bitRate" object="soundItem" text=".bitRate" tiptext="Velocidad de transferencia de compresión MP3" helpid="x21163"/>
+					<string name="bits" object="soundItem" text=".bits" tiptext="Tipo de compresión ADPCM" helpid="x21164"/>
+					<string name="compressionType" object="soundItem" text=".compressionType" tiptext="Tipo de compresión" helpid="x21165"/>
+					<string name="convertStereoToMono" object="soundItem" text=".convertStereoToMono" tiptext="Si el valor es true, convierte un sonido estéreo en mono" helpid="x21166"/>
+					<string name="fileLastModifiedDate" object="soundItem" text=".fileLastModifiedDate" tiptext="Marca de hora del archivo cuando se importó" helpid="x22C6A"/>
+					<string name="originalCompressionType" object="soundItem" text=".originalCompressionType" tiptext="Devuelve el tipo de compresión original de este archivo de sonido" helpid="x22C6B"/>
+					<string name="quality" object="soundItem" text=".quality" tiptext="Configuración de la calidad de la compresión MP3" helpid="x21167"/>
+					<string name="sampleRate" object="soundItem" text=".sampleRate" tiptext="Frecuencia de muestreo" helpid="x21168"/>
+					<string name="sourceFileExists" object="soundItem" text=".sourceFileExists" tiptext="Si es true, el archivo original existe" helpid="x22C6C"/>
+					<string name="sourceFileIsCurrent" object="soundItem" text=".sourceFileIsCurrent" tiptext="Si es true, el archivo original no se ha modificado desde la última importación." helpid="x22C6D"/>
+					<string name="sourceFilePath" object="soundItem" text=".sourceFilePath" tiptext="URI de archivo del archivo de sonido importado" helpid="x22C6E"/>
+					<string name="useImportedMP3Quality" object="soundItem" text=".useImportedMP3Quality" tiptext="Si el valor es true, se utiliza la calidad MP3 importada" helpid="x21169"/>
+				</folder>
+			</folder>
+			<folder name="Stroke" index="true" tiptext="Configuración de trazo de la selección o panel Herramientas" helpid="x2116A">
+				<folder name="Propiedades" tiptext="Propiedades del objeto Stroke" helpid="x2116B">
+					<string name="breakAtCorners" object="stroke" text=".breakAtCorners" tiptext="Si el valor es true, activa la configuración de Esquinas marcadas del cuadro de diálogo Trazo personalizado" helpid="x2116C"/>
+					<string name="capType" object="stroke" text=".capType" tiptext="Tipo de extremo del trazo" helpid="x22940"/>
+					<string name="color" object="stroke" text=".color" tiptext="Color de trazo" helpid="x2116D"/>
+					<string name="curve" object="stroke" text=".curve" tiptext="Especifica la configuración de la curva; sólo líneas con sombra" helpid="x2116E"/>
+					<string name="dash1" object="stroke" text=".dash1" tiptext="Longitud de la parte sólida del guión" helpid="x2116F"/>
+					<string name="dash2" object="stroke" text=".dash2" tiptext="Longitud del espacio entre guiones" helpid="x21170"/>
+					<string name="density" object="stroke" text=".density" tiptext="Densidad de la línea punteada" helpid="x21171"/>
+					<string name="dotSize" object="stroke" text=".dotSize" tiptext="Tamaño del punto de la línea punteada" helpid="x21172"/>
+					<string name="dotspace" object="stroke" text=".dotspace" tiptext="Espaciado entre los puntos de la línea discontinua" helpid="x21173"/>
+					<string name="hatchThickness" object="stroke" text=".hatchThickness" tiptext="Grosor de la sombra de la línea sombreada" helpid="x21174"/>
+					<string name="jiggle" object="stroke" text=".jiggle" tiptext="Estilo de vaivén de la línea sombreada" helpid="x21175"/>
+					<string name="joinType" object="stroke" text=".joinType" tiptext="Tipo de unión del trazo" helpid="x22941"/>
+					<string name="length" object="stroke" text=".length" tiptext="Longitud de la sombra de la línea sombreada" helpid="x21176"/>
+					<string name="miterLimit" object="stroke" text=".miterLimit" tiptext="Ángulo sobre el cual se truncará la punta del angular en un segmento" helpid="x22942"/>
+					<string name="pattern" object="stroke" text=".pattern" tiptext="Patrón de línea dentada" helpid="x21177"/>
+					<string name="rotate" object="stroke" text=".rotate" tiptext="Estilo de rotación de la línea sombreada" helpid="x21178"/>
+					<string name="scaleType" object="stroke" text=".scaleType" tiptext="Tipo de escala que se aplicará al trazo" helpid="x22943"/>
+					<string name="shapeFill" object="stroke" text=".shapeFill" tiptext="Objeto Fill que representa el valor de relleno del trazo" helpid="x22944"/>
+					<string name="space" object="stroke" text=".space" tiptext="Longitud de los espacios entre los puntos de la línea sombreada" helpid="x21179"/>
+					<string name="strokeHinting" object="stroke" text=".strokeHinting" tiptext="Especifica si se definen sugerencias en el trazo" helpid="x22945"/>
+					<string name="style" object="stroke" text=".style" tiptext="Configuración del estilo del trazo" helpid="x2117A"/>
+					<string name="thickness" object="stroke" text=".thickness" tiptext="Grosor del trazo" helpid="x2117B"/>
+					<string name="variation" object="stroke" text=".variation" tiptext="Estilo de variación de una línea punteada" helpid="x2117C"/>
+					<string name="waveHeight" object="stroke" text=".waveHeight" tiptext="Estilo de onda de una línea dentada" helpid="x2117D"/>
+					<string name="waveLength" object="stroke" text=".waveLength" tiptext="Longitud de onda de una línea dentada" helpid="x21227"/>
+				</folder>
+			</folder>
+			<folder name="swfPanel" index="true" tiptext="Representa un solo panel de SWF" helpid="x22C8D">
+				<folder name="Métodos" tiptext="Métodos del objeto swfPanel" helpid="x22C7D">
+					<string name="callFunction" object="swfPanel" text=".callFunction( )" tiptext="Método para llamar a una función expuesta mediante ExternalInterface" helpid="x22C6F"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto swfPanel" helpid="x22C94">
+					<string name="name" object="swfPanel" text=".name" tiptext="Nombre del panel SWF seleccionado" helpid="x22C70"/>
+					<string name="path" object="swfPanel" text=".path" tiptext="Ruta del archivo SWF en el panel seleccionado actualmente" helpid="x22C71"/>
+				</folder>
+			</folder>
+			<folder name="SymbolInstance" index="true" tiptext="Subclase de Instance; una instancia de símbolo en el escenario" helpid="x2117E">
+				<folder name="Propiedades" tiptext="Propiedades del objeto SymbolInstance" helpid="x2117F">
+					<string name="accName" object="symbolInstance" text=".accName" tiptext="Nombre de un objeto, utilizado por el lector de pantalla" helpid="x21180"/>
+					<string name="actionScript" object="symbolInstance" text=".actionScript" tiptext="Cadena que representa el ActionScript de una instancia" helpid="x21181"/>
+					<string name="blendMode" object="symbolInstance" text=".blendMode" tiptext="Modo de mezcla que se va a aplicar a un símbolo de clip de película" helpid="x22946"/>
+					<string name="buttonTracking" object="symbolInstance" text=".buttonTracking" tiptext="Establece las opciones de botón" helpid="x21182"/>
+					<string name="cacheAsBitmap" object="symbolInstance" text=".cacheAsBitmap" tiptext="Especifica si está activada la caché de mapa de bits de tiempo de ejecución" helpid="x22947"/>
+					<string name="colorAlphaAmount" object="symbolInstance" text=".colorAlphaAmount" tiptext="Reduce o aumenta los valores de tinta y alfa en una cantidad constante" helpid="x21183"/>
+					<string name="colorAlphaPercent" object="symbolInstance" text=".colorAlphaPercent" tiptext="Reduce o aumenta los valores de tinta y alfa en un porcentaje" helpid="x21184"/>
+					<string name="colorBlueAmount" object="symbolInstance" text=".colorBlueAmount" tiptext="Reduce o aumenta la tinta azul en el valor especificado" helpid="x21185"/>
+					<string name="colorBluePercent" object="symbolInstance" text=".colorBluePercent" tiptext="Reduce o aumenta la tinta azul en el porcentaje especificado" helpid="x21186"/>
+					<string name="colorGreenAmount" object="symbolInstance" text=".colorGreenAmount" tiptext="Reduce o aumenta la tinta verde en el valor especificado" helpid="x21187"/>
+					<string name="colorGreenPercent" object="symbolInstance" text=".colorGreenPercent" tiptext="Reduce o aumenta la tinta verde en el porcentaje especificado" helpid="x21188"/>
+					<string name="colorMode" object="symbolInstance" text=".colorMode" tiptext="Modo de color identificado en el inspector de propiedades de la instancia" helpid="x21189"/>
+					<string name="colorRedAmount" object="symbolInstance" text=".colorRedAmount" tiptext="Reduce o aumenta la tinta roja en el valor especificado" helpid="x2118A"/>
+					<string name="colorRedPercent" object="symbolInstance" text=".colorRedPercent" tiptext="Reduce o aumenta la tinta roja de la instancia seleccionada en el porcentaje especificado" helpid="x2118B"/>
+					<string name="description" object="symbolInstance" text=".description" tiptext="Descripción del objeto, utilizada por el lector de pantalla" helpid="x2118C"/>
+					<string name="filters" object="symbolInstance" text=".filters" tiptext="Matriz de objetos Filter" helpid="x22948"/>
+					<string name="firstFrame" object="symbolInstance" text=".firstFrame" tiptext="Especifica el fotograma de un símbolo gráfico que se muestra primero" helpid="x2118D"/>
+					<string name="forceSimple" object="symbolInstance" text=".forceSimple" tiptext="Si el valor es true, el lector de pantalla no puede acceder a los secundarios del objeto" helpid="x2118E"/>
+					<string name="loop" object="symbolInstance" text=".loop" tiptext="Especifica la configuración de bucle de un símbolo gráfico" helpid="x2118F"/>
+					<string name="shortcut" object="symbolInstance" text=".shortcut" tiptext="Tecla de método abreviado de un objeto" helpid="x21190"/>
+					<string name="silent" object="symbolInstance" text=".silent" tiptext="Si el valor es true, el lector de pantalla no lee el objeto" helpid="x21191"/>
+					<string name="symbolType" object="symbolInstance" text=".symbolType" tiptext="Especifica el tipo de símbolo de una instancia" helpid="x21192"/>
+					<string name="tabIndex" object="symbolInstance" text=".tabIndex" tiptext="Valor tabIndex de un objeto" helpid="x21193"/>
+				</folder>
+			</folder>
+			<folder name="SymbolItem" index="true" tiptext="Subclase de Item; un símbolo en la biblioteca" helpid="x21194">
+				<folder name="Métodos" tiptext="Métodos del objeto SymbolItem" helpid="x21195">
+					<string name="convertToCompiledClip" object="symbolItem" text=".convertToCompiledClip()" tiptext="Convierte un símbolo en un clip compilado" helpid="x21196"/>
+					<string name="exportSWC" object="symbolItem" text=".exportSWC(% URIsalida %)" tiptext="Exporta un símbolo en un archivo SWC" helpid="x21197"/>
+					<string name="exportSWF" object="symbolItem" text=".exportSWF(% URIsalida %)" tiptext="Exporta un símbolo en un archivo SWF" helpid="x21198"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto SymbolItem" helpid="x21199">
+					<string name="scalingGrid" object="symbolItem" text=".scalingGrid" tiptext="Si su valor es true, se activa la escala en 9 divisiones para el elemento" helpid="x22949"/>
+					<string name="scalingGridRect" object="symbolItem" text=".scalingGridRect" tiptext="Objeto de rectángulo que especifica las ubicaciones de las cuatro guías de 9 divisiones" helpid="x2294A"/>
+					<string name="sourceAutoUpdate" object="symbolItem" text=".sourceAutoUpdate" tiptext="Si el valor es true, el símbolo de biblioteca compartida se actualiza al publicarse" helpid="x2119A"/>
+					<string name="sourceFilePath" object="symbolItem" text=".sourceFilePath" tiptext="Ruta de origen del símbolo de biblioteca compartida" helpid="x2119B"/>
+					<string name="sourceLibraryName" object="symbolItem" text=".sourceLibraryName" tiptext="Nombre del símbolo en el archivo de origen" helpid="x2119C"/>
+					<string name="symbolType" object="symbolItem" text=".symbolType" tiptext="Especifica el tipo de símbolo" helpid="x2119D"/>
+					<string name="timeline" object="symbolItem" text=".timeline" tiptext="Objeto de línea de tiempo para el símbolo" helpid="x2119E"/>
+				</folder>
+			</folder>
+			<folder name="Text" index="true" tiptext="Subclase de Element; un campo de texto en el escenario" helpid="x2119F">
+				<folder name="Métodos" tiptext="Métodos del objeto Text" helpid="x211A0">
+					<string name="getTextAttr" object="text" text=".getTextAttr(% attrName [, inicioÍndice] [, finÍndice] %)" tiptext="Devuelve el atributo de texto especificado" helpid="x211A1"/>
+					<string name="getTextString" object="text" text=".getTextString(% inicioÍndice, finÍndice %)" tiptext="Devuelve la cadena de texto contenida en el rango especificado" helpid="x211A2"/>
+					<string name="setTextAttr" object="text" text=".setTextAttr(% attrName, attrValue [, inicioÍndice] [, finÍndice] %)" tiptext="Establece el atributo de texto especificado" helpid="x211A3"/>
+					<string name="setTextString" object="text" text=".setTextString(% texto [, inicioÍndice] [, finÍndice] %)" tiptext="Establece la cadena de texto del objeto de texto" helpid="x211A4"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Text" helpid="x211A5">
+					<string name="accName" object="text" text=".accName" tiptext="Nombre de un objeto, utilizado por el lector de pantalla" helpid="x211A6"/>
+					<string name="antiAliasSharpness" object="text" text=".antiAliasSharpness" tiptext="Nitidez de suavizado del texto" helpid="x2294B"/>
+					<string name="antiAliasThickness" object="text" text=".antiAliasThickness" tiptext="Grosor de suavizado del texto" helpid="x2294C"/>
+					<string name="autoExpand" object="text" text=".autoExpand" tiptext="Si el valor es true, la anchura de límite se amplía para mostrar todo el texto" helpid="x211A7"/>
+					<string name="border" object="text" text=".border" tiptext="Si el valor es true, muestra el borde alrededor de texto dinámico o de entrada" helpid="x211A8"/>
+					<string name="description" object="text" text=".description" tiptext="Descripción del objeto, utilizada por el lector de pantalla" helpid="x211A9"/>
+					<string name="embeddedCharacters" object="text" text=".embeddedCharacters" tiptext="Incorpora todos los caracteres especificados" helpid="x211AA"/>
+					<string name="embedRanges" object="text" text=".embedRanges" tiptext="Especifica los rangos de los caracteres que se incorporarán" helpid="x211AB"/>
+					<string name="embedVariantGlyphs" object="text" text=".embedVariantGlyphs" tiptext="Si es true, se incorporan glifos de variantes" helpid="x22C93"/>
+					<string name="fontRenderingMode" object="text" text=".fontRenderingMode" tiptext="Modo de presentación del texto" helpid="x2294D"/>
+					<string name="length" object="text" text=".length" tiptext="Número de caracteres en un objeto de texto" helpid="x211AC"/>
+					<string name="lineType" object="text" text=".lineType" tiptext="Tipo de línea de texto" helpid="x211AD"/>
+					<string name="maxCharacters" object="text" text=".maxCharacters" tiptext="Especifica el número máximo de caracteres" helpid="x211AE"/>
+					<string name="orientation" object="text" text=".orientation" tiptext="Especifica la orientación del texto" helpid="x211AF"/>
+					<string name="renderAsHTML" object="text" text=".renderAsHTML" tiptext="Si el valor es true, el texto se representa como HTML" helpid="x211B0"/>
+					<string name="scrollable" object="text" text=".scrollable" tiptext="Si el valor es true, el texto puede desplazarse" helpid="x211B1"/>
+					<string name="selectable" object="text" text=".selectable" tiptext="Si el valor es true, el texto puede seleccionarse" helpid="x211B2"/>
+					<string name="selectionEnd" object="text" text=".selectionEnd" tiptext="Desplazamiento del final de una subselección de texto" helpid="x211B3"/>
+					<string name="selectionStart" object="text" text=".selectionStart" tiptext="Desplazamiento del principio de una subselección de texto" helpid="x211B4"/>
+					<string name="shortcut" object="text" text=".shortcut" tiptext="Tecla de método abreviado de un objeto" helpid="x211B5"/>
+					<string name="silent" object="text" text=".silent" tiptext="Si el valor es true, el lector de pantalla no lee el objeto" helpid="x211B6"/>
+					<string name="tabIndex" object="text" text=".tabIndex" tiptext="Valor tabIndex de un objeto" helpid="x211B7"/>
+					<string name="textRuns" object="text" text=".textRuns" tiptext="Matriz de objetos Serie de texto" helpid="x211B8"/>
+					<string name="textType" object="text" text=".textType" tiptext="Tipo de campo de texto" helpid="x211B9"/>
+					<string name="useDeviceFonts" object="text" text=".useDeviceFonts" tiptext="Si el valor es true, representa el texto con la fuente del dispositivo" helpid="x211BA"/>
+					<string name="variableName" object="text" text=".variableName" tiptext="Almacena el contenido del campo de texto en un nombre de variable" helpid="x211BB"/>
+				</folder>
+			</folder>
+			<folder name="TextAttrs" index="true" tiptext="Subclase de TextRun; contiene propiedades aplicables a una subselección" helpid="x211BC">
+				<folder name="Propiedades" tiptext="Propiedades del objeto TextAttrs" helpid="x211BD">
+					<string name="aliasText" object="textAttrs" text=".aliasText" tiptext="Si el valor es true, el texto se representa suavizado" helpid="x211BE"/>
+					<string name="alignment" object="textAttrs" text=".alignment" tiptext="Justificación de párrafo" helpid="x211BF"/>
+					<string name="autoKern" object="textAttrs" text=".autoKern" tiptext="Si el valor es true, se utiliza el ajuste entre parejas de caracteres" helpid="x211C0"/>
+					<string name="bold" object="textAttrs" text=".bold" tiptext="Si el valor es true, el texto se muestra en negrita" helpid="x211C1"/>
+					<string name="characterPosition" object="textAttrs" text=".characterPosition" tiptext="Posición vertical del texto" helpid="x211C2"/>
+					<string name="face" object="textAttrs" text=".face" tiptext="Nombre de la fuente" helpid="x211C4"/>
+					<string name="fillColor" object="textAttrs" text=".fillColor" tiptext="Cadena de color hexadecimal" helpid="x211C5"/>
+					<string name="indent" object="textAttrs" text=".indent" tiptext="Sangría de párrafo" helpid="x211C6"/>
+					<string name="italic" object="textAttrs" text=".italic" tiptext="Si el valor es true, el texto se muestra en cursiva" helpid="x211C7"/>
+					<string name="leftMargin" object="textAttrs" text=".leftMargin" tiptext="Margen izquierdo de un párrafo" helpid="x211C8"/>
+					<string name="letterSpacing" object="textAttrs" text=".letterSpacing" tiptext="Entero que representa el espacio entre caracteres" helpid="x22960"/>
+					<string name="lineSpacing" object="textAttrs" text=".lineSpacing" tiptext="Espacio interlineal de un párrafo" helpid="x211C9"/>
+					<string name="rightMargin" object="textAttrs" text=".rightMargin" tiptext="Margen derecho de un párrafo" helpid="x211CA"/>
+					<string name="rotation" object="textAttrs" text=".rotation" tiptext="Si el valor es true, los caracteres se giran 90 grados" helpid="x211CB"/>
+					<string name="size" object="textAttrs" text=".size" tiptext="Tamaño de la fuente" helpid="x211CC"/>
+					<string name="target" object="textAttrs" text=".target" tiptext="Cadena para el destino" helpid="x211CD"/>
+					<string name="url" object="textAttrs" text=".url" tiptext="Cadena que representa una URL" helpid="x211CE"/>
+				</folder>
+			</folder>
+			<folder name="TextRun" index="true" tiptext="Subclase de Text; una cadena de caracteres" helpid="x211CF">
+				<folder name="Propiedades" tiptext="Propiedades del objeto TextRun" helpid="x211D0">
+					<string name="characters" object="textRun" text=".characters" tiptext="Texto contenido en un objeto Serie de texto" helpid="x211D1"/>
+					<string name="textAttrs" object="textRun" text=".textAttrs" tiptext="Objeto Atributos de texto que contiene los atributos de una serie de texto" helpid="x211D2"/>
+				</folder>
+			</folder>
+			<folder name="Timeline" index="true" tiptext="Línea de tiempo" helpid="x211D3">
+				<folder name="Métodos" tiptext="Métodos del objeto Timeline" helpid="x211D4">
+					<string name="addMotionGuide" object="timeline" text=".addMotionGuide()" tiptext="Añade una capa de guía de movimiento" helpid="x211D5"/>
+					<string name="addNewLayer" object="timeline" text=".addNewLayer(% [nombre] [, layerType] [, bAddAbove] %)" tiptext="Añade una nueva capa" helpid="x211D6"/>
+					<string name="clearFrames" object="timeline" text=".clearFrames(% [fotogramaInicio] [, fotogramaTerminar] %)" tiptext="Elimina todo el contenido de un fotograma" helpid="x211D7"/>
+					<string name="clearKeyframes" object="timeline" text=".clearKeyframes(% [fotogramaInicio] [, fotogramaTerminar] %)" tiptext="Convierte un fotograma clave en un fotograma normal y elimina su contenido" helpid="x211D8"/>
+					<string name="convertToBlankKeyframes" object="timeline" text=".convertToBlankKeyframes(% [fotogramaInicio] [, fotogramaTerminar] %)" tiptext="Convierte el fotograma especificado en un fotograma clave vacío" helpid="x211D9"/>
+					<string name="convertToKeyframes" object="timeline" text=".convertToKeyframes(% [fotogramaInicio] [, fotogramaTerminar] %)" tiptext="Convierte los fotogramas especificados en fotogramas clave" helpid="x211DA"/>
+					<string name="copyFrames" object="timeline" text=".copyFrames(% [fotogramaInicio] [, fotogramaTerminar] %)" tiptext="Copia los fotogramas especificados en el portapapeles" helpid="x211DB"/>
+					<string name="copyLayers" object="timeline" text=".copyLayers(% [índiceInicial] [, índiceFinal]%)" tiptext="Copiar una capa o intervalo de capas en la línea de tiempo" helpid="0"/>
+					<string name="copyMotion" object="timeline" text=".copyMotion()" tiptext="Copia el movimiento en los fotogramas seleccionados, bien desde una interpolación de movimiento o mediante una animación fotograma a fotograma" helpid="x22B45"/>
+					<string name="copyMotionAsAS3" object="timeline" text=".copyMotionAsAS3()" tiptext="Copia el movimiento en los fotogramas seleccionados como código ActionScript 3.0, bien desde una interpolación de movimiento o mediante una animación fotograma a fotograma" helpid="x22B70"/>
+					<string name="createMotionTween" object="timeline" text=".createMotionTween(% [fotogramaInicio] [, fotogramaTerminar] %)" tiptext="Crea una interpolación de movimiento, convierte el contenido del fotograma en un símbolo si no lo es" helpid="x211DC"/>
+					<string name="createMotionObject" object="timeline" text=".createMotionObject(% [fotogramaInicial] [, fotogramaFinal] %)" tiptext="Crea un objeto de movimiento y convierte el contenido del fotograma en un clip de película si no lo es ya" helpid="x22CA2"/>
+					<string name="cutFrames" object="timeline" text=".cutFrames(% [fotogramaInicio] [, fotogramaTerminar] %)" tiptext="Corta los fotogramas especificados al portapapeles" helpid="x211DD"/>
+					<string name="cutLayers" object="timeline" text=".cutLayers(% [índiceInicial] [, índiceFinal]%)" tiptext="Cortar una capa o intervalo de capas en la línea de tiempo" helpid="0"/>
+					<string name="deleteLayer" object="timeline" text=".deleteLayer(% [índice] %)" tiptext="Elimina una capa de la línea de tiempo" helpid="x211DE"/>
+					<string name="duplicateLayers" object="timeline" text=".duplicateLayers(% [índiceInicial] [, índiceFinal]%)" tiptext="Duplicar una capa o intervalo de capas en la línea de tiempo" helpid="0"/>
+					<string name="expandFolder" object="timeline" text=".expandFolder(% bExpandir [, bRecurseNestedParents] [, índice] %)" tiptext="Si el valor es true, expande la carpeta de capas; si es false, la contrae" helpid="x211DF"/>
+					<string name="findLayerIndex" object="timeline" text=".findLayerIndex(% nombre %)" tiptext="Devuelve una matriz de índices para las capas con el nombre especificado" helpid="x211E0"/>
+					<string name="getFrameProperty" object="timeline" text=".getFrameProperty(% propiedad %)" tiptext="Devuelve la propiedad del fotograma especificado" helpid="x211E1"/>
+					<string name="getGuidelines" object="timeline" text=".getGuidelines()" tiptext="Devuelve una cadena XML que representa el estado actual de las directrices" helpid="x22C87"/>
+					<string name="getLayerProperty" object="timeline" text=".getLayerProperty(% propiedad %)" tiptext="Devuelve la propiedad de la capa especificada" helpid="x211E2"/>
+					<string name="getSelectedFrames" object="timeline" text=".getSelectedFrames()" tiptext="Devuelve una matriz con los índices de los fotogramas seleccionados" helpid="x211E3"/>
+					<string name="getSelectedLayers" object="timeline" text=".getSelectedLayers()" tiptext="Devuelve una matriz con los índices de las capas seleccionadas" helpid="x211E4"/>
+					<string name="insertBlankKeyframe" object="timeline" text=".insertBlankKeyframe(% [númFotograma] %)" tiptext="Inserta un fotograma clave vacío" helpid="x211E5"/>
+					<string name="insertFrames" object="timeline" text=".insertFrames(% [númFotogramas] [, bTodasLasCapas] [, númFotograma] %)" tiptext="Inserta el número especificado de fotogramas" helpid="x211E6"/>
+					<string name="insertKeyframe" object="timeline" text=".insertKeyframe(% [númFotograma] %)" tiptext="Inserta un fotograma clave" helpid="x211E7"/>
+					<string name="pasteFrames" object="timeline" text=".pasteFrames(% [fotogramaInicio] [, fotogramaTerminar] %)" tiptext="Pega fotogramas desde el portapapeles a un rango de fotogramas" helpid="x211E8"/>
+					<string name="pasteLayers" object="timeline" text=".pasteLayers(% [índiceCapa] %)" tiptext="Pega una capa o rango de capas en la línea de tiempo" helpid="0"/>
+					<string name="pasteMotion" object="timeline" text=".pasteMotion()" tiptext="Pega el intervalo de fotogramas de movimiento recuperados por timeline.copyMotion() en la línea de tiempo" helpid="x22B46"/>
+					<string name="removeFrames" object="timeline" text=".removeFrames(% [fotogramaInicio] [, fotogramaTerminar] %)" tiptext="Elimina el fotograma" helpid="x211E9"/>
+					<string name="removeMotionObject" object="timeline" text=".removeMotionObject(% [fotogramaInicial] [, fotogramaFinal] %)" tiptext="Elimina el objeto de movimiento y convierte los fotogramas en elementos estáticos. " helpid="x22CA3"/>
+					<string name="reorderLayer" object="timeline" text=".reorderLayer(% capaParaMover, capaAdyacente [, bAñadirAntes] %)" tiptext="Mueve la capa especificada" helpid="x211EA"/>
+					<string name="reverseFrames" object="timeline" text=".reverseFrames(% [fotogramaInicio] [, fotogramaTerminar] %)" tiptext="Invierte un rango de fotogramas" helpid="x211EB"/>
+					<string name="selectAllFrames" object="timeline" text=".selectAllFrames()" tiptext="Selecciona todos los fotogramas de la línea de tiempo actual" helpid="x211EC"/>
+					<string name="setFrameProperty" object="timeline" text=".setFrameProperty(% propiedad, valor [, fotogramaInicio] [, fotogramaTerminar] %)" tiptext="Establece la propiedad del fotograma especificado" helpid="x211ED"/>
+					<string name="setGuidelines" object="timeline" text=".setGuidelines(% xml %)" tiptext="Define las directrices especificadas" helpid="x22C89"/>
+					<string name="setLayerProperty" object="timeline" text=".setLayerProperty(% propiedad, valor [, layersToChange] %)" tiptext="Establece la propiedad de la capa especificada" helpid="x211EE"/>
+					<string name="setSelectedFrames" object="timeline" text=".setSelectedFrames(% fotogramaInicio, fotogramaTerminar [, bReplaceCurrentSelection] %)" tiptext="Selecciona los fotogramas especificados en la capa actual" helpid="x211EF"/>
+					<string name="setSelectedFrames" object="timeline" text=".setSelectedFrames(% listaSelección [, bReemplazarSelecciónActual] %)" tiptext="Selecciona los fotogramas especificados en la matriz de selección" helpid="x211F0"/>
+					<string name="setSelectedLayers" object="timeline" text=".setSelectedLayers(% índice [, bReplaceCurrentSelection] %)" tiptext="Selecciona las capas especificadas y todos los fotogramas de dichas capas" helpid="x211F1"/>
+					<string name="showLayerMasking" object="timeline" text=".showLayerMasking(% [capa] %)" tiptext="Si el valor es true, muestra máscaras de capas" helpid="x211F2"/>
+					<string name="startPlayback" object="timeline" text=".startPlayback()" tiptext="Inicia la reproducción automática de la línea de tiempo si ésta aún no está reproduciéndose." helpid="x22CA4"/>
+					<string name="stopPlayback" object="timeline" text=".stopPlayback()" tiptext="Detiene la reproducción automática de la línea de tiempo se se está reproduciendo." helpid="x22CA5"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Timeline" helpid="x211F3">
+					<string name="currentFrame" object="timeline" text=".currentFrame" tiptext="Índice de fotograma para la ubicación de la cabeza lectora" helpid="x211F4"/>
+					<string name="currentLayer" object="timeline" text=".currentLayer" tiptext="Capa activa actualmente" helpid="x211F5"/>
+					<string name="frameCount" object="timeline" text=".frameCount" tiptext="Número de fotogramas de la capa más larga de la línea de tiempo especificada" helpid="x211F6"/>
+					<string name="layerCount" object="timeline" text=".layerCount" tiptext="Número de capas de la línea de tiempo especificada" helpid="x211F7"/>
+					<string name="layers" object="timeline" text=".layers" tiptext="Matriz de objetos Capa" helpid="x211F8"/>
+					<string name="name" object="timeline" text=".name" tiptext="Nombre de la línea de tiempo; igual que el nombre de escena" helpid="x211F9"/>
+				</folder>
+			</folder>
+			<folder name="ToolObj" index="true" tiptext="Representa una herramienta individual" helpid="x211FA">
+				<folder name="Métodos" tiptext="Métodos del objeto ToolObj" helpid="x211FB">
+					<string name="enablePIControl" object="toolObj" text=".enablePIControl(% control, activar %)" tiptext="Activa o desactiva un control en el inspector de propiedades" helpid="x211FC"/>
+					<string name="setIcon" object="toolObj" text=".setIcon(% archivo %)" tiptext="Especifica el archivo PNG que se utiliza como icono de herramienta" helpid="x211FD"/>
+					<string name="setMenuString" object="toolObj" text=".setMenuString(% cadenaMenú %)" tiptext="Establece la cadena del menú desplegable de la herramienta" helpid="x211FE"/>
+					<string name="setOptionsFile" object="toolObj" text=".setOptionsFile(% archivoXML %)" tiptext="Establece el archivo de opciones de una herramienta" helpid="x211FF"/>
+					<string name="setPI" object="toolObj" text=".setPI(% inspPropiedades %)" tiptext="Establece qué elementos del inspector de propiedades deben utilizarse con una herramienta" helpid="x21200"/>
+					<string name="setToolName" object="toolObj" text=".setToolName(% nombre %)" tiptext="Establece el nombre de la herramienta" helpid="x21201"/>
+					<string name="setToolTip" object="toolObj" text=".setToolTip(% sugerencia %)" tiptext="Establece la sugerencia para la herramienta" helpid="x21202"/>
+					<string name="showPIControl" object="toolObj" text=".showPIControl(% control, mostrar %)" tiptext="Muestra u oculta el control especificado en el inspector de propiedades" helpid="x21203"/>
+					<string name="showTransformHandles" object="toolObj" text=".showTransformHandles(% mostrar %)" tiptext="Si el valor es true, se muestran los selectores de transformación libre cuando la herramienta está activa" helpid="x21204"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto ToolObj" helpid="x21205">
+					<string name="depth" object="toolObj" text=".depth" tiptext="Ubicación de la herramienta en el menú emergente" helpid="x21206"/>
+					<string name="iconID" object="toolObj" text=".iconID" tiptext="ID de recurso de la herramienta" helpid="x21207"/>
+					<string name="position" object="toolObj" text=".position" tiptext="Ubicación de la herramienta en el panel Herramientas" helpid="x21208"/>
+				</folder>
+			</folder>
+			<folder name="Tools" index="true" tiptext="Registra entradas desde teclado y ratón" helpid="x21209">
+				<folder name="Métodos" tiptext="Métodos del objeto Tools" helpid="x2120A">
+					<string name="constrainPoint" object="tools" text=".constrainPoint(% pto1, pto2 %)" tiptext="Permite restringir los movimientos de las herramientas" helpid="x21210"/>
+					<string name="getKeyDown" object="tools" text=".getKeyDown()" tiptext="Devuelve la última tecla presionada" helpid="x2120B"/>
+					<string name="setCursor" object="tools" text=".setCursor(% cursor %)" tiptext="Establece el cursor que utiliza la herramienta" helpid="x2120C"/>
+					<string name="snapPoint" object="tools" text=".snapPoint(% pto %)" tiptext="Si hay una configuración de ajuste activa, devuelve el punto que se ajusta" helpid="x21216"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Tools" helpid="x2120D">
+					<string name="activeTool" object="tools" text=".activeTool" tiptext="Devuelve el objeto Objeto de herramienta para la herramienta actualmente activa" helpid="x2120E"/>
+					<string name="altIsDown" object="tools" text=".altIsDown" tiptext="Si el valor es TRUE, la tecla Alt está presionada" helpid="x2120F"/>
+					<string name="ctlIsDown" object="tools" text=".ctlIsDown" tiptext="Si el valor es TRUE, la tecla Control está presionada" helpid="x21211"/>
+					<string name="mouseIsDown" object="tools" text=".mouseIsDown" tiptext="Si el valor es TRUE, el botón izquierdo del ratón está presionado" helpid="x21212"/>
+					<string name="penDownLoc" object="tools" text=".penDownLoc" tiptext="Posición del último evento de mouseDown" helpid="x21213"/>
+					<string name="penLoc" object="tools" text=".penLoc" tiptext="Posición actual del ratón" helpid="x21214"/>
+					<string name="shiftIsDown" object="tools" text=".shiftIsDown" tiptext="Si el valor es TRUE, la tecla Mayús está presionada" helpid="x21215"/>
+					<string name="toolObjs" object="tools" text=".toolObjs" tiptext="Matriz de objetos Objeto de herramienta" helpid="x21217"/>
+				</folder>
+			</folder>
+			<folder name="Vertex" index="true" tiptext="Contiene las coordenadas de una forma" helpid="x21218">
+				<folder name="Métodos" tiptext="Métodos del objeto Vertex" helpid="x21219">
+					<string name="getHalfEdge" object="vertex" text=".getHalfEdge()" tiptext="Devuelve el borde partido que comparte un vértice" helpid="x2121A"/>
+					<string name="setLocation" object="vertex" text=".setLocation(% x, y %)" tiptext="Establece la ubicación de un vértice" helpid="x2121B"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto Vertex" helpid="x2121C">
+					<string name="x" object="vertex" text=".x" tiptext="Ubicación X del vértice" helpid="x2121D"/>
+					<string name="y" object="vertex" text=".y" tiptext="Ubicación Y del vértice" helpid="x2121E"/>
+				</folder>
+			</folder>
+			<folder name="VideoItem" index="true" tiptext="Subclase de Item; un vídeo en la biblioteca" helpid="x2121F">
+				<folder name="Métodos" tiptext="Métodos del objeto VideoItem" helpid="x22C7A">
+					<string name="exportToFLV" object="VideoItem" text=".exportToFLV(% uriArchivo %)" tiptext="Devuelve true si el objeto Video se exporta correctamente" helpid="x22C72"/>
+				</folder>
+				<folder name="Propiedades" tiptext="Propiedades del objeto VideoItem" helpid="x2294F">
+					<string name="fileLastModifiedDate" object="VideoItem" text=".fileLastModifiedDate" tiptext="Marca de hora del archivo cuando se importó" helpid="x22C73"/>
+					<string name="sourceFileExists" object="VideoItem" text=".sourceFileExists" tiptext="Si es true, el archivo original existe" helpid="x22C74"/>
+					<string name="sourceFileIsCurrent" object="VideoItem" text=".sourceFileIsCurrent" tiptext="Si es true, el archivo original no se ha modificado desde la última importación." helpid="x22C75"/>
+					<string name="sourceFilePath" object="VideoItem" text=".sourceFilePath" tiptext="URI de archivo del elemento de vídeo importado" helpid="x22950"/>
+					<string name="videoType" object="VideoItem" text=".videoType" tiptext="Tipo de vídeo que representa el elemento" helpid="x22951"/>
+				</folder>
+			</folder>
+			<folder name="XMLUI" index="true" tiptext="Cuadro de diálogo XMLIU" helpid="x21221">
+				<folder name="Métodos" tiptext="Métodos del objeto XMLUI" helpid="x21222">
+					<string name="accept" object="xmlui" text=".accept()" tiptext="Cierra el cuadro de diálogo XMLIU con estado aceptado" helpid="x21223"/>
+					<string name="cancel" object="xmlui" text=".cancel()" tiptext="Cierra el cuadro de diálogo XMLIU con estado cancelado" helpid="x21224"/>
+					<string name="get" object="xmlui" text=".get(% nombre %)" tiptext="Devuelve el valor de la propiedad especificada en el cuadro de diálogo XMLIU" helpid="x21225"/>
+					<string name="getControlItemElement" object="xmlui" text=".getControlItemElement( % nombrePropiedadControl % )" tiptext="Devuelve la etiqueta y el valor de la línea seleccionada" helpid="x22952"/>
+					<string name="getEnabled" object="xmlui" text=".getEnabled( % IDControl % )" tiptext="Si su valor es true, el control está activado" helpid="x22953"/>
+					<string name="getVisible" object="xmlui" text=".getVisible( % IDControl % )" tiptext="Si su valor es true, el control está visible" helpid="x2295E"/>
+					<string name="set" object="xmlui" text=".set(% nombre, valor %)" tiptext="Establece el valor de la propiedad especificada en el cuadro de diálogo XMLIU" helpid="x21226"/>
+					<string name="setControlItemElement" object="xmlui" text=".setControlItemElement( % nombrePropiedadControl, elemento % )" tiptext="Establece la etiqueta y el valor de la línea seleccionada" helpid="x22954"/>
+					<string name="setControlItemElements" object="xmlui" text=".setControlItemElements( % IDControl, matrizElemento % )" tiptext="Establece la etiqueta y el valor de todas las líneas del control" helpid="x22955"/>
+					<string name="setEnabled" object="xmlui" text=".setEnabled( % IDControl, activado % )" tiptext="Activa o desactiva (atenúa) un control" helpid="x22956"/>
+					<string name="setVisible" object="xmlui" text=".setVisible( % IDControl, visible % )" tiptext="Muestra u oculta un control" helpid="x2295F"/>
+				</folder>
+			</folder>
+			<folder name="No soportado" index="true" tiptext="Funciones que se deben evitar en nuevo contenido" helpid="x22963">
+				<string name="characterSpacing" object="textAttrs" text=".characterSpacing" tiptext="Entero que representa el espacio entre caracteres" helpid="x211C3"/>
+			</folder>
+	</actionspanel>
+			<colorsyntax>
+				<keyword text="abstract"/>
+				<keyword text="boolean"/>
+				<keyword text="break"/>
+				<keyword text="byte"/>
+				<keyword text="case"/>
+				<keyword text="catch"/>
+				<keyword text="char"/>
+				<keyword text="class"/>
+				<keyword text="const"/>
+				<keyword text="continue"/>
+				<keyword text="debugger"/>
+				<keyword text="default"/>
+				<keyword text="delete"/>
+				<keyword text="do"/>
+				<keyword text="double"/>
+				<keyword text="else"/>
+				<keyword text="enum"/>
+				<keyword text="export"/>
+				<keyword text="extends"/>
+				<keyword text="false"/>
+				<keyword text="final"/>
+				<keyword text="finally"/>
+				<keyword text="float"/>
+				<keyword text="for"/>
+				<keyword text="function"/>
+				<keyword text="goto"/>
+				<keyword text="if"/>
+				<keyword text="implements"/>
+				<keyword text="import"/>
+				<keyword text="in"/>
+				<keyword text="instanceof"/>
+				<keyword text="int"/>
+				<keyword text="interface"/>
+				<keyword text="long"/>
+				<keyword text="native"/>
+				<keyword text="new"/>
+				<keyword text="null"/>
+				<keyword text="package"/>
+				<keyword text="private"/>
+				<keyword text="protected"/>
+				<keyword text="public"/>
+				<keyword text="return"/>
+				<keyword text="short"/>
+				<keyword text="static"/>
+				<keyword text="super"/>
+				<keyword text="switch"/>
+				<keyword text="synchronized"/>
+				<keyword text="this"/>
+				<keyword text="throw"/>
+				<keyword text="throws"/>
+				<keyword text="transient"/>
+				<keyword text="true"/>
+				<keyword text="try"/>
+				<keyword text="typeof"/>
+				<keyword text="var"/>
+				<keyword text="void"/>
+				<keyword text="volatile"/>
+				<keyword text="while"/>
+				<keyword text="with"/>
+<!--  Global methods  -->
+				<identifier text="alert"/>
+				<identifier text="confirm"/>
+				<identifier text="prompt"/>
+<!--  Timeline effects  -->
+				<identifier text="configureEffect"/>
+				<identifier text="executeEffect"/>
+				<identifier text="removeEffect"/>
+<!--  Extensible tools  -->
+				<identifier text="activate"/>
+				<identifier text="deactivate"/>
+				<identifier text="configureTool"/>
+				<identifier text="keyDown"/>
+				<identifier text="keyUp"/>
+				<identifier text="mouseDoubleClick"/>
+				<identifier text="mouseDown"/>
+				<identifier text="mouseMove"/>
+				<identifier text="mouseUp"/>
+				<identifier text="notifySettingsChanged"/>
+				<identifier text="setCursor"/>
+				<identifier text="Array"/>
+				<identifier text="Boolean"/>
+				<identifier text="Date"/>
+				<identifier text="E"/>
+				<identifier text="Function"/>
+				<identifier text="Infinity"/>
+				<identifier text="LN10"/>
+				<identifier text="LN2"/>
+				<identifier text="LOG10E"/>
+				<identifier text="LOG2E"/>
+				<identifier text="MAX_VALUE"/>
+				<identifier text="MIN_VALUE"/>
+				<identifier text="Math"/>
+				<identifier text="NEGATIVE_INFINITY"/>
+				<identifier text="NaN"/>
+				<identifier text="Number"/>
+				<identifier text="Object"/>
+				<identifier text="PI"/>
+				<identifier text="POSITIVE_INFINITY"/>
+				<identifier text="RegExp"/>
+				<identifier text="SQRT1_2"/>
+				<identifier text="SQRT2"/>
+				<identifier text="String"/>
+				<identifier text="String"/>
+				<identifier text="UTC"/>
+				<identifier text="abs"/>
+				<identifier text="acos"/>
+				<identifier text="apply"/>
+				<identifier text="arguments"/>
+				<identifier text="arguments.callee"/>
+				<identifier text="arguments.caller"/>
+				<identifier text="arguments.length"/>
+				<identifier text="arity"/>
+				<identifier text="asin"/>
+				<identifier text="atan"/>
+				<identifier text="atan2"/>
+				<identifier text="call"/>
+				<identifier text="ceil"/>
+				<identifier text="charAt"/>
+				<identifier text="charCodeAt"/>
+				<identifier text="concat"/>
+				<identifier text="concat"/>
+				<identifier text="constructor"/>
+				<identifier text="cos"/>
+				<identifier text="decodeURI"/>
+				<identifier text="decodeURIComponent"/>
+				<identifier text="encodeURI"/>
+				<identifier text="encodeURIComponent"/>
+				<identifier text="eval"/>
+				<identifier text="exec"/>
+				<identifier text="exp"/>
+				<identifier text="fromCharCode"/>
+				<identifier text="getDate"/>
+				<identifier text="getDay"/>
+				<identifier text="getFullYear"/>
+				<identifier text="getHours"/>
+				<identifier text="getMilliseconds"/>
+				<identifier text="getMinutes"/>
+				<identifier text="getMonth"/>
+				<identifier text="getSeconds"/>
+				<identifier text="getTime"/>
+				<identifier text="getTimezoneOffset"/>
+				<identifier text="getUTCDate"/>
+				<identifier text="getUTCDay"/>
+				<identifier text="getUTCFullYear"/>
+				<identifier text="getUTCHours"/>
+				<identifier text="getUTCMilliseconds"/>
+				<identifier text="getUTCMinutes"/>
+				<identifier text="getUTCMonth"/>
+				<identifier text="getUTCSeconds"/>
+				<identifier text="getYear"/>
+				<identifier text="global"/>
+				<identifier text="ignoreCase"/>
+				<identifier text="index"/>
+				<identifier text="indexOf"/>
+				<identifier text="input"/>
+				<identifier text="isFinite"/>
+				<identifier text="isNaN"/>
+				<identifier text="join"/>
+				<identifier text="lastIndex"/>
+				<identifier text="lastIndexOf"/>
+				<identifier text="length"/>
+				<identifier text="log"/>
+				<identifier text="match"/>
+				<identifier text="max"/>
+				<identifier text="min"/>
+				<identifier text="multiline"/>
+				<identifier text="parse"/>
+				<identifier text="parseFloat"/>
+				<identifier text="parseInt"/>
+				<identifier text="pop"/>
+				<identifier text="pow"/>
+				<identifier text="prototype"/>
+				<identifier text="push"/>
+				<identifier text="random"/>
+				<identifier text="replace"/>
+				<identifier text="reverse"/>
+				<identifier text="round"/>
+				<identifier text="search"/>
+				<identifier text="setDate"/>
+				<identifier text="setFullYear"/>
+				<identifier text="setHours"/>
+				<identifier text="setMilliseconds"/>
+				<identifier text="setMinutes"/>
+				<identifier text="setMonth"/>
+				<identifier text="setSeconds"/>
+				<identifier text="setTime"/>
+				<identifier text="setUTCDate"/>
+				<identifier text="setUTCFullYear"/>
+				<identifier text="setUTCHours"/>
+				<identifier text="setUTCMilliseconds"/>
+				<identifier text="setUTCMinutes"/>
+				<identifier text="setUTCMonth"/>
+				<identifier text="setUTCSeconds"/>
+				<identifier text="setYear"/>
+				<identifier text="shift"/>
+				<identifier text="sin"/>
+				<identifier text="slice"/>
+				<identifier text="slice"/>
+				<identifier text="sort"/>
+				<identifier text="source"/>
+				<identifier text="splice"/>
+				<identifier text="split"/>
+				<identifier text="sqrt"/>
+				<identifier text="substr"/>
+				<identifier text="substring"/>
+				<identifier text="tan"/>
+				<identifier text="test"/>
+				<identifier text="toExponential"/>
+				<identifier text="toFixed"/>
+				<identifier text="toGMTString"/>
+				<identifier text="toLocaleDateString"/>
+				<identifier text="toLocaleString"/>
+				<identifier text="toLocaleTimeString"/>
+				<identifier text="toLowerCase"/>
+				<identifier text="toPrecision"/>
+				<identifier text="toSource"/>
+				<identifier text="toString"/>
+				<identifier text="toUTCString"/>
+				<identifier text="toUpperCase"/>
+				<identifier text="undefined"/>
+				<identifier text="unshift"/>
+				<identifier text="unwatch"/>
+				<identifier text="valueOf"/>
+				<identifier text="watch"/>
+				<identifier text="bitmapInstance"/>
+				<identifier text="hPixels"/>
+				<identifier text="vPixels"/>
+				<identifier text="getBits"/>
+				<identifier text="setBits"/>
+				<identifier text="bitmapItem"/>
+				<identifier text="allowSmoothing"/>
+				<identifier text="compressionType"/>
+				<identifier text="quality"/>
+				<identifier text="useImportedJPEGQuality"/>
+				<identifier text="fileLastModifiedDate"/>
+				<identifier text="sourceFileExists"/>
+				<identifier text="sourceFileIsCurrent"/>
+				<identifier text="sourceFilePath"/>
+				<identifier text="useDeblocking"/>
+				<identifier text="compilerErrors"/>
+				<identifier text="clear"/>
+				<identifier text="save"/>
+				<identifier text="compiledClipInstance"/>
+				<identifier text="accName"/>
+				<identifier text="actionScript"/>
+				<identifier text="description"/>
+				<identifier text="forceSimple"/>
+				<identifier text="shortcut"/>
+				<identifier text="silent"/>
+				<identifier text="tabIndex"/>
+				<identifier text="componentInstance"/>
+				<identifier text="parameters"/>
+				<identifier text="componentsPanel"/>
+				<identifier text="addItemToDocument"/>
+				<identifier text="reload"/>
+				<identifier text="contour"/>
+				<identifier text="interior"/>
+				<identifier text="orientation"/>
+				<identifier text="getHalfEdge"/>
+				<identifier text="fill"/>
+				<identifier text="document"/>
+				<identifier text="addFilter"/>
+				<identifier text="changeFilterOrder"/>
+				<identifier text="disableAllFilters"/>
+				<identifier text="disableFilter"/>
+				<identifier text="disableOtherFilters"/>
+				<identifier text="enableAllFilters"/>
+				<identifier text="enableFilter"/>
+				<identifier text="getBlendMode"/>
+				<identifier text="getFilters"/>
+				<identifier text="getMobileSettings"/>
+				<identifier text="getPlayerVersion"/>
+				<identifier text="removeAllFilters"/>
+				<identifier text="removeFilter"/>
+				<identifier text="resetOvalObject"/>
+				<identifier text="resetRectangleObject"/>
+				<identifier text="setBlendMode"/>
+				<identifier text="setFilterProperty"/>
+				<identifier text="setFilters"/>
+				<identifier text="setMobileSettings"/>
+				<identifier text="setOvalObjectProperty"/>
+				<identifier text="setPlayerVersion"/>
+				<identifier text="setRectangleObjectProperty"/>
+				<identifier text="union"/>
+				<identifier text="intersect"/>
+				<identifier text="punch"/>
+				<identifier text="deleteEnvelope"/>
+				<identifier text="crop"/>
+				<identifier text="zoomFactor"/>
+<!-- property -->
+				<identifier text="as3AutoDeclare"/>
+				<identifier text="as3ExportFrame"/>
+				<identifier text="as3StrictMode"/>
+				<identifier text="as3WarningsMode"/>
+				<identifier text="as3Dialect"/>
+				<identifier text="asVersion"/>
+				<identifier text="accName"/>
+				<identifier text="autoLabel"/>
+				<identifier text="backgroundColor"/>
+				<identifier text="currentPublishProfile"/>
+				<identifier text="currentTimeline"/>
+				<identifier text="description"/>
+				<identifier text="docClass"/>
+				<identifier text="externalLibraryPath"/>
+				<identifier text="forceSimple"/>
+				<identifier text="frameRate"/>
+				<identifier text="height"/>
+				<identifier text="id"/>
+				<identifier text="library"/>
+				<identifier text="libraryPath"/>
+				<identifier text="livePreview"/>
+				<identifier text="name"/>
+				<identifier text="path"/>
+				<identifier text="pathURI"/>
+				<identifier text="publishProfiles"/>
+				<identifier text="selection"/>
+				<identifier text="silent"/>
+				<identifier text="sourcePath"/>
+				<identifier text="timelines"/>
+				<identifier text="width"/>
+				<identifier text="addDataToDocument"/>
+				<identifier text="addDataToSelection"/>
+				<identifier text="addItem"/>
+				<identifier text="addNewLine"/>
+				<identifier text="addNewOval"/>
+				<identifier text="addNewPrimitiveOval"/>
+				<identifier text="addNewPrimitiveRectangle"/>
+				<identifier text="addNewPublishProfile"/>
+				<identifier text="addNewRectangle"/>
+				<identifier text="addNewScene"/>
+				<identifier text="addNewText"/>
+				<identifier text="align"/>
+				<identifier text="allowScreens"/>
+				<identifier text="arrange"/>
+				<identifier text="breakApart"/>
+				<identifier text="canEditSymbol"/>
+				<identifier text="canRevert"/>
+				<identifier text="canTestMovie"/>
+				<identifier text="canTestScene"/>
+				<identifier text="clipCopy"/>
+				<identifier text="clipCut"/>
+				<identifier text="clipPaste"/>
+				<identifier text="close"/>
+				<identifier text="convertLinesToFills"/>
+				<identifier text="convertToSymbol"/>
+				<identifier text="deletePublishProfile"/>
+				<identifier text="deleteScene"/>
+				<identifier text="deleteSelection"/>
+				<identifier text="distribute"/>
+				<identifier text="distributeToLayers"/>
+				<identifier text="documentHasData"/>
+				<identifier text="duplicatePublishProfile"/>
+				<identifier text="duplicateScene"/>
+				<identifier text="duplicateSelection"/>
+				<identifier text="editScene"/>
+				<identifier text="enterEditMode"/>
+				<identifier text="exitEditMode"/>
+				<identifier text="exportPublishProfile"/>
+				<identifier text="exportPublishProfileString"/>
+				<identifier text="exportPNG"/>
+				<identifier text="exportSWF"/>
+				<identifier text="getAlignToDocument"/>
+				<identifier text="getCustomFill"/>
+				<identifier text="getCustomStroke"/>
+				<identifier text="getDataFromDocument"/>
+				<identifier text="getElementProperty"/>
+				<identifier text="getElementTextAttr"/>
+				<identifier text="getSelectionRect"/>
+				<identifier text="getTextString"/>
+				<identifier text="getTimeline"/>
+				<identifier text="getTransformationPoint"/>
+				<identifier text="group"/>
+				<identifier text="importFile"/>
+				<identifier text="importPublishProfile"/>
+				<identifier text="importPublishProfileString"/>
+				<identifier text="importSWF"/>
+				<identifier text="match"/>
+				<identifier text="mouseClick"/>
+				<identifier text="mouseDblClk"/>
+				<identifier text="moveSelectedBezierPointsBy"/>
+				<identifier text="moveSelectionBy"/>
+				<identifier text="optimizeCurves"/>
+				<identifier text="publish"/>
+				<identifier text="removeDataFromDocument"/>
+				<identifier text="removeDataFromSelection"/>
+				<identifier text="renamePublishProfile"/>
+				<identifier text="renameScene"/>
+				<identifier text="reorderScene"/>
+				<identifier text="resetTransformation"/>
+				<identifier text="revert"/>
+				<identifier text="rotate3DSelection"/>
+				<identifier text="rotateSelection"/>
+				<identifier text="save"/>
+				<identifier text="saveAndCompact"/>
+				<identifier text="scaleSelection"/>
+				<identifier text="selectAll"/>
+				<identifier text="selectNone"/>
+				<identifier text="setAlignToDocument"/>
+				<identifier text="setCustomFill"/>
+				<identifier text="setCustomStroke"/>
+				<identifier text="setElementProperty"/>
+				<identifier text="setElementTextAttr"/>
+				<identifier text="setFillColor"/>
+				<identifier text="setInstanceAlpha"/>
+				<identifier text="setInstanceBrightness"/>
+				<identifier text="setInstanceTint"/>
+				<identifier text="setSelectionBounds"/>
+				<identifier text="setSelectionRect"/>
+				<identifier text="setStageVanishingPoint"/>
+				<identifier text="setStageViewAngle"/>
+				<identifier text="setStroke"/>
+				<identifier text="setStrokeColor"/>
+				<identifier text="setStrokeSize"/>
+				<identifier text="setStrokeStyle"/>
+				<identifier text="setTextRectangle"/>
+				<identifier text="setTextSelection"/>
+				<identifier text="setTextString"/>
+				<identifier text="setTransformationPoint"/>
+				<identifier text="skewSelection"/>
+				<identifier text="smoothSelection"/>
+				<identifier text="space"/>
+				<identifier text="straightenSelection"/>
+				<identifier text="swapElement"/>
+				<identifier text="swapStrokeAndFill"/>
+				<identifier text="testMovie"/>
+				<identifier text="testScene"/>
+				<identifier text="traceBitmap"/>
+				<identifier text="transformSelection"/>
+				<identifier text="translate3DCenter"/>
+				<identifier text="translate3DSelection"/>
+				<identifier text="unGroup"/>
+				<identifier text="unlockAllElements"/>
+				<identifier text="xmlPanel"/>
+				<identifier text="drawingLayer"/>
+				<identifier text="beginDraw"/>
+				<identifier text="beginFrame"/>
+				<identifier text="cubicCurveTo"/>
+				<identifier text="curveTo"/>
+				<identifier text="drawPath"/>
+				<identifier text="endDraw"/>
+				<identifier text="endFrame"/>
+				<identifier text="lineTo"/>
+				<identifier text="moveTo"/>
+				<identifier text="newPath"/>
+				<identifier text="setColor"/>
+				<identifier text="setFill"/>
+				<identifier text="edge"/>
+				<identifier text="cubicSegmentIndex"/>
+				<identifier text="id"/>
+				<identifier text="isLine"/>
+				<identifier text="getControl"/>
+				<identifier text="getHalfEdge"/>
+				<identifier text="setControl"/>
+				<identifier text="splitEdge"/>
+				<identifier text="element"/>
+				<identifier text="layer"/>
+				<identifier text="selected"/>
+				<identifier text="depth"/>
+				<identifier text="elementType"/>
+				<identifier text="height"/>
+				<identifier text="left"/>
+				<identifier text="locked"/>
+				<identifier text="matrix"/>
+				<identifier text="top"/>
+				<identifier text="width"/>
+				<identifier text="getPersistentData"/>
+				<identifier text="hasPersistentData"/>
+				<identifier text="removePersistentData"/>
+				<identifier text="setPersistentData"/>
+				<identifier text="getTransformationPoint"/>
+				<identifier text="setTransformationPoint"/>
+				<identifier text="rotation"/>
+				<identifier text="scaleX"/>
+				<identifier text="scaleY"/>
+				<identifier text="skewX"/>
+				<identifier text="skewY"/>
+				<identifier text="transformX"/>
+				<identifier text="transformY"/>
+				<identifier text="x"/>
+				<identifier text="y"/>
+				<identifier text="External Library:"/>
+				<identifier text="bitmapIsClipped"/>
+				<identifier text="bitmapPath"/>
+				<identifier text="color"/>
+				<identifier text="colorArray"/>
+				<identifier text="focalPoint"/>
+				<identifier text="linearRGB"/>
+				<identifier text="overflow"/>
+				<identifier text="posArray"/>
+				<identifier text="style"/>
+				<identifier text="filter"/>
+				<identifier text="angle"/>
+				<identifier text="blurX"/>
+				<identifier text="blurY"/>
+				<identifier text="brightness"/>
+				<identifier text="color"/>
+				<identifier text="contrast"/>
+				<identifier text="distance"/>
+				<identifier text="enabled"/>
+				<identifier text="hideObject"/>
+				<identifier text="highlightColor"/>
+				<identifier text="hue"/>
+				<identifier text="inner"/>
+				<identifier text="knockout"/>
+				<identifier text="quality"/>
+				<identifier text="saturation"/>
+				<identifier text="shadowColor"/>
+				<identifier text="strength"/>
+				<identifier text="type"/>
+				<identifier text="flash"/>
+				<identifier text="fl"/>
+				<identifier text="as3PackagePaths"/>
+				<identifier text="packagePaths"/>
+				<identifier text="componentsPanel"/>
+				<identifier text="configDirectory"/>
+				<identifier text="configURI"/>
+				<identifier text="contactSensitiveSelection"/>
+				<identifier text="documents"/>
+				<identifier text="objectDrawingMode"/>
+				<identifier text="flexSDKPath"/>
+				<identifier text="Math"/>
+				<identifier text="outputPanel"/>
+				<identifier text="tools"/>
+				<identifier text="version"/>
+				<identifier text="viewMatrix"/>
+				<identifier text="xmlui"/>
+				<identifier text="browseForFileURL"/>
+				<identifier text="browseForFolderURL"/>
+				<identifier text="closeAll"/>
+				<identifier text="closeDocument"/>
+				<identifier text="createDocument"/>
+				<identifier text="enableImmediateUpdates"/>
+				<identifier text="fileExists"/>
+				<identifier text="findDocumentIndex"/>
+				<identifier text="getAppMemoryInfo"/>
+				<identifier text="getDocumentDOM"/>
+				<identifier text="openDocument"/>
+				<identifier text="quit"/>
+				<identifier text="reloadEffects"/>
+				<identifier text="reloadTools"/>
+				<identifier text="revertDocument"/>
+				<identifier text="runScript"/>
+				<identifier text="saveAll"/>
+				<identifier text="saveDocument"/>
+				<identifier text="saveDocumentAs"/>
+				<identifier text="scriptURI"/>
+				<identifier text="swfPanels"/>
+				<identifier text="setActiveWindow"/>
+				<identifier text="showIdleMessage"/>
+				<identifier text="trace"/>
+				<identifier text="addEventListener"/>
+				<identifier text="copyClipString"/>
+				<identifier text="findDocumentDOM"/>
+				<identifier text="getPrefInteger"/>
+				<identifier text="getPrefString"/>
+				<identifier text="isFontInstalled"/>
+				<identifier text="removeEventListener"/>
+				<identifier text="setPrefInteger"/>
+				<identifier text="setPrefString"/>
+				<identifier text="findObjectInDocByName"/>
+				<identifier text="findObjectInDocByType"/>
+				<identifier text="selectElement"/>
+				<identifier text="closeAllPlayerDocuments"/>
+				<identifier text="compilerErrors"/>
+				<identifier text="resetAS3PackagePaths"/>
+				<identifier text="resetPackagePaths"/>
+				<identifier text="selectTool"/>
+				<identifier text="FLfile"/>
+				<identifier text="copy"/>
+				<identifier text="createFolder"/>
+				<identifier text="exists"/>
+				<identifier text="getAttributes"/>
+				<identifier text="getCreationDate"/>
+				<identifier text="getCreationDateObj"/>
+				<identifier text="getModificationDate"/>
+				<identifier text="getModificationDateObj"/>
+				<identifier text="getSize"/>
+				<identifier text="listFolder"/>
+				<identifier text="platformPathToURI"/>
+				<identifier text="read"/>
+				<identifier text="remove"/>
+				<identifier text="setAttributes"/>
+				<identifier text="uriToPlatformPath"/>
+				<identifier text="write"/>
+				<identifier text="folderItem"/>
+				<identifier text="fontItem"/>
+				<identifier text="frame"/>
+				<identifier text="bitmap"/>
+				<identifier text="bold"/>
+				<identifier text="embedVariantGlyphs"/>
+				<identifier text="font"/>
+				<identifier text="italic"/>
+				<identifier text="size"/>
+				<identifier text="presetPanel"/>
+				<identifier text="addNewItem"/>
+				<identifier text="applyPreset"/>
+				<identifier text="deleteFolder"/>
+				<identifier text="deleteItem"/>
+				<identifier text="expandFolder"/>
+				<identifier text="exportItem"/>
+				<identifier text="findItemIndex"/>
+				<identifier text="getSelectedItems"/>
+				<identifier text="importItem"/>
+				<identifier text="moveToFolder"/>
+				<identifier text="newFolder"/>
+				<identifier text="renameItem"/>
+				<identifier text="selectItem"/>
+				<identifier text="isDefault"/>
+				<identifier text="isFolder"/>
+				<identifier text="items"/>
+				<identifier text="level"/>
+				<identifier text="open"/>
+<!--  methods  -->
+				<identifier text="getCustomEase"/>
+				<identifier text="setCustomEase"/>
+<!--  properties  -->
+				<identifier text="actionScript"/>
+				<identifier text="duration"/>
+				<identifier text="elements"/>
+				<identifier text="hasCustomEase"/>
+				<identifier text="labelType"/>
+				<identifier text="motionTweenOrientToPath"/>
+				<identifier text="motionTweenRotate"/>
+				<identifier text="motionTweenRotateTimes"/>
+				<identifier text="motionTweenScale"/>
+				<identifier text="motionTweenSnap"/>
+				<identifier text="motionTweenSync"/>
+				<identifier text="shapeTweenBlend"/>
+				<identifier text="soundEffect"/>
+				<identifier text="soundLibraryItem"/>
+				<identifier text="soundLoop"/>
+				<identifier text="soundLoopMode"/>
+				<identifier text="soundName"/>
+				<identifier text="soundSync"/>
+				<identifier text="startFrame"/>
+				<identifier text="tweenEasing"/>
+				<identifier text="tweenType"/>
+				<identifier text="useSingleEaseCurve"/>
+				<identifier text="halfEdge"/>
+				<identifier text="id"/>
+				<identifier text="index"/>
+				<identifier text="getEdge"/>
+				<identifier text="getNext"/>
+				<identifier text="getOppositeHalfEdge"/>
+				<identifier text="getPrev"/>
+				<identifier text="getVertex"/>
+				<identifier text="instance"/>
+				<identifier text="instanceType"/>
+				<identifier text="libraryItem"/>
+				<identifier text="item"/>
+				<identifier text="addData"/>
+				<identifier text="getData"/>
+				<identifier text="hasData"/>
+				<identifier text="removeData"/>
+				<identifier text="itemType"/>
+				<identifier text="linkageBaseClass"/>
+				<identifier text="linkageClassName"/>
+				<identifier text="linkageExportForAS"/>
+				<identifier text="linkageExportForRS"/>
+				<identifier text="linkageExportInFirstFrame"/>
+				<identifier text="linkageIdentifier"/>
+				<identifier text="linkageImportForRS"/>
+				<identifier text="linkageURL"/>
+				<identifier text="layer"/>
+				<identifier text="color"/>
+				<identifier text="frameCount"/>
+				<identifier text="frames"/>
+				<identifier text="height"/>
+				<identifier text="layerType"/>
+				<identifier text="locked"/>
+				<identifier text="outline"/>
+				<identifier text="parentLayer"/>
+				<identifier text="visible"/>
+				<identifier text="library"/>
+				<identifier text="addItemToDocument"/>
+				<identifier text="deleteItem"/>
+				<identifier text="duplicateItem"/>
+				<identifier text="editItem"/>
+				<identifier text="expandFolder"/>
+				<identifier text="findItemIndex"/>
+				<identifier text="getItemProperty"/>
+				<identifier text="getItemType"/>
+				<identifier text="getSelectedItems"/>
+				<identifier text="importEmbeddedSWF"/>
+				<identifier text="itemExists"/>
+				<identifier text="moveToFolder"/>
+				<identifier text="newFolder"/>
+				<identifier text="renameItem"/>
+				<identifier text="selectAll"/>
+				<identifier text="selectItem"/>
+				<identifier text="selectNone"/>
+				<identifier text="setItemProperty"/>
+				<identifier text="updateItem"/>
+				<identifier text="Math"/>
+				<identifier text="concatMatrix"/>
+				<identifier text="invertMatrix"/>
+				<identifier text="pointDistance"/>
+				<identifier text="matrix"/>
+				<identifier text="a"/>
+				<identifier text="b"/>
+				<identifier text="c"/>
+				<identifier text="d"/>
+				<identifier text="tx"/>
+				<identifier text="ty"/>
+				<identifier text="outputPanel"/>
+				<identifier text="clear"/>
+				<identifier text="save"/>
+				<identifier text="trace"/>
+				<identifier text="oval"/>
+				<identifier text="closePath"/>
+				<identifier text="endAngle"/>
+				<identifier text="innerRadius"/>
+				<identifier text="startAngle"/>
+				<identifier text="parameter"/>
+				<identifier text="category"/>
+				<identifier text="listIndex"/>
+				<identifier text="value"/>
+				<identifier text="valueType"/>
+				<identifier text="verbose"/>
+				<identifier text="insertItem"/>
+				<identifier text="removeItem"/>
+				<identifier text="nPts"/>
+				<identifier text="addCubicCurve"/>
+				<identifier text="addCurve"/>
+				<identifier text="addPoint"/>
+				<identifier text="clear"/>
+				<identifier text="close"/>
+				<identifier text="makeShape"/>
+				<identifier text="newContour"/>
+				<identifier text="rectangle"/>
+				<identifier text="bottomLeftRadius"/>
+				<identifier text="bottomRightRadius"/>
+				<identifier text="lockFlag"/>
+				<identifier text="topLeftRadius"/>
+				<identifier text="topRightRadius"/>
+				<identifier text="silent"/>
+				<identifier text="tabIndex"/>
+				<identifier text="timeline"/>
+				<identifier text="shape"/>
+				<identifier text="isDrawingObject"/>
+				<identifier text="isOvalObject"/>
+				<identifier text="isRectangleObject"/>
+				<identifier text="members"/>
+				<identifier text="numCubicSegments"/>
+				<identifier text="contours"/>
+				<identifier text="edges"/>
+				<identifier text="isGroup"/>
+				<identifier text="vertices"/>
+				<identifier text="beginEdit"/>
+				<identifier text="deleteEdge"/>
+				<identifier text="endEdit"/>
+				<identifier text="getCubicSegmentPoints"/>
+				<identifier text="soundItem"/>
+				<identifier text="exportToFile"/>
+				<identifier text="bitRate"/>
+				<identifier text="bits"/>
+				<identifier text="compressionType"/>
+				<identifier text="convertStereoToMono"/>
+				<identifier text="originalCompressionType"/>
+				<identifier text="quality"/>
+				<identifier text="sampleRate"/>
+				<identifier text="useImportedMP3Quality"/>
+				<identifier text="stroke"/>
+				<identifier text="breakAtCorners"/>
+				<identifier text="color"/>
+				<identifier text="curve"/>
+				<identifier text="dash1"/>
+				<identifier text="dash2"/>
+				<identifier text="density"/>
+				<identifier text="dotSize"/>
+				<identifier text="dotspace"/>
+				<identifier text="hatchThickness"/>
+				<identifier text="jiggle"/>
+				<identifier text="length"/>
+				<identifier text="pattern"/>
+				<identifier text="rotate"/>
+				<identifier text="space"/>
+				<identifier text="style"/>
+				<identifier text="thickness"/>
+				<identifier text="variation"/>
+				<identifier text="waveHeight"/>
+				<identifier text="waveLength"/>
+				<identifier text="swfPanel"/>
+				<identifier text="callFunction"/>
+				<identifier text="symbolInstance"/>
+				<identifier text="accName"/>
+				<identifier text="actionScript"/>
+				<identifier text="blendMode"/>
+				<identifier text="buttonTracking"/>
+				<identifier text="cacheAsBitmap"/>
+				<identifier text="colorAlphaAmount"/>
+				<identifier text="colorAlphaPercent"/>
+				<identifier text="colorBlueAmount"/>
+				<identifier text="colorBluePercent"/>
+				<identifier text="colorGreenAmount"/>
+				<identifier text="colorGreenPercent"/>
+				<identifier text="colorMode"/>
+				<identifier text="colorRedAmount"/>
+				<identifier text="colorRedPercent"/>
+				<identifier text="description"/>
+				<identifier text="filters"/>
+				<identifier text="firstFrame"/>
+				<identifier text="forceSimple"/>
+				<identifier text="loop"/>
+				<identifier text="shortcut"/>
+				<identifier text="silent"/>
+				<identifier text="symbolType"/>
+				<identifier text="tabIndex"/>
+				<identifier text="symbolItem"/>
+				<identifier text="sourceAutoUpdate"/>
+				<identifier text="sourceLibraryName"/>
+				<identifier text="symbolType"/>
+				<identifier text="timeline"/>
+				<identifier text="convertToCompiledClip"/>
+				<identifier text="exportSWF"/>
+				<identifier text="text"/>
+				<identifier text="accName"/>
+				<identifier text="antiAliasSharpness"/>
+				<identifier text="antiAliasThickness"/>
+				<identifier text="autoExpand"/>
+				<identifier text="border"/>
+				<identifier text="description"/>
+				<identifier text="embeddedCharacters"/>
+				<identifier text="embedRanges"/>
+				<identifier text="fontRenderingMode"/>
+				<identifier text="length"/>
+				<identifier text="lineType"/>
+				<identifier text="maxCharacters"/>
+				<identifier text="orientation"/>
+				<identifier text="renderAsHTML"/>
+				<identifier text="scrollable"/>
+				<identifier text="selectable"/>
+				<identifier text="selectionEnd"/>
+				<identifier text="selectionStart"/>
+				<identifier text="shortcut"/>
+				<identifier text="silent"/>
+				<identifier text="tabIndex"/>
+				<identifier text="textRuns"/>
+				<identifier text="textType"/>
+				<identifier text="useDeviceFonts"/>
+				<identifier text="variableName"/>
+				<identifier text="getTextAttr"/>
+				<identifier text="getTextString"/>
+				<identifier text="setTextAttr"/>
+				<identifier text="setTextString"/>
+				<identifier text="textAttrs"/>
+				<identifier text="aliasText"/>
+				<identifier text="alignment"/>
+				<identifier text="autoKern"/>
+				<identifier text="characterPosition"/>
+				<identifier text="characterSpacing"/>
+				<identifier text="face"/>
+				<identifier text="fillColor"/>
+				<identifier text="indent"/>
+				<identifier text="leftMargin"/>
+				<identifier text="letterSpacing"/>
+				<identifier text="lineSpacing"/>
+				<identifier text="rightMargin"/>
+				<identifier text="rotation"/>
+				<identifier text="target"/>
+				<identifier text="url"/>
+				<identifier text="textRun"/>
+				<identifier text="characters"/>
+				<identifier text="textAttrs"/>
+				<identifier text="timeline"/>
+				<identifier text="currentFrame"/>
+				<identifier text="currentLayer"/>
+				<identifier text="frameCount"/>
+				<identifier text="layerCount"/>
+				<identifier text="layers"/>
+				<identifier text="addMotionGuide"/>
+				<identifier text="addNewLayer"/>
+				<identifier text="clearFrames"/>
+				<identifier text="clearKeyframes"/>
+				<identifier text="convertToBlankKeyframes"/>
+				<identifier text="convertToKeyframes"/>
+				<identifier text="copyFrames"/>
+				<identifier text="copyLayers"/>
+				<identifier text="createMotionTween"/>
+				<identifier text="cutFrames"/>
+				<identifier text="cutLayers"/>
+				<identifier text="deleteLayer"/>
+				<identifier text="duplicateLayers"/>
+				<identifier text="expandFolder"/>
+				<identifier text="findLayerIndex"/>
+				<identifier text="getFrameProperty"/>
+				<identifier text="getGuidelines"/>
+				<identifier text="getLayerProperty"/>
+				<identifier text="getSelectedFrames"/>
+				<identifier text="getSelectedLayers"/>
+				<identifier text="insertBlankKeyframe"/>
+				<identifier text="insertFrames"/>
+				<identifier text="insertKeyframe"/>
+				<identifier text="pasteFrames"/>
+				<identifier text="pasteLayers"/>
+				<identifier text="removeFrames"/>
+				<identifier text="reorderLayer"/>
+				<identifier text="reverseFrames"/>
+				<identifier text="selectAllFrames"/>
+				<identifier text="setFrameProperty"/>
+				<identifier text="setGuidelines"/>
+				<identifier text="setLayerProperty"/>
+				<identifier text="setSelectedFrames"/>
+				<identifier text="setSelectedFrames"/>
+				<identifier text="setSelectedLayers"/>
+				<identifier text="showLayerMasking"/>
+				<identifier text="copyMotion()"/>
+				<identifier text="copyMotionAsAS3()"/>
+				<identifier text="pasteMotion()"/>
+				<identifier text="toolObj"/>
+				<identifier text="depth"/>
+				<identifier text="iconID"/>
+				<identifier text="position"/>
+				<identifier text="enablePIControl"/>
+				<identifier text="setIcon"/>
+				<identifier text="setMenuString"/>
+				<identifier text="setOptionsFile"/>
+				<identifier text="setPI"/>
+				<identifier text="setToolName"/>
+				<identifier text="setToolTip"/>
+				<identifier text="showPIControl"/>
+				<identifier text="showTransformHandles"/>
+				<identifier text="tools"/>
+				<identifier text="activeTool"/>
+				<identifier text="altIsDown"/>
+				<identifier text="constrainPoint"/>
+				<identifier text="ctlIsDown"/>
+				<identifier text="mouseIsDown"/>
+				<identifier text="penDownLoc"/>
+				<identifier text="penLoc"/>
+				<identifier text="shiftIsDown"/>
+				<identifier text="snapPoint"/>
+				<identifier text="toolObjs"/>
+				<identifier text="getKeyDown"/>
+				<identifier text="setCursor"/>
+				<identifier text="vertex"/>
+				<identifier text="x"/>
+				<identifier text="y"/>
+				<identifier text="getHalfEdge"/>
+				<identifier text="setLocation"/>
+				<identifier text="videoItem"/>
+				<identifier text="exportToFLV"/>
+				<identifier text="videoType"/>
+				<identifier text="xmlui"/>
+				<identifier text="setControlItemElement"/>
+				<identifier text="accept"/>
+				<identifier text="cancel"/>
+				<identifier text="getControlItemElement"/>
+				<identifier text="getEnabled"/>
+				<identifier text="getVisible"/>
+				<identifier text="get"/>
+				<identifier text="set"/>
+				<identifier text="setControlItemElements"/>
+				<identifier text="setEnabled"/>
+				<identifier text="setVisible"/>
+				<identifier text="actionsPanel"/>
+				<identifier text="getClassForObject"/>
+				<identifier text="getScriptAssistMode"/>
+				<identifier text="getSelectedText"/>
+				<identifier text="getText"/>
+				<identifier text="hasSelection"/>
+				<identifier text="replaceSelectedText"/>
+				<identifier text="setScriptAssistMode"/>
+				<identifier text="setSelection"/>
+				<identifier text="setText"/>
+			</colorsyntax>
+	<codehints>
+			<typeinfo pattern="*_bitIn" object="bitmapInstance"/>
+			<typeinfo pattern="*_bitIt" object="bitmapItem"/>
+			<typeinfo pattern="*_clipIn" object="compiledClipInstance"/>
+			<typeinfo pattern="*compilerErrors" object="compilerErrors"/>
+			<typeinfo pattern="*_compIn" object="componentInstance"/>
+			<typeinfo pattern="*componentsPanel" object="componentsPanel"/>
+			<typeinfo pattern="*_contour" object="contour"/>
+			<typeinfo pattern="*_doc" object="document"/>
+			<typeinfo pattern="*_drawL" object="drawingLayer"/>
+			<typeinfo pattern="*_edge" object="edge"/>
+			<typeinfo pattern="*_elem" object="element"/>
+			<typeinfo pattern="*_fill" object="fill"/>
+			<typeinfo pattern="*_filt" object="filter"/>
+			<typeinfo pattern="*_fl" object="fl"/>
+			<typeinfo pattern="*fl" object="fl"/>
+			<typeinfo pattern="*flash" object="fl"/>
+			<typeinfo pattern="*FLfile" object="FLfile"/>
+			<typeinfo pattern="*_foldIt" object="folderItem"/>
+			<typeinfo pattern="*_fontIt" object="fontItem"/>
+			<typeinfo pattern="*_frame" object="frame"/>
+			<typeinfo pattern="*_halfEd" object="halfEdge"/>
+			<typeinfo pattern="*_in" object="instance"/>
+			<typeinfo pattern="*_it" object="item"/>
+			<typeinfo pattern="*_layer" object="layer"/>
+			<typeinfo pattern="*_lib" object="library"/>
+			<typeinfo pattern="*library" object="library"/>
+			<typeinfo pattern="*_math" object="Math"/>
+			<typeinfo pattern="*Math" object="Math"/>
+			<typeinfo pattern="*_matrix" object="matrix"/>
+			<typeinfo pattern="*viewMatrix" object="matrix"/>
+			<typeinfo pattern="*matrix" object="matrix"/>
+			<typeinfo pattern="*outputPanel" object="outputPanel"/>
+			<typeinfo pattern="*oval" object="oval"/>
+			<typeinfo pattern="*_param" object="parameter"/>
+			<typeinfo pattern="*_path" object="newPath"/>
+			<typeinfo pattern="*rectangle" object="rectangle"/>
+			<typeinfo pattern="*_shape" object="shape"/>
+			<typeinfo pattern="*_soundIt" object="soundItem"/>
+			<typeinfo pattern="*_stroke" object="stroke"/>
+			<typeinfo pattern="*_symIn" object="symbolInstance"/>
+			<typeinfo pattern="*_symIt" object="symbolItem"/>
+			<typeinfo pattern="*_txt" object="text"/>
+			<typeinfo pattern="*_txtA" object="textAttrs"/>
+			<typeinfo pattern="*_txtR" object="textRun"/>
+			<typeinfo pattern="*_tl" object="timeline"/>
+			<typeinfo pattern="*_toolObj" object="toolObj"/>
+			<typeinfo pattern="*_tools" object="tools"/>
+			<typeinfo pattern="*_vertex" object="vertex"/>
+			<typeinfo pattern="*_videoIt" object="videoItem"/>
+			<typeinfo pattern="*_xmlui" object="xmlui"/>
+			<typeinfo pattern="*xmlui" object="xmlui"/>
+	</codehints>
+</toolbox>

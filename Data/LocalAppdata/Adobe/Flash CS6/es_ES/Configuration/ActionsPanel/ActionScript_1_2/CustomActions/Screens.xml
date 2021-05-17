@@ -1,0 +1,267 @@
+\ufeff<?xml version="1.0" encoding="utf-8"?>
+		<customactions>
+			<actionspanel>
+				<ifedition edition="pro">
+					<folder name="Pantallas" id="Screen Classes" index="true" tiptext="Clases de pantalla de Flash" helpid="" version="6">
+						<folder name="Formulario" id="[mx.screens.Form]" index="true" tiptext="Clase Form. Extiende Screen." helpid="x20698" version="6">
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades de Form" version="6">
+								<string name="autoLoad" tiptext="Si el valor es true, carga el contenido de forma automática" helpid="x20C3B" text=".autoLoad" object="[mx.screens.Form]" version="6"/>
+								<string name="bytesLoaded" tiptext="Devuelve el número de bytes cargados del contenido del cargador" helpid="x20C3C" text=".bytesLoaded" object="[mx.screens.Form]" version="6"/>
+								<string name="bytesTotal" tiptext="Devuelve el tamaño del contenido del cargador en bytes" helpid="x20C3D" text=".bytesTotal" object="[mx.screens.Form]" version="6"/>
+								<string name="content" tiptext="Devuelve el contenido del cargador" helpid="x20C3E" text=".content" object="[mx.screens.Form]" version="6"/>
+								<string name="contentPath" tiptext="Obtiene o define la URL absoluta o relativa del contenido que se va a cargar" helpid="x20C3F" text=".contentPath" object="[mx.screens.Form]" version="6"/>
+								<string name="currentFocusedForm" tiptext="Formulario del nodo de hoja que contiene el campo o componente actualmente seleccionado" helpid="x2076E" text="mx.screens.Form.currentFocusedForm" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="currentFocusedScreen" tiptext="Pantalla actual del último nodo que contiene el foco global" helpid="x2074E" text="mx.screens.Form.currentFocusedScreen" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="enabled" tiptext="Especifica si el componente acepta la interacción con el usuario" helpid="x20F70" text=".enabled" object="[mx.screens.Form]" version="6"/>
+								<string name="indexInParent" tiptext="índice de esta pantalla en su principal (getChildScreen)" helpid="x20748" text=".indexInParent" object="[mx.screens.Form]" version="6"/>
+								<string name="indexInParentForm" tiptext="índice de este formulario en su principal (getChildForm)" helpid="x20769" text=".indexInParentForm" object="[mx.screens.Form]" version="6"/>
+								<string name="numChildForms" tiptext="número de formularios secundarios de este formulario" helpid="x2076A" text=".numChildForms" object="[mx.screens.Form]" version="6"/>
+								<string name="numChildScreens" tiptext="número de pantallas secundarias de esta pantalla" helpid="x20749" text=".numChildScreens" object="[mx.screens.Form]" version="6"/>
+								<string name="numChildren" tiptext="Devuelve el número de secundarios" helpid="x20D48" text=".numChildren" object="[mx.screens.Form]" version="6"/>
+								<string name="parentForm" tiptext="Formulario que contiene este formulario" helpid="x2076C" text=".parentForm" object="[mx.screens.Form]" version="6"/>
+								<string name="parentIsForm" tiptext="True si _parent de este formulario es un formulario" helpid="x2076B" text=".parentIsForm" object="[mx.screens.Form]" version="6"/>
+								<string name="parentIsScreen" tiptext="True si _parent de esta pantalla es una pantalla" helpid="x2074A" text=".parentIsScreen" object="[mx.screens.Form]" version="6"/>
+								<string name="parentScreen" tiptext="Pantalla que contiene esta pantalla" helpid="x2074B" text=".parentScreen" object="[mx.screens.Form]" version="6"/>
+								<string name="percentLoaded" tiptext="Obtiene el porcentaje del contenido cargado" helpid="x20C40" text=".percentLoaded" object="[mx.screens.Form]" version="6"/>
+								<string name="rootForm" tiptext="Formulario raíz del subárbol de formularios que contiene este formulario" helpid="x2076D" text=".rootForm" object="[mx.screens.Form]" version="6"/>
+								<string name="rootScreen" tiptext="Raíz del subárbol de pantallas que contiene esta pantalla" helpid="x2074C" text=".rootScreen" object="[mx.screens.Form]" version="6"/>
+								<string name="scaleContent" tiptext="Si el valor es true, ajusta la escala del contenido al tamaño del cargador" helpid="x20C41" text=".scaleContent" object="[mx.screens.Form]" version="6"/>
+								<string name="scaleX" tiptext="Especifica el factor de escala horizontal" helpid="x20F86" text=".scaleX" object="[mx.screens.Form]" version="6"/>
+								<string name="scaleY" tiptext="Especifica el factor de escala vertical" helpid="x20F87" text=".scaleY" object="[mx.screens.Form]" version="6"/>
+								<string name="visible" tiptext="controla si el formulario es visible" helpid="x20768" text=".visible" object="[mx.screens.Form]" version="6"/>
+							</folder>
+							<folder name="Métodos" id="Methods" tiptext="Métodos de Form" version="6">
+								<string name="addEventListener" tiptext="Añade un detector para un evento" helpid="x20AD4" text=".addEventListener(% %)" object="[mx.screens.Form]" version="6"/>
+								<string name="createClassObject" tiptext="Crea un subobjeto utilizando su nombre de clase" helpid="x20F79" text=".createClassObject(% nombre de clase:Function, id:String, profundidad:Number, objeto de inicialización:Object %)" object="[mx.screens.Form]" version="6"/>
+								<string name="createObject" tiptext="Crea un subobjeto utilizando su nombre de símbolo" helpid="x20F78" text=".createObject(% nombre de vinculación:String, id:String, profundidad:Number, objeto de inicialización:Object %)" object="[mx.screens.Form]" version="6"/>
+								<string name="destroyObject" tiptext="Destruye el objeto especificado" helpid="x20F7A" text=".destroyObject(% id:String %)" object="[mx.screens.Form]" version="6"/>
+								<string name="getChildAt" tiptext="Devuelve el secundario a la posición especificada" helpid="x20D4B" text=".getChildAt(% índiceSecundario:Number %)" object="[mx.screens.Form]" version="6"/>
+								<string name="getChildForm" tiptext="Obtener el enésimo secundario de este formulario" helpid="x2076F" text=".getChildForm(% índiceSecundario:Number %)" object="[mx.screens.Form]" version="6"/>
+								<string name="getChildScreen" tiptext="Obtener el enésimo secundario de esta pantalla" helpid="x2074F" text=".getChildScreen(% índiceSecundario:Number %)" object="[mx.screens.Form]" version="6"/>
+								<string name="getFocus" tiptext="Devuelve el componente que está seleccionado actualmente" helpid="x20F71" text=".getFocus(% %)" object="[mx.screens.Form]" version="6"/>
+								<string name="getStyle" tiptext="Obtiene el valor de estilo asociado a la propiedad del estilo" helpid="x20F7D" text=".getStyle(% propiedades de estilo:String %)" object="[mx.screens.Form]" version="6"/>
+								<string name="handleEvent" tiptext="Controla todos los eventos" helpid="x20BD8" text=".handleEvent(% %)" object="[mx.screens.Form]" version="6"/>
+								<string name="invalidate" tiptext="Marca un objeto que se va a volver a dibujar en el intervalo de fotogramas siguiente" helpid="x20F7E" text=".invalidate(% nulo %)" object="[mx.screens.Form]" version="6"/>
+								<string name="load" tiptext="Indica al cargador que debe comenzar a cargar su contenido." helpid="x20C42" text=".load(% url:String %)" object="[mx.screens.Form]" version="6"/>
+								<string name="move" tiptext="Desplaza el objeto a la ubicación especificada" helpid="x20F82" text=".move(% x:Number, y:Number, sin evento:Boolean %)" object="[mx.screens.Form]" version="6"/>
+								<string name="redraw" tiptext="Vuelve a dibujar un objeto inmediatamente" helpid="x20F83" text=".redraw(% bSiempre:Boolean %)" object="[mx.screens.Form]" version="6"/>
+								<string name="setFocus" tiptext="Selecciona este componente" helpid="x20F74" text=".setFocus(% %)" object="[mx.screens.Form]" version="6"/>
+								<string name="setSize" tiptext="Cambia el tamaño del objeto por el tamaño especificado" helpid="x20F88" text=".setSize(% an:Number, al:Number, sin evento:Boolean %)" object="[mx.screens.Form]" version="6"/>
+								<string name="setStyle" tiptext="Establece un valor de estilo para la propiedad de estilo especificada" helpid="x20F8A" text=".setStyle(%nombreDePropiedad:String, valor:String%)" object="[mx.screens.Form]" version="6"/>
+							</folder>
+							<folder name="Eventos" id="Events" tiptext="Eventos de Form" version="6">
+								<string name="allTransitionsInDone" tiptext="Evento allTransitionsInDone" helpid="x2073A" text=".addEventListener(&quot;allTransitionsInDone&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="allTransitionsOutDone" tiptext="Evento allTransitionsOutDone" helpid="x2073B" text=".addEventListener(&quot;allTransitionsOutDone&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="complete" tiptext="Evento complete" helpid="x20C38" text=".addEventListener(&quot;complete&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="draw" tiptext="Evento draw" helpid="x20F7B" text=".addEventListener(&quot;draw&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="focusIn" tiptext="Evento focusIn" helpid="x20F6E" text=".addEventListener(&quot;focusIn&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="focusOut" tiptext="Evento focusOut" helpid="x20F6F" text=".addEventListener(&quot;focusOut&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="hide" tiptext="Evento hide" helpid="x2073C" text=".addEventListener(&quot;hide&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="keyDown" tiptext="Evento keyDown" helpid="x20F72" text=".addEventListener(&quot;keyDown&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="keyUp" tiptext="Evento keyUp" helpid="x20F73" text=".addEventListener(&quot;keyUp&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="load" tiptext="Evento load" helpid="x20F80" text=".addEventListener(&quot;load&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="mouseDown" tiptext="Evento mouseDown" helpid="x2073E" text=".addEventListener(&quot;mouseDown&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="mouseDownSomewhere" tiptext="Evento mouseDownSomewhere" helpid="x2073F" text=".addEventListener(&quot;mouseDownSomewhere&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="mouseMove" tiptext="Evento mouseMove" helpid="x20740" text=".addEventListener(&quot;mouseMove&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="mouseOut" tiptext="Evento mouseOut" helpid="x20770" text=".addEventListener(&quot;mouseOut&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="mouseOver" tiptext="Evento mouseOver" helpid="x20742" text=".addEventListener(&quot;mouseOver&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="mouseUp" tiptext="Evento mouseUp" helpid="x20743" text=".addEventListener(&quot;mouseUp&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="mouseUpSomewhere" tiptext="Evento mouseUpSomewhere" helpid="x20744" text=".addEventListener(&quot;mouseUpSomewhere&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="move" tiptext="Evento move" helpid="x20F81" text=".addEventListener(&quot;move&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="progress" tiptext="Evento progress" helpid="x20C39" text=".addEventListener(&quot;progress&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="resize" tiptext="Evento resize" helpid="x20F84" text=".addEventListener(&quot;resize&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="reveal" tiptext="Evento reveal" helpid="x20745" text=".addEventListener(&quot;reveal&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+								<string name="unload" tiptext="Evento unload" helpid="x20F8C" text=".addEventListener(&quot;unload&quot;, %detector%);" codehint="false" object="[mx.screens.Form]" version="6"/>
+							</folder>
+						</folder>
+						<folder name="Diapositiva" id="[mx.screens.Slide]" index="true" tiptext="Clase Slide. Extiende Screen." helpid="x20694" version="6">
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades de Slide" version="6">
+								<string name="autoKeyNav" tiptext="Utilizar control de keydown predeterminado de teclas de flecha para navegar por las diapositivas" helpid="x20751" text=".autoKeyNav" object="[mx.screens.Slide]" version="6"/>
+								<string name="autoLoad" tiptext="Si el valor es true, carga el contenido de forma automática" helpid="x20C3B" text=".autoLoad" object="[mx.screens.Slide]" version="6"/>
+								<string name="bytesLoaded" tiptext="Devuelve el número de bytes cargados del contenido del cargador" helpid="x20C3C" text=".bytesLoaded" object="[mx.screens.Slide]" version="6"/>
+								<string name="bytesTotal" tiptext="Devuelve el tamaño del contenido del cargador en bytes" helpid="x20C3D" text=".bytesTotal" object="[mx.screens.Slide]" version="6"/>
+								<string name="content" tiptext="Devuelve el contenido del cargador" helpid="x20C3E" text=".content" object="[mx.screens.Slide]" version="6"/>
+								<string name="contentPath" tiptext="Obtiene o define la URL absoluta o relativa del contenido que se va a cargar" helpid="x20C3F" text=".contentPath" object="[mx.screens.Slide]" version="6"/>
+								<string name="currentChildSlide" tiptext="Diapositiva secundaria inmediata que contiene la diapositiva actual (nodo de hoja)" helpid="x20754" text=".currentChildSlide" object="[mx.screens.Slide]" version="6"/>
+								<string name="currentFocusedScreen" tiptext="Pantalla actual del último nodo que contiene el foco global" helpid="x2074E" text="mx.screens.Slide.currentFocusedScreen" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="currentFocusedSlide" tiptext="Diapositiva de nodo hoja que contiene el campo o componente actualmente seleccionado" helpid="x20756" text="mx.screens.Slide.currentFocusedSlide" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="currentSlide" tiptext="Diapositiva del nodo de hoja actualmente activa" helpid="x20755" text=".currentSlide" object="[mx.screens.Slide]" version="6"/>
+								<string name="defaultKeyDownHandler" tiptext="Controlador de keydown a invocar para procesar teclas para esta diapositiva" helpid="x20757" text=".defaultKeyDownHandler" object="[mx.screens.Slide]" version="6"/>
+								<string name="enabled" tiptext="Especifica si el componente acepta la interacción con el usuario" helpid="x20F70" text=".enabled" object="[mx.screens.Slide]" version="6"/>
+								<string name="firstSlide" tiptext="Primera diapositiva de hoja de este subárbol de la diapositiva" helpid="x20758" text=".firstSlide" object="[mx.screens.Slide]" version="6"/>
+								<string name="indexInParent" tiptext="índice de esta pantalla en su principal (getChildScreen)" helpid="x20748" text=".indexInParent" object="[mx.screens.Slide]" version="6"/>
+								<string name="indexInParentSlide" tiptext="índice de esta diapositiva en su principal (getChildSlide)" helpid="x2075A" text=".indexInParentSlide" object="[mx.screens.Slide]" version="6"/>
+								<string name="lastSlide" tiptext="Última diapositiva de hoja de este subárbol de la diapositiva" helpid="x20759" text=".lastSlide" object="[mx.screens.Slide]" version="6"/>
+								<string name="nextSlide" tiptext="siguiente diapositiva después de ésta en el contorno de diapositivas" helpid="x2075B" text=".nextSlide" object="[mx.screens.Slide]" version="6"/>
+								<string name="numChildScreens" tiptext="número de pantallas secundarias de esta pantalla" helpid="x20749" text=".numChildScreens" object="[mx.screens.Slide]" version="6"/>
+								<string name="numChildSlides" tiptext="número de diapositivas secundarias de esta diapositiva" helpid="x2075C" text=".numChildSlides" object="[mx.screens.Slide]" version="6"/>
+								<string name="numChildren" tiptext="Devuelve el número de secundarios" helpid="x20D48" text=".numChildren" object="[mx.screens.Slide]" version="6"/>
+								<string name="overlayChildren" tiptext="Mostrar diapositivas secundarias como solapamientos con estilo de viñeta" helpid="x20752" text=".overlayChildren" object="[mx.screens.Slide]" version="6"/>
+								<string name="parentIsScreen" tiptext="True si _parent de esta pantalla es una pantalla" helpid="x2074A" text=".parentIsScreen" object="[mx.screens.Slide]" version="6"/>
+								<string name="parentIsSlide" tiptext="True si _parent de esta diapositiva es una diapositiva" helpid="x2075D" text=".parentIsSlide" object="[mx.screens.Slide]" version="6"/>
+								<string name="parentScreen" tiptext="Pantalla que contiene esta pantalla" helpid="x2074B" text=".parentScreen" object="[mx.screens.Slide]" version="6"/>
+								<string name="parentSlide" tiptext="Diapositiva que contiene esta diapositiva" helpid="x227B5" text=".parentSlide" object="[mx.screens.Slide]" version="6"/>
+								<string name="percentLoaded" tiptext="Obtiene el porcentaje del contenido cargado" helpid="x20C40" text=".percentLoaded" object="[mx.screens.Slide]" version="6"/>
+								<string name="playHidden" tiptext="Continuar reproduciendo la línea de tiempo de la diapositiva cuando la diapositiva no esté visible" helpid="x20753" text=".playHidden" object="[mx.screens.Slide]" version="6"/>
+								<string name="previousSlide" tiptext="diapositiva anterior a ésta en el contorno de diapositivas" helpid="x2075F" text=".previousSlide" object="[mx.screens.Slide]" version="6"/>
+								<string name="rootScreen" tiptext="Raíz del subárbol de pantallas que contiene esta pantalla" helpid="x2074C" text=".rootScreen" object="[mx.screens.Slide]" version="6"/>
+								<string name="rootSlide" tiptext="Diapositiva raíz del subárbol de diapositivas que contiene esta pantalla" helpid="x20760" text=".rootSlide" object="[mx.screens.Slide]" version="6"/>
+								<string name="scaleContent" tiptext="Si el valor es true, ajusta la escala del contenido al tamaño del cargador" helpid="x20C41" text=".scaleContent" object="[mx.screens.Slide]" version="6"/>
+								<string name="scaleX" tiptext="Especifica el factor de escala horizontal" helpid="x20F86" text=".scaleX" object="[mx.screens.Slide]" version="6"/>
+								<string name="scaleY" tiptext="Especifica el factor de escala vertical" helpid="x20F87" text=".scaleY" object="[mx.screens.Slide]" version="6"/>
+							</folder>
+							<folder name="Métodos" id="Methods" tiptext="Métodos de Slide" version="6">
+								<string name="addEventListener" tiptext="Añade un detector para un evento" helpid="x20AD4" text=".addEventListener(% %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="createClassObject" tiptext="Crea un subobjeto utilizando su nombre de clase" helpid="x20F79" text=".createClassObject(% nombre de clase:Function, id:String, profundidad:Number, objeto de inicialización:Object %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="createObject" tiptext="Crea un subobjeto utilizando su nombre de símbolo" helpid="x20F78" text=".createObject(% nombre de vinculación:String, id:String, profundidad:Number, objeto de inicialización:Object %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="destroyObject" tiptext="Destruye el objeto especificado" helpid="x20F7A" text=".destroyObject(% id:String %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="getChildAt" tiptext="Devuelve el secundario a la posición especificada" helpid="x20D4B" text=".getChildAt(% índiceSecundario:Number %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="getChildScreen" tiptext="Obtener el enésimo secundario de esta pantalla" helpid="x2074F" text=".getChildScreen(% índiceSecundario:Number %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="getChildSlide" tiptext="Obtener el enésimo secundario de esta diapositiva" helpid="x20761" text=".getChildSlide(% índiceSecundario:Number %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="getFocus" tiptext="Devuelve el componente que está seleccionado actualmente" helpid="x20F71" text=".getFocus(% %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="getStyle" tiptext="Obtiene el valor de estilo asociado a la propiedad del estilo" helpid="x20F7D" text=".getStyle(% propiedades de estilo:String %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="gotoFirstSlide" tiptext="Navegar a la primera diapositiva de hoja después de esta diapositiva" helpid="x20762" text=".gotoFirstSlide(% %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="gotoLastSlide" tiptext="Navegar a la última diapositiva de hoja después de esta diapositiva" helpid="x20763" text=".gotoLastSlide(% %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="gotoNextSlide" tiptext="Navegar a la siguiente diapositiva de hoja después de esta diapositiva" helpid="x20764" text=".gotoNextSlide(% %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="gotoPreviousSlide" tiptext="Navegar a la diapositiva de hoja anterior antes de esta diapositiva" helpid="x20765" text=".gotoPreviousSlide(% %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="gotoSlide" tiptext="Navegar a una diapositiva diferente" helpid="x20766" text=".gotoSlide(% nueva diapositiva:Slide %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="handleEvent" tiptext="Controla todos los eventos" helpid="x20BD8" text=".handleEvent(% %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="invalidate" tiptext="Marca un objeto que se va a volver a dibujar en el intervalo de fotogramas siguiente" helpid="x20F7E" text=".invalidate(% nulo %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="load" tiptext="Indica al cargador que debe comenzar a cargar su contenido." helpid="x20C42" text=".load(% url:String %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="move" tiptext="Desplaza el objeto a la ubicación especificada" helpid="x20F82" text=".move(% x:Number, y:Number, sin evento:Boolean %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="redraw" tiptext="Vuelve a dibujar un objeto inmediatamente" helpid="x20F83" text=".redraw(% bSiempre:Boolean %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="setFocus" tiptext="Selecciona este componente" helpid="x20F74" text=".setFocus(% %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="setSize" tiptext="Cambia el tamaño del objeto por el tamaño especificado" helpid="x20F88" text=".setSize(% an:Number, al:Number, sin evento:Boolean %)" object="[mx.screens.Slide]" version="6"/>
+								<string name="setStyle" tiptext="Establece un valor de estilo para la propiedad de estilo especificada" helpid="x20F8A" text=".setStyle(%nombreDePropiedad:String, valor:String%)" object="[mx.screens.Slide]" version="6"/>
+							</folder>
+							<folder name="Eventos" id="Events" tiptext="Eventos de Slide" version="6">
+								<string name="allTransitionsInDone" tiptext="Evento allTransitionsInDone" helpid="x2073A" text=".addEventListener(&quot;allTransitionsInDone&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="allTransitionsOutDone" tiptext="Evento allTransitionsOutDone" helpid="x2073B" text=".addEventListener(&quot;allTransitionsOutDone&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="complete" tiptext="Evento complete" helpid="x20C38" text=".addEventListener(&quot;complete&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="draw" tiptext="Evento draw" helpid="x20F7B" text=".addEventListener(&quot;draw&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="focusIn" tiptext="Evento focusIn" helpid="x20F6E" text=".addEventListener(&quot;focusIn&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="focusOut" tiptext="Evento focusOut" helpid="x20F6F" text=".addEventListener(&quot;focusOut&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="hide" tiptext="Evento hide" helpid="x2073C" text=".addEventListener(&quot;hide&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="hideChild" tiptext="Evento hideChild" helpid="x2073D" text=".addEventListener(&quot;hideChild&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="keyDown" tiptext="Evento keyDown" helpid="x20F72" text=".addEventListener(&quot;keyDown&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="keyUp" tiptext="Evento keyUp" helpid="x20F73" text=".addEventListener(&quot;keyUp&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="load" tiptext="Evento load" helpid="x20F80" text=".addEventListener(&quot;load&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="mouseDown" tiptext="Evento mouseDown" helpid="x2073E" text=".addEventListener(&quot;mouseDown&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="mouseDownSomewhere" tiptext="Evento mouseDownSomewhere" helpid="x2073F" text=".addEventListener(&quot;mouseDownSomewhere&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="mouseMove" tiptext="Evento mouseMove" helpid="x20740" text=".addEventListener(&quot;mouseMove&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="mouseOut" tiptext="Evento mouseOut" helpid="x20770" text=".addEventListener(&quot;mouseOut&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="mouseOver" tiptext="Evento mouseOver" helpid="x20742" text=".addEventListener(&quot;mouseOver&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="mouseUp" tiptext="Evento mouseUp" helpid="x20743" text=".addEventListener(&quot;mouseUp&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="mouseUpSomewhere" tiptext="Evento mouseUpSomewhere" helpid="x20744" text=".addEventListener(&quot;mouseUpSomewhere&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="move" tiptext="Evento move" helpid="x20F81" text=".addEventListener(&quot;move&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="progress" tiptext="Evento progress" helpid="x20C39" text=".addEventListener(&quot;progress&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="resize" tiptext="Evento resize" helpid="x20F84" text=".addEventListener(&quot;resize&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="reveal" tiptext="Evento reveal" helpid="x20745" text=".addEventListener(&quot;reveal&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="revealChild" tiptext="Evento revealChild" helpid="x20746" text=".addEventListener(&quot;revealChild&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+								<string name="unload" tiptext="Evento unload" helpid="x20F8C" text=".addEventListener(&quot;unload&quot;, %detector%);" codehint="false" object="[mx.screens.Slide]" version="6"/>
+							</folder>
+						</folder>
+					</folder>
+					<folder name="Tipos" id="Types" index="true" tiptext="Tipos de componente que se pueden utilizar para strong typing" helpid="x20000" version="6">
+						<string name="Form" tiptext="Tipo Form" helpid="x20698" text="Form" object="mx.screens.Form" version="6"/>
+						<string name="Slide" tiptext="Tipo Slide" helpid="x20694" text="Slide" object="mx.screens.Slide" version="6"/>
+					</folder>
+				</ifedition>
+	</actionspanel>
+	<codehints>
+				<package name="mx.screens" children="Form,Slide"/>
+	</codehints>
+				<colorsyntax>
+					<ifedition edition="pro">
+						<identifier text="Form"/>
+						<identifier text="Slide"/>
+						<identifier text="addEventListener"/>
+						<identifier text="allTransitionsInDone"/>
+						<identifier text="allTransitionsOutDone"/>
+						<identifier text="autoKeyNav"/>
+						<identifier text="autoLoad"/>
+						<identifier text="bytesLoaded"/>
+						<identifier text="bytesTotal"/>
+						<identifier text="complete"/>
+						<identifier text="content"/>
+						<identifier text="contentPath"/>
+						<identifier text="createClassObject"/>
+						<identifier text="createObject"/>
+						<identifier text="currentChildSlide"/>
+						<identifier text="currentFocusedForm"/>
+						<identifier text="currentFocusedScreen"/>
+						<identifier text="currentFocusedSlide"/>
+						<identifier text="currentSlide"/>
+						<identifier text="defaultKeyDownHandler"/>
+						<identifier text="destroyObject"/>
+						<identifier text="draw"/>
+						<identifier text="enabled"/>
+						<identifier text="firstSlide"/>
+						<identifier text="focusIn"/>
+						<identifier text="focusOut"/>
+						<identifier text="getChildAt"/>
+						<identifier text="getChildForm"/>
+						<identifier text="getChildScreen"/>
+						<identifier text="getChildSlide"/>
+						<identifier text="getFocus"/>
+						<identifier text="getStyle"/>
+						<identifier text="gotoFirstSlide"/>
+						<identifier text="gotoLastSlide"/>
+						<identifier text="gotoNextSlide"/>
+						<identifier text="gotoPreviousSlide"/>
+						<identifier text="gotoSlide"/>
+						<identifier text="handleEvent"/>
+						<identifier text="hide"/>
+						<identifier text="hideChild"/>
+						<identifier text="indexInParent"/>
+						<identifier text="indexInParentForm"/>
+						<identifier text="indexInParentSlide"/>
+						<identifier text="invalidate"/>
+						<identifier text="keyDown"/>
+						<identifier text="keyUp"/>
+						<identifier text="lastSlide"/>
+						<identifier text="load"/>
+						<identifier text="mouseDown"/>
+						<identifier text="mouseDownSomewhere"/>
+						<identifier text="mouseMove"/>
+						<identifier text="mouseOut"/>
+						<identifier text="mouseOver"/>
+						<identifier text="mouseUp"/>
+						<identifier text="mouseUpSomewhere"/>
+						<identifier text="move"/>
+						<identifier text="mx.screens.Form"/>
+						<identifier text="mx.screens.Slide"/>
+						<identifier text="nextSlide"/>
+						<identifier text="numChildForms"/>
+						<identifier text="numChildScreens"/>
+						<identifier text="numChildSlides"/>
+						<identifier text="numChildren"/>
+						<identifier text="overlayChildren"/>
+						<identifier text="parentForm"/>
+						<identifier text="parentIsForm"/>
+						<identifier text="parentIsScreen"/>
+						<identifier text="parentIsSlide"/>
+						<identifier text="parentScreen"/>
+						<identifier text="parentSlide"/>
+						<identifier text="percentLoaded"/>
+						<identifier text="playHidden"/>
+						<identifier text="previousSlide"/>
+						<identifier text="progress"/>
+						<identifier text="redraw"/>
+						<identifier text="resize"/>
+						<identifier text="reveal"/>
+						<identifier text="revealChild"/>
+						<identifier text="rootForm"/>
+						<identifier text="rootScreen"/>
+						<identifier text="rootSlide"/>
+						<identifier text="scaleContent"/>
+						<identifier text="scaleX"/>
+						<identifier text="scaleY"/>
+						<identifier text="setFocus"/>
+						<identifier text="setSize"/>
+						<identifier text="setStyle"/>
+						<identifier text="unload"/>
+						<identifier text="visible"/>
+					</ifedition>
+				</colorsyntax>
+			</customactions>

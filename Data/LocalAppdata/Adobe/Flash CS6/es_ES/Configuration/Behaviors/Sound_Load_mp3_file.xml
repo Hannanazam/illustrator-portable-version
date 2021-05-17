@@ -1,0 +1,67 @@
+﻿<?xml version="1.0"?>
+
+<!-- **************************************************************************** -->
+<!-- Copyright 2003 Macromedia, Inc. All Rights Reserved.                         -->
+<!-- The following is Sample Code and is subject to all restrictions on           -->
+<!-- such code as contained in the End User License Agreement accompanying        -->
+<!-- this product.                                                                -->
+<!-- **************************************************************************** -->
+
+<flash_behavior version="1.0">
+
+<!--Below is where and how we define the behavior and its parameters-->
+
+	<behavior_definition dialogID="Load_mp3_sound-dialog" category="Sonido" name="Cargar archivo MP3 de flujo">
+		<properties>
+			<property id="sound_location"/> 
+			<property id="sound_identifier"/>
+		</properties>
+	
+		<!--The dialog window is tied to the controls below by its id-->
+		<!--This controls generate the dialog using the XML to UI functionality-->
+		
+		<dialog id="Load_mp3_sound-dialog" title="Cargar archivo MP3 de flujo" buttons="accept, cancel">
+			<grid>
+			  <columns>
+			    <column>				 
+				  <rows>
+					<row align="center">
+				      <vbox>
+					    <label value="Especifique la URL del archivo .MP3 que desea cargar:                      "/> 
+						<textbox literal="true" id="sound_location" tabindex="1" required="true" requiredname="ubicación de sonido"/>
+					  </vbox>
+					</row>
+				  </rows>
+				  <rows>
+					<row align="center">
+				      <vbox>
+					    <label value=""/> 
+					    <label value="Escriba un nombre para esta instancia de sonido para futuras referencias:"/>
+						<textbox id="sound_identifier" tabindex="2" required="true" requiredname="identificador de sonido" onchange="fl.runScript(fl.configURI + '/Javascript/InputRangeCheck.jsfl', 'requireAlphaNumericData','sound_identifier');"/> 
+					  </vbox>
+					</row>
+				  </rows>
+			    </column>				 
+			  </columns>
+			</grid>
+		</dialog>
+		<actionscript>
+		
+	<!-- Inside the CDATA section is where you place the Actionscript to be displayed in the AS panel-->
+		
+<![CDATA[
+	//Load Streaming mp3 behavior
+	if(_global.Behaviors == null)_global.Behaviors = {};
+	if(_global.Behaviors.Sound == null)_global.Behaviors.Sound = {};
+	if(typeof this.createEmptyMovieClip == 'undefined'){
+		this._parent.createEmptyMovieClip('BS_$sound_identifier$',new Date().getTime()-(Math.floor((new Date().getTime()) /10000)*10000) );
+		_global.Behaviors.Sound.$sound_identifier$ = new Sound(this._parent.BS_$sound_identifier$);
+	} else {
+		this.createEmptyMovieClip('_$sound_identifier$_',new Date().getTime()-(Math.floor((new Date().getTime()) /10000)*10000) );
+		_global.Behaviors.Sound.$sound_identifier$ = new Sound(this.BS_$sound_identifier$);
+	}
+	_global.Behaviors.Sound.$sound_identifier$.loadSound($sound_location$,true);
+]]>
+		</actionscript>
+	</behavior_definition>
+</flash_behavior>

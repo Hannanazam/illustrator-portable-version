@@ -1,0 +1,495 @@
+\ufeff<?xml version="1.0" encoding="utf-8"?>
+		<customactions>
+			<actionspanel>
+				<ifedition edition="pro">
+					<folder name="Componentes de datos" id="Data Components" index="true" tiptext="Componentes de datos de Flash" helpid="" version="6">
+						<folder name="Binding" id="[mx.data.binding.Binding]" index="true" tiptext="Objeto que transfiere datos entre 2 componentes" helpid="x2069E" version="6">
+							<string name="Binding" text="new Binding(% origen:Object, dest:Object, formato:Object, is2way:Boolean %)" object="[mx.data.binding.Binding]" tiptext="Crear una vinculación entre 2 componentes" helpid="x20635" version="6"/>
+							<folder name="Métodos" id="Methods" tiptext="Métodos de vinculación" version="6">
+								<string name="execute" text=".execute(% invertir:Boolean %)" object="[mx.data.binding.Binding]" tiptext="Realizar una transferencia de datos desde el origen hasta el destino" helpid="x2061D" version="6"/>
+							</folder>
+						</folder>
+						<folder name="ComponentMixins" id="[mx.data.binding.ComponentMixins]" index="true" tiptext="Métodos y propiedades disponibles en cualquier componente de vinculación a datos" helpid="x2069D" version="6">
+							<folder name="Métodos" id="Methods" tiptext="Métodos de ComponentMixins" version="6">
+								<string name="getField" text=".getField(% propiedad:String, ubicación:Object %)" object="[mx.data.binding.ComponentMixins]" tiptext="Obtener un objeto que proporciona acceso a un campo de datos" helpid="x20626" version="6"/>
+								<string name="initComponent" text="mx.data.binding.ComponentMixins.initComponent(% componente %)" object="[mx.data.binding.ComponentMixins]" tiptext="Añadir todas las funciones ComponentMixin a un componente" helpid="x20625" codehint="false" version="6"/>
+								<string name="refreshDestinations" text=".refreshDestinations(% %)" object="[mx.data.binding.ComponentMixins]" tiptext="Ejecutar todas las vinculaciones que tengan este componente como origen" helpid="x2061A" version="6"/>
+								<string name="refreshFromSources" text=".refreshFromSources(% %)" object="[mx.data.binding.ComponentMixins]" tiptext="Ejecutar todas las vinculaciones que tengan este componente como destino" helpid="x20619" version="6"/>
+								<string name="validateProperty" text=".validateProperty(% propiedad:String, mensajesIniciales:Array %)" object="[mx.data.binding.ComponentMixins]" tiptext="Examinar una propiedad seleccionada para comprobar si contiene datos válidos" helpid="x2061B" version="6"/>
+							</folder>
+						</folder>
+						<folder name="DataType" id="[mx.data.binding.DataType]" index="true" tiptext="Proporciona acceso de obtención/definición a un campo de una propiedad de componente" helpid="x20695" version="6">
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades de DataType" version="6">
+								<string name="encoder" text=".encoder" object="[mx.data.binding.DataType]" tiptext="Objeto codificador para este campo" helpid="x2062F" version="6"/>
+								<string name="formatter" text=".formatter" object="[mx.data.binding.DataType]" tiptext="Objeto formateador para este campo" helpid="x2062E" version="6"/>
+								<string name="kind" text=".kind" object="[mx.data.binding.DataType]" tiptext="Objeto de tipo para este campo" helpid="x2062D" version="6"/>
+							</folder>
+							<folder name="Métodos" id="Methods" tiptext="Métodos de DataType" version="6">
+								<string name="getAnyTypedValue" text=".getAnyTypedValue(% tiposSugeridos:Array %)" object="[mx.data.binding.DataType]" tiptext="Recupera el valor actual de los datos, dada una lista de los tipos sugeridos." helpid="x20638" version="6"/>
+								<string name="getAsBoolean" text=".getAsBoolean(% %)" object="[mx.data.binding.DataType]" tiptext="Obtiene el valor actual, como booleano" helpid="x20627" version="6"/>
+								<string name="getAsNumber" text=".getAsNumber(% %)" object="[mx.data.binding.DataType]" tiptext="Obtiene el valor actual, como número" helpid="x20628" version="6"/>
+								<string name="getAsString" text=".getAsString(% %)" object="[mx.data.binding.DataType]" tiptext="Obtiene el valor actual, como cadena" helpid="x20629" version="6"/>
+								<string name="getTypedValue" text=".getTypedValue(% tipoRequerido:String %)" object="[mx.data.binding.DataType]" tiptext="Obtener el valor de este campo, como tipo de datos especificado" helpid="x20630" version="6"/>
+								<string name="setAnyTypedValue" text=".setAnyTypedValue(% nuevoValor:mx.data.binding.TypedValue %)" object="[mx.data.binding.DataType]" tiptext="Establece los datos como un nuevo valor, intentando más conversiones de tipo, si es necesario." helpid="x20639" version="6"/>
+								<string name="setAsBoolean" text=".setAsBoolean(% nuevoValor:Boolean %)" object="[mx.data.binding.DataType]" tiptext="Establece el valor actual, a partir de un booleano" helpid="x2062A" version="6"/>
+								<string name="setAsNumber" text=".setAsNumber(% nuevoValor:Number %)" object="[mx.data.binding.DataType]" tiptext="Establece el valor actual, a partir de un número" helpid="x2062B" version="6"/>
+								<string name="setAsString" text=".setAsString(% nuevoValor:String %)" object="[mx.data.binding.DataType]" tiptext="Establece el valor actual, a partir de una cadena" helpid="x2062C" version="6"/>
+								<string name="setTypedValue" text=".setTypedValue(% nuevoValor:mx.data.binding.TypedValue %)" object="[mx.data.binding.DataType]" tiptext="Establecer el valor de este campo" helpid="x20631" version="6"/>
+							</folder>
+						</folder>
+						<folder name="EndPoint" id="[mx.data.binding.EndPoint]" index="true" tiptext="Descripción de un EndPoint de vinculación" helpid="x20699" version="6">
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades de EndPoint" version="6">
+								<string name="component" text=".component" object="[mx.data.binding.EndPoint]" tiptext="Componente u objeto que contiene los datos" helpid="x20620" version="6"/>
+								<string name="constant" text=".constant" object="[mx.data.binding.EndPoint]" tiptext="Valor de datos de una constante (sólo para EndPoints de origen)" helpid="x2061F" version="6"/>
+								<string name="event" text=".event" object="[mx.data.binding.EndPoint]" tiptext="Nombre de un evento que emite el componente cuando se produce un cambio en los datos" helpid="x20623" version="6"/>
+								<string name="location" text=".location" object="[mx.data.binding.EndPoint]" tiptext="Ruta de la propiedad que identifica un campo de datos anidado" helpid="x20622" version="6"/>
+								<string name="property" text=".property" object="[mx.data.binding.EndPoint]" tiptext="Propiedad del componente que contiene los datos" helpid="x20621" version="6"/>
+							</folder>
+						</folder>
+						<folder name="TypedValue" id="[mx.data.binding.TypedValue]" index="true" tiptext="valor de datos junto con información de tipo" helpid="x20690" sort="false" version="6">
+							<string name="TypedValue" text="new TypedValue(% valor, typeName:String, tipo %)" object="[mx.data.binding.TypedValue]" tiptext="constructor para la clase TypedValue" helpid="x20634" version="6"/>
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades de TypedValue" version="6">
+								<string name="typeName" text=".typeName" object="[mx.data.binding.TypedValue]" tiptext="nombre del tipo de datos del valor de datos" helpid="x20633" version="6"/>
+								<string name="value" text=".value" object="[mx.data.binding.TypedValue]" tiptext="valor de datos de este objeto" helpid="x20632" version="6"/>
+							</folder>
+						</folder>
+						<folder name="DataHolder" id="[mx.data.components.DataHolder]" index="true" tiptext="Componente que contiene cualquier dato deseado" helpid="x20616" version="6">
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades de DataHolder" version="6">
+								<string name="data" text=".data" object="[mx.data.components.DataHolder]" tiptext="Datos que contiene este componente" helpid="x20617" version="6"/>
+							</folder>
+							<folder name="Métodos" id="Methods" tiptext="Métodos de DataHolder" version="6">
+								<string name="addEventListener" text=".addEventListener(% %)" object="[mx.data.components.DataHolder]" tiptext="Añade un detector para un evento" helpid="x20AD4" version="6"/>
+							</folder>
+						</folder>
+						<folder name="DataSet" id="[mx.data.components.DataSet]" index="true" tiptext="Gestiona la colección de objetos de transferencia" helpid="x205E3" version="6">
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades de Conjunto de datos" version="6">
+								<string name="currentItem" text=".currentItem" object="[mx.data.components.DataSet]" tiptext="Obtiene el objeto de transferencia actual" helpid="x205E4" version="6"/>
+								<string name="dataProvider" text=".dataProvider" object="[mx.data.components.DataSet]" tiptext="Devuelve la API del proveedor de datos" helpid="x205E6" version="6"/>
+								<string name="deltaPacket" text=".deltaPacket" object="[mx.data.components.DataSet]" tiptext="Devuelve o asigna cambios" helpid="x205E5" version="6"/>
+								<string name="filterFunc" text=".filterFunc" object="[mx.data.components.DataSet]" tiptext="Método utilizado para filtrar elementos" helpid="x205E8" version="6"/>
+								<string name="filtered" text=".filtered" object="[mx.data.components.DataSet]" tiptext="Indica si los elementos se han filtrado" helpid="x205E7" version="6"/>
+								<string name="itemClassName" text=".itemClassName" object="[mx.data.components.DataSet]" tiptext="Objeto para crear al asignar elementos" helpid="x205EA" version="6"/>
+								<string name="items" text=".items" object="[mx.data.components.DataSet]" tiptext="Elementos de la colección" helpid="x205E9" version="6"/>
+								<string name="length" text=".length" object="[mx.data.components.DataSet]" tiptext="Longitud visible actualmente de los elementos de la colección" helpid="x205EB" version="6"/>
+								<string name="logChanges" text=".logChanges" object="[mx.data.components.DataSet]" tiptext="Indica si se registran las mutaciones de la colección" helpid="x205EC" version="6"/>
+								<string name="properties" text=".properties" object="[mx.data.components.DataSet]" tiptext="Lista del esquema especificado" helpid="x205ED" version="6"/>
+								<string name="readOnly" text=".readOnly" object="[mx.data.components.DataSet]" tiptext="Indica si se puede modificar la colección" helpid="x205EE" version="6"/>
+								<string name="schema" text=".schema" object="[mx.data.components.DataSet]" tiptext="Devuelve o asigna el esquema en formato XML" helpid="x205EF" version="6"/>
+								<string name="selectedIndex" text=".selectedIndex" object="[mx.data.components.DataSet]" tiptext="contiene el índice del objeto de transferencia actual dentro del conjunto de datos" helpid="x205F0" version="6"/>
+							</folder>
+							<folder name="Métodos" id="Methods" tiptext="Métodos de Conjunto de datos" version="6">
+								<string name="addEventListener" text=".addEventListener(% nombre:String, controlador %)" object="[mx.data.components.DataSet]" tiptext="Añade un detector para el evento especificado" helpid="x20AD4" version="6"/>
+								<string name="addItem" text=".addItem(% objTransf:Object %)" object="[mx.data.components.DataSet]" tiptext="Añade el elemento especificado a la colección" helpid="x205F3" version="6"/>
+								<string name="addItemAt" text=".addItemAt(% índice:Number, objetoElemento:Object %)" object="[mx.data.components.DataSet]" tiptext="Añade el elemento especificado a la colección" helpid="x205D6" version="6"/>
+								<string name="addSort" text=".addSort(% nombre:String, propList:Array, opciones:Number %)" object="[mx.data.components.DataSet]" tiptext="Ordena los elementos de la colección" helpid="x205F2" version="6"/>
+								<string name="applyUpdates" text=".applyUpdates(% %)" object="[mx.data.components.DataSet]" tiptext="Notifica a los detectores que el paquete delta está listo" helpid="x205F5" version="6"/>
+								<string name="changesPending" text=".changesPending(% %)" object="[mx.data.components.DataSet]" tiptext="Indica si hay elementos en el paquete delta" helpid="x20605" version="6"/>
+								<string name="clear" text=".clear(% %)" object="[mx.data.components.DataSet]" tiptext="Borra los elementos visualizables actuales de la colección" helpid="x205F6" version="6"/>
+								<string name="createItem" text=".createItem(% datosElem:objeto %)" object="[mx.data.components.DataSet]" tiptext="Devuelve un elemento recién inicializado" helpid="x205F7" version="6"/>
+								<string name="disableEvents" text=".disableEvents(% %)" object="[mx.data.components.DataSet]" tiptext="Impide que los detectores reciban eventos de Conjunto de datos" helpid="x205F8" version="6"/>
+								<string name="enableEvents" text=".enableEvents(% %)" object="[mx.data.components.DataSet]" tiptext="Permite que los detectores reciban eventos de Conjunto de datos" helpid="x205F9" version="6"/>
+								<string name="find" text=".find(% valores:Array %)" object="[mx.data.components.DataSet]" tiptext="Localiza el objeto de transferencia especificado dentro del repetidor actual" helpid="x205FA" version="6"/>
+								<string name="findFirst" text=".findFirst(% valores:Array %)" object="[mx.data.components.DataSet]" tiptext="Localiza la primera aparición del objeto de transferencia especificado en el repetidor actual" helpid="x205FB" version="6"/>
+								<string name="findLast" text=".findLast(% valores:Array %)" object="[mx.data.components.DataSet]" tiptext="Localiza la última aparición del objeto de transferencia especificado en el repetidor actual" helpid="x205FC" version="6"/>
+								<string name="first" text=".first(% %)" object="[mx.data.components.DataSet]" tiptext="Se desplaza al primer elemento de la colección" helpid="x205FD" version="6"/>
+								<string name="getItemId" text=".getItemId(% índice:Number %)" object="[mx.data.components.DataSet]" tiptext="Devuelve el id exclusivo del elemento especificado" helpid="x205FE" version="6"/>
+								<string name="getIterator" text=".getIterator(% %)" object="[mx.data.components.DataSet]" tiptext="Devuelve un clon del repetidor actual" helpid="x205FF" version="6"/>
+								<string name="getLength" text=".getLength(% %)" object="[mx.data.components.DataSet]" tiptext="Longitud visible actualmente de los elementos de la colección" helpid="x205D5" version="6"/>
+								<string name="hasNext" text=".hasNext(% %)" object="[mx.data.components.DataSet]" tiptext="Indica si el repetidor se encuentra al final de la colección" helpid="x20601" version="6"/>
+								<string name="hasPrevious" text=".hasPrevious(% %)" object="[mx.data.components.DataSet]" tiptext="Indica si el repetidor se encuentra al principio de la colección" helpid="x20602" version="6"/>
+								<string name="hasSort" text=".hasSort(% nombre:String %)" object="[mx.data.components.DataSet]" tiptext="Indica si hay ordenación" helpid="x20603" version="6"/>
+								<string name="isEmpty" text=".isEmpty(% %)" object="[mx.data.components.DataSet]" tiptext="Indica si hay elementos en la colección" helpid="x20604" version="6"/>
+								<string name="last" text=".last(% %)" object="[mx.data.components.DataSet]" tiptext="Se desplaza al último elemento de la colección" helpid="x20607" version="6"/>
+								<string name="loadFromSharedObj" text=".loadFromSharedObj(% nombreObj:String, rutaLocal:String %)" object="[mx.data.components.DataSet]" tiptext="Recupera el estado interno del conjunto de datos de un objeto compartido" helpid="x20608" version="6"/>
+								<string name="locateById" text=".locateById(% id:String %)" object="[mx.data.components.DataSet]" tiptext="desplaza el repetidor actual al elemento con el id especificado" helpid="x20606" version="6"/>
+								<string name="next" text=".next(% %)" object="[mx.data.components.DataSet]" tiptext="Se desplaza al siguiente elemento de la colección" helpid="x20609" version="6"/>
+								<string name="previous" text=".previous(% %)" object="[mx.data.components.DataSet]" tiptext="Se desplaza al elemento anterior de la colección" helpid="x2060A" version="6"/>
+								<string name="removeAll" text=".removeAll(% %)" object="[mx.data.components.DataSet]" tiptext="Elimina todos los elementos del conjunto de datos independientemente de la configuración del repetidor actual" helpid="x2060B" version="6"/>
+								<string name="removeEventListener" text=".removeEventListener(% nombre:String, controlador %)" object="[mx.data.components.DataSet]" tiptext="Elimina el detector de eventos especificado" helpid="x20AD7" version="6"/>
+								<string name="removeItem" text=".removeItem(% elemento:Object %)" object="[mx.data.components.DataSet]" tiptext="Elimina el elemento especificado" helpid="x2060D" version="6"/>
+								<string name="removeItemAt" text=".removeItemAt(% índice:Number %)" object="[mx.data.components.DataSet]" tiptext="Elimina el elemento en el índice especificado" helpid="x205D7" version="6"/>
+								<string name="removeRange" text=".removeRange(% %)" object="[mx.data.components.DataSet]" tiptext="Elimina el rango del repetidor actual" helpid="x2060F" version="6"/>
+								<string name="removeSort" text=".removeSort(% nombre:String %)" object="[mx.data.components.DataSet]" tiptext="Elimina la ordenación especificada del Conjunto de datos" helpid="x20610" version="6"/>
+								<string name="saveToSharedObj" text=".saveToSharedObj(% nombreObj:String, rutaLocal:String %)" object="[mx.data.components.DataSet]" tiptext="Guarda el estado interno del conjunto de datos en un objeto compartido" helpid="x20612" version="6"/>
+								<string name="setIterator" text=".setIterator(% nuevoRepetidor:ValueListIterator %)" object="[mx.data.components.DataSet]" tiptext="Establece en repetidor actual del conjunto de datos en el especificado" helpid="x20613" version="6"/>
+								<string name="setRange" text=".setRange(% valoresInicio:Array, valoresFin:Array %)" object="[mx.data.components.DataSet]" tiptext="Establece el rango del repetidor actual" helpid="x20614" version="6"/>
+								<string name="skip" text=".skip(% desplazamiento:Number %)" object="[mx.data.components.DataSet]" tiptext="Mueve el repetidor en la cantidad especificada" helpid="x20611" version="6"/>
+								<string name="useSort" text=".useSort(% nombreOrdenación:String, opciones:Number %)" object="[mx.data.components.DataSet]" tiptext="Utiliza la ordenación especificada" helpid="x20615" version="6"/>
+							</folder>
+							<folder name="Eventos" id="Events" tiptext="Eventos de Conjunto de datos" version="6">
+								<string name="addItem" text=".addEventListener(&quot;addItem&quot;, %detector%);" object="[mx.data.components.DataSet]" tiptext="Se distribuye antes de añadir el elemento" helpid="x205D8" codehint="false" version="6"/>
+								<string name="afterLoaded" text=".addEventListener(&quot;afterLoaded&quot;, %detector%);" object="[mx.data.components.DataSet]" tiptext="Se distribuye después de asignar la matriz de elementos" helpid="x205D9" codehint="false" version="6"/>
+								<string name="calcFields" text=".addEventListener(&quot;calcFields&quot;, %detector%);" object="[mx.data.components.DataSet]" tiptext="Se distribuye cuando los campos calculados deben actualizarse" helpid="x205E2" codehint="false" version="6"/>
+								<string name="deltaPacketChanged" text=".addEventListener(&quot;deltaPacketChanged&quot;, %detector%);" object="[mx.data.components.DataSet]" tiptext="Se distribuye cuando el paquete delta está listo para utilizar" helpid="x205DD" codehint="false" version="6"/>
+								<string name="iteratorScrolled" text=".addEventListener(&quot;iteratorScrolled&quot;, %detector%);" object="[mx.data.components.DataSet]" tiptext="Se distribuye cuando cambia la posición del repetidor" helpid="x205DE" codehint="false" version="6"/>
+								<string name="modelChanged" text=".addEventListener(&quot;modelChanged&quot;, %detector%);" object="[mx.data.components.DataSet]" tiptext="Se distribuye cuando los elementos se han modificado de alguna manera" helpid="x205DA" codehint="false" version="6"/>
+								<string name="newItem" text=".addEventListener(&quot;newItem&quot;, %detector%);" object="[mx.data.components.DataSet]" tiptext="Se distribuye cuando el conjunto de datos construye un nuevo elemento, antes de que se añada éste a la colección." helpid="x205DF" codehint="false" version="6"/>
+								<string name="removeItem" text=".addEventListener(&quot;removeItem&quot;, %detector%);" object="[mx.data.components.DataSet]" tiptext="Se distribuye antes de eliminar un elemento" helpid="x205DC" codehint="false" version="6"/>
+								<string name="resolveDelta" text=".addEventListener(&quot;resolveDelta&quot;, %detector%);" object="[mx.data.components.DataSet]" tiptext="Se distribuye cuando se asigna un paquete delta que contiene mensajes" helpid="x205DB" codehint="false" version="6"/>
+							</folder>
+						</folder>
+						<folder name="RDBMSResolver" id="[mx.data.components.RDBMSResolver]" index="true" tiptext="Convierte paquetes delta en XML con formato de BD" helpid="x205AE" version="6">
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades de RDBMSResolver" version="6">
+								<string name="deltaPacket" text=".deltaPacket" object="[mx.data.components.RDBMSResolver]" tiptext="Objeto que describe un conjunto de cambios en un conjunto de datos" helpid="x205B3" version="6"/>
+								<string name="fieldInfo" text=".fieldInfo" object="[mx.data.components.RDBMSResolver]" tiptext="Especifica campos clave y campos no actualizables" helpid="x205B2" version="6"/>
+								<string name="nullValue" text=".nullValue" object="[mx.data.components.RDBMSResolver]" tiptext="Cadena utilizada para indicar un valor nulo para un campo" helpid="x205B1" version="6"/>
+								<string name="tableName" text=".tableName" object="[mx.data.components.RDBMSResolver]" tiptext="Nombre de tabla de BD colocado en el updatePacket del XML" helpid="x205AF" version="6"/>
+								<string name="updateMode" text=".updateMode" object="[mx.data.components.RDBMSResolver]" tiptext="Determina qué campos se establecen como campos clave en el updatePacket" helpid="x205B0" version="6"/>
+								<string name="updatePacket" text=".updatePacket" object="[mx.data.components.RDBMSResolver]" tiptext="Conversión XML del paquete delta que se puede enviar a un servidor" helpid="x205B4" version="6"/>
+								<string name="updateResults" text=".updateResults" object="[mx.data.components.RDBMSResolver]" tiptext="Recibe un paquete de resultados del servidor para convertir en un paquete delta" helpid="x205B5" version="6"/>
+							</folder>
+							<folder name="Métodos" id="Methods" tiptext="Métodos de RDBMSResolver" version="6">
+								<string name="addEventListener" text=".addEventListener(% %)" object="[mx.data.components.RDBMSResolver]" tiptext="Añade un detector para un evento" helpid="x20AD4" version="6"/>
+								<string name="addFieldInfo" text=".addFieldInfo(% nombreCampo:String, nombrePropietario:String, isKey:Boolean %)" object="[mx.data.components.RDBMSResolver]" tiptext="Añade un nuevo elemento de la colección de información de campo" helpid="x205B6" version="6"/>
+							</folder>
+							<folder name="Eventos" id="Events" tiptext="Eventos de RDBMSResolver" version="6">
+								<string name="beforeApplyUpdates" text=".addEventListener(&quot;beforeApplyUpdates&quot;, %detector%);" object="[mx.data.components.RDBMSResolver]" tiptext="Se activa inmediatamente antes de que updatePacket se envíe al servidor" helpid="x205AB" codehint="false" version="6"/>
+								<string name="reconcileResults" text=".addEventListener(&quot;reconcileResults&quot;, %detector%);" object="[mx.data.components.RDBMSResolver]" tiptext="Se activa inmediatamente antes de que el resultado de la operación se envíe al conjunto de datos" helpid="x205AC" codehint="false" version="6"/>
+								<string name="reconcileUpdates" text=".addEventListener(&quot;reconcileUpdates&quot;, %detector%);" object="[mx.data.components.RDBMSResolver]" tiptext="Se activa inmediatamente antes de que las actualizaciones de la base de datos se envíen al conjunto de datos" helpid="x205AD" codehint="false" version="6"/>
+							</folder>
+						</folder>
+						<folder name="WebServiceConnector" id="[mx.data.components.WebServiceConnector]" index="true" tiptext="Componente que llama a un método de servicio Web" helpid="x20691" version="6">
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades de WebServiceConnector" version="6">
+								<string name="WSDLURL" text=".WSDLURL" object="[mx.data.components.WebServiceConnector]" tiptext="La URL del archivo WSDL que define un servicio Web" helpid="x206AE" version="6"/>
+								<string name="multipleSimultaneousAllowed" text=".multipleSimultaneousAllowed" object="[mx.data.components.WebServiceConnector]" tiptext="Si el valor es true, se realizará la llamada aunque haya otra llamada en curso; si el valor es false, no se realizará" helpid="x206A4" version="6"/>
+								<string name="operation" text=".operation" object="[mx.data.components.WebServiceConnector]" tiptext="Nombre de una operación dentro del servicio definido por WSDLURL" helpid="x206A5" version="6"/>
+								<string name="params" text=".params" object="[mx.data.components.WebServiceConnector]" tiptext="Datos que se van a enviar al servidor" helpid="x206A6" version="6"/>
+								<string name="results" text=".results" object="[mx.data.components.WebServiceConnector]" tiptext="Resultado de la última llamada de servicio Web satisfactoria" helpid="x206A8" version="6"/>
+								<string name="suppressInvalidCalls" text=".suppressInvalidCalls" object="[mx.data.components.WebServiceConnector]" tiptext="Si el valor es true, no se enviarán datos no válidos; si el valor es false, se utilizarán datos no válidos" helpid="x206AB" version="6"/>
+							</folder>
+							<folder name="Métodos" id="Methods" tiptext="Métodos de WebServiceConnector" version="6">
+								<string name="addEventListener" text=".addEventListener(% %)" object="[mx.data.components.WebServiceConnector]" tiptext="Añade un detector para un evento" helpid="x20AD4" version="6"/>
+								<string name="trigger" text=".trigger(% %)" object="[mx.data.components.WebServiceConnector]" tiptext="Llama a la operación de servicio Web" helpid="x206AD" version="6"/>
+							</folder>
+							<folder name="Eventos" id="Events" tiptext="Eventos de WebServiceConnector" version="6">
+								<string name="result" text=".addEventListener(&quot;result&quot;, %detector%);" object="[mx.data.components.WebServiceConnector]" tiptext="Se activa cuando se actualiza la propiedad de resultado." helpid="x206A7" codehint="false" version="6"/>
+								<string name="send" text=".addEventListener(&quot;send&quot;, %detector%);" object="[mx.data.components.WebServiceConnector]" tiptext="Se activa antes de la llamada al servicio Web" helpid="x206A9" codehint="false" version="6"/>
+								<string name="status" text=".addEventListener(&quot;status&quot;, %detector%);" object="[mx.data.components.WebServiceConnector]" tiptext="Se activa cuando cambia el estado o cuando hay errores" helpid="x206AA" codehint="false" version="6"/>
+							</folder>
+						</folder>
+						<folder name="XMLConnector" id="[mx.data.components.XMLConnector]" index="true" tiptext="Componente que envía y recibe documentos XML" helpid="x20690" version="6">
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades de XMLConnector" version="6">
+								<string name="URL" text=".URL" object="[mx.data.components.XMLConnector]" tiptext="URL que se utiliza durante operaciones HTTP" helpid="x206BA" version="6"/>
+								<string name="direction" text=".direction" object="[mx.data.components.XMLConnector]" tiptext="¿Se van a enviar datos, a recibirlos o ambas cosas?" helpid="x206B1" version="6"/>
+								<string name="ignoreWhite" text=".ignoreWhite" object="[mx.data.components.XMLConnector]" tiptext="Establecido en true para omitir espacio en blanco" helpid="x206A3" version="6"/>
+								<string name="multipleSimultaneousAllowed" text=".multipleSimultaneousAllowed" object="[mx.data.components.XMLConnector]" tiptext="Si el valor es true, se realizará la llamada aunque haya otra llamada en curso; si el valor es false, no se realizará" helpid="x206B2" version="6"/>
+								<string name="params" text=".params" object="[mx.data.components.XMLConnector]" tiptext="Datos que se van a enviar al servidor" helpid="x206B3" version="6"/>
+								<string name="results" text=".results" object="[mx.data.components.XMLConnector]" tiptext="Resultado de la última operación HTTP" helpid="x206B5" version="6"/>
+								<string name="suppressInvalidCalls" text=".suppressInvalidCalls" object="[mx.data.components.XMLConnector]" tiptext="Si el valor es true, no se enviarán datos no válidos; si el valor es false, se utilizarán datos no válidos" helpid="x206B8" version="6"/>
+							</folder>
+							<folder name="Métodos" id="Methods" tiptext="Métodos de XMLConnector" version="6">
+								<string name="addEventListener" text=".addEventListener(% %)" object="[mx.data.components.XMLConnector]" tiptext="Añade un detector para un evento" helpid="x20AD4" version="6"/>
+								<string name="trigger" text=".trigger(% %)" object="[mx.data.components.XMLConnector]" tiptext="Inicia una petición HTTP que envía o recibe datos XML" helpid="x206B9" version="6"/>
+							</folder>
+							<folder name="Eventos" id="Events" tiptext="Eventos de XMLConnector" version="6">
+								<string name="result" text=".addEventListener(&quot;result&quot;, %detector%);" object="[mx.data.components.XMLConnector]" tiptext="Se activa cuando se actualiza la propiedad de resultado." helpid="x206B4" codehint="false" version="6"/>
+								<string name="send" text=".addEventListener(&quot;send&quot;, %detector%);" object="[mx.data.components.XMLConnector]" tiptext="Se activa antes de la llamada al servicio Web" helpid="x206B6" codehint="false" version="6"/>
+								<string name="status" text=".addEventListener(&quot;status&quot;, %detector%);" object="[mx.data.components.XMLConnector]" tiptext="Se activa cuando cambia el estado o cuando hay errores" helpid="x206B7" codehint="false" version="6"/>
+							</folder>
+						</folder>
+						<folder name="XUpdateResolver" id="[mx.data.components.XUpdateResolver]" index="true" tiptext="Se activa antes de que las actualizaciones del servidor se envíen mediante vinculación de datos" helpid="x205BA" version="6">
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades de XUpdateResolver" version="6">
+								<string name="deltaPacket" text=".deltaPacket" object="[mx.data.components.XUpdateResolver]" tiptext="Registro de cambios del conjunto de datos" helpid="x205BC" version="6"/>
+								<string name="includeDeltaPacketInfo" text=".includeDeltaPacketInfo" object="[mx.data.components.XUpdateResolver]" tiptext="Establecido en true para incluir información del paquete delta adicional" helpid="x205BB" version="6"/>
+								<string name="updateResults" text=".updateResults" object="[mx.data.components.XUpdateResolver]" tiptext="Paquete de resultados devuelto desde el servidor" helpid="x205BE" version="6"/>
+								<string name="xupdatePacket" text=".xupdatePacket" object="[mx.data.components.XUpdateResolver]" tiptext="Registro de cambios del conjunto de datos en formato XUpdate" helpid="x205BD" version="6"/>
+							</folder>
+							<folder name="Métodos" id="Methods" tiptext="Métodos de XUpdateResolver" version="6">
+								<string name="addEventListener" text=".addEventListener(% %)" object="[mx.data.components.XUpdateResolver]" tiptext="Añade un detector para un evento" helpid="x20AD4" version="6"/>
+							</folder>
+							<folder name="Eventos" id="Events" tiptext="Eventos de XUpdateResolver" version="6">
+								<string name="beforeApplyUpdates" text=".addEventListener(&quot;beforeApplyUpdates&quot;, %detector%);" object="[mx.data.components.XUpdateResolver]" tiptext="Se activa antes de que se actualice la propiedad XupdatePacket" helpid="x205B8" codehint="false" version="6"/>
+								<string name="reconcileResults" text=".addEventListener(&quot;reconcileResults&quot;, %detector%);" object="[mx.data.components.XUpdateResolver]" tiptext="Se activa antes de que el resultado de la operación se envíe mediante vinculación de datos" helpid="x205B9" codehint="false" version="6"/>
+							</folder>
+						</folder>
+						<folder name="Delta" id="[mx.data.components.datasetclasses.Delta]" index="true" tiptext="Contiene una lista de cambios de un elemento" helpid="x2069C" version="6">
+							<folder name="Métodos" id="Methods" tiptext="Métodos de Delta" version="6">
+								<string name="addDeltaItem" text=".addDeltaItem(% d:DeltaItem %)" object="[mx.data.components.datasetclasses.Delta]" tiptext="Añade el elemento de paquete especificado" helpid="x205C7" version="6"/>
+								<string name="getChangeList" text=".getChangeList(% %)" object="[mx.data.components.datasetclasses.Delta]" tiptext="Devuelve la lista de elementos de paquete de este Delta" helpid="x205CA" version="6"/>
+								<string name="getDeltaPacket" text=".getDeltaPacket(% %)" object="[mx.data.components.datasetclasses.Delta]" tiptext="Devuelve el paquete delta asociado" helpid="x205C1" version="6"/>
+								<string name="getId" text=".getId(% %)" object="[mx.data.components.datasetclasses.Delta]" tiptext="Devuelve el ID exclusivo de este delta" helpid="x205C8" version="6"/>
+								<string name="getItemByName" text=".getItemByName(% nombre:String %)" object="[mx.data.components.datasetclasses.Delta]" tiptext="Devuelve el elemento de paquete con nombre o el valor nulo" helpid="x205CB" version="6"/>
+								<string name="getMessage" text=".getMessage(% %)" object="[mx.data.components.datasetclasses.Delta]" tiptext="Devuelve el mensaje asociado o vacío" helpid="x205CC" version="6"/>
+								<string name="getOperation" text=".getOperation(% %)" object="[mx.data.components.datasetclasses.Delta]" tiptext="Devuelve la operación asociada" helpid="x205C9" version="6"/>
+								<string name="getSource" text=".getSource(% %)" object="[mx.data.components.datasetclasses.Delta]" tiptext="Devuelve el objeto origen original que se cambió" helpid="x205C0" version="6"/>
+							</folder>
+						</folder>
+						<folder name="DeltaItem" id="[mx.data.components.datasetclasses.DeltaItem]" index="true" tiptext="Contiene un evento de una sola mutación" helpid="x2069B" version="6">
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades de DeltaItem" version="6">
+								<string name="argList" text=".argList" object="[mx.data.components.datasetclasses.DeltaItem]" tiptext="Devuelve la lista de argumentos" helpid="x205D0" version="6"/>
+								<string name="curValue" text=".curValue" object="[mx.data.components.datasetclasses.DeltaItem]" tiptext="Devuelve el valor del servidor actual" helpid="x205CE" version="6"/>
+								<string name="delta" text=".delta" object="[mx.data.components.datasetclasses.DeltaItem]" tiptext="Devuelve la referencia al contenedor Delta" helpid="x205D1" version="6"/>
+								<string name="kind" text=".kind" object="[mx.data.components.datasetclasses.DeltaItem]" tiptext="Devuelve el tipo de elemento de paquete" helpid="x205D2" version="6"/>
+								<string name="message" text=".message" object="[mx.data.components.datasetclasses.DeltaItem]" tiptext="Devuelve el mensaje asociado" helpid="x205D3" version="6"/>
+								<string name="name" text=".name" object="[mx.data.components.datasetclasses.DeltaItem]" tiptext="Devuelve el nombre asociado" helpid="x205D4" version="6"/>
+								<string name="newValue" text=".newValue" object="[mx.data.components.datasetclasses.DeltaItem]" tiptext="Devuelve el nuevo valor" helpid="x205CD" version="6"/>
+								<string name="oldValue" text=".oldValue" object="[mx.data.components.datasetclasses.DeltaItem]" tiptext="Devuelve el valor original" helpid="x205CF" version="6"/>
+							</folder>
+						</folder>
+						<folder name="DeltaPacket" id="[mx.data.components.datasetclasses.DeltaPacket]" index="true" tiptext="Contiene una colección de cambios" helpid="x2069A" version="6">
+							<folder name="Métodos" id="Methods" tiptext="Métodos de DeltaPacket" version="6">
+								<string name="getConfigInfo" text=".getConfigInfo(% información:Object %)" object="[mx.data.components.datasetclasses.DeltaPacket]" tiptext="Devuelve información de configuración" helpid="x20624" version="6"/>
+								<string name="getIterator" text=".getIterator(% %)" object="[mx.data.components.datasetclasses.DeltaPacket]" tiptext="Devuelve un repetidor de los cambios" helpid="x205C2" version="6"/>
+								<string name="getSource" text=".getSource(% %)" object="[mx.data.components.datasetclasses.DeltaPacket]" tiptext="Devuelve el componente que lo originó" helpid="x205C3" version="6"/>
+								<string name="getTimestamp" text=".getTimestamp(% %)" object="[mx.data.components.datasetclasses.DeltaPacket]" tiptext="Devuelve la fecha y hora en las que se creó el paquete delta" helpid="x205C5" version="6"/>
+								<string name="getTransactionId" text=".getTransactionId(% %)" object="[mx.data.components.datasetclasses.DeltaPacket]" tiptext="Devuelve el ID de transacción asociado" helpid="x205C4" version="6"/>
+								<string name="logChanges" text=".logChanges(% %)" object="[mx.data.components.datasetclasses.DeltaPacket]" tiptext="Devuelve true si se registran los cambios" helpid="x205C6" version="6"/>
+							</folder>
+						</folder>
+						<folder name="Log" id="[mx.services.Log]" index="true" tiptext="contiene datos de conexión" helpid="x20697" version="6">
+							<string name="Log" text="new Log(% nivelRegistro, nombre %)" object="[mx.services.Log]" tiptext="Crea una nueva instancia de un objeto Log" helpid="x206D2" version="6"/>
+							<folder name="Métodos" id="Methods" tiptext="Métodos de Log" version="6">
+								<string name="onLog" text=".onLog(% mensaje %)" object="[mx.services.Log]" tiptext="se utiliza para gestionar la salida de registro" helpid="x206BC" version="6"/>
+							</folder>
+						</folder>
+						<folder name="PendingCall" id="[mx.services.PendingCall]" index="true" tiptext="información sobre una llamada pendiente a un servicio" helpid="x206D2" version="6">
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades de PendingCall" version="6">
+								<string name="myCall" text=".myCall" object="[mx.services.PendingCall]" tiptext="llamada SOAP actual" helpid="x206BF" version="6"/>
+								<string name="request" text=".request" object="[mx.services.PendingCall]" tiptext="documento de petición de SOAP actual" helpid="x206C5" version="6"/>
+								<string name="response" text=".response" object="[mx.services.PendingCall]" tiptext="documento de resultado de SOAP actual" helpid="x206C6" version="6"/>
+							</folder>
+							<folder name="Métodos" id="Methods" tiptext="Métodos de PendingCall" version="6">
+								<string name="getOutputParameter" text=".getOutputParameter(% índice %)" object="[mx.services.PendingCall]" tiptext="devolver el parámetro de salida en el índice especificado" helpid="x206C4" version="6"/>
+								<string name="getOutputParameterByName" text=".getOutputParameterByName(% nombreLocal %)" object="[mx.services.PendingCall]" tiptext="devolver el  parámetro de salida para el nombre especificado" helpid="x206C3" version="6"/>
+								<string name="getOutputParameters" text=".getOutputParameters(% %)" object="[mx.services.PendingCall]" tiptext="devolver todos los miembros de la matriz de parámetros que estén en modo FUERA o DENTROFUERA" helpid="x206C2" version="6"/>
+								<string name="getOutputValue" text=".getOutputValue(% índice %)" object="[mx.services.PendingCall]" tiptext="devuelve un solo valor de salida" helpid="x206C1" version="6"/>
+								<string name="getOutputValues" text=".getOutputValues(% %)" object="[mx.services.PendingCall]" tiptext="devuelve valores de los parámetros de salida" helpid="x206C0" version="6"/>
+							</folder>
+							<folder name="Controladores de eventos" id="Event Handlers" tiptext="Controladores de eventos PendingCall" version="6">
+								<string name="onFault" text=".onFault(% %)" object="[mx.services.PendingCall]" tiptext="se invoca se produce un fallo" helpid="x206BD" version="6"/>
+								<string name="onResult" text=".onResult(% %)" object="[mx.services.PendingCall]" tiptext="se invoca cuando los resultados están listos" helpid="x206BE" version="6"/>
+							</folder>
+						</folder>
+						<folder name="SOAPCall" id="[mx.services.SOAPCall]" index="true" tiptext="proporciona una envoltura de llamada SOAP" helpid="x20693" version="6">
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades de SOAPCall" version="6">
+								<string name="concurrency" text=".concurrency" object="[mx.services.SOAPCall]" tiptext="indica el tipo de simultaneidad permitida" helpid="x206C9" version="6"/>
+								<string name="doDecoding" text=".doDecoding" object="[mx.services.SOAPCall]" tiptext="indica si se debe realizar la decodificación" helpid="x206C7" version="6"/>
+								<string name="doLazyDecoding" text=".doLazyDecoding" object="[mx.services.SOAPCall]" tiptext="indica si se debe realizar la decodificación según sea necesaria" helpid="x206C8" version="6"/>
+							</folder>
+						</folder>
+						<folder name="WebService" id="[mx.services.WebService]" index="true" tiptext="proporciona el punto de entrada para llamar a un webservice" helpid="x206CE" sort="false" version="6">
+							<string name="WebService" text="new WebService(% wsdlUbicación:String %)" object="[mx.services.WebService]" tiptext="Crea una nueva instancia de un objeto WebService" helpid="x206D1" version="6"/>
+							<folder name="Métodos" id="Methods" tiptext="Métodos de WebService" version="6">
+								<string name="getCall" text=".getCall(% nombreOperación %)" object="[mx.services.WebService]" tiptext="devuelve la llamada SOAP especificada" helpid="x206CD" version="6"/>
+							</folder>
+							<folder name="Controladores de eventos" id="Event Handlers" tiptext="Controladores de eventos WebService" version="6">
+								<string name="onFault" text=".onFault(% fallo %)" object="[mx.services.WebService]" tiptext="este método se invocará si WSDL no se puede analizar y no se puede crear el proxy" helpid="x206CC" version="6"/>
+								<string name="onLoad" text=".onLoad(% wsdl %)" object="[mx.services.WebService]" tiptext="este método se invocará cuando se haya analizado WSDL y se haya creado el proxy" helpid="x206CB" version="6"/>
+							</folder>
+						</folder>
+					</folder>
+					<folder name="Tipos" id="Types" index="true" tiptext="Tipos de componente que se pueden utilizar para strong typing" helpid="x20000" version="6">
+						<string name="Binding" text="Binding" object="mx.data.binding.Binding" tiptext="Tipo Binding" helpid="x2069E" version="6"/>
+						<string name="ComponentMixins" text="ComponentMixins" object="mx.data.binding.ComponentMixins" tiptext="Tipo ComponentMixins" helpid="x2069D" version="6"/>
+						<string name="DataType" text="DataType" object="mx.data.binding.DataType" tiptext="Tipo DataType" helpid="x20695" version="6"/>
+						<string name="EndPoint" text="EndPoint" object="mx.data.binding.EndPoint" tiptext="Tipo EndPoint" helpid="x20699" version="6"/>
+						<string name="TypedValue" text="TypedValue" object="mx.data.binding.TypedValue" tiptext="Tipo TypedValue" helpid="x20690" version="6"/>
+						<string name="DataHolder" text="DataHolder" object="mx.data.components.DataHolder" tiptext="Tipo DataHolder" helpid="x20616" version="6"/>
+						<string name="DataSet" text="DataSet" object="mx.data.components.DataSet" tiptext="Tipo DataSet" helpid="x205E3" version="6"/>
+						<string name="RDBMSResolver" text="RDBMSResolver" object="mx.data.components.RDBMSResolver" tiptext="Tipo RDBMSResolver" helpid="x205AE" version="6"/>
+						<string name="WebServiceConnector" text="WebServiceConnector" object="mx.data.components.WebServiceConnector" tiptext="Tipo WebServiceConnector" helpid="x20691" version="6"/>
+						<string name="XMLConnector" text="XMLConnector" object="mx.data.components.XMLConnector" tiptext="Tipo XMLConnector" helpid="x20690" version="6"/>
+						<string name="XUpdateResolver" text="XUpdateResolver" object="mx.data.components.XUpdateResolver" tiptext="Tipo XUpdateResolver" helpid="x205BA" version="6"/>
+						<string name="Delta" text="Delta" object="mx.data.components.datasetclasses.Delta" tiptext="Tipo Delta" helpid="x2069C" version="6"/>
+						<string name="DeltaItem" text="DeltaItem" object="mx.data.components.datasetclasses.DeltaItem" tiptext="Tipo DeltaItem" helpid="x2069B" version="6"/>
+						<string name="DeltaPacket" text="DeltaPacket" object="mx.data.components.datasetclasses.DeltaPacket" tiptext="Tipo DeltaPacket" helpid="x2069A" version="6"/>
+						<string name="Log" text="Log" object="mx.services.Log" tiptext="Tipo Log" helpid="x20697" version="6"/>
+						<string name="PendingCall" text="PendingCall" object="mx.services.PendingCall" tiptext="Tipo PendingCall" helpid="x20696" version="6"/>
+						<string name="SOAPCall" text="SOAPCall" object="mx.services.SOAPCall" tiptext="Tipo SOAPCall" helpid="x20693" version="6"/>
+						<string name="WebService" text="WebService" object="mx.services.WebService" tiptext="Tipo WebService" helpid="x206CE" version="6"/>
+					</folder>
+				</ifedition>
+	</actionspanel>
+	<codehints>
+				<package name="mx.data.binding" children="Binding,ComponentMixins,DataAccessor,DataType,EndPoint,TypedValue"/>
+				<package name="mx.data.components" children="DataHolder,DataSet,RDBMSResolver,WebServiceConnector,XMLConnector,XUpdateResolver"/>
+				<package name="mx.data.components.datasetclasses" children="Delta,DeltaItem,DeltaPacket"/>
+				<package name="mx.services" children="Log,PendingCall,SOAPCall,WebService"/>
+	</codehints>
+				<colorsyntax>
+					<ifedition edition="pro">
+						<identifier text="Binding"/>
+						<identifier text="ComponentMixins"/>
+						<identifier text="DataAccessor"/>
+						<identifier text="DataHolder"/>
+						<identifier text="DataSet"/>
+						<identifier text="DataType"/>
+						<identifier text="Delta"/>
+						<identifier text="DeltaItem"/>
+						<identifier text="DeltaPacket"/>
+						<identifier text="EndPoint"/>
+						<identifier text="Log"/>
+						<identifier text="PendingCall"/>
+						<identifier text="RDBMSResolver"/>
+						<identifier text="SOAPCall"/>
+						<identifier text="TypedValue"/>
+						<identifier text="URL"/>
+						<identifier text="WSDLURL"/>
+						<identifier text="WebService"/>
+						<identifier text="WebServiceConnector"/>
+						<identifier text="XMLConnector"/>
+						<identifier text="XUpdateResolver"/>
+						<identifier text="addDeltaItem"/>
+						<identifier text="addEventListener"/>
+						<identifier text="addFieldInfo"/>
+						<identifier text="addHeader"/>
+						<identifier text="addItem"/>
+						<identifier text="addItemAt"/>
+						<identifier text="addSort"/>
+						<identifier text="afterLoaded"/>
+						<identifier text="applyUpdates"/>
+						<identifier text="argList"/>
+						<identifier text="beforeApplyUpdates"/>
+						<identifier text="calcFields"/>
+						<identifier text="changesPending"/>
+						<identifier text="clear"/>
+						<identifier text="component"/>
+						<identifier text="concurrency"/>
+						<identifier text="constant"/>
+						<identifier text="createItem"/>
+						<identifier text="curValue"/>
+						<identifier text="currentItem"/>
+						<identifier text="data"/>
+						<identifier text="dataProvider"/>
+						<identifier text="delta"/>
+						<identifier text="deltaPacket"/>
+						<identifier text="deltaPacketChanged"/>
+						<identifier text="direction"/>
+						<identifier text="disableEvents"/>
+						<identifier text="doDecoding"/>
+						<identifier text="doLazyDecoding"/>
+						<identifier text="enableEvents"/>
+						<identifier text="encoder"/>
+						<identifier text="event"/>
+						<identifier text="execute"/>
+						<identifier text="fieldInfo"/>
+						<identifier text="filterFunc"/>
+						<identifier text="filtered"/>
+						<identifier text="find"/>
+						<identifier text="findFirst"/>
+						<identifier text="findLast"/>
+						<identifier text="first"/>
+						<identifier text="formatter"/>
+						<identifier text="getAnyTypedValue"/>
+						<identifier text="getAsBoolean"/>
+						<identifier text="getAsNumber"/>
+						<identifier text="getAsString"/>
+						<identifier text="getCall"/>
+						<identifier text="getChangeList"/>
+						<identifier text="getConfigInfo"/>
+						<identifier text="getDeltaPacket"/>
+						<identifier text="getField"/>
+						<identifier text="getId"/>
+						<identifier text="getItemByName"/>
+						<identifier text="getItemId"/>
+						<identifier text="getIterator"/>
+						<identifier text="getLength"/>
+						<identifier text="getMessage"/>
+						<identifier text="getOperation"/>
+						<identifier text="getOutputParameter"/>
+						<identifier text="getOutputParameterByName"/>
+						<identifier text="getOutputParameters"/>
+						<identifier text="getOutputValue"/>
+						<identifier text="getOutputValues"/>
+						<identifier text="getSource"/>
+						<identifier text="getTimestamp"/>
+						<identifier text="getTransactionId"/>
+						<identifier text="getTypedValue"/>
+						<identifier text="hasNext"/>
+						<identifier text="hasPrevious"/>
+						<identifier text="hasSort"/>
+						<identifier text="ignoreWhite"/>
+						<identifier text="includeDeltaPacketInfo"/>
+						<identifier text="initComponent"/>
+						<identifier text="isEmpty"/>
+						<identifier text="itemClassName"/>
+						<identifier text="items"/>
+						<identifier text="iteratorScrolled"/>
+						<identifier text="kind"/>
+						<identifier text="last"/>
+						<identifier text="length"/>
+						<identifier text="loadFromSharedObj"/>
+						<identifier text="locateById"/>
+						<identifier text="location"/>
+						<identifier text="logChanges"/>
+						<identifier text="message"/>
+						<identifier text="modelChanged"/>
+						<identifier text="multipleSimultaneousAllowed"/>
+						<identifier text="mx.data.binding.Binding"/>
+						<identifier text="mx.data.binding.ComponentMixins"/>
+						<identifier text="mx.data.binding.DataAccessor"/>
+						<identifier text="mx.data.binding.DataType"/>
+						<identifier text="mx.data.binding.EndPoint"/>
+						<identifier text="mx.data.binding.TypedValue"/>
+						<identifier text="mx.data.components.DataHolder"/>
+						<identifier text="mx.data.components.DataSet"/>
+						<identifier text="mx.data.components.RDBMSResolver"/>
+						<identifier text="mx.data.components.WebServiceConnector"/>
+						<identifier text="mx.data.components.XMLConnector"/>
+						<identifier text="mx.data.components.XUpdateResolver"/>
+						<identifier text="mx.data.components.datasetclasses.Delta"/>
+						<identifier text="mx.data.components.datasetclasses.DeltaItem"/>
+						<identifier text="mx.data.components.datasetclasses.DeltaPacket"/>
+						<identifier text="mx.services.Log"/>
+						<identifier text="mx.services.PendingCall"/>
+						<identifier text="mx.services.SOAPCall"/>
+						<identifier text="mx.services.WebService"/>
+						<identifier text="myCall"/>
+						<identifier text="name"/>
+						<identifier text="newItem"/>
+						<identifier text="newValue"/>
+						<identifier text="next"/>
+						<identifier text="nullValue"/>
+						<identifier text="oldValue"/>
+						<identifier text="onFault"/>
+						<identifier text="onLoad"/>
+						<identifier text="onLog"/>
+						<identifier text="onResult"/>
+						<identifier text="operation"/>
+						<identifier text="params"/>
+						<identifier text="previous"/>
+						<identifier text="properties"/>
+						<identifier text="property"/>
+						<identifier text="readOnly"/>
+						<identifier text="reconcileResults"/>
+						<identifier text="reconcileUpdates"/>
+						<identifier text="refreshDestinations"/>
+						<identifier text="refreshFromSources"/>
+						<identifier text="removeAll"/>
+						<identifier text="removeEventListener"/>
+						<identifier text="removeItem"/>
+						<identifier text="removeItemAt"/>
+						<identifier text="removeRange"/>
+						<identifier text="removeSort"/>
+						<identifier text="request"/>
+						<identifier text="resolveDelta"/>
+						<identifier text="response"/>
+						<identifier text="result"/>
+						<identifier text="results"/>
+						<identifier text="saveToSharedObj"/>
+						<identifier text="schema"/>
+						<identifier text="selectedIndex"/>
+						<identifier text="send"/>
+						<identifier text="setAnyTypedValue"/>
+						<identifier text="setAsBoolean"/>
+						<identifier text="setAsNumber"/>
+						<identifier text="setAsString"/>
+						<identifier text="setIterator"/>
+						<identifier text="setRange"/>
+						<identifier text="setTypedValue"/>
+						<identifier text="skip"/>
+						<identifier text="status"/>
+						<identifier text="suppressInvalidCalls"/>
+						<identifier text="tableName"/>
+						<identifier text="trigger"/>
+						<identifier text="typeName"/>
+						<identifier text="updateMode"/>
+						<identifier text="updatePacket"/>
+						<identifier text="updateResults"/>
+						<identifier text="useSort"/>
+						<identifier text="validateProperty"/>
+						<identifier text="value"/>
+						<identifier text="xupdatePacket"/>
+					</ifedition>
+				</colorsyntax>
+			</customactions>

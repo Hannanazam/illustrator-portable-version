@@ -1,0 +1,71 @@
+/collection4 {
+	/attributes {
+		/collectionName [ 17
+			5b466f7220436f6d706c6578204172745d
+		]
+		/AI10\ flattener\ outline\ text 0
+		/AI10\ flattener\ outline\ strokes 1
+		/AI10\ flattener\ clip\ complex\ regions 0
+		/AI16\ flattener\ anti\ alias 1
+		/AI10\ flattener\ raster-vector\ balance 75
+		/AI9\ Output\ Rasterization\ Resolution 1200.0
+		/AI9\ Mesh\ Rasterization\ Resolution 300.0
+	}
+	/canEdit 0
+	/canDelete 0
+}
+/collection3 {
+	/attributes {
+		/collectionName [ 16
+			5b4c6f77205265736f6c7574696f6e5d
+		]
+		/AI10\ flattener\ outline\ text 0
+		/AI10\ flattener\ outline\ strokes 1
+		/AI10\ flattener\ clip\ complex\ regions 0
+		/AI16\ flattener\ anti\ alias 0
+		/AI10\ flattener\ raster-vector\ balance 75
+		/AI9\ Output\ Rasterization\ Resolution 288.0
+		/AI9\ Mesh\ Rasterization\ Resolution 144.0
+	}
+	/canEdit 0
+	/canDelete 0
+}
+/collection2 {
+	/attributes {
+		/collectionName [ 19
+			5b4d656469756d205265736f6c7574696f6e5d
+		]
+		/AI10\ flattener\ outline\ text 0
+		/AI10\ flattener\ outline\ strokes 1
+		/AI10\ flattener\ clip\ complex\ regions 1
+		/AI16\ flattener\ anti\ alias 0
+		/AI10\ flattener\ raster-vector\ balance 75
+		/AI9\ Output\ Rasterization\ Resolution 300.0
+		/AI9\ Mesh\ Rasterization\ Resolution 150.0
+	}
+	/canEdit 0
+	/canDelete 0
+}
+/collection1 {
+	/attributes {
+		/collectionName [ 17
+			5b48696768205265736f6c7574696f6e5d
+		]
+		/AI10\ flattener\ outline\ text 0
+		/AI10\ flattener\ outline\ strokes 0
+		/AI10\ flattener\ clip\ complex\ regions 1
+		/AI16\ flattener\ anti\ alias 0
+		/AI10\ flattener\ raster-vector\ balance 100
+		/AI9\ Output\ Rasterization\ Resolution 1200.0
+		/AI9\ Mesh\ Rasterization\ Resolution 300.0
+	}
+	/canEdit 0
+	/canDelete 0
+}
+/Sketch {
+	/Version 1
+	/Description (Flattener catalog for AI11)
+	/Owner (AI11 Flattener Catalog Manager)
+}
+/NumberOfCollections 4
+/CatalogName (AI11 Flattener Presets)

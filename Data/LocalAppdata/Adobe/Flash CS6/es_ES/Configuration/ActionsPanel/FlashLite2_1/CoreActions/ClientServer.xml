@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xul-overlay href="../../../XULControls/URLControls.xml"?>
+
+<customactions>
+	<actionspanel>
+		<folder name="Clases de ActionScript 2.0" id="ActionScript 2.0 Classes" sort="false" tiptext="Clases predefinidas proporcionadas por ActionScript" helpid="x20980" version="4">
+			<folder name="Cliente/Servidor y XML" id="Client_Server" tiptext="Clases para la comunicación cliente/servidor" helpid="x20AB1" version="5">
+				<!--LoadVars object-->
+				<!--XML object-->
+				<!--XMLNode object-->
+				<!--XMLSocket object-->
+				<ifdef mode="FEATURE_XML_ENHANCEMENTS">
+					<folder name="LoadVars" id="LoadVars" sort="false" index="true" tiptext="Interfaz orientada a objetos para cargar variables" helpid="x20A4A" version="6">
+						<string name="new LoadVars" tiptext="Crea un nuevo objeto LoadVars" helpid="x2199B" text="new LoadVars()" version="6"/>
+						<folder name="Métodos" id="Methods" tiptext="Métodos del objeto LoadVars" helpid="x2058B" version="6">
+							<string name="decode" tiptext="Convierte la cadena variable en propiedades del objeto LoadVars especificado" helpid="x21993" object="LoadVars" text=".decode(%variables:String%)" version="6"/>
+							<string name="load" tiptext="Carga variables en Flash desde un URL" helpid="x21996" object="LoadVars" text=".load(% url %)" version="6">
+								<parametersdialog>
+									<block id="URL"/>
+								</parametersdialog>
+							</string>
+							<string name="send" tiptext="Envía variables desde Flash a un URL" helpid="x21997" object="LoadVars" text=".send(% url, ventana, método %)" version="6">
+								<parametersdialog>
+									<block id="URL"/>
+									<block id="URL_WINDOW"/>
+									<label value="Método:" align="right" control="METHOD_EXPRESSION"/>
+									<expression id="METHOD_EXPRESSION" size="60" prompt="método"/>
+								</parametersdialog>
+							</string>
+							<string name="sendAndLoad" tiptext="Envía variables desde Flash a un URL y descarga resultados de variables" helpid="x21998" object="LoadVars" text=".sendAndLoad(% url:String, objeto de destino, método %)" version="6">
+								<parametersdialog>
+									<block id="URL"/>
+									<label value="Objeto de destino:" align="right" control="TARGET"/>
+									<textbox id="TARGET" size="30" prompt="object"/>
+									<label value="Método:" align="right" control="METHOD_EXPRESSION"/>
+									<expression id="METHOD_EXPRESSION" size="30" prompt="método"/>
+								</parametersdialog>
+							</string>
+							<string name="toString" tiptext="Convierte este objeto LoadVars en una cadena codificada para URL" helpid="x21999" object="LoadVars" text=".toString()" version="6"/>
+							<string name="getBytesLoaded" tiptext="Indica el número de bytes cargado de variables" helpid="x21994" object="LoadVars" text=".getBytesLoaded()" version="6"/>
+							<string name="getBytesTotal" tiptext="Indica el tamaño total esperado de variables descargadas" helpid="x21995" object="LoadVars" text=".getBytesTotal()" version="6"/>
+							<string name="addRequestHeader" tiptext="Añade encabezados de solicitud para acciones POST" helpid="x21992" object="LoadVars" text=".addRequestHeader(% nombreEncabezado, valorEncabezado %)" text2=".addRequestHeader(% matrizEncabezado %)" version="7"/>
+						</folder>
+						<folder name="Propiedades" id="Properties" tiptext="Propiedades del objeto LoadVars" helpid="x20AA4" version="6">
+							<string name="loaded" tiptext="Verdadero si se completa load/sendAndLoad" helpid="x21990" object="LoadVars" text=".loaded" version="6"/>
+							<string name="contentType" tiptext="Tipo de contenido MIME para send/sendAndLoad" helpid="x2198F" object="LoadVars" text=".contentType" version="6"/>
+						</folder>
+						<folder name="Controladores de eventos" id="Event Handlers" tiptext="Controladores de eventos del objeto LoadVars" helpid="x20A4A" version="6">
+							<string name="onLoad" tiptext="Se invoca al concluir load/sendAndLoad" helpid="x2199B" object="LoadVars" text=".onLoad(éxito)" version="6" type="event"/>
+							<string name="onData" tiptext="Repetición de llamada para recibir datos sin procesar desde el servidor" helpid="x2199A" object="LoadVars" text=".onData(datos)" version="6" type="event"/>
+						</folder>
+					</folder>
+				</ifdef>
+				<folder name="XML" id="XML" index="true" sort="false" tiptext="Objeto que permite trabajar con documentos XML" helpid="x20A01" version="5">
+					<string name="new XML" tiptext="Crear un nuevo objeto XML" helpid="x21968" text="new XML(% fuente %)" version="5"/>
+					<folder name="Métodos" id="Methods" tiptext="Métodos de los objetos XML" helpid="x20A8B" version="5">
+						<string name="createElement" tiptext="Crear un nuevo elemento XML" helpid="x2195F" object="XML" text=".createElement(% nombreNodo:String %)" version="5"/>
+						<string name="createTextNode" tiptext="Crear un nuevo nodo de texto XML" helpid="x21960" object="XML" text=".createTextNode(% texto:String %)" version="5"/>
+						<ifdef mode="FEATURE_XML_ENHANCEMENTS">
+							<string name="getBytesLoaded" tiptext="Indica el número de bytes cargados del XML" helpid="x21961" object="XML" text=".getBytesLoaded()" version="6"/>
+							<string name="getBytesTotal" tiptext="Indica el tamaño total descargado esperado del XML" helpid="x21962" object="XML" text=".getBytesTotal()" version="6"/>
+						</ifdef>
+						<string name="load" tiptext="Cargar XML en Flash desde una URL" helpid="x21963" object="XML" text=".load(% url %)" version="5">
+							<parametersdialog>
+								<block id="URL"/>
+							</parametersdialog>
+						</string>
+						<string name="parseXML" tiptext="Analizar la cadena XML en este objeto XML" helpid="x21964" object="XML" text=".parseXML(% cadena:String %)" version="5"/>
+						<string name="send" tiptext="Enviar XML de Flash a una URL" helpid="x21965" object="XML" text=".send(% url, ventana %)" version="5">
+							<parametersdialog>
+								<block id="URL"/>
+								<block id="URL_WINDOW"/>
+								<label value="Método:" align="right" control="METHOD_EXPRESSION"/>
+								<expression id="METHOD_EXPRESSION" size="60" prompt="método"/>
+							</parametersdialog>
+						</string>
+						<string name="sendAndLoad" tiptext="Enviar XML desde Flash a una URL y descargar los resultados XML" helpid="x21966" object="XML" text='.sendAndLoad(% url:String="", resultXML %)' version="5">
+							<parametersdialog>
+								<block id="URL"/>
+								<label value="XML Resultado:" align="right" control="RSLT"/>
+								<textbox id="RSLT" size="50" prompt="xml"/>
+							</parametersdialog>
+						</string>
+						<string name="addRequestHeader" tiptext="Añade encabezados de solicitud para acciones POST" helpid="x2195E" object="XML" text=".addRequestHeader(% nombreEncabezado, valorEncabezado %)" text2=".addRequestHeader(% matrizEncabezado %)" version="7"/>
+					</folder>
+					<folder name="Propiedades" id="Properties" tiptext="Propiedades de los objetos XML" helpid="x20A8C" version="5">
+						<string name="loaded" tiptext="Definir como true una vez finalizado XML load/sendAndLoad" helpid="x2195A" object="XML" text=".loaded" version="5"/>
+						<string name="status" tiptext="Código de estado devuelto por el analizador XML" helpid="x2195B" object="XML" text=".status" version="5"/>
+						<string name="xmlDecl" tiptext="Texto de la declaración &lt;?xml&gt; del documento XML" helpid="x2195C" object="XML" text=".xmlDecl" version="5"/>
+						<string name="docTypeDecl" tiptext="Texto de la declaración &lt;!DOCTYPE&gt; del documento XML" helpid="x21958" object="XML" text=".docTypeDecl" version="5"/>
+						<string name="ignoreWhite" tiptext="Definir como verdadero para omitir espacios en blanco" helpid="x21959" object="XML" text=".ignoreWhite" version="5"/>
+						<string name="contentType" tiptext="Tipo de contenido MIME para send/sendAndLoad" helpid="x21957" object="XML" text=".contentType" version="5"/>
+					</folder>
+					<folder name="Controladores de eventos" id="Event Handlers" tiptext="Controladores de eventos del objeto XML" helpid="x20A8D" version="5">
+						<string name="onLoad" tiptext="Se invoca al concluir load/sendAndLoad" helpid="x21967" object="XML" text=".onLoad(éxito)" version="5" type="event"/>
+						<string name="onData" tiptext="Repetición de llamada para recibir datos sin procesar desde el servidor" helpid="x21968" object="XML" text=".onData(datos)" version="5" type="event"/>
+					</folder>
+				</folder>
+				<folder name="XMLNode" id="XMLNode" index="true" sort="false" tiptext="Superclase interna de objeto XML que permite trabajar con documentos XML" helpid="x20589" version="5">
+					<string name="new XMLNode" tiptext="Crea un nuevo objeto XMLNode" helpid="x21A49" text="New XMLNode(% tipo, valor %)" version="5"/>
+					<folder name="Métodos" id="Methods" tiptext="Métodos de objetos XMLNode" helpid="x20A8B" version="5">
+						<string name="appendChild" tiptext="Asociar un valor secundario a un elemento XML" helpid="x21A44" object="XMLNode" text=".appendChild(% secundario %)" version="5"/>
+						<string name="cloneNode" tiptext="Duplicar este nodo y, opcionalmente, los secundarios" helpid="x21A45" object="XMLNode" text=".cloneNode(% prof %)" version="5"/>
+						<string name="hasChildNodes" tiptext="Devolver el valor true si el elemento XML dispone de nodos secundarios" helpid="x21A46" object="XMLNode" text=".hasChildNodes()" version="5"/>
+						<string name="insertBefore" tiptext="Insertar un valor secundario antes de otro en un elemento XML" helpid="x21A47" object="XMLNode" text=".insertBefore(% nuevoSecundario, preSecundario %)" version="5"/>
+						<string name="removeNode" tiptext="Eliminar el nodo de la jerarquía del documento XML" helpid="x21A48" object="XMLNode" text=".removeNode()" version="5"/>
+						<string name="toString" tiptext="Convierte este objeto XMLNode en una cadena XML" helpid="x21A49" object="XMLNode" text=".toString()" version="5"/>
+					</folder>
+					<folder name="Propiedades" id="Properties" tiptext="Propiedades de objetos XMLNode" helpid="x20A8C" version="5">
+						<string name="firstChild" tiptext="Primer nivel secundario de este XMLNode" helpid="x21A3C" object="XMLNode" text=".firstChild" version="5"/>
+						<string name="lastChild" tiptext="Último nivel secundario de este XMLNode" helpid="x21A3D" object="XMLNode" text=".lastChild" version="5"/>
+						<string name="nextSibling" tiptext="Próximo valor colateral de este XMLNode" helpid="x21A3E" object="XMLNode" text=".nextSibling" version="5"/>
+						<string name="previousSibling" tiptext="Valor colateral anterior de este XMLNode" helpid="x21A43" object="XMLNode" text=".previousSibling" version="5"/>
+						<string name="nodeValue" tiptext="Valor (texto) de este XMLNode" helpid="x21A41" object="XMLNode" text=".nodeValue" version="5"/>
+						<string name="nodeType" tiptext="Tipo de este nodo (1=elemento, 3=texto)" helpid="x21A40" object="XMLNode" text=".nodeType" version="5"/>
+						<string name="nodeName" tiptext="Nombre de este elemento XMLNode" helpid="x21A3F" object="XMLNode" text=".nodeName" version="5"/>
+						<string name="attributes" tiptext="Matriz asociativa de atributos del elemento XMLNode" helpid="x21A3A" object="XMLNode" text=".attributes" version="5"/>
+						<string name="childNodes" tiptext="Matriz de los nodos secundarios del elemento XMLNode" helpid="x21A3B" object="XMLNode" text=".childNodes" version="5"/>
+						<string name="parentNode" tiptext="Nivel principal de este XMLNode" helpid="x21A42" object="XMLNode" text=".parentNode" version="5"/>
+					</folder>
+				</folder>
+				<folder name="XMLSocket" id="XMLSocket" index="true" sort="false" tiptext="Conexión del socket XML al servidor" helpid="x21BDF" version="5">
+					<string name="new XMLSocket" tiptext="Crear un nuevo objeto XMLSocket" helpid="x21BE0" text="new XMLSocket()" version="5"/>
+					<folder name="Métodos" id="Methods" tiptext="Métodos de los objetos Socket XML" helpid="x209EB" version="5">
+						<string name="connect" tiptext="Conectar con el puerto y el host especificados" helpid="x21BE2" object="XMLSocket" text='.connect(% host:String="", port %)' version="5"/>
+						<string name="send" tiptext="Enviar el documento XML al servidor" helpid="x21BE3" object="XMLSocket" text=".send(% datos %)" version="5"/>
+						<string name="close" tiptext="Cerrar la conexión de socket actual" helpid="x21BE1" object="XMLSocket" text=".close()" version="5"/>
+					</folder>
+					<folder name="Controladores de eventos" id="Event Handlers" tiptext="Controladores de eventos del objeto XMLSocket" helpid="x209EB" version="5">
+						<string name="onClose" tiptext="Función que se invoca cuando se cierra la conexión" helpid="x21BE4" object="XMLSocket" text=".onClose" version="5" type="event"/>
+						<string name="onConnect" tiptext="Se invoca cuando se establece la conexión" helpid="x21BE5" object="XMLSocket" text=".onConnect(éxito)" version="5" type="event"/>
+						<string name="onXML" tiptext="Repetición de llamada para recibir XML del servidor" helpid="x21BE7" object="XMLSocket" text=".onXML(xmlTexto)" version="5" type="event"/>
+						<string name="onData" tiptext="Repetición de llamada para recibir datos sin procesar desde el servidor" helpid="x21BE6" object="XMLSocket" text=".onData(datos)" version="5" type="event"/>
+					</folder>
+				</folder>
+			</folder>
+		</folder>
+	</actionspanel>
+</customactions>

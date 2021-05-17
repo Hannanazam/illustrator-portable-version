@@ -1,0 +1,162 @@
+\ufeff<?xml version="1.0" encoding="utf-8"?>
+<?xul-overlay href="../../../XULControls/MovieclipControls.xml"?>
+		<customactions>
+			<actionspanelsupplement>
+				<string name="getProperty" text="getProperty(% destino, propiedad %)">
+					<parametersdialog>
+						<label value="Destino:" control="TARGET" align="right"/>
+						<expression id="TARGET" size="40" prompt="destino"/>
+						<block id="MOVIECLIP_PROPERTIES"/>
+					</parametersdialog>
+				</string>
+				<string name="attachMovie" object="MovieClip" text=".attachMovie(% idNombre, nuevoNombre, prof [, objetoInicial] %)">
+					<parametersdialog>
+						<label value="Nombre de vinculación:" control="LINKAGE_EXPRESSION" align="right"/>
+						<expression id="LINKAGE_EXPRESSION" size="40" prompt="identificador de vinculación"/>
+						<block id="INSTANCENAME"/>
+						<label value="Profundidad:" control="LEVEL_TB" align="right"/>
+						<textbox id="LEVEL_TB" size="30" prompt="nivel"/>
+						<block id="INITOBJ_OPT"/>
+					</parametersdialog>
+				</string>
+				<string name="createEmptyMovieClip" object="MovieClip" text=".createEmptyMovieClip(% nombreInstancia=&quot;&quot;, prof %)">
+					<parametersdialog>
+						<block id="INSTANCENAME"/>
+						<block id="DEPTH"/>
+					</parametersdialog>
+				</string>
+				<string name="createTextField" object="MovieClip" text=".createTextField(% nombreInstancia=&quot;&quot;, prof, x, y, ancho, alto %)">
+					<parametersdialog>
+						<block id="INSTANCENAME"/>
+						<block id="DEPTH"/>
+						<block id="XPOS"/>
+						<block id="YPOS"/>
+						<block id="WIDTH"/>
+						<block id="HEIGHT"/>
+					</parametersdialog>
+				</string>
+				<string name="duplicateMovieClip" object="MovieClip" text=".duplicateMovieClip(% nuevoNombre=&quot;&quot;, prof [, ObjetoInicial] %)">
+					<parametersdialog>
+						<block id="INSTANCENAME"/>
+						<block id="DEPTH"/>
+						<block id="INITOBJ_OPT"/>
+					</parametersdialog>
+				</string>
+				<string name="getBounds" object="MovieClip" text=".getBounds(% espacioCoordenadaDestino %)">
+					<parametersdialog>
+						<label value="Espacio de coordenadas:" control="TARGET_COORD_EXPRESSION" align="right"/>
+						<expression id="TARGET_COORD_EXPRESSION" size="40" prompt="ruta de película" literal="false"/>
+					</parametersdialog>
+				</string>
+				<string name="getInstanceAtDepth" object="MovieClip" text=".getInstanceAtDepth(% profundidad %)">
+					<parametersdialog>
+						<block id="DEPTH"/>
+					</parametersdialog>
+				</string>
+				<string name="getURL" object="MovieClip" text=".getURL(&quot;url&quot;%, [ventana], [método] %)">
+					<parametersdialog autolayout="false">
+						<row>
+							<label align="right" id="URL_LABEL"/>
+							<hbox>
+								<expression id="URL_EXPRESSION"/>
+							</hbox>
+						</row>
+						<row>
+							<label value="[Ventana]:" control="WINDOW_MENU"/>
+							<hbox>
+								<expressionmenu width="20" literal="false" required="false" editable="true" id="WINDOW_MENU">
+									<menuitem label="_self"/>
+									<menuitem label="_blank"/>
+									<menuitem label="_parent"/>
+									<menuitem label="_top"/>
+								</expressionmenu>
+								<block id="URL_VARIABLES_OPT"/>
+							</hbox>
+						</row>
+					</parametersdialog>
+				</string>
+				<string name="globalToLocal" object="MovieClip" text=".globalToLocal(% punto %)">
+					<parametersdialog>
+						<block id="POINT"/>
+					</parametersdialog>
+				</string>
+				<string name="gotoAndPlay" object="MovieClip" text=".gotoAndPlay(% fotograma %)">
+					<parametersdialog>
+						<block id="FRAME"/>
+					</parametersdialog>
+				</string>
+				<string name="gotoAndStop" object="MovieClip" text=".gotoAndStop(% fotograma %)">
+					<parametersdialog>
+						<block id="FRAME"/>
+					</parametersdialog>
+				</string>
+				<string name="loadMovie" object="MovieClip" text=".loadMovie(% url, [método] %)">
+					<parametersdialog>
+						<block id="URL"/>
+						<block id="URL_VARIABLES_OPT"/>
+					</parametersdialog>
+				</string>
+				<string name="loadVariables" object="MovieClip" text=".loadVariables(% url, [método] %)">
+					<parametersdialog>
+						<block id="URL"/>
+						<block id="URL_VARIABLES_OPT"/>
+					</parametersdialog>
+				</string>
+				<string name="localToGlobal" object="MovieClip" text=".localToGlobal(% punto %)">
+					<parametersdialog>
+						<block id="POINT"/>
+					</parametersdialog>
+				</string>
+				<string name="setMask" object="MovieClip" text=".setMask(% máscaraClip %)">
+					<parametersdialog>
+						<label value="Enmascarar clip de película:" control="MASKCLIP_EXPRESSION"/>
+						<expression id="MASKCLIP_EXPRESSION" size="40" prompt="clip-de-película"/>
+					</parametersdialog>
+				</string>
+				<string name="startDrag" object="MovieClip" text=".startDrag(% [centroBloqueo], [izq.], [sup.], [der.], [inf.] %)">
+					<parametersdialog>
+						<label value="[Bloquear centro]:" control="LOCKCENTER_EXPRESSION"/>
+						<expression id="LOCKCENTER_EXPRESSION" size="40" prompt="true/false"/>
+						<label value="[Izquierda]:" control="LEFT_TEXTBOX"/>
+						<textbox id="LEFT_TEXTBOX" size="20" prompt="coord x"/>
+						<label value="[Superior]:" control="TOP_TEXTBOX"/>
+						<textbox id="TOP_TEXTBOX" size="20" prompt="coord y"/>
+						<label value="[Derecha]:" control="RIGHT_TEXTBOX"/>
+						<textbox id="RIGHT_TEXTBOX" size="20" prompt="coord x"/>
+						<label value="[Inferior]:" control="BOTTOM_TEXTBOX"/>
+						<textbox id="BOTTOM_TEXTBOX" size="20" prompt="coord y"/>
+					</parametersdialog>
+				</string>
+				<string name="beginFill" object="MovieClip" text=".beginFill(% rva, alfa %)">
+					<parametersdialog>
+						<block id="RGB"/>
+						<block id="ALPHA_OPT"/>
+					</parametersdialog>
+				</string>
+				<string name="lineStyle" object="MovieClip" text=".lineStyle(% grosor, [rva], [alfa], [consejosPíxeles], [sinEscala], [estiloMayús], [estiloUnión], [límiteAngular] %)">
+					<parametersdialog>
+						<label value="Grosor:" control="THICKNESS_TEXTBOX"/>
+						<textbox id="THICKNESS_TEXTBOX" size="10" prompt="0-255"/>
+						<block id="RGB_OPT"/>
+						<label value="[Alfa]:" control="ALPHA_TBOX"/>
+						<textbox id="ALPHA_TBOX" size="10" prompt="0-100"/>
+						<label value="[Consejos]:" control="HINTING_TBOX"/>
+						<textbox id="HINTING_TBOX" size="10" prompt="boolean"/>
+						<label value="[Sin escala]:" control="NOSCALE_MENU"/>
+						<menulist width="100" oncreate="fl.runScript(fl.configURI + &apos;/Javascript/movieclip.jsfl&apos;, &apos;setControlToNoScale&apos;,&apos;NOSCALE_MENU&apos;);" editable="true" id="NOSCALE_MENU">
+							<menuitem label=""/>
+						</menulist>
+						<label value="[Estilo de extremo]:" control="CAPSTYLE_MENU"/>
+						<menulist width="100" oncreate="fl.runScript(fl.configURI + &apos;/Javascript/movieclip.jsfl&apos;, &apos;setControlToCapsStyle&apos;,&apos;CAPSTYLE_MENU&apos;);" editable="true" id="CAPSTYLE_MENU">
+							<menuitem label=""/>
+						</menulist>
+						<label value="[Estilo de unión]:" control="JOINTSTYLE_MENU"/>
+						<menulist width="100" oncreate="fl.runScript(fl.configURI + &apos;/Javascript/movieclip.jsfl&apos;, &apos;setControlToJointStyle&apos;,&apos;JOINTSTYLE_MENU&apos;);" editable="true" id="JOINTSTYLE_MENU">
+							<menuitem label=""/>
+						</menulist>
+						<label value="[Límite de angular]:" control="MITER_TBOX"/>
+						<textbox id="_TBOX" size="10" prompt="1-255"/>
+					</parametersdialog>
+				</string>
+			</actionspanelsupplement>
+		</customactions>

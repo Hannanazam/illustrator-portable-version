@@ -1,0 +1,48 @@
+\ufeff<?xml version="1.0" encoding="utf-8"?>
+<?xul-overlay href="../../../XULControls/URLControls.xml"?>
+		<customactions>
+			<actionspanelsupplement>
+				<string name="load" object="LoadVars" text=".load(% url %)">
+					<parametersdialog>
+						<block id="URL"/>
+					</parametersdialog>
+				</string>
+				<string name="send" object="LoadVars" text=".send(% url, ventana, método %)">
+					<parametersdialog>
+						<block id="URL"/>
+						<block id="URL_WINDOW"/>
+						<label value="Método:" align="right" control="METHOD_EXPRESSION"/>
+						<expression id="METHOD_EXPRESSION" size="60" prompt="método"/>
+					</parametersdialog>
+				</string>
+				<string name="sendAndLoad" object="LoadVars" text=".sendAndLoad(% url:String, objeto de destino, método %)">
+					<parametersdialog>
+						<block id="URL"/>
+						<label value="Objeto de destino:" align="right" control="TARGET"/>
+						<textbox id="TARGET" size="30" prompt="object"/>
+						<label value="Método:" align="right" control="METHOD_EXPRESSION"/>
+						<expression id="METHOD_EXPRESSION" size="30" prompt="método"/>
+					</parametersdialog>
+				</string>
+				<string name="load" object="XML" text=".load(% url %)">
+					<parametersdialog>
+						<block id="URL"/>
+					</parametersdialog>
+				</string>
+				<string name="send" object="XML" text=".send(% url, ventana %)">
+					<parametersdialog>
+						<block id="URL"/>
+						<block id="URL_WINDOW"/>
+						<label value="Método:" align="right" control="METHOD_EXPRESSION"/>
+						<expression id="METHOD_EXPRESSION" size="60" prompt="método"/>
+					</parametersdialog>
+				</string>
+				<string name="sendAndLoad" object="XML" text=".sendAndLoad(% url:String=&quot;&quot;, xmlResultante %)">
+					<parametersdialog>
+						<block id="URL"/>
+						<label value="XML Resultado:" align="right" control="RSLT"/>
+						<textbox id="RSLT" size="50" prompt="xml"/>
+					</parametersdialog>
+				</string>
+			</actionspanelsupplement>
+		</customactions>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<Payload>
+		<!-- defaultAdobeCode for development use. -->
+		<Data key="defaultAdobeCode">AdobeXMPPanels-Installer-AdobeCode</Data>
+	</Payload>
+</Configuration>

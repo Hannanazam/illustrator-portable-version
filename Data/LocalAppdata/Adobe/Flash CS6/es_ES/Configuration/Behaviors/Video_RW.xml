@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+
+<!-- **************************************************************************** -->
+<!-- Copyright 2003 Macromedia, Inc. All Rights Reserved.                         -->
+<!-- The following is Sample Code and is subject to all restrictions on           -->
+<!-- such code as contained in the End User License Agreement accompanying        -->
+<!-- this product.                                                                -->
+<!-- **************************************************************************** -->
+
+<flash_behavior version="1.0">
+
+<!--Below is where and how we define the behavior and its parameters-->
+
+	<behavior_definition dialogID="RW_video-dialog" category="Vídeo incorporado" name="Rebobinar" defaultEvent="On Press" class="movieclip">
+		<properties>
+			<property id="target"/> 
+			<property id="numframes" default="2"/>
+		</properties>
+	
+		<!--The dialog window is tied to the controls below by its id-->
+		<!--This controls generate the dialog using the XML to UI functionality-->
+		
+		<dialog id="RW_video-dialog" title="Rebobinar vídeo" buttons="accept, cancel">
+		  <grid>
+		    <columns>
+			  <column>
+				<rows>
+				  <row align="center">
+				    <vbox>
+						<label value="Seleccione la instancia de vídeo que desea rebobinar:"/> 
+						<targetlist id="target" tabindex="1" class="movieclip, video" required="true" requiredname="target"/>
+					</vbox>
+				  </row>
+				</rows>
+			 	<rows>
+				  <row align="center">
+				    <vbox>
+						<label value=""/> 
+						<label value="Especifique el número de fotogramas que debe retroceder el vídeo:"/>
+						<textbox id="numframes" tabindex="2" required="true"/> 
+					</vbox>
+				  </row>
+				</rows>
+			  </column>
+		    </columns>	
+		  </grid>
+		</dialog>
+		<actionscript>
+		
+		<!-- Inside the CDATA section is where you place the Actionscript to be displayed in the AS panel-->
+		
+<![CDATA[
+	//RW video Behavior
+	var videoRW;
+	
+	videoRW = function () {
+		if(($target$._parent._currentframe - $numframes$) >= 0){
+			$target$._parent.gotoAndPlay($target$._parent._currentframe - $numframes$);
+		} else {
+			$target$._parent.gotoAndPlay(0);
+		}
+	}
+	
+	this.onEnterFrame = function () {
+		this.videoRW();
+	}
+	
+	this.onRelease = function () {
+		delete this.onEnterFrame;
+	}		
+
+]]>
+		</actionscript>
+	</behavior_definition>
+</flash_behavior>

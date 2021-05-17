@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<Payload adobeCode="{CFC3110A-491C-4DBF-A97D-66C567600A2F}">
+		<!-- defaultAdobeCode for development use. -->
+		<Data key="defaultAdobeCode">Camera_Raw-Installer-AdobeCode</Data>
+		<Data key="LicensingCode">Camera_Raw-7-Win-GM</Data>
+		<Data key="AMTConfigPath">C:\Program Files\Common Files\Adobe\Camera Raw 7\AMT\component.xml</Data><Data key="DefaultDriverPayload">{4869414E-7AEA-4C8E-BE1C-8D40977FD517}</Data><Data key="InstallDate">1347011160</Data><Data key="driverAMTConfigPath">C:\Program Files\Common Files\Adobe\Adobe Illustrator CS6\Support Files\Contents\Windows\AMT\application.xml</Data><Data key="driverLEID">Illustrator-CS6-Win-GM</Data><Data key="installedLanguages">en_US</Data></Payload>
+	<Other adobeCode="Camera_Raw-7-Win-GM">
+		<Data key="EPIC_APP">Photoshop Camera Raw</Data>
+		<Data key="EPIC_APP_0">Photoshop Camera Raw 7.0</Data>
+		<Data key="GracePeriod">10000</Data>
+		<Data key="PayloadCode">{CFC3110A-491C-4DBF-A97D-66C567600A2F}</Data></Other>
+</Configuration>

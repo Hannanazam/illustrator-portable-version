@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+
+<!-- **************************************************************************** -->
+<!-- Copyright 2003 Macromedia, Inc. All Rights Reserved.                         -->
+<!-- The following is Sample Code and is subject to all restrictions on           -->
+<!-- such code as contained in the End User License Agreement accompanying        -->
+<!-- this product.                                                                -->
+<!-- **************************************************************************** -->
+
+<flash_behavior version="1.0">
+	<behavior_definition dialogID="NamedFrameCuePointDialog" defaultEvent="load" events="load" category="Media" name="Navegación por puntos de referencia en fotogramas con etiqueta">
+		<properties>
+			<property id="target" default="_parent"/> 
+			<property id="stop" default="false"/>
+		</properties>
+		<dialog id="NamedFrameCuePointDialog" title="Navegación por puntos de referencia en fotogramas con etiqueta" buttons="accept, cancel">
+			<vbox>
+				<label value="Seleccione el clip con fotogramas con nombre:" control="target"/> 
+				<targetlist id="target" class="movieclip" required="true" requiredname="target"/>
+				<checkbox id="stop" label="gotoAndStop? (frente a gotoAndPlay)" checked="false"/> 
+			</vbox> 
+		</dialog>
+		<actionscript>
+			<![CDATA[
+	// Start Labeled Frame CuePoint Behavior
+	mx.controls.streamingmedia.behaviors.NamedFrameCuePointListener.initializeListener(this, $target$, $stop$);
+	// End Labeled Frame CuePoint Behavior
+			]]>
+		</actionscript>
+	</behavior_definition>
+</flash_behavior>

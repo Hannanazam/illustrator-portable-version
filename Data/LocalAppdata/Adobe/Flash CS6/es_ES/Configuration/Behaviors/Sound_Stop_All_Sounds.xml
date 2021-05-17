@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"?>
+
+<!-- **************************************************************************** -->
+<!-- Copyright 2003 Macromedia, Inc. All Rights Reserved.                         -->
+<!-- The following is Sample Code and is subject to all restrictions on           -->
+<!-- such code as contained in the End User License Agreement accompanying        -->
+<!-- this product.                                                                -->
+<!-- **************************************************************************** -->
+
+<flash_behavior version="1.0">
+
+<!--Below is where and how we define the behavior and its parameters-->
+
+	<behavior_definition dialogID="Stop_All_Sounds-dialog" category="Sonido" name="Detener todos los sonidos">
+		<!--class="frame, movieclip, button">-->
+		
+		<properties>
+			<property id="dummy"/> 
+		</properties>
+	
+		<!--The dialog window is tied to the controls below by its id-->
+		<!--This controls generate the dialog using the XML to UI functionality-->
+		
+		<dialog id="Stop_All_Sounds-dialog" title="Detener todos los sonidos" buttons="accept, cancel">
+			<vbox>
+				<hbox>
+					<label value="Este comportamiento detiene todos los sonidos que se están reproduciendo."/> 
+				</hbox>
+			</vbox>  
+		</dialog>
+		<actionscript>
+		
+		<!-- Inside the CDATA section is where you place the Actionscript to be displayed in the AS panel-->
+		
+<![CDATA[
+	//stopAllSounds Behavior
+	stopAllSounds();
+]]>
+		</actionscript>
+	</behavior_definition>
+</flash_behavior>

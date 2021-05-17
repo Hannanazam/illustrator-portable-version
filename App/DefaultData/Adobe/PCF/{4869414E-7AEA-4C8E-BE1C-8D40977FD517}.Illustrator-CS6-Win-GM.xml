@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Payload adobeCode="{4869414E-7AEA-4C8E-BE1C-8D40977FD517}">
+		<Data key="defaultAdobeCode">Illustrator-CS6-Installer-AdobeCode</Data>
+		<Data key="LicensingCode">Illustrator-CS6-Win-GM</Data>
+		<Data key="AMTConfigPath">C:\Program Files\Common Files\Adobe\Adobe Illustrator CS6\Support Files\Contents\Windows\AMT\application.xml</Data><Data key="DefaultDriverPayload">{4869414E-7AEA-4C8E-BE1C-8D40977FD517}</Data><Data key="InstallDate">1347011279</Data><Data key="driverAMTConfigPath">C:\Program Files\Common Files\Adobe\Adobe Illustrator CS6\Support Files\Contents\Windows\AMT\application.xml</Data><Data key="driverLEID">Illustrator-CS6-Win-GM</Data><Data key="installedLanguages">en_US</Data></Payload>
+	<Other adobeCode="Illustrator-CS6-Win-GM">
+		<Data key="EPIC_APP">Adobe Illustrator CS6</Data>
+		<Data key="EPIC_APP_34">Adobe Illustrator CS6</Data>
+		<Data key="TrialSerialNumber">916387072192745419440733</Data>
+		<Data key="EULAFolderName">../../../Legal</Data>
+		<Data key="PayloadCode">{4869414E-7AEA-4C8E-BE1C-8D40977FD517}</Data></Other>
+</Configuration>

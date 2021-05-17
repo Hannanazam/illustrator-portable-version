@@ -1,0 +1,99 @@
+\ufeff<?xml version="1.0" encoding="utf-8"?>
+<?xul-overlay href="../../../XULControls/DateControls.xml"?>
+		<customactions>
+			<actionspanelsupplement>
+				<string name="UTC" object="Date" text="Date.UTC(%año:Number,mes:Number[,fecha:Number=1,hora:Number=0,minuto:Number=0,segundo:Number=0,milisegundo:Number=0]%):Number">
+					<parametersdialog>
+						<block id="YEAR_FLEX"/>
+						<block id="MONTH_OPT_FLEX"/>
+						<block id="DAY_OPT_FLEX"/>
+						<block id="HOURS_OPT_FLEX"/>
+						<block id="MINUTES_OPT_FLEX"/>
+						<block id="SECONDS_OPT_FLEX"/>
+						<block id="MILLISECONDS_OPT_FLEX"/>
+					</parametersdialog>
+				</string>
+				<string name="setTime" object="Date" text=".setTime(%milisegundo:Number%):Number">
+					<parametersdialog>
+						<label id="MILLISECONDS_LABEL"/>
+						<textbox id="MILLISECONDS_TEXTBOX" size="15" prompt="desde 1/1/1970"/>
+					</parametersdialog>
+				</string>
+				<string name="setHours" object="Date" text=".setHours(%hora:Number,minuto:Number,segundo:Number,milisegundo:Number%):Number">
+					<parametersdialog>
+						<block id="HOURS"/>
+					</parametersdialog>
+				</string>
+				<string name="setDate" object="Date" text=".setDate(%día:Number%):Number">
+					<parametersdialog>
+						<block id="DAY"/>
+					</parametersdialog>
+				</string>
+				<string name="setMonth" object="Date" text=".setMonth(%mes:Number,día:Number%):Number">
+					<parametersdialog>
+						<block id="MONTH"/>
+					</parametersdialog>
+				</string>
+				<string name="setFullYear" object="Date" text=".setFullYear(%año:Number,mes:Number,día:Number%):Number">
+					<parametersdialog>
+						<block id="YEAR"/>
+						<block id="MONTH_OPT"/>
+						<block id="DAY_OPT"/>
+					</parametersdialog>
+				</string>
+				<string name="setSeconds" object="Date" text=".setSeconds(%segundo:Number,milisegundo:Number%):Number">
+					<parametersdialog>
+						<block id="SECONDS"/>
+					</parametersdialog>
+				</string>
+				<string name="setMinutes" object="Date" text=".setMinutes(%minuto:Number,segundo:Number,milisegundo:Number%):Number">
+					<parametersdialog>
+						<block id="MINUTES"/>
+					</parametersdialog>
+				</string>
+				<string name="setMilliseconds" object="Date" text=".setMilliseconds(%milisegundo:Number%):Number">
+					<parametersdialog>
+						<label id="MILLISECONDS_LABEL"/>
+						<textbox id="MILLISECONDS_TEXTBOX" prompt="0-999"/>
+					</parametersdialog>
+				</string>
+				<string name="setUTCDate" object="Date" text=".setUTCDate(%día:Number%):Number">
+					<parametersdialog>
+						<block id="DAY"/>
+					</parametersdialog>
+				</string>
+				<string name="setUTCMonth" object="Date" text=".setUTCMonth(%mes:Number,día:Number%):Number" text2=".setUTCMonth(% mes %)">
+					<parametersdialog>
+						<block id="MONTH"/>
+					</parametersdialog>
+				</string>
+				<string name="setUTCFullYear" object="Date" text=".setUTCFullYear(%año:Number,mes:Number,día:Number%):Number">
+					<parametersdialog>
+						<block id="YEAR"/>
+						<block id="MONTH_OPT"/>
+						<block id="DAY_OPT"/>
+					</parametersdialog>
+				</string>
+				<string name="setUTCHours" object="Date" text=".setUTCHours(%hora:Number,minuto:Number,segundo:Number,milisegundo:Number%):Number">
+					<parametersdialog>
+						<block id="HOURS"/>
+					</parametersdialog>
+				</string>
+				<string name="setUTCMinutes" object="Date" text=".setUTCMinutes(%minuto:Number,segundo:Number,milisegundo:Number%):Number">
+					<parametersdialog>
+						<block id="MINUTES"/>
+					</parametersdialog>
+				</string>
+				<string name="setUTCSeconds" object="Date" text=".setUTCSeconds(%segundo:Number,milisegundo:Number%):Number">
+					<parametersdialog>
+						<block id="SECONDS"/>
+					</parametersdialog>
+				</string>
+				<string name="setUTCMilliseconds" object="Date" text=".setUTCMilliseconds(%milisegundo:Number%):Number">
+					<parametersdialog>
+						<label id="MILLISECONDS_LABEL"/>
+						<textbox id="MILLISECONDS_TEXTBOX" prompt="0-999"/>
+					</parametersdialog>
+				</string>
+			</actionspanelsupplement>
+		</customactions>

@@ -1,0 +1,17 @@
+\ufeff<?xml version="1.0" encoding="utf-8"?>
+<toolbox>
+		<actionspanelsupplement>
+			<string name="setSelectColor" object="[flash.text.TextSnapshot]" text=".setSelectColor(%[colorHex:uint=0xFFFF00]%):void">
+				<parametersdialog>
+					<label value="Color:" control="COLORCHIP"/>
+					<colorchip id="COLORCHIP" format="hex"/>
+				</parametersdialog>
+			</string>
+			<string name="trace" text="trace(%argumentos:argumento variable-longitud%):void">
+				<parametersdialog>
+					<label value="Argumentos:" control="EXPRESSION" align="right"/>
+					<expression id="EXPRESSION" size="60" flex="1" prompt="argumento variable-longitud"/>
+				</parametersdialog>
+			</string>
+		</actionspanelsupplement>
+</toolbox>

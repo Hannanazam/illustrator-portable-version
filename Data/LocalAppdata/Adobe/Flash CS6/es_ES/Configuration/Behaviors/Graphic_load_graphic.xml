@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+
+<!-- **************************************************************************** -->
+<!-- Copyright 2003 Macromedia, Inc. All Rights Reserved.                         -->
+<!-- The following is Sample Code and is subject to all restrictions on           -->
+<!-- such code as contained in the End User License Agreement accompanying        -->
+<!-- this product.                                                                -->
+<!-- **************************************************************************** -->
+
+<flash_behavior version="1.0">
+
+<!--Below is where and how we define the behavior and its parameters-->
+
+	<behavior_definition dialogID="Load Graphic-dialog" category="Clip de película" name="Cargar gráfico" class="movieclip, button, frame">
+		<properties>
+			<property id="graphic" default="*.jpg"/> 
+			<property id="target" default="this"/>
+		</properties>
+
+<!--The dialog window is tied to the controls below by its id-->
+<!--This controls generate the dialog using the XML to UI functionality-->
+
+		<dialog id="Load Graphic-dialog" title="Cargar gráfico" buttons="accept, cancel">
+			<grid>
+			  <columns>
+			    <column>				 
+				  <rows>
+					<row align="center">
+				      <vbox>
+					    <label value="Especifique la URL para cargar el archivo .JPG:"/> 
+						<textbox literal="true" size="40" id="graphic" required="true" requiredname="gráfico"/>
+					  </vbox>
+					</row>
+				  </rows>
+				  <rows>
+					<row align="center">
+				      <vbox>
+						<label value=""/> 
+						<label value="Seleccione el clip de película en el que desea cargar el gráfico:"/>
+						<targetlist id="target" class="movieclip"/> 
+					  </vbox>
+					</row>
+				  </rows>
+			    </column>				 
+			  </columns>
+			</grid>		
+		</dialog>
+
+<!-- Inside the CDATA section is where you place the Actionscript to be displayed in the AS panel-->
+
+<actionscript>
+<![CDATA[
+	//load Graphic Behavior
+	$target$.loadMovie($graphic$);
+	//End Behavior
+]]>
+</actionscript>
+</behavior_definition>
+
+</flash_behavior>

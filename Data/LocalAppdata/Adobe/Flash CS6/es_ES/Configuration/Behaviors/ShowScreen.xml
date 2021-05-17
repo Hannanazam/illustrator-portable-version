@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+
+<!-- **************************************************************************** -->
+<!-- Copyright 2003 Macromedia, Inc. All Rights Reserved.                         -->
+<!-- The following is Sample Code and is subject to all restrictions on           -->
+<!-- such code as contained in the End User License Agreement accompanying        -->
+<!-- this product.                                                                -->
+<!-- **************************************************************************** -->
+
+<flash_behavior version="1.0">
+
+<behavior_definition dialogID="SelectScreenDialog" category="Pantalla" screenModeOnly="true" name="Mostrar pantalla">
+
+  <properties>
+    <property id="TARGET" default="this._parent"/> 
+  </properties>
+  
+  <dialog id="SelectScreenDialog" title="Seleccionar pantalla" buttons="accept, cancel">
+    <vbox>
+        <label value="Seleccione la pantalla:" control="TARGET"/> 
+        <targetlist id="TARGET" class="screen" required="true" requiredname="DESTINO"/>
+    </vbox> 
+  </dialog>
+  
+  <actionscript>
+    <![CDATA[
+      // Show Screen behavior
+      if(($TARGET$ != undefined) && ($TARGET$ != null))
+      {
+        var screen = null;
+        var target = this;
+        while((screen == null) && (target != undefined) && (target != null))
+        {
+          if(target instanceof mx.screens.Screen)
+          {
+            screen = target;
+          }
+          else
+          {
+            target = target._parent;
+          }
+        }
+        $TARGET$.setVisible(true);
+
+        if((screen != null) && ($TARGET$ != screen.rootSlide.currentSlide))
+        {
+          screen.rootSlide.currentSlide.setVisible(false);
+        }
+      }
+      // End Show Screen behavior
+    ]]>
+  </actionscript>
+  
+</behavior_definition>
+</flash_behavior>

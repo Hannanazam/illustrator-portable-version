@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+
+<!-- **************************************************************************** -->
+<!-- Copyright 2003 Macromedia, Inc. All Rights Reserved.                         -->
+<!-- The following is Sample Code and is subject to all restrictions on           -->
+<!-- such code as contained in the End User License Agreement accompanying        -->
+<!-- this product.                                                                -->
+<!-- **************************************************************************** -->
+
+<flash_behavior version="1.0">
+
+<!--Below is where and how we define the behavior and its parameters-->
+
+	<behavior_definition dialogID="Duplicate Movieclip-dialog" category="Clip de película" name="Duplicar clip de película" class="movieclip, button">
+		<properties>
+			<property id="target" default="this"/> 
+			<property id="xoffset" default="10"/>
+			<property id="yoffset" default="10"/> 
+		</properties>
+
+<!--The dialog window is tied to the controls below by its id-->
+<!--This controls generate the dialog using the XML to UI functionality-->
+
+		<dialog id="Duplicate Movieclip-dialog" title="Duplicar clip de película" buttons="accept, cancel">
+			<grid>
+			  <columns>
+			    <column>				 
+				  <rows>
+					<row align="center">
+				      <vbox>
+						<label value="Seleccione el clip de película que desea duplicar:"/> 
+						<targetlist id="target" class="movieclip"/>
+					  </vbox>
+					</row>
+				  </rows>
+				  <rows>
+					<row align="center">
+				      <vbox>
+						<label value=""/> 
+						<label value="Especifique el desplazamiento (en píxeles) que desea utilizar para crear el duplicado."/>
+						<rows>
+							<row align="left">
+				     		  <vbox>
+								<label value="Desplazamiento X:"/> 
+								<textbox id="xoffset" tabindex="2" required="true" requiredname="desplazamiento X"/>
+				     		  </vbox>
+							</row>
+						</rows>
+						<rows>
+							<row align="left">
+				      		  <vbox>
+								<label value="Desplazamiento Y:"/> 
+								<textbox id="yoffset" tabindex="2" required="true" requiredname="desplazamiento Y"/>
+				      		  </vbox>
+							</row>
+						</rows>
+					  </vbox>
+					</row>
+				  </rows>
+			    </column>				 
+			  </columns>
+			</grid>		
+   </dialog>
+
+<!-- Inside the CDATA section is where you place the Actionscript to be displayed in the AS panel-->
+
+<actionscript>
+<![CDATA[
+	//Duplicate Movieclip Behavior
+	//Requires Flash Player 7 or later
+	var newdepth = $target$._parent.getNextHighestDepth();
+	var newname = "copy" + newdepth;
+	var prevname = "copy" + (newdepth-1);
+	if ($target$._parent[prevname] == undefined) $target$._parent[prevname] = $target$;
+	$target$.duplicateMovieClip(newname,newdepth);
+	$target$._parent[newname]._x = $target$._parent[prevname]._x + $xoffset$;
+	$target$._parent[newname]._y = $target$._parent[prevname]._y + $yoffset$;
+	//End Behavior
+]]>
+</actionscript>
+</behavior_definition>
+
+</flash_behavior>

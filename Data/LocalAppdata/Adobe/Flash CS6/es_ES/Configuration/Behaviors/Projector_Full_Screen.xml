@@ -1,0 +1,49 @@
+﻿<?xml version="1.0"?>
+
+<!-- **************************************************************************** -->
+<!-- Copyright 2003 Macromedia, Inc. All Rights Reserved.                         -->
+<!-- The following is Sample Code and is subject to all restrictions on           -->
+<!-- such code as contained in the End User License Agreement accompanying        -->
+<!-- this product.                                                                -->
+<!-- **************************************************************************** -->
+
+<flash_behavior version="1.0">
+
+<!--Below is where and how we define the behavior and its parameters-->
+
+<behavior_definition dialogID="Launch Full Screen-dialog" category="Proyector" name="Activar/desactivar modo de pantalla completa" class="movieclip, button">
+	<properties>
+		<property id="graphic"/> 
+		<property id="target" default="this"/>
+	</properties>
+
+<!--The dialog window is tied to the controls below by its id-->
+<!--This controls generate the dialog using the XML to UI functionality-->
+
+		<dialog id="Launch Full Screen-dialog" title="Activar/desactivar modo de pantalla completa" buttons="accept, cancel">
+			<vbox>
+				<hbox>
+					<label value="Cuando se reproduce como proyector, permite pasar al modo de pantalla completa y abandonar este modo."/> 
+				</hbox> 
+			</vbox>  
+		</dialog>
+
+
+<!-- Inside the CDATA section is where you place the Actionscript to be displayed in the AS panel-->
+
+		<actionscript>
+<![CDATA[
+	//Toggle Full Screen mode
+	if ($$fullscreen == true) {
+		fscommand("fullscreen", false);
+		$$fullscreen = false;
+	} else {
+		fscommand("fullscreen", true);
+		$$fullscreen = true;
+	}
+	//End Behavior
+]]>
+		</actionscript>
+	</behavior_definition>
+
+</flash_behavior>

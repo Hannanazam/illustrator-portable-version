@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+
+<!-- **************************************************************************** -->
+<!-- Copyright 2003 Macromedia, Inc. All Rights Reserved.                         -->
+<!-- The following is Sample Code and is subject to all restrictions on           -->
+<!-- such code as contained in the End User License Agreement accompanying        -->
+<!-- this product.                                                                -->
+<!-- **************************************************************************** -->
+<flash_behavior version="1.0">
+
+<!--Below is where and how we define the behavior and its parameters-->
+
+<behavior_definition dialogID="Bring to Front-dialog" category="Clip de película" name="Traer al frente" class="movieclip, graphic, button">
+	<properties>
+		<property id="target" default="this"/> 
+	</properties>
+
+<!--The dialog window is tied to the controls below by its id-->
+<!--This controls generate the dialog using the XML to UI functionality-->
+
+		<dialog id="Bring to Front-dialog" title="Traer al frente" buttons="accept, cancel">
+			<vbox>
+				<hbox>
+					<label value="Seleccione el clip de película que desea enviar al frente:"/> 
+				</hbox>
+				<hbox>
+					<label value="Clip de película de destino:"/> 
+					<targetlist id="target" class="movieclip"/>                  
+				</hbox> 
+			</vbox>  
+		</dialog>
+
+
+<!-- Inside the CDATA section is where you place the Actionscript to be displayed in the AS panel-->
+
+		<actionscript>
+<![CDATA[
+	//Bring to Front Behavior
+	mx.behaviors.DepthControl.bringToFront($target$);
+	//End Behavior
+]]>
+		</actionscript>
+	</behavior_definition>
+
+</flash_behavior>

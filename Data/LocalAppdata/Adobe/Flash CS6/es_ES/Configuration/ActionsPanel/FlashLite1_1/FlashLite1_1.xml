@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolbox>
+	<actionspanel>
+		<folder name="Funciones globales" id="Actions" sort="false" tiptext="Funciones que se pueden añadir al script">
+			<folder name="Control de la línea de tiempo" id="Movie Control" tiptext="Funciones que controlan la reproducción de películas">
+				<ifmode mode="SCRIPT_ASSIST_ON">
+					<action id="goto" name="goto" tiptext="Ir al fotograma especificado de la película" quickey="go"/>
+				</ifmode>
+				<ifmode mode="SCRIPT_ASSIST_OFF">
+					<action name="gotoAndPlay" tiptext="Ir al fotograma especificado y reproducirlo" helpid="x21C15" text="gotoAndPlay(% fotograma %);\n" text2="gotoAndPlay(% escena, frame %);\n" quickey="gp"/>
+					<action name="gotoAndStop" tiptext="Ir al fotograma especificado y detenerlo" helpid="x21C16" text="gotoAndStop(% fotograma %);\n" text2="gotoAndStop(% escena, frame %);\n" quickey="gs"/>
+					<action name="nextFrame" tiptext="Ir al fotograma siguiente" helpid="x21C17" text="nextFrame();\n" quickey="nf"/>
+					<action name="prevFrame" tiptext="Ir al fotograma anterior" helpid="x21C18" text="prevFrame();\n" quickey="pf"/>
+					<action name="nextScene" tiptext="Ir a la escena siguiente" helpid="x21C19" text="nextScene();\n" quickey="ns"/>
+					<action name="prevScene" tiptext="Ir a la escena anterior" helpid="x21C1A" text="prevScene();\n" quickey="ps"/>
+				</ifmode>
+				<action id="play" name="play" tiptext="Iniciar la reproducción de la película" helpid="x21C1B" text="play();\n" quickey="pl"/>
+				<action id="stop" name="stop" tiptext="Detener la reproducción de la película" helpid="x21C1C" text="stop();\n" quickey="st"/>
+				<action id="stopAllSounds" name="stopAllSounds" tiptext="Detener la reproducción de todos los sonidos" helpid="x21C1D" text="stopAllSounds();\n" quickey="ss"/>
+				<action id="ifFrameLoaded" name="ifFrameLoaded" tiptext="Realizar acciones sólo cuando se carga un fotograma determinado" helpid="x21C3A" quickey="il" version="3"/>
+			</folder>
+			<folder name="Navegador/Red" id="Browser_Network" tiptext="Funciones que controlan la red y el explorador Web">
+				<action id="getURL" name="getURL" tiptext="Indicar al navegador Web que navegue a la URL especificada" helpid="x21C1E" text="getURL(% url, ventana, método %);\n" quickey="gu"/>
+				<ifmode mode="SCRIPT_ASSIST_ON">
+					<action id="loadMovie" name="loadMovie" tiptext="Carga un archivo SWF o JPEG de una URL en un clip de película" helpid="x21C1F" text="loadMovie(% url, destino, método %);\n" quickey="lm" version="3"/>
+					<action id="unloadMovie" name="unloadMovie" tiptext="Descargar un clip de película cargado con loadMovie" helpid="x21C20" text="unloadMovie(% destino %);\n" quickey="um" version="3"/>
+					<action id="loadVariables" name="loadVariables" tiptext="Cargar variables desde una URL" helpid="x21C21" text="loadVariables(% url, destino, método %);\n" quickey="lv" version="4"/>
+				</ifmode>
+				<ifmode mode="SCRIPT_ASSIST_OFF">
+					<action name="loadMovie" tiptext="Carga un archivo SWF o JPEG de una URL en un clip de película" helpid="x21C22" text="loadMovie(% url, destino, método %);\n" quickey="lm" version="3"/>
+					<action name="loadMovieNum" tiptext="Carga un archivo SWF o JPEG de una URL en un nivel" helpid="x21C23" text="loadMovieNum(% url, nivel, método %);\n" quickey="ln" version="3"/>
+					<action name="loadVariables" tiptext="Cargar variables desde una URL" helpid="x21C24" text="loadVariables(% url, destino, método %);\n" quickey="lv" version="4"/>
+					<action name="loadVariablesNum" tiptext="Cargar variables desde una URL a un nivel" helpid="x21C25" text="loadVariablesNum(% url, nivel, método %);\n" quickey="vn" version="4"/>
+					<action name="unloadMovie" tiptext="Descargar un clip de película cargado con loadMovie" helpid="x21C26" text="unloadMovie(% destino %);\n" quickey="um" version="3"/>
+					<action name="unloadMovieNum" tiptext="Descargar un clip de película cargado mediante loadMovieNum" helpid="x21C27" text="unloadMovieNum(% nivel %);\n" quickey="un" version="3"/>
+				</ifmode>
+			</folder>
+			<folder name="Control de clip de película" id="Movie Clip Control" tiptext="Funciones que controlan clips de películas">
+				<action id="on" name="on" tiptext="Realizar acciones cuando se produce un evento de ratón determinado" helpid="x21C28" text="on (% evento %) {\n}\n" codehint="false" quickey="on" version="3"/>
+				<action id="setProperty" name="setProperty" tiptext="Definir una propiedad de un clip de película" helpid="x21C29" text="setProperty(% destino, propiedad, valor %);\n" quickey="sp" version="4"/>
+				<action id="duplicateMovieClip" name="duplicateMovieClip" tiptext="Crear un duplicado de un clip de película" helpid="x21C2A" text="duplicateMovieClip (% destino, nuevo nombre, profundidad %);\n" quickey="dm" version="4"/>
+				<action id="removeMovieClip" name="removeMovieClip" tiptext="Eliminar un clip de película creado con duplicateMovieClip" helpid="x21C2B" text="removeMovieClip(% destino %);\n" quickey="rm" version="4"/>
+				<action name="getProperty" tiptext="Indica una propiedad del clip de película especificado" helpid="x21C2C" text="getProperty(% destino, propiedad %)" version="4"/>
+				<string name="set" tiptext="Asigna un valor a una variable" helpid="x21C2D" text="set" version="4"/>
+			</folder>
+			<folder name="Funciones de conversión" id="Conversion Functions" tiptext="Funciones que llevan a cabo conversiones de tipo" version="4">
+				<string name="chr" tiptext="Convertir un código ASCII en un carácter" helpid="x21C46" text="chr(% códigoAscii %)" version="4"/>
+				<string name="int" tiptext="Extraer la parte del número entero de un número" helpid="x21C4C" text="int(% número %)" version="4"/>
+				<string name="mbchr" tiptext="Convertir un código ASCII/S-JIS en un carácter (multibyte)" helpid="x21C4A" text="mbchr (% códigoAscii %)" version="4"/>
+				<string name="mbord" tiptext="Convertir un carácter en un código ASCII/S-JIS (multibyte)" helpid="x21C4B" text="mbord(% carácter %)" version="4"/>
+				<string name="ord" tiptext="Convertir un carácter en un código ASCII" helpid="x21C47" text="ord(% carácter %)" version="4"/>
+				<string name="Number" tiptext="Convertir el argumento en tipo numérico" helpid="x21C2F" text="Number(% expresión %)" version="4"/>
+				<string name="String" tiptext="Convertir el argumento en tipo cadena" helpid="x21C2E" text="String(% expresión %)" version="4"/>
+			</folder>
+			<folder name="Funciones varias" id="Miscellaneous Functions" tiptext="Funciones varias">
+				<string name="eval" tiptext="Funciones para utilizar en expresiones" helpid="x21C30" text="eval(% variable %)" version="4"/>
+				<string name="getTimer" tiptext="El número de milisegundos desde que la película iniciara la reproducción" helpid="x21C31" text="getTimer()" version="4"/>
+				<string name="length" tiptext="Calcular la longitud de la cadena" helpid="x21C45" text="length(% cadena %)" version="4"/>
+				<string name="mblength" tiptext="Calcular la longitud de la cadena (multibyte)" helpid="x21C49" text="mblength(% cadena %)" version="4"/>
+				<string name="mbsubstring" tiptext="Extraer carácteres de cadena, empezando con carácter en el índice (multibyte)" helpid="x21C48" text="mbsubstring(% cadena, índice, conteo %)" version="4"/>
+				<string name="random" tiptext="Generar un número aleatorio entre 0 y un número determinado" helpid="x21C4D" text="random(% número %)" version="4"/>
+				<string name="substring" tiptext="Extraer caracteres de una cadena, empezando por el cáracter indicado por el índice" helpid="x21C44" text="substring(% cadena, índice, conteo %)" version="4"/>
+				<action id="trace" name="trace" tiptext="Enviar un mensaje a la ventana de salida" helpid="x21C32" text="trace(% mensaje %);\n" quickey="tr" version="4"/>
+				<ifmode mode="SCRIPT_ASSIST_ON">
+					<action id="comment" name="comment" tiptext="Insertar un comentario para ayudar a documentar el script" helpid="x21C33" text="// %%\n" quickey="//"/>
+				</ifmode>
+			</folder>
+		</folder>
+		<folder name="Propiedades" tiptext="Propiedades de ActionScript">
+			<string name="_alpha" tiptext="Transparencia alfa (porcentaje)" helpid="x21CA1" text="._alpha" version="4"/>
+			<string name="_currentframe" tiptext="Devuelve el número del fotograma en el que está situada la cabeza lectora" helpid="x21CA2" text="._currentframe" version="4"/>
+			<string name="_focusrect" tiptext="Indica false si los rect. de enfoque de ref. están ocultos y true si aparecen" helpid="x21CA3" text="._focusrect" version="4"/>
+			<string name="_framesloaded" tiptext="Devuelve el número de fotogramas cargados desde un flujo de película " helpid="x21CA4" text="._framesloaded" version="4"/>
+			<string name="_height" tiptext="Altura" helpid="x21CA5" text="._height" version="4"/>
+			<string name="_highquality" tiptext="Indica falso si la calidad es baja y verdadero si es alta" helpid="x21CA6" text="._highquality" version="4"/>
+			<string name="_level" tiptext="Devuelve el nivel numerado" helpid="x21CA7" text="._level" version="4"/>
+			<string name="maxscroll" tiptext="Valor máximo de .scroll en el campo de texto" helpid="x21CA8" text=".maxscroll" version="4"/>
+			<string name="_name" tiptext="Nombre de instancia" helpid="x21CA9" text="._name" version="4"/>
+			<string name="_rotation" tiptext="Ángulo de rotación (grados)" helpid="x21CAA" text="._rotation" version="4"/>
+			<string name="scroll" tiptext="Índice de la primera línea visible en el campo de texto" helpid="x21CAB" text=".scroll" version="4"/>
+			<string name="_target" tiptext="Ruta de destino" helpid="x21CAC" text="._target" version="4"/>
+			<string name="_totalframes" tiptext="Devuelve el número total de fotogramas de la película" helpid="x21CAD" text="._totalframes" version="4"/>
+			<string name="_visible" tiptext="Indica true si el botón está visible y false si está oculto" helpid="x21CAE" text="._visible" version="4"/>
+			<string name="_width" tiptext="Anchura" helpid="x21CAF" text="._width" version="4"/>
+			<string name="_x" tiptext="Posición X" helpid="x21CB0" text="._x" version="4"/>
+			<string name="_xscale" tiptext="Factor de escala X (porcentaje)" helpid="x21CB1" text="._xscale" version="4"/>
+			<string name="_y" tiptext="Posición Y" helpid="x21CB2" text="._y" version="4"/>
+			<string name="_yscale" tiptext="Factor de escala Y (porcentaje)" helpid="x21CB3" text="._yscale" version="4"/>
+		</folder>
+		<folder name="Sentencias" tiptext="Palabras clave de sentencias de ActionScript">
+			<action id="call" name="call" tiptext="Llamar a una subrutina en un fotograma determinado" helpid="x21C36" text="call (% fotograma %);\n" quickey="ca" version="4"/>
+			<action id="toggleHighQuality" name="toggleHighQuality" tiptext="Alterna entre baja y alta calidad" helpid="x21C38" quickey="tq"/>
+			<action id="tellTarget" name="tellTarget" tiptext="En tellTarget, las acciones operan en el clip de película de destino" helpid="x21C39" quickey="tt" version="3"/>
+			<folder name="Condiciones/Bucles" id="Conditions_Loops" tiptext="Declaraciones condicionales y construcciones de bucles">
+				<action id="if" name="if" tiptext="Realizar acciones cuando una condición es verdadera" helpid="x21C3B" text="if (% condición %) {\n}\n" quickey="if" version="4"/>
+				<action id="else" name="else" tiptext="Dentro de una sentencia If, realizar acciones si la condición es falsa" helpid="x21C3C" text="} else {\n" quickey="el" version="4"/>
+				<action id="else if" name="else if" tiptext="Dentro de una sentencia If, realizar acciones si la condición alterna es verdadera" helpid="x21C3D" text="} else if (% condición %) {\n" quickey="ei" version="4"/>
+				<action id="while" name="while" tiptext="Realizar acciones siempre que la condición sea verdadera" helpid="x21C3E" text="while (% condición %) {\n}\n" quickey="wh" version="4"/>
+				<action id="break" name="break" tiptext="Interrumpir el bucle" helpid="x21C3F" text="break;\n" quickey="br" version="4"/>
+				<action id="continue" name="continue" tiptext="Continuar al principio del bucle asociado" helpid="x21C40" text="continue;\n" quickey="co" version="4"/>
+				<action id="do while" name="do while" tiptext="Bucle Do While" helpid="x21C41" text="do {\n} while (% condición %);\n" quickey="do" version="4"/>
+				<action id="for" name="for" tiptext="Bucle For" helpid="x21CB8" text="for (% inic; condición; siguiente %) {\n}\n" quickey="fr" version="4"/>
+				<ifdef mode="FEATURE_SWITCH_AND_STRICT_EQUALITY">
+					<action id="switch" name="switch" tiptext="Realiza un bloque de códigos basándose en una condición" helpid="x21C42" text="switch (% condición %) {\n}\n" quickey="sw" version="4"/>
+					<action id="case" name="case" tiptext="Identifica un bloque de códigos dentro de una declaración 'switch'" helpid="x21C43" text="case condition :\n" quickey="ce" version="4"/>
+				</ifdef>
+			</folder>
+		</folder>
+		<folder name="Operadores" id="Operators" tiptext="Operadores para utilizar en expresiones" version="4">
+			<!--Bitwise operators are a subcategory of Operators-->
+			<!--Assignment operators are a subcategory of Operators-->
+			<string name="&quot;&quot;" tiptext="Colocar comillas dobles alrededor de los literales de cadena de una expresión" helpid="x21C4E" text="&quot;%%&quot;" version="4"/>
+			<string name="()" tiptext="Utilizar paréntesis para agrupar expresiones, por ej. (x+y)*z" helpid="x21CB5" text="(%%)" version="4"/>
+			<folder name="Operadores aritméticos" id="Arithmetic Operators" tiptext="Operadores que llevan a cabo operaciones aritméticas" version="4">
+				<string name="+" tiptext="Sumar números" helpid="x21C50" text="+" version="4"/>
+				<string name="++" tiptext="Aumentar una variable. Ejemplo: x++, ++y" helpid="x21C68" text="++" version="4"/>
+				<string name="-" tiptext="Sustraer números" helpid="x21C51" text="-" version="4"/>
+				<string name="--" tiptext="Disminuir una variable. Ejemplo: x--, --y" helpid="x21C69" text="--" version="4"/>
+				<string name="*" tiptext="Multiplicar números" helpid="x21C52" text="*" version="4"/>
+				<string name="/" tiptext="Dividir el primer número por el segundo" helpid="x21C53" text="/" version="4"/>
+				<string name="%" tiptext="Calcular el resto de x dividido por y" helpid="x21C54" text="%" version="4"/>
+			</folder>
+			<folder name="Operadores de comparación" id="Comparison Operators" tiptext="Operadores que llevan a cabo comparaciones" version="4">
+				<string name="==" tiptext="Probar igualdad" helpid="x21CBB" text="==" version="4"/>
+				<string name="&lt;&gt;" tiptext="Probar desigualdad" helpid="x21CBC" text="&lt;&gt;" version="4"/>
+				<string name="&lt;" tiptext="Menor que" helpid="x21C55" text="&lt;" version="4"/>
+				<string name="&gt;" tiptext="Mayor que" helpid="x21C56" text="&gt;" version="4"/>
+				<string name="&lt;=" tiptext="Menor o igual que" helpid="x21C57" text="&lt;=" version="4"/>
+				<string name="&gt;=" tiptext="Mayor o igual que" helpid="x21C58" text="&gt;=" version="4"/>
+				<string name="ge" tiptext="Mayor que o igual a (cadenas)" helpid="x21CB4" text="ge" version="4"/>
+				<string name="gt" tiptext="Mayor que (cadenas)" helpid="x21C59" text="gt" version="4"/>
+				<string name="eq" tiptext="Probar igualdad (cadenas)" helpid="x21C5A" text="eq" version="4"/>
+				<string name="le" tiptext="Menos que o igual a (cadenas)" helpid="x21C5B" text="le" version="4"/>
+				<string name="ne" tiptext="Probar desigualdad (cadenas)" helpid="x21C5C" text="ne" version="4"/>
+				<string name="lt" tiptext="Menos que (cadenas)" helpid="x21C5D" text="lt" version="4"/>
+			</folder>
+			<folder name="Operadores lógicos" id="Logical Operators" tiptext="Operadores que llevan a cabo operaciones lógicas" version="4">
+				<string name="&amp;&amp;" tiptext="Operador AND lógico de cortocircuito" helpid="x21C5E" text="&amp;&amp;" version="4"/>
+				<string name="||" tiptext="Operador OR lógico de cortocircuito" helpid="x21C5F" text="||" version="4"/>
+				<string name="!" tiptext="Operador NOT lógico" helpid="x21C60" text="!" version="4"/>
+				<string name="and" tiptext="Operador AND lógico" helpid="x21C35" text="and" version="4"/>
+			</folder>
+			<folder name="Asignación" id="Assignment" tiptext="Operadores que llevan a cabo asignaciones de variables" version="4">
+				<string name="=" tiptext="Almacenar el valor de B en A" helpid="x21C61" text="=" version="4"/>
+				<string name="+=" tiptext="Almacenar la suma A + B en A" helpid="x21C62" text="+=" version="4"/>
+				<string name="-=" tiptext="Almacenar el valor A - B en A" helpid="x21C63" text="-=" version="4"/>
+				<string name="*=" tiptext="Almacenar el valor A * B en A" helpid="x21C64" text="*=" version="4"/>
+				<string name="/=" tiptext="Almacenar el cociente A / B en A" helpid="x21C65" text="/=" version="4"/>
+				<string name="%=" tiptext="Almacenar el resto de A % B en A" helpid="x21C66" text="%=" version="4"/>
+			</folder>
+			<folder name="Operadores varios" id="Miscellaneous Operators" tiptext="Operadores varios" version="4">
+				<string name="add" tiptext="Concatena cadenas" helpid="x21C34" text="add" version="4"/>
+				<string name="?:" tiptext="Operador condicional. Ejemplo: a ? b : c" helpid="x21C67" text="condición ? expresiónVerdadero : expresiónFalso" version="4"/>
+			</folder>
+		</folder>
+		<folder name="Acciones de Flash Lite" id="Flash Lite Actions" index="true" tiptext="Acciones personalizadas de Flash Lite 1.1" helpid="x20000" version="4">
+			<folder name="FSCommand2" id="FSCommand2" sort="false" index="true" tiptext="Se utiliza para acceder a las funciones de teléfonos móviles" helpid="x21C6A" version="4">
+				<string name="Escape" tiptext="Codifica una cadena en formato URL" helpid="x21C6B" text="fscommand2(&quot;Escape&quot;% , original , codificado %);\n" type="keyFirstArg" version="4"/>
+				<string name="FullScreen" tiptext="Establece el tamaño del área de visualización que se utilizará en la presentación" helpid="x21C6C" text="fscommand2(&quot;FullScreen&quot;% , boolean %);\n" type="keyFirstArg" version="4"/>
+				<string name="GetBatteryLevel" tiptext="Devuelve el nivel de batería actual" helpid="x21C6D" text="fscommand2(&quot;GetBatteryLevel&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetDateDay" tiptext="Devuelve el día de la fecha actual" helpid="x21C6F" text="fscommand2(&quot;GetDateDay&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetDateMonth" tiptext="Devuelve el mes de la fecha actual" helpid="x21C6E" text="fscommand2(&quot;GetDateMonth&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetDateWeekday" tiptext="Devuelve el valor numérico del nombre del día de la fecha actual" helpid="x21C70" text="fscommand2(&quot;GetDateWeekday&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetDateYear" tiptext="Devuelve el valor numérico del año de la fecha actual" helpid="x21C71" text="fscommand2(&quot;GetDateYear&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetDevice" tiptext="Identifica el teléfono móvil en el que se ejecuta Flash" helpid="x21C72" text="fscommand2(&quot;GetDevice&quot;% , &quot;dispositivo&quot;%);\n" type="keyFirstArg" version="4"/>
+				<string name="GetDeviceID" tiptext="Establece un parámetro que representa el identificador exclusivo del teléfono móvil" helpid="x21C73" text="fscommand2(&quot;GetDeviceID&quot;% , &quot;id&quot; %);\n" type="keyFirstArg" version="4"/>
+				<string name="GetFreePlayerMemory" tiptext="Devuelve la cantidad de memoria disponible para Flash Lite, expresada en kilobytes" helpid="x21C74" text="fscommand2(&quot;GetFreePlayerMemory&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetLanguage" tiptext="Establece un parámetro que identifica el idioma que se utiliza en el teléfono móvil" helpid="x21C75" text="fscommand2(&quot;GetLanguage&quot;% , &quot;lenguaje&quot; %);\n" type="keyFirstArg" version="4"/>
+				<string name="GetLocaleLongDate" tiptext="Establece un parámetro en una cadena que representa la fecha actual en forma extendida" helpid="x21C76" text="fscommand2(&quot;GetLocaleLongDate&quot;% , &quot;longdate&quot; %);\n" type="keyFirstArg" version="4"/>
+				<string name="GetLocaleShortDate" tiptext="Establece un parámetro en una cadena que representa la fecha actual en forma abreviada" helpid="x21C77" text="fscommand2(&quot;GetLocaleShortDate&quot;% , &quot;shortdate&quot; %);\n" type="keyFirstArg" version="4"/>
+				<string name="GetLocaleTime" tiptext="Establece un parámetro en una cadena que representa la hora actual" helpid="x21C78" text="fscommand2(&quot;GetLocaleTime&quot;% , &quot;hora&quot; %);\n" type="keyFirstArg" version="4"/>
+				<string name="GetMaxBatteryLevel" tiptext="Devuelve el nivel de batería actual" helpid="x21C79" text="fscommand2(&quot;GetMaxBatteryLevel&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetMaxSignalLevel" tiptext="Devuelve el nivel máximo de intensidad de la señal" helpid="x21C7A" text="fscommand2(&quot;GetMaxSignalLevel&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetMaxVolumeLevel" tiptext="Devuelve el nivel máximo de volumen del teléfono móvil" helpid="x21C7B" text="fscommand2(&quot;GetMaxVolumeLevel&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetNetworkConnectStatus" tiptext="Devuelve un valor que indica el estado actual de la conexión de red" helpid="x21C7C" text="fscommand2(&quot;GetNetworkConnectStatus&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetNetworkName" tiptext="Establece un parámetro en el nombre de la red actual" helpid="x21C7D" text="fscommand2(&quot;GetNetworkName&quot;% , &quot;nombreRed&quot; %);\n" type="keyFirstArg" version="4"/>
+				<string name="GetNetworkRequestStatus" tiptext="Devuelve un valor que indica el estado de la solicitud HTTP más reciente" helpid="x21C7E" text="fscommand2(&quot;GetNetworkRequestStatus&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetNetworkStatus" tiptext="Devuelve un valor que indica el estado de red del teléfono" helpid="x21C7F" text="fscommand2(&quot;GetNetworkStatus&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetPlatform" tiptext="Identifica la plataforma actual" helpid="x21C80" text="fscommand2(&quot;GetPlatform&quot;% , &quot;plataforma&quot; %);\n" type="keyFirstArg" version="4"/>
+				<string name="GetPowerSource" tiptext="Devuelve un valor que indica si la fuente de alimentación es externa o una batería" helpid="x21C81" text="fscommand2(&quot;GetPowerSource&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetSignalLevel" tiptext="Devuelve la intensidad de la señal actual" helpid="x21C82" text="fscommand2(&quot;GetSignalLevel&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetTimeHours" tiptext="Devuelve el valor de hora de la hora actual del día, basada en un reloj de 24 horas" helpid="x21C83" text="fscommand2(&quot;GetTimeHours&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetTimeMinutes" tiptext="Devuelve el valor de minuto de la hora actual del día" helpid="x21C84" text="fscommand2(&quot;GetTimeMinutes&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetTimeSeconds" tiptext="Devuelve el valor de segundo de la hora actual del día" helpid="x21C85" text="fscommand2(&quot;GetTimeSeconds&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetTimeZoneOffset" tiptext="Establece un parámetro que compara la zona horaria local y UTC" helpid="x21C86" text="fscommand2(&quot;GetTimeZoneOffset&quot;% , &quot;diferZonaHoraria&quot; %);\n" type="keyFirstArg" version="4"/>
+				<string name="GetTotalPlayerMemory" tiptext="Devuelve la cantidad total de memoria en kilobytes" helpid="x21C87" text="fscommand2(&quot;GetTotalPlayerMemory&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="GetVolumeLevel" tiptext="Devuelve el nivel actual de volumen del teléfono móvil" helpid="x21C88" text="fscommand2(&quot;GetVolumeLevel&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="ResetSoftKeys" tiptext="Restablece la configuración original de las teclas programables" helpid="x21C89" text="fscommand2(&quot;ResetSoftKeys&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="SetInputTextType" tiptext="Especifica el modo en que debe abrirse el campo de texto de entrada" helpid="x21C8A" text="fscommand2(&quot;SetInputTextType&quot;% , nombreVariable , tipo %);\n" type="keyFirstArg" version="4"/>
+				<string name="SetQuality" tiptext="Establece la calidad de la presentación de la animación" helpid="x21C8B" text="fscommand2(&quot;SetQuality&quot;% , calidad %);\n" type="keyFirstArg" version="4"/>
+				<string name="SetSoftKeys" tiptext="Se utiliza para reasignar las teclas programables izquierda y derecha de los teléfonos móviles" helpid="x21C8C" text="fscommand2(&quot;SetSoftkeys&quot;% , izquierda , derecha %);\n" type="keyFirstArg" version="4"/>
+				<string name="StartVibrate" tiptext="Inicia la vibración del teléfono" helpid="x21C8D" text="fscommand2(&quot;StartVibrate&quot;% , horaActiv , horaDesact, repetir %);\n" type="keyFirstArg" version="4"/>
+				<string name="StopVibrate" tiptext="Detiene la vibración del teléfono" helpid="x21C8E" text="fscommand2(&quot;StopVibrate&quot;);\n" type="keyFirstArg" version="4"/>
+				<string name="Unescape" tiptext="Descodifica una cadena en formato URL" helpid="x21C8F" text="fscommand2(&quot;Unescape&quot;% , original , codificado %);\n" type="keyFirstArg" version="4"/>
+				<string name="Quit" tiptext="Hace que Flash Lite detenga la reproducción y se cierre" helpid="x21C90" text="fscommand2(&quot;Quit&quot;);\n" type="keyFirstArg" version="4"/>
+			</folder>
+			<folder name="FSCommand" id="FlashLite2" index="true" tiptext="Se utiliza para acceder a las funciones de teléfonos móviles" helpid="x21C9E" version="4">
+				<action id="FSCommand" name="Launch" tiptext="Inicia otra aplicación en el teléfono móvil" helpid="x21C91" text="fscommand( &quot;Launch&quot;% , &quot;ruta-aplicación,arg1,arg2,...,argn&quot; %);\n" version="4"/>
+			</folder>
+			<folder name="Capabilities" id="FlashLite3" index="true" tiptext="Se utiliza para determinar las capacidades del teléfono móvil" helpid="x21C92" version="4">
+				<string name="_capCompoundSound" tiptext="Indica si Flash Lite puede procesar datos de sonido compuesto" helpid="x21C93" text="_capCompoundSound;\n" version="4"/>
+				<string name="_capEmail" tiptext="Indica si Flash Lite puede enviar mensajes de correo electrónico" helpid="x21C94" text="_capEmail;\n" version="4"/>
+				<string name="_capMMS" tiptext="Indica si Flash Lite puede enviar mensajes MMS" helpid="x21C95" text="_capMMS;\n" version="4"/>
+				<string name="_capSMS" tiptext="Indica si Flash Lite puede enviar mensajes SMS" helpid="x21C96" text="_capSMS;\n" version="4"/>
+				<string name="_capMFi" tiptext="Indica si el dispositivo puede reproducir sonido MFi" helpid="x21C97" text="_capMFi;\n" version="4"/>
+				<string name="_capMIDI" tiptext="Indica si el dispositivo puede reproducir sonido MIDI" helpid="x21C98" text="_capMIDI;\n" version="4"/>
+				<string name="_capSMAF" tiptext="Indica si el dispositivo puede reproducir sonido SMAF" helpid="x21C99" text="_capSMAF;\n" version="4"/>
+				<string name="_capMP3" tiptext="Indica si el dispositivo puede reproducir sonido MP3" helpid="x21C9A" text="_capMP3;\n" version="4"/>
+				<string name="_capStreamSound" tiptext="Indica si el dispositivo puede reproducir flujos de sonido" helpid="x21C9B" text="_capStreamSound;\n" version="4"/>
+				<string name="_capLoadData" tiptext="Indica si la aplicación host puede cargar datos de forma dinámica" helpid="x21C9C" text="_capLoadData;\n" version="4"/>
+				<string name="_cap4WayKeyAS" tiptext="Indica si Flash Lite ejecuta código ActionScript asociado a teclas de dirección" helpid="x21C9D" text="_cap4WayKeyAS;\n" version="4"/>
+				<string name="$version" tiptext="Contiene el número de versión de Flash Lite" helpid="x21C9F" text="$version;\n" version="4"/>
+			</folder>
+		</folder>
+	</actionspanel>
+	<colorsyntax>
+		<identifier text="_capCompoundSound"/>
+		<identifier text="_capEmail"/>
+		<identifier text="_capMMS"/>
+		<identifier text="_capSMS"/>
+		<identifier text="_capMFi"/>
+		<identifier text="_capMIDI"/>
+		<identifier text="_capSMAF"/>
+		<identifier text="_capMP3"/>
+		<identifier text="_capStreamSound"/>
+		<identifier text="_capLoadData"/>
+		<identifier text="_cap4WayKeyAS"/>
+		<identifier text="$version"/>
+		<identifier text="fscommand2"/>
+	</colorsyntax>
+</toolbox>

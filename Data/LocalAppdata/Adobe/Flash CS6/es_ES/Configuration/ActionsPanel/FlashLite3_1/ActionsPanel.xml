@@ -1,0 +1,1088 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<toolbox>
+	<actionspanel>
+		<!--Operators-->
+		<!--Functions-->
+		<folder name="Funciones globales" id="Actions" sort="false" tiptext="Funciones que se pueden añadir al script" helpid="x2089A">
+			<folder name="Control de la línea de tiempo" id="Movie Control" tiptext="Funciones que controlan la reproducción de películas" helpid="x20A37">
+				<ifmode mode="SCRIPT_ASSIST_ON">
+					<action id="goto" name="goto" tiptext="Ir al fotograma especificado de la película" helpid="x2092E" quickey="go"/>
+				</ifmode>
+				<ifmode mode="SCRIPT_ASSIST_OFF">
+					<action name="gotoAndPlay" tiptext="Ir al fotograma especificado y reproducirlo" helpid="x21AF8" text="gotoAndPlay(% fotograma %);\n" text2="gotoAndPlay(% escena, frame %);\n" quickey="gp"/>
+					<action name="gotoAndStop" tiptext="Ir al fotograma especificado y detenerlo" helpid="x21AF9" text="gotoAndStop(% fotograma %);\n" text2="gotoAndStop(% escena, frame %);\n" quickey="gs"/>
+					<action name="nextFrame" tiptext="Ir al fotograma siguiente" helpid="x21B01" text="nextFrame();\n" quickey="nf"/>
+					<action name="prevFrame" tiptext="Ir al fotograma anterior" helpid="x21B07" text="prevFrame();\n" quickey="pf"/>
+					<action name="nextScene" tiptext="Ir a la escena siguiente" helpid="x21B02" text="nextScene();\n" quickey="ns"/>
+					<action name="prevScene" tiptext="Ir a la escena anterior" helpid="x21B08" text="prevScene();\n" quickey="ps"/>
+				</ifmode>
+				<action id="play" name="play" tiptext="Iniciar la reproducción de la película" helpid="x21B06" text="play();\n" quickey="pl"/>
+				<action id="stop" name="stop" tiptext="Detener la reproducción de la película" helpid="x21B0B" text="stop();\n" quickey="st"/>
+				<action id="stopAllSounds" name="stopAllSounds" tiptext="Detener la reproducción de todos los sonidos" helpid="x21B0C" text="stopAllSounds();\n" quickey="ss"/>
+			</folder>
+			<folder name="Navegador/Red" id="Browser_Network" tiptext="Funciones que controlan la red y el explorador Web" helpid="x20A38">
+				<action id="getURL" name="getURL" tiptext="Indicar al navegador Web que navegue a la URL especificada" helpid="x21AF7" text="getURL(% url, ventana, método %);\n" quickey="gu"/>
+				<ifmode mode="SCRIPT_ASSIST_ON">
+					<action id="loadMovie" name="loadMovie" tiptext="Carga un archivo SWF, JPEG, GIF, o PNG de una URL en un clip de película." helpid="x21B12" text="loadMovie(% url, destino, método %);\n" quickey="lm" version="3"/>
+					<action id="unloadMovie" name="unloadMovie" tiptext="Descargar un clip de película cargado con loadMovie" helpid="x21B16" text="unloadMovie(% destino %);\n" quickey="um" version="3"/>
+					<action id="loadVariables" name="loadVariables" tiptext="Cargar variables desde una URL" helpid="x21B14" text="loadVariables(% url, destino, método %);\n" quickey="lv" version="4"/>
+				</ifmode>
+				<ifmode mode="SCRIPT_ASSIST_OFF">
+					<action name="loadMovie" tiptext="Carga un archivo SWF, JPEG, GIF, o PNG de una URL en un clip de película." helpid="x21B12" text="loadMovie(% url, destino, método %);\n" quickey="lm" version="3"/>
+					<action name="loadMovieNum" tiptext="Carga un archivo SWF, JPEG, GIF o PNG de una URL en un nivel" helpid="x21B13" text="loadMovieNum(% url, nivel, método %);\n" quickey="ln" version="3"/>
+					<action name="loadVariables" tiptext="Cargar variables desde una URL" helpid="x21B14" text="loadVariables(% url, destino, método %);\n" quickey="lv" version="4"/>
+					<action name="loadVariablesNum" tiptext="Cargar variables desde una URL a un nivel" helpid="x21B15" text="loadVariablesNum(% url, nivel, método %);\n" quickey="vn" version="4"/>
+					<action name="unloadMovie" tiptext="Descargar un clip de película cargado con loadMovie" helpid="x21B16" text="unloadMovie(% destino %);\n" quickey="um" version="3"/>
+					<action name="unloadMovieNum" tiptext="Descargar un clip de película cargado mediante loadMovieNum" helpid="x21B17" text="unloadMovieNum(% nivel %);\n" quickey="un" version="3"/>
+				</ifmode>
+				<action id="FSCommand" name="fscommand" tiptext="Enviar FSCommand al contenedor de películas" helpid="x21BB0" text="fscommand(% comando, parámetros %);\n" quickey="fs" version="3"/>
+      </folder>
+			<folder name="Funciones varias" id="Miscellaneous Functions" tiptext="Funciones varias" helpid="x20A3D">
+				<action id="trace" name="trace" tiptext="Enviar un mensaje a la ventana de salida" helpid="x21B11" text="trace(% mensaje %);\n" quickey="tr" version="4"/>
+				<ifmode mode="SCRIPT_ASSIST_ON">
+				</ifmode>
+				<ifdef mode="FEATURE_INTERVAL_FUNCS">
+					<string name="setInterval" tiptext="Inicializar una repetición de llamada periódica" helpid="x21B24" text="setInterval(% nombreFunción, intervalo, parám %)" type="expression" version="6"/>
+					<string name="clearInterval" tiptext="Cancelar una repetición de llamada periódica" helpid="x21B1A" text="clearInterval(% IDIntervalo %)" version="6"/>
+				</ifdef>
+				<string name="eval" tiptext="Funciones para utilizar en expresiones" helpid="x21AF4" text="eval(% variable %)" version="4"/>
+				<string name="getTimer" tiptext="El número de milisegundos desde que la película iniciara la reproducción" helpid="x21AF6" text="getTimer()" version="4"/>
+				<string name="escape" tiptext="Convertir caracteres no permitidos en direcciones URL en secuencias de escape" helpid="x21B1B" text="escape(% cadena %)" version="5"/>
+				<string name="unescape" tiptext="Convertir secuencias de escape hexadecimales %XX en cadenas" helpid="x21B28" text="unescape(% cadena %)" version="5"/>
+				<string name="getVersion" tiptext="Obtener número de versión del Flash Player" helpid="x21B1C" text="getVersion()" version="4"/>
+			</folder>
+			<folder name="Funciones matemáticas" id="Mathematical Functions" tiptext="Funciones que llevan a cabo operaciones matemáticas" helpid="x20A3F" version="4">
+				<string name="parseInt" tiptext="Analizar una cadena en un número entero" helpid="x21B22" text="parseInt(% cadena, raíz %)" version="5"/>
+				<string name="parseFloat" tiptext="Analizar una cadena en un número en coma flotante" helpid="x21B21" text="parseFloat(% cadena %)" version="5"/>
+				<string name="isFinite" tiptext="Comprobar si un número es finito" helpid="x21B1D" text="isFinite(% número %)" version="5"/>
+				<string name="isNaN" tiptext="Comprobar si un número es NaN (no es un número)" helpid="x21B1E" text="isNaN(% número %)" version="5"/>
+			</folder>
+			<folder name="Funciones de conversión" id="Conversion Functions" tiptext="Funciones que llevan a cabo conversiones de tipo" helpid="x20A40" version="4">
+				<string name="String" tiptext="Convertir el argumento en tipo cadena" helpid="x21B0D" text="String(% expresión %)" version="4"/>
+				<string name="Number" tiptext="Convertir el argumento en tipo numérico" helpid="x21B03" text="Number(% expresión %)" version="4"/>
+				<string name="Boolean" tiptext="Convertir argumento en tipo booleano" helpid="x21B19" text="Boolean(% expresión %)" version="5"/>
+				<string name="Array" tiptext="Construye una matriz a partir de argumentos" helpid="x21B18" text="Array(%%)" text2="Array(% extensión %)" text3="Array(% elemento1, ..., elementoN %)" version="6"/>
+				<string name="Object" tiptext="Convierte un argumento en el tipo de objeto correspondiente" helpid="x21B1F" text="Object(% expresión %)" text2="Object(%%)" version="6"/>
+			</folder>
+		</folder>
+		<folder name="Propiedades generales" id="Properties" tiptext="Identificadores y propiedades globales" helpid="x20999" version="4">
+			<property name="_quality" description="Calidad" tiptext="Calidad de representación actual como cadena: BAJA, MEDIA, ALTA u ÓPTIMA" helpid="x21B40" variable="_quality" version="5"/>
+			<property name="_soundbuftime" description="Tiempo de búfer de sonido" tiptext="Número de segundos de sonido para regulación previa, valor predeterminado= 5" helpid="x21B42" variable="_soundbuftime" version="4"/>
+			<folder name="Identificadores" tiptext="Acceso a las líneas de tiempo de otros clips de película cargados, tanto relativos como absolutos.">
+				<string name="_global" text="_global" tiptext="El objeto global que retiene variables globales" helpid="x21B3E" version="6"/>
+				<string name="_root" text="_root" tiptext="El Clip de película de raíz de este nivel, por ejemplo _level0 o _level2" helpid="x21B41" version="5"/>
+				<string name="_parent" text="_parent" tiptext="El Clip de película principal de este Clip de película" helpid="x21B3F" version="5"/>
+				<string name="_level" text="_level" tiptext="Un nivel numerada cargado con loadMovie, como _level1" helpid="x21B30" version="3"/>
+				<string name="this" text="this" tiptext="El objeto actual; contenedor de método o script en ejecución" helpid="x21B43" version="5"/>
+			</folder>
+			<property name="_focusrect" description="Mostrar rectángulo de enfoque" tiptext="Indica false si los rect. de enfoque de ref. están ocultos y true si aparecen" helpid="x21B2C" variable="_focusrect" version="4"/>
+      <property name="_forceframerate" description="Representar a la velocidad de fotogramas especificada" tiptext="Si el valor es 'true', esta propiedad indica al reproductor de Flash Lite que represente a la velocidad de fotogramas especificada." helpid="x22BA0" variable="_forceframerate" version="8"/>
+    </folder>
+		<folder name="Operadores" id="Operators" tiptext="Operadores para utilizar en expresiones" helpid="x20925" version="4">
+			<!--Bitwise operators are a subcategory of Operators-->
+			<!--Assignment operators are a subcategory of Operators-->
+      <string name="&quot;&quot;" tiptext="Colocar comillas dobles alrededor de los literales de cadena de una expresión" helpid="x21B84" text="&quot;%%&quot;" version="4"/>
+      <string name="()" tiptext="Utilizar paréntesis para agrupar expresiones, por ej. (x+y)*z" helpid="x21B83" text="(%%)" version="4"/>
+			<folder name="Operadores aritméticos" id="Arithmetic Operators" tiptext="Operadores que llevan a cabo operaciones aritméticas" helpid="x208BD" version="4">
+				<string name="+" tiptext="Sumar números" helpid="x21B7C" text="+" version="4"/>
+				<string name="-" tiptext="Sustraer números" helpid="x21B8B" text="-" version="4"/>
+				<string name="*" tiptext="Multiplicar números" helpid="x21B7B" text="*" version="4"/>
+				<string name="/" tiptext="Dividir el primer número por el segundo" helpid="x21B6F" text="/" version="4"/>
+				<string name="%" tiptext="Calcular el resto de x dividido por y" helpid="x21B78" text="%" version="4"/>
+			</folder>
+			<folder name="Operadores de comparación" id="Comparison Operators" tiptext="Operadores que llevan a cabo comparaciones" helpid="x208BD" version="4">
+				<string name="==" tiptext="Probar igualdad" helpid="x21B7D" text="==" version="4"/>
+				<ifdef mode="FEATURE_SWITCH_AND_STRICT_EQUALITY">
+					<string name="===" tiptext="Probar igualdad estricta" helpid="x21B9F" text="===" version="4"/>
+					<string name="!==" tiptext="Probar desigualdad estricta" helpid="x21BA0" text="!==" version="4"/>
+				</ifdef>
+				<string name="!=" tiptext="Probar desigualdad" helpid="x21B9B" text="!=" version="4"/>
+				<string name="&lt;" tiptext="Menor que" helpid="x21B81" text="&lt;" version="4"/>
+				<string name="&gt;" tiptext="Mayor que" helpid="x21B7E" text="&gt;" version="4"/>
+				<string name="&lt;=" tiptext="Menor o igual que" helpid="x21B82" text="&lt;=" version="4"/>
+				<string name="&gt;=" tiptext="Mayor o igual que" helpid="x21B7F" text="&gt;=" version="4"/>
+			</folder>
+			<folder name="Operadores lógicos" id="Logical Operators" tiptext="Operadores que llevan a cabo operaciones lógicas" helpid="x208BD" version="4">
+				<string name="&amp;&amp;" tiptext="Operador AND lógico de cortocircuito" helpid="x21B73" text="&amp;&amp;" version="4"/>
+				<string name="||" tiptext="Operador OR lógico de cortocircuito" helpid="x21B75" text="||" version="4"/>
+				<string name="!" tiptext="Operador NOT lógico" helpid="x21B74" text="!" version="4"/>
+			</folder>
+			<folder name="Operadores como bit" id="Bitwise Operators" tiptext="Operadores para la manipulación de bits (AND, OR, XOR, etc.)" helpid="x208BD" version="5">
+				<string name="&amp;" tiptext="Operador AND como bit" helpid="x21B8E" text="&amp;" version="5"/>
+				<string name="|" tiptext="Operador OR como bit" helpid="x21B93" text="|" version="5"/>
+				<string name="^" tiptext="Operador XOR como bit" helpid="x21B99" text="^" version="5"/>
+				<string name="&lt;&lt;" tiptext="Desplazar hacia la izquierda un número de bits" helpid="x21B90" text="&lt;&lt;" version="5"/>
+				<string name="&gt;&gt;" tiptext="Desplazar hacia la derecha un número de bits" helpid="x21B95" text="&gt;&gt;" version="5"/>
+				<string name="&gt;&gt;&gt;" tiptext="Desplazar hacia la derecha un número de bits (sin signo)" helpid="x21B97" text="&gt;&gt;&gt;" version="5"/>
+				<string name="~" tiptext="Operador complemento a uno como bit" helpid="x21B92" text="~" version="5"/>
+			</folder>
+			<folder name="Asignación" id="Assignment" tiptext="Operadores que llevan a cabo asignaciones de variables" helpid="x208E1" version="4">
+				<string name="=" tiptext="Almacenar el valor de B en A" helpid="x21B69" text="=" version="4"/>
+				<string name="|=" tiptext="Almacenar resultado de operación OR como bit de A y B en A" helpid="x21B94" text="|=" version="5"/>
+				<string name="&amp;=" tiptext="Almacenar resultado de operación AND como bit de A y B en A" helpid="x21B8F" text="&amp;=" version="5"/>
+				<string name="^=" tiptext="Almacenar resultado de operación XOR como bit de A y B en A" helpid="x21B9A" text="^=" version="5"/>
+				<string name="+=" tiptext="Almacenar la suma A + B en A" helpid="x21B67" text="+=" version="4"/>
+				<string name="-=" tiptext="Almacenar el valor A - B en A" helpid="x21B8C" text="-=" version="4"/>
+				<string name="*=" tiptext="Almacenar el valor A * B en A" helpid="x21B7A" text="*=" version="4"/>
+				<string name="/=" tiptext="Almacenar el cociente A / B en A" helpid="x21B70" text="/=" version="4"/>
+				<string name="%=" tiptext="Almacenar el resto de A % B en A" helpid="x21B79" text="%=" version="4"/>
+				<string name="&lt;&lt;=" tiptext="Almacenar A desplazado hacia la izquierda B bits en A" helpid="x21B91" text="&lt;&lt;=" version="5"/>
+				<string name="&gt;&gt;=" tiptext="Almacenar A desplazado hacia la derecha B bits en A" helpid="x21B96" text="&gt;&gt;=" version="5"/>
+				<string name="&gt;&gt;&gt;=" tiptext="Almacenar A desplazado hacia la derecha B bits en A (sin signo)" helpid="x21B98" text="&gt;&gt;&gt;=" version="5"/>
+			</folder>
+			<folder name="Operadores varios" id="Miscellaneous Operators" tiptext="Operadores varios" helpid="x208E1" version="4">
+				<string name="?:" tiptext="Operador condicional. Ejemplo: a ? b : c" helpid="x21B6D" text="condición ? expresiónVerdadero : expresiónFalso" version="4"/>
+				<string name="++" tiptext="Aumentar una variable. Ejemplo: x++, ++y" helpid="x21B72" text="++" version="4"/>
+				<string name="--" tiptext="Disminuir una variable. Ejemplo: x--, --y" helpid="x21B6E" text="--" version="4"/>
+				<string name="typeof" tiptext="Devolver el tipo de expresión x" helpid="x21BA2" text="typeof(% expresión %)" version="5"/>
+				<string name="instanceof" tiptext="Indica si a es de clase b" helpid="x21B9C" text="a instanceof b" version="6"/>
+				<string name="void" tiptext="Evaluar la expresión, devolver sin definir" helpid="x21BA3" text="void (% expresión %)" version="5"/>
+			</folder>
+		</folder>
+		<folder name="Sentencias" tiptext="Palabras clave de sentencias de ActionScript">
+			<folder name="Variables" id="Variables" tiptext="Acciones que modifican y acceden a variables" helpid="x20A3A">
+				<action id="set variable" name="set variable" tiptext="Definir una variable" helpid="x21B5F" text="set (% nombre, valor %);\n" quickey="sv" version="4"/>
+				<action id="with" name="with" tiptext="Acciones con las que operar en el objeto especificado" helpid="x21B65" text="with (% objetos %) {\n}\n" quickey="wt" version="5"/>
+				<action id="delete" name="delete" tiptext="Eliminar una variable u objeto" helpid="x21B51" text="delete %ruta%;\n" quickey="de" version="5"/>
+				<action id="var" name="var" tiptext="Declarar variables locales" helpid="x21B64" text="var %%;\n" quickey="vr" version="5"/>
+			</folder>
+			<folder name="Condiciones/Bucles" id="Conditions_Loops" tiptext="Declaraciones condicionales y construcciones de bucles" helpid="x20A3B">
+				<action id="if" name="if" tiptext="Realizar acciones cuando una condición es verdadera" helpid="x21B4B" text="if (% condición %) {\n}\n" text2="if (% condición %) {\n \n} else {\n \n}\n" quickey="if" version="4"/>
+				<action id="else" name="else" tiptext="Dentro de una sentencia If, realizar acciones si la condición es falsa" helpid="x21B48" text="} else {\n" quickey="el" version="4"/>
+				<action id="else if" name="else if" tiptext="Dentro de una sentencia If, realizar acciones si la condición alterna es verdadera" helpid="x21B49" text="} else if (% condición %) {\n" quickey="ei" version="4"/>
+				<action id="while" name="while" tiptext="Realizar acciones siempre que la condición sea verdadera" helpid="x21B4E" text="while (% condición %) {\n}\n" quickey="wh" version="4"/>
+				<action id="for" name="for" tiptext="Bucle For" helpid="x21B4A" text="for (% inic; condición; siguiente %) {\n}\n" quickey="fr" version="4"/>
+				<action id="break" name="break" tiptext="Interrumpir el bucle" helpid="x21B44" text="break;\n" quickey="br" version="4"/>
+				<action id="continue" name="continue" tiptext="Continuar al principio del bucle asociado" helpid="x21B46" text="continue;\n" quickey="co" version="4"/>
+				<ifdef mode="FEATURE_SWITCH_AND_STRICT_EQUALITY">
+					<action id="switch" name="switch" tiptext="Realiza un bloque de códigos basándose en una condición" helpid="x21B4D" text="switch (% condición %) {\n}\n" quickey="sw" version="4"/>
+					<action id="case" name="case" tiptext="Identifica un bloque de códigos dentro de una declaración 'switch'" helpid="x21B45" text="case condition :\n" quickey="ce" version="4"/>
+					<action id="default" name="default" tiptext="Identifica el bloque de códigos predeterminado de una declaración 'switch'" helpid="x21B50" text="default :\n" quickey="dt" version="4"/>
+				</ifdef>
+			</folder>
+			<ifdef mode="FEATURE_EXCEPTIONS">
+				<folder name="Excepciones" id="Exceptions" tiptext="Control de excepciones" helpid="x20AC6">
+					<action id="try" name="try" tiptext="Probar un bloque de códigos con control de excepciones" helpid="x21B63" text="try {\n}\n" quickey="ty" version="7"/>
+					<action id="catch" name="catch" tiptext="Encontrar una excepción" helpid="x21B63" text="catch (% variable %) {\n}\n" quickey="ch" version="7"/>
+					<action id="finally" name="finally" tiptext="Ejecuta el código tras el control de excepciones" helpid="x21B63" text="finally {\n}\n" quickey="fy" version="7"/>
+					<action id="throw" name="throw" tiptext="Produce una excepción" helpid="x21B62" text="throw %expresión%;\n" quickey="th" version="7"/>
+				</folder>
+			</ifdef>
+			<folder id="Class Constructs" tiptext="Construcciones para crear clases" helpid="x2057D" version="6" name="Construcciones de clase">
+				<action id="class" name="class" tiptext="Declara una construcción de clase" helpid="x21B4F" text="class %nombre% {\n}\n" quickey="cl" version="6"/>
+				<action id="interface" name="interface" tiptext="Declara una construcción de interfaz" helpid="x21B59" text="interface %nombre% {\n}\n" quickey="it" version="6"/>
+				<string name="extends" tiptext="Subclasifica otra clase o interfaz" helpid="x21B53" text="extends %nombre%" version="6"/>
+				<string name="implements" tiptext="Implementa las funciones de una interfaz" helpid="x21B57" text="implements %nombre%" version="6"/>
+				<string name="static" tiptext="Declara estático un miembro de clase" helpid="x21B60" text="static" version="6"/>
+				<string name="public" tiptext="Declara público un miembro de clase" helpid="x21B5C" text="public" version="6"/>
+				<string name="private" tiptext="Declara privado un miembro de clase" helpid="x21B5B" text="private" version="6"/>
+				<action id="import" name="import" tiptext="Importa una clase o interfaz para que se utilice con el siguiente script" helpid="x21B58" text="import" quickey="ip" version="6"/>
+				<string name="intrinsic" tiptext="Permite verificar en tiempo de compilación los tipos de clases definidas anteriormente" helpid="x21B5A" text="intrinsic" version="6"/>
+				<string name="dynamic" tiptext="Declara dinámica una clase" helpid="x21B52" text="dynamic" version="6"/>
+				<string name="get" tiptext="Declara captadora implícita una función de miembro de clase" helpid="x21B56" text="get" version="6"/>
+				<string name="set" tiptext="Declara definidora implícita una función de miembro de clase" helpid="x21B5E" text="set" version="6"/>
+				<string name="super" text="super" tiptext="Operador de superclase; invoca un constructor o método de superclase" helpid="x21B61" version="6"/>
+			</folder>
+			<folder name="Funciones definidas por el usuario" id="User-Defined Functions" tiptext="Acciones que crean e invocan funciones" helpid="x20A3C">
+				<action id="function" name="function" tiptext="Declarar una función definida por el usuario" helpid="x21B55" text="function %nombre% () {\n}\n" quickey="fn" version="5"/>
+				<action id="return" name="return" tiptext="Devolver un valor de una función" helpid="x21B5D" text="return (%%);\n" quickey="rt" version="5"/>
+			</folder>
+		</folder>
+		<folder name="Clases de ActionScript 2.0" id="ActionScript 2.0 Classes" sort="false" tiptext="Clases predefinidas proporcionadas por ActionScript" helpid="x20980" version="4">
+			<folder name="Cliente/Servidor y XML" id="Client_Server" tiptext="Clases para la comunicación cliente/servidor" helpid="x20AB1" version="5">
+			<!--Placeholder to maintain sort order. Overlaid content from the Core Actions > ClientServer.xml file will be loaded here. -->
+      </folder>
+			<folder name="Principal" id="Core" tiptext="Clases principales del lenguaje ActionScript" helpid="x20AAC" version="5">
+				<!--Array object-->
+				<!--Boolean object-->
+				<!--Date object-->
+				<!--Function object-->
+				<!--Math object-->
+				<!--Number object-->
+				<!--Object object-->
+				<!--String object-->
+				<ifdef mode="FEATURE_XML_ACTIONS_TOOLBOX">
+					<folder name="arguments" id="arguments" index="true" tiptext="Objeto enviado a funciones definidas por el usuario" helpid="x20AAD" version="5">
+						<string name="callee" tiptext="Objeto Function que se invoca" helpid="x21916" text="arguments.callee" version="5"/>
+						<string name="caller" tiptext="Objeto Function que invocó esta función" helpid="x21917" text="arguments.caller" version="6"/>
+						<string name="length" tiptext="Número de argumentos enviados a esta función" helpid="x21918" text="arguments.length" version="6"/>
+					</folder>
+				</ifdef>
+				<folder name="Array" id="Array" sort="false" index="true" tiptext="Clase para trabajar con matrices" helpid="x208A1" version="5">
+					<string name="new Array" tiptext="Crear un nuevo objeto Array" helpid="x218D5" text="new Array(%%)" text2="new Array(% extensión %)" text3="new Array(% elemento1, ..., elementoN %)" type="expression" version="5"/>
+					<folder name="Métodos" id="Methods" tiptext="Métodos del objeto Array" helpid="x20A9E" version="5">
+						<string name="concat" tiptext="Concatenar esta matriz con otras y devolver la nueva matriz" helpid="x218D6" object="Array" text=".concat(% matriz1, ..., matrizN %)" version="5"/>
+						<string name="join" tiptext="Unir todos los elementos de la matriz en una cadena" helpid="x218D7" object="Array" text=".join(% separador %)" version="5"/>
+						<string name="pop" tiptext="Eliminar el último elemento de la matriz y devolverlo" helpid="x218D8" object="Array" text=".pop()" version="5"/>
+						<string name="push" tiptext="Añadir un nuevo elemento al final de la matriz" helpid="x218D9" object="Array" text=".push(% valor %)" version="5"/>
+						<string name="reverse" tiptext="Reorganizar los elementos de una matriz en orden inverso" helpid="x218DA" object="Array" text=".reverse()" version="5"/>
+						<string name="shift" tiptext="Eliminar el primer elemento de la serie y devolverlo" helpid="x218DB" object="Array" text=".shift()" version="5"/>
+						<string name="slice" tiptext="Devolver una nueva matriz de elementos desde índiceA a índiceB" helpid="x218DC" object="Array" text=".slice(% índiceA, índiceB %)" version="5"/>
+						<string name="sort" tiptext="Ordenar una matriz" helpid="x218DD" object="Array" text=".sort(%%)" text2=".sort(% compararFunción %)" text3=".sort(% indicadorOpciones %)" text4=".sort(% función de repetición de llamada, indicadorOpciones %)" version="5"/>
+						<string name="sortOn" tiptext="Ordena una matriz utilizando la propiedad del objeto como criterio de orden" helpid="x218DE" object="Array" text=".sortOn(% tecla %)" text2=".sortOn(% sortField, indicadorOpciones %)" text3=".sortOn(% listaCampo %)" text4=".sortOn(% listaCampo, indicadorOpciones %)" version="6"/>
+						<string name="splice" tiptext="Eliminar/insertar elementos en la posición del índice, si se especifica" helpid="x218DF" object="Array" text=".splice(% índice, conteo,  elemento1, ...,  elementoN %)" version="5"/>
+						<string name="toString" tiptext="Devolver la cadena de todos los elementos de la matriz separados por comas" helpid="x218E0" object="Array" text=".toString()" version="5"/>
+						<string name="unshift" tiptext="Insertar un nuevo elemento al principio de la matriz" helpid="x218E1" object="Array" text=".unshift(% valor %)" version="5"/>
+					</folder>
+					<folder name="Propiedades" id="Properties" tiptext="Propiedades del objeto Array" helpid="x20A9F" version="5">
+						<string name="length" tiptext="Longitud de la matriz" helpid="x218D4" object="Array" text=".length" version="5"/>
+					</folder>
+					<folder name="Constantes" id="Constants" tiptext="Propiedades de constantes de la clase Array" helpid="x2057E" version="7">
+						<string name="CASEINSENSITIVE" tiptext="Ordenar sin distinguir entre mayúsculas y minúsculas" helpid="x218CF" text="Array.CASEINSENSITIVE" version="7"/>
+						<string name="DESCENDING" tiptext="Ordenar en orden descendente" helpid="x218D0" text="Array.DESCENDING" version="7"/>
+						<string name="UNIQUESORT" tiptext="Devolver error si el orden no es exclusivo" helpid="x218D3" text="Array.UNIQUESORT" version="7"/>
+						<string name="RETURNINDEXEDARRAY" tiptext="Devolver matriz índiceada" helpid="x218D2" text="Array.RETURNINDEXEDARRAY" version="7"/>
+						<string name="NUMERIC" tiptext="Ordenar numéricamente" helpid="x218D1" text="Array.NUMERIC" version="7"/>
+					</folder>
+				</folder>
+				<folder name="Boolean" id="Boolean" sort="false" index="true" tiptext="Clase que representa valores booleanos" helpid="x208C1" version="5">
+					<string name="new Boolean" tiptext="Crear un nuevo objeto Boolean" helpid="x21B19" text="new Boolean(% valor %)" type="expression" version="5"/>
+					<folder name="Métodos" id="Methods" tiptext="Métodos del objeto Boolean" helpid="x20AA0" version="5">
+						<string name="toString" tiptext="Convertir objeto booleano en cadena" helpid="x21A06" object="Boolean" text=".toString()" version="5"/>
+						<string name="valueOf" tiptext="Convertir objeto booleano en tipo primitivo (booleano)" helpid="x21A07" object="Boolean" text=".valueOf()" version="5"/>
+					</folder>
+				</folder>
+				<ifdef mode="FEATURE_EXCEPTIONS">
+					<folder name="Error" id="Error" tiptext="Clase para crear nuevos objetos de error" index="true" sort="false" helpid="x20ACB" version="7">
+						<string name="new Error" tiptext="Crea un nuevo objeto Error" helpid="x21A0C" text="new Error(%%)" text2="new Error(% mensaje %)" type="expression" version="7"/>
+						<folder name="Propiedades" id="Properties" tiptext="Propiedades de la clase Error" helpid="x20ACD" version="7">
+							<string name="name" tiptext="Nombre del error" helpid="x21A0A" object="Error" text=".name" version="7"/>
+							<string name="message" tiptext="Texto del mensaje de error" helpid="x21A09" object="Error" text=".message" version="7"/>
+						</folder>
+						<folder name="Métodos" id="Methods" tiptext="Métodos de la clase Error" helpid="x20AD0" version="7">
+							<string name="toString" tiptext="Convertir objeto Error en cadena" helpid="x21A0C" object="Error" text=".toString()" version="7"/>
+						</folder>
+					</folder>
+				</ifdef>
+					<folder name="ExtendedKey" id="ExtendedKey" index="true" tiptext="Objeto enviado a funciones definidas por el usuario" helpid="x21A2C" version="7">
+						<string name="SOFT1" tiptext="Código de tecla virtual para SOFT1" helpid="x21A2D" text="ExtendedKey.SOFT1" version="7"/>
+						<string name="SOFT2" tiptext="Código de tecla virtual para SOFT2" helpid="x21A2E" text="ExtendedKey.SOFT2" version="7"/>
+						<string name="SOFT3" tiptext="Código de tecla virtual para SOFT3" helpid="x21A2F" text="ExtendedKey.SOFT3" version="7"/>
+						<string name="SOFT4" tiptext="Código de tecla virtual para SOFT4" helpid="x21A30" text="ExtendedKey.SOFT4" version="7"/>
+						<string name="SOFT5" tiptext="Código de tecla virtual para SOFT5" helpid="x21A31" text="ExtendedKey.SOFT5" version="7"/>
+						<string name="SOFT6" tiptext="Código de tecla virtual para SOFT6" helpid="x21A32" text="ExtendedKey.SOFT6" version="7"/>
+						<string name="SOFT7" tiptext="Código de tecla virtual para SOFT7" helpid="x21A33" text="ExtendedKey.SOFT7" version="7"/>
+						<string name="SOFT8" tiptext="Código de tecla virtual para SOFT8" helpid="x21A34" text="ExtendedKey.SOFT8" version="7"/>
+						<string name="SOFT9" tiptext="Código de tecla virtual para SOFT9" helpid="x21A35" text="ExtendedKey.SOFT9" version="7"/>
+						<string name="SOFT10" tiptext="Código de tecla virtual para SOFT10" helpid="x21A36" text="ExtendedKey.SOFT10" version="7"/>
+						<string name="SOFT11" tiptext="Código de tecla virtual para SOFT11" helpid="x21A37" text="ExtendedKey.SOFT11" version="7"/>
+						<string name="SOFT12" tiptext="Código de tecla virtual para SOFT12" helpid="x21A38" text="ExtendedKey.SOFT12" version="7"/>
+					</folder>
+				<ifdef mode="FEATURE_OBJECT_MODEL">
+					<folder name="Function" id="Function" index="true" sort="false" tiptext="Clase que representa una función" helpid="x20B89" version="6">
+						<folder name="Métodos" id="Methods" tiptext="Métodos de la clase Function" helpid="x20B8A" version="6">
+							<string name="call" tiptext="Invoca la función con los parámetros especificados" helpid="x2198D" type="procedure" object="Function" text=".call(% esteObjeto, argumento1, ..., argumentoN %)" version="6"/>
+							<string name="apply" tiptext="Invoca la función con parámetros en la raíz" helpid="x2198C" type="procedure" object="Function" text=".apply(% esteObjeto, parámetrosMatriz %)" version="6"/>
+						</folder>
+						<folder name="Propiedades" id="Properties" tiptext="Propiedades de la clase Function" helpid="x20BC0" version="5">
+						</folder>
+					</folder>
+				</ifdef>
+				<folder name="Math" id="Math" tiptext="Clase que proporciona funciones matemáticas y propiedades" helpid="x2095B" index="true" sort="false" version="4">
+					<folder name="Métodos" id="Methods" tiptext="Métodos de la clase Math" helpid="x20A9A" version="5">
+						<string name="abs" tiptext="Valor absoluto" helpid="x219A5" text="Math.abs(% número %)" version="4" object="Math"/>
+						<string name="acos" tiptext="Calcular arco coseno en radianes" helpid="x219A6" text="Math.acos(% número %)" version="4" object="Math"/>
+						<string name="asin" tiptext="Calcular arco seno en radianes" helpid="x219A7" text="Math.asin(% número %)" version="4" object="Math"/>
+						<string name="atan" tiptext="Calcular arco tangente en radianes" helpid="x219A8" text="Math.atan(% número %)" version="4" object="Math"/>
+						<string name="atan2" tiptext="Calcular el arco tangente de y/x en radianes" helpid="x219A9" text="Math.atan2(% y, x %)" version="4" object="Math"/>
+						<string name="ceil" tiptext="Calcular el límite del número (redondeo hacia arriba)" helpid="x219AA" text="Math.ceil(% número %)" version="4" object="Math"/>
+						<string name="cos" tiptext="Calcular el coseno de un ángulo (radianes)" helpid="x219AB" text="Math.cos(% número %)" version="4" object="Math"/>
+						<string name="exp" tiptext="Función exponencial" helpid="x219AC" text="Math.exp(% número %)" version="4" object="Math"/>
+						<string name="floor" tiptext="Calcular el límite del número (redondeo hacia abajo)" helpid="x219AD" text="Math.floor(% número %)" version="4" object="Math"/>
+						<string name="log" tiptext="Logaritmo neperiano" helpid="x219AE" text="Math.log(% número %)" version="4" object="Math"/>
+						<string name="min" tiptext="Calcular el mínimo de dos números" helpid="x219B0" text="Math.min(% x, y %)" version="4" object="Math"/>
+						<string name="max" tiptext="Calcular el máximo de dos números" helpid="x219AF" text="Math.max(% x, y %)" version="4" object="Math"/>
+						<string name="pow" tiptext="Calcular x elevado a y" helpid="x219B1" text="Math.pow (% base, exponente %)" version="4" object="Math"/>
+						<string name="random" tiptext="Generar un número aleatorio entre 0 y 1" helpid="x219B2" text="Math.random()" version="4" object="Math"/>
+						<string name="round" tiptext="Redondear un número al entero más próximo" helpid="x219B3" text="Math.round(% número %)" version="4" object="Math"/>
+						<string name="sin" tiptext="Calcular el seno de un ángulo (radianes)" helpid="x219B4" text="Math.sin(% número %)" version="4" object="Math"/>
+						<string name="sqrt" tiptext="Raíz cuadrada" helpid="x219B5" text="Math.sqrt(% número %)" version="4" object="Math"/>
+						<string name="tan" tiptext="Calcular la tangente de un ángulo (radianes)" helpid="x219B6" text="Math.tan(% número %)" version="4" object="Math"/>
+					</folder>
+					<folder name="Constantes" id="Constants" tiptext="Propiedades de constantes de la clase Math" helpid="x20A9B" version="5">
+						<string name="E" tiptext="La constante de Euler, aprox. 2,718" helpid="x2199D" text="Math.E" version="4" object="Math"/>
+						<string name="LN10" tiptext="Logaritmo neperiano de 10, aprox. 2,302" helpid="x2199E" text="Math.LN10" version="4" object="Math"/>
+						<string name="LN2" tiptext="Logaritmo neperiano de 2, aprox. 0,693" helpid="x2199F" text="Math.LN2" version="4" object="Math"/>
+						<string name="LOG10E" tiptext="Logaritmo en base 10 de E, aprox. 0,434" helpid="x219A0" text="Math.LOG10E" version="4" object="Math"/>
+						<string name="LOG2E" tiptext="Logaritmo en base 2 de E, aprox. 1,443" helpid="x219A1" text="Math.LOG2E" version="4" object="Math"/>
+						<string name="PI" tiptext="El valor de PI, aprox. 3,14159" helpid="x219A2" text="Math.PI" version="4" object="Math"/>
+						<string name="SQRT1_2" tiptext="Raíz cuadrada de 1/2, aprox. 0,707" helpid="x219A3" text="Math.SQRT1_2" version="4" object="Math"/>
+						<string name="SQRT2" tiptext="Raíz cuadrada de 2, aprox 1,414" helpid="x219A4" text="Math.SQRT2" version="4" object="Math"/>
+					</folder>
+				</folder>
+				<folder name="Number" sort="false" id="Number" index="true" tiptext="Clase que representa números" helpid="x2097D" version="5">
+					<string name="new Number" tiptext="Crear un nuevo objeto Number" helpid="x21B03" text="new Number(% número %)" text2="new Number(%%)" type="expression" version="5"/>
+					<folder name="Métodos" id="Methods" tiptext="Métodos de la clase Number" helpid="x20A97" version="5">
+						<string name="toString" tiptext="Convertir objeto Number en cadena, con conversión de raíz opcional" helpid="x21973" object="Number" text=".toString(%%)" text2=".toString(% base %)" version="5"/>
+						<string name="valueOf" tiptext="Convertir objeto Number en tipo primitivo (numérico)" helpid="x21974" object="Number" text=".valueOf()" version="5"/>
+					</folder>
+					<folder name="Constantes" id="Constants" tiptext="Propiedades de constantes de la clase Number" helpid="x20A98" version="5">
+						<string name="MIN_VALUE" tiptext="El menor número representable" helpid="x2196E" text="Number.MIN_VALUE" version="5" object="Number"/>
+						<string name="MAX_VALUE" tiptext="El mayor número representable" helpid="x2196D" text="Number.MAX_VALUE" version="5" object="Number"/>
+						<string name="POSITIVE_INFINITY" tiptext="Infinito positivo" helpid="x21971" text="Number.POSITIVE_INFINITY" version="5" object="Number"/>
+						<string name="NEGATIVE_INFINITY" tiptext="Infinito negativo" helpid="x21970" text="Number.NEGATIVE_INFINITY" version="5" object="Number"/>
+						<string name="NaN" tiptext="NaN (no es un número)" helpid="x2196F" text="Number.NaN" version="5" object="Number"/>
+					</folder>
+				</folder>
+				<folder name="Object" id="Object" sort="false" index="true" tiptext="Object es del tipo de clase primitivo ActionScript" helpid="x20982" version="5">
+					<string name="new Object" tiptext="Crear un nuevo objeto Object" helpid="x21B1F" text="new Object(%%)" text2="new Object(% valor %)" type="expression" version="5"/>
+					<folder name="Métodos" id="Methods" tiptext="Métodos de los objetos Object" helpid="x20A96" version="5">
+						<string name="toString" tiptext="Convertir este objeto en la representación de su cadena" helpid="x21AD8" object="Object" text=".toString()" version="5"/>
+						<string name="valueOf" tiptext="Devolver el valor primitivo de este objeto" helpid="x21ADA" object="Object" text=".valueOf()" version="5"/>
+						<ifdef mode="FEATURE_OBJECT_MODEL">
+							<string name="watch" tiptext="Agregar punto de observación en la propiedad de un objeto" helpid="x21ADB" object="Object" text=".watch(% prop, repeticiónLlamada, datosDeUsuario %)" version="6"/>
+							<string name="unwatch" tiptext="Quita el punto de observación creado con Object.watch" helpid="x21AD9" object="Object" text=".unwatch(% prop %)" version="6"/>
+							<string name="registerClass" tiptext="Asocia el identificador de un vínculo con una clase de objeto" helpid="x21AD2" object="Object" text=".registerClass(% idSímbolo, claseThe %)" version="6"/>
+							<string name="addProperty" tiptext="Registra una propiedad del captador/definidor de un objeto" helpid="x21AD4" object="Object" text=".addProperty(% prop, funciónGet, funciónSet %)" version="6"/>
+						</ifdef>
+					</folder>
+					<folder name="Propiedades" id="Properties" tiptext="Propiedades de los objetos Object" helpid="x20BBE" version="5">
+						<string name="__proto__" tiptext="Objeto prototipo del cual se hereda este objeto" helpid="x21ACF" object="Object" text=".__proto__" version="5"/>
+						<string name="__resolve" tiptext="Referencia a una función definida por el usuario que se invoca si el código ActionScript hace referencia a una propiedad o un método no definido" helpid="x21AD0" object="Object" text=".__resolve" version="6"/>
+					</folder>
+				</folder>
+				<folder name="String" id="String" sort="false" index="true" tiptext="Clase que le ayuda a trabajar con cadenas" helpid="x209C9" version="5">
+					<string name="new String" tiptext="Crear un nuevo objeto String" helpid="x21B0D" text="new String(% valor %)" text2="new String(%%)" type="expression" version="5"/>
+					<folder name="Métodos" id="Methods" tiptext="Métodos de los objetos String" helpid="x209C9" version="5">
+						<string name="charAt" tiptext="Devolver carácter en el índice especificado" helpid="x21979" object="String" text=".charAt(% índice %)" version="5"/>
+						<string name="charCodeAt" tiptext="Devolver código de carácter en el índice especificado" helpid="x2197A" object="String" text=".charCodeAt(% índice %)" version="5"/>
+						<string name="fromCharCode" tiptext="Construir cadena a partir de los códigos de caracteres" helpid="x21977" text="String.fromCharCode(% códigoCar1, ..., códigoCarN %)" version="5" object="String"/>
+						<string name="toUpperCase" tiptext="Devolver cadena convertida en caracteres en mayúscula" helpid="x21984" object="String" text=".toUpperCase()" version="5"/>
+						<string name="toLowerCase" tiptext="Devolver cadena convertida en caracteres en minúscula" helpid="x21982" object="String" text=".toLowerCase()" version="5"/>
+						<string name="concat" tiptext="Devolver cadena convertida en caracteres en minúscula" helpid="x2197B" object="String" text=".concat(% cadena1, ..., cadenaN %)" version="5"/>
+						<string name="indexOf" tiptext="Buscar subcadena en cadena, devolver índice o -1" helpid="x2197C" object="String" text=".indexOf(% buscarCadena, desdeÍndice %)" version="5"/>
+						<string name="lastIndexOf" tiptext="Buscar subcadena en cadena hacia atrás" helpid="x2197D" object="String" text=".lastIndexOf(% buscarCadena, desdeÍndice %)" version="5"/>
+						<string name="slice" tiptext="Devolver el sector de cadena entre dos índices" helpid="x2197E" object="String" text=".slice(% índiceA, índiceB %)" version="5"/>
+						<string name="substring" tiptext="Devolver una subcadena comprendida entre dos índices de una cadena" helpid="x21981" object="String" text=".substring(% índiceA, índiceB %)" version="5"/>
+						<string name="split" tiptext="Dividir una cadena en una matriz de cadenas usando delimitador" helpid="x2197F" object="String" text=".split(% separador, límite %)" version="5"/>
+						<string name="substr" tiptext="Devolver una subcadena de un número de caracteres empezando por el índice" helpid="x21980" object="String" text=".substr(% inicio, extensión %)" version="5"/>
+					</folder>
+					<folder name="Propiedades" id="Properties" tiptext="Propiedades de los objetos String" helpid="x20A91" version="5">
+						<string name="length" tiptext="Devolver la longitud de un objeto de cadena" helpid="x21976" object="String" text=".length" version="5"/>
+					</folder>
+				</folder>
+				<ifdef mode="FEATURE_CAPABILITIES">
+					<folder name="System" id="System" index="true" tiptext="Objeto que contiene información del sistema" helpid="x20B40" version="6">
+						<folder name="Métodos" id="Methods" tiptext="Métodos de la clase System" version="6" helpid="x20B40">
+						</folder>
+						<folder name="Propiedades" id="Properties" tiptext="Propiedades de la clase System" version="7" helpid="x20B40">
+						</folder>
+						<folder name="Controladores de eventos" id="Event Handlers" tiptext="Controladores de eventos de la clase System" version="7" helpid="x20B40">
+							<string name="onStatus" tiptext="Se invoca cuando un objeto no define su propio controlador onStatus" helpid="x2196B" text="System.onStatus(% objetoInfo %)" object="System" version="7"/>
+						</folder>
+						<folder name="Objetos" id="Objects" tiptext="Objetos de la clase System" version="6" helpid="x20B40">
+							<folder name="capabilities" sort="false" id="capabilities" index="true" tiptext="Objeto que contiene información sobre las capacidades del sistema" helpid="x20ABB" version="6" object="System">
+								<folder name="Propiedades" id="Properties" tiptext="Propiedades del objeto Capabilities" helpid="x20BC2" version="6">
+									<!-- Added hasIME method -->
+								</folder>
+							</folder>
+							<folder name="security" sort="false" id="security" index="true" tiptext="Objeto que contiene métodos de seguridad del sistema" helpid="x20A3D" version="6" object="System">
+								<folder name="Métodos" id="Methods" tiptext="Métodos del objeto System.security" version="6" helpid="x204DA">
+									<string name="allowDomain" tiptext="Permite a películas de otros dominios acceder a la película actual" text="System.security.allowDomain(% dominio1, ..., dominioN %)" text2=".allowDomain(% dominio1, ..., dominioN %)" object="[System.security]" version="6" helpid="x21A0E"/>
+									<string name="allowInsecureDomain" tiptext="Permite a películas de un dominio no seguro acceder a la película actual en un dominio seguro" text="System.security.allowInsecureDomain(% dominio1, ..., dominioN %)" text2=".allowInsecureDomain(% dominio1, ..., dominioN %)" object="[System.security]" version="7" helpid="x21A0F"/>
+									<string name="loadPolicyFile" tiptext="Permite que las películas muestren la ubicación de un archivo de política" text="System.security.loadPolicyFile(% url:String %)" object="[System.security]" version="7" helpid="x21A10"/>
+								</folder>
+								<folder name="Propiedades" id="Properties" tiptext="Propiedades del objeto System.security" version="6" helpid="x204DA">
+									<string name="sandboxType" tiptext="Indica el tipo de modelo de seguridad de libre configuración en el que se ejecuta el archivo SWF que realiza la llamada." helpid="x21A11" object="[System.security]" text=".sandboxType" version="8"/>
+								</folder>
+							</folder>
+							<folder name="IME" sort="false" id="IME" index="true" tiptext="Objeto que contiene métodos de IME del sistema" helpid="x217AD" version="8" object="[System.IME]">
+								<folder name="Constantes" id="Constants" tiptext="Propiedades constantes de la clase IME" helpid="" index="false" version="8">
+								</folder>
+								<folder name="Métodos" tiptext="Métodos de System.IME" sort="true" id="IMEMethods" index="false" version="8">
+								</folder>
+								<folder name="Eventos" tiptext="Eventos de IME" sort="true" id="IMEEvents" index="false" version="">
+								</folder>
+							</folder>
+							<string name="useCodepage" tiptext="Si el valor es true, Flash Player utiliza la página de códigos del SO" helpid="x2196A" text="System.useCodepage" object="System" version="6"/>
+						</folder>
+					</folder>
+				</ifdef>
+			</folder>
+			<folder name="Media" id="Media" tiptext="Clases de medios en Flash" helpid="x20AB0" version="5">
+				<!--Sound object-->
+				<!--Camera object-->
+				<!--Microphone object-->
+				<!--NetConnection object-->
+				<!--NetStream object-->
+				<!--Video object-->
+				<folder name="Sound" id="Sound" index="true" sort="false" tiptext="Clase que le ayuda a trabajar con sonido" helpid="x209B0" version="5">
+					<string name="new Sound" tiptext="Crear un objeto de sonido" helpid="x21AEF" text="new Sound(% destino %)" type="expression" version="5"/>
+					<folder name="Métodos" id="Methods" tiptext="Métodos de los objetos Sound" helpid="x209B0" version="5" sort="true">
+						<string name="getPan" tiptext="Obtener la panorámica de sonido" helpid="x21AE7" object="Sound" text=".getPan()" version="5"/>
+						<string name="getTransform" tiptext="Obtener la transformación de sonido actual" helpid="x21AE8" object="Sound" text=".getTransform()" version="5"/>
+						<string name="getVolume" tiptext="Obtener el porcentaje de volumen" helpid="x21AE9" object="Sound" text=".getVolume()" version="5"/>
+						<string name="setPan" tiptext="Definir la panorámica de sonido" helpid="x21AEB" object="Sound" text=".setPan(% pan %)" version="5"/>
+						<string name="setTransform" tiptext="Definir cada canal en una combinación del canal izquierdo y derecho" helpid="x21AEC" object="Sound" text=".setTransform(% sxform %)" version="5"/>
+						<string name="setVolume" tiptext="Definir el porcentaje de volumen" helpid="x21AED" object="Sound" text=".setVolume(% volumen %)" version="5"/>
+						<string name="stop" tiptext="Detener todos los sonidos" helpid="x21AEF" object="Sound" text=".stop()" version="5"/>
+						<string name="attachSound" tiptext="Asociar un sonido ubicado en la biblioteca" helpid="x21AE4" object="Sound" text='.attachSound(% idNombre=&quot;&quot; %)' version="5">
+							<parametersdialog>
+								<label id="ATTACH_SND_LABEL" value="ID Nombre:" align="right" control="ATTACH_SND_EXPR"/>
+								<expression id="ATTACH_SND_EXPR" size="60" prompt="string"/>
+							</parametersdialog>
+						</string>
+						<ifdef mode="FEATURE_LOAD_IMAGES">
+							<string name="loadSound" tiptext="Descargar un sonido MP3." helpid="x21AEA" object="Sound" text=".loadSound(% URL, enviandoFlujo %)" version="6"/>
+							<string name="getBytesLoaded" tiptext="Indica el número de bytes descargados durante la operación loadSound()." helpid="x21AE5" object="Sound" text=".getBytesLoaded()" version="6"/>
+							<string name="getBytesTotal" tiptext="Indica el tamaño del archivo que se está descargando." helpid="x21AE6" object="Sound" text=".getBytesTotal()" version="6"/>
+						</ifdef>
+						<string name="start" tiptext="Iniciar la reproducción del último sonido asociado" helpid="x21AEE" object="Sound" text=".start(% desplazamientoSegundos, bucles %)" version="5"/>
+					</folder>
+					<ifdef mode="FEATURE_SOUND_COMPLETION_EVENT">
+						<folder name="Propiedades" id="Properties" tiptext="Propiedades de la clase Sound" helpid="x20B31" version="6">
+							<string name="position" tiptext="Cantidad de milisegundos que el sonido se ha reproducido" helpid="x21AE2" object="Sound" text=".position" version="6"/>
+							<string name="duration" tiptext="Duración del sonido en milisegundos" helpid="x21AE0" object="Sound" text=".duration" version="6"/>
+						</folder>
+						<folder name="Controladores de eventos" id="Event Handlers" tiptext="Controladores de eventos de la clase Sound" helpid="x20B34" version="6">
+							<string name="onSoundComplete" tiptext="Se invoca cuando se ha terminado la reproducción de un sonido" helpid="x21ADF" object="Sound" text=".onSoundComplete" version="6" type="event"/>
+							<string name="onLoad" tiptext="Se invoca cuando se ha recibido el sonido cargado" helpid="x21ADE" object="Sound" text=".onLoad(% éxito %)" version="6" type="event"/>
+							<string name="onID3" tiptext="Se invoca cuando la información de la etiqueta ID3 está disponible" helpid="x21ADD" object="Sound" text=".onID3" version="7" type="event"/>
+						</folder>
+					</ifdef>
+					<folder name="Objetos" id="Objects" tiptext="Objetos del objeto Sound" helpid="x204B8" version="6">
+						<folder name="id3" id="id3" tiptext="Soporte de etiqueta ID3 de MP3" helpid="x204B8" version="6">
+							<folder name="Propiedades" id="Properties" tiptext="Propiedades del objeto id3" helpid="x204B8" version="6">
+							</folder>
+						</folder>
+					</folder>
+				</folder>
+        <folder name="NetConnection" id="NetConnection" index="true" sort="false" helpid="x22B80" tiptext="Clase para establecer la conexión local para la transmisión de archivos FLV" version="6">
+          <string name="new NetConnection" tiptext="Crear un objeto NetConnection nuevo" helpid="x22B92" text="new NetConnection()" object="NetConnection" type="expression" version="6"/>
+          <folder name="Métodos" id="Methods" helpid="x22B93" tiptext="Métodos de la clase NetConnection" version="6">
+            <string name="connect" tiptext="Se conecta a un proxy local" helpid="x22B81" text=".connect(null)" object="NetConnection" version="6"/>
+            <string name="close" tiptext="Cierre de la conexión al proxy local" helpid="x22B82" text=".close()" object="NetConnection" version="6"/>
+          </folder>
+        </folder>
+        <folder name="NetStream" id="NetStream" index="true" sort="false" helpid="x22B83" tiptext="Clase para la transmisión de archivos FLV a través de un objeto NetConnection local" version="6">
+          <string name="new NetStream" tiptext="Crear un objeto NetStream nuevo" helpid="x22B94" text="new NetStream()" object="NetStream" type="expression" version="6"/>
+          <folder name="Métodos" id="Methods" helpid="x22B95" tiptext="Métodos de la clase NetStream" version="6">
+            <string name="close" tiptext="Detiene la publicación o reproducción de todos los datos del flujo" helpid="x22B84" text=".close()" object="NetStream" version="6"/>
+            <string name="pause" tiptext="Detiene o reanuda la reproducción de un flujo" helpid="x22B96" text=".pause(% [detenerReanudar] %)" object="NetStream" version="6"/>
+            <string name="play" tiptext="Transmite al cliente audio o vídeo que se está publicando en el servidor  [From Acrobat]" helpid="x22B85" text=".play(% quéreproducir %)" object="NetStream" version="6"/>
+            <string name="seek" tiptext="Busca el número especificado de segundos en el flujo grabado que se está reproduciendo" helpid="x22B86" text=".seek(% númerodesegundos %)" object="NetStream" version="6"/>
+            <string name="setBufferTime" tiptext="Especifica el comportamiento del almacenamiento en búfer del flujo" helpid="x22B87" text=".setBufferTime(% númerodesegundos %)" object="NetStream" version="6"/>
+          </folder>
+          <folder name="Propiedades" id="Properties" helpid="x22B97" tiptext="Propiedades de la clase NetStream" version="6">
+            <string name="bytesLoaded" tiptext="Número actual de bytes cargados" helpid="x22B8A" text=".bytesLoaded" object="NetStream" version="6"/>
+            <string name="bytesTotal" tiptext="Número total de bytes en el archivo que se está cargando" helpid="x22B8B" text=".bytesTotal" object="NetStream" version="6"/>
+            <string name="bufferLength" tiptext="La longitud actual real de la cola del mensaje" helpid="x22B88" text=".bufferLength" object="NetStream" version="6"/>
+            <string name="bufferTime" tiptext="Longitud máx. del búfer de sonido, en segundos" helpid="x22B89" text=".bufferTime" object="NetStream" version="6"/>
+            <string name="currentFps" tiptext="Fotogramas actuales por segundo en el flujo" helpid="x22B8C" text=".currentFps" object="NetStream" version="6"/>
+            <string name="time" tiptext="Hora actual del flujo en segundos" helpid="x22B8D" text=".time" object="NetStream" version="6"/>
+          </folder>
+          <folder name="Controladores de eventos" id="Event Handlers" helpid="x2041B" tiptext="Controladores de eventos de la clase NetStream" version="6">
+            <string name="onCuePoint" tiptext="Se invoca cuando se llega a un punto de referencia incrustado mientras que el archivo FLV se está reproduciendo." helpid="x22B8F" text=".onCuePoint(% infoObjecto:Objeto %)" object="NetStream" version="8"/>
+            <string name="onStatus" tiptext="Se invoca cada vez que se publica un cambio de estado o error para el objeto NetStream" helpid="x22B8E" text=".onStatus(% infoObjeto %)" type="event" object="NetStream" version="6"/>
+            <string name="onMetaData" tiptext="Se invoca cuando se recibe la información incrustada en el archivo FLV que se está reproduciendo" helpid="x22B90" text=".onMetaData(% infoObjeto:Objeto %)" object="NetStream" version="7"/>
+          </folder>
+        </folder>
+        <folder name="Vídeo" id="Video" index="true" sort="false" tiptext="Clase para crear el objeto de vídeo" version="6" helpid="x22B99">
+          <folder name="Métodos" id="Methods" tiptext="Métodos de la clase Vídeo" version="6" helpid="x22B91">
+            <string name="play" tiptext="Abre un origen de vídeo e inicia la reproducción." helpid="x22B9B" text=".play(% origen %)" object="Video" version="6"/>
+            <string name="pause" tiptext="Detiene la reproducción del vídeo" text=".pause()" helpid="x22B9D" object="Video" version="6"/>
+            <string name="resume" tiptext="Reanuda la reproducción del vídeo detenido" text=".resume()" helpid="x22B9E" object="Video" version="6"/>
+            <string name="stop" tiptext="Detiene la reproducción del vídeo" text=".stop()" helpid="x22B9C" object="Video" version="6"/>
+            <string name="close" tiptext="Detiene la reproducción del vídeo y libera la memoria del objeto de vídeo" text=".close()" helpid="x22B9F" object="Video" version="6"/>
+            <string name="attachVideo" tiptext="Indica la alimentación de vídeo que se mostrará dentro del objeto de vídeo del escenario" text=".attachVideo(% source %)" helpid="x22BA1" object="Video" version="6"/>
+          </folder>
+          <folder name="Event Handlers" id="Event Handlers" helpid="x22BA3" tiptext="Controladores de eventos de la clase Video" version="6">
+            <string name="onStatus" tiptext="Se invoca cada vez que se publica un cambio de estado o error para el objeto Video" helpid="x22BA2" text=".onStatus(% infoObject %)" type="event" object="Video" version="6"/>
+          </folder>
+          <folder name="Propiedades" id="Properties" tiptext="Propiedades de la clase Vídeo" version="6" helpid="x22B9A">
+          </folder>
+        </folder>
+      </folder>
+			<folder name="Película" id="Movie" tiptext="Clases para crear scripts de películas Flash" helpid="x20AB0" version="5">
+				<!--Context Menu objects-->
+				<!--Button object-->
+				<!--Color object-->
+				<!--Key Object-->
+				<!--Mouse object-->
+				<!--MovieClip object-->
+				<!--Selection object-->
+				<!--TextField object-->
+				<ifdef mode="FEATURE_OBJECT_MODEL">
+					<folder name="Button" id="Button" sort="false" index="true" tiptext="Clase que representa instancias de botón" helpid="x20A6C" version="6">
+						<folder name="Métodos" id="Methods" tiptext="Métodos de los objetos Button" helpid="x20BB9" version="6">
+							<string name="getDepth" tiptext="Indica el orden absoluto &quot;z&quot; del botón" helpid="x21904" object="Button" text=".getDepth()" version="6"/>
+						</folder>
+						<folder name="Propiedades" id="Properties" tiptext="Propiedades de los objetos Button" helpid="x20A7E" version="6">
+							<string name="enabled" tiptext="Si es verdadera, el botón se activa; si es falsa, se desactiva" helpid="x21900" object="Button" text=".enabled" version="6"/>
+							<ifdef mode="FEATURE_EVENT_MODEL">
+								<string name="tabIndex" tiptext="Índice de tabulación del botón" helpid="x21902" object="Button" text=".tabIndex" version="6"/>
+								<string name="tabEnabled" tiptext="Si es verdadera, se activa la tabulación; si es falsa, se desactiva" helpid="x21901" object="Button" text=".tabEnabled" version="6"/>
+								<string name="trackAsMenu" tiptext="Seguimiento como elemento de menú para los botones" helpid="x21903" object="Button" text=".trackAsMenu" version="6"/>
+							</ifdef>
+							<string name="_x" description="Posición X" tiptext="Posición X del botón" helpid="x218FA" object="Button" text="._x" version="4"/>
+							<string name="_y" description="Posición Y" tiptext="Posición Y del botón" helpid="x218FD" object="Button" text="._y" version="4"/>
+							<string name="_xmouse" description="X Mouse Position" tiptext="Posición X del ratón" helpid="x218FB" object="Button" text="._xmouse" version="5"/>
+							<string name="_ymouse" description="Y Mouse Position" tiptext="Posición Y del ratón" helpid="x218FE" object="Button" text="._ymouse" version="5"/>
+							<string name="_xscale" description="X Scale Factor" tiptext="Factor de escala X del botón (porcentaje)" helpid="x218FC" object="Button" text="._xscale" version="4"/>
+							<string name="_yscale" description="Y Scale Factor" tiptext="Factor de escala Y del botón (porcentaje)" helpid="x218FF" object="Button" text="._yscale" version="4"/>
+							<string name="_width" description="Anchura" tiptext="Ancho del botón" helpid="x218F9" object="Button" text="._width" version="4"/>
+							<string name="_height" description="Altura" tiptext="Altura del botón" helpid="x218EF" object="Button" text="._height" version="4"/>
+							<string name="_alpha" description="Alpha" tiptext="Transparencia alfa del botón (porcentaje)" helpid="x218ED" object="Button" text="._alpha" version="4"/>
+							<string name="_visible" description="Visibility" tiptext="Indica true si el botón está visible y false si está oculto" helpid="x218F8" object="Button" text="._visible" version="4"/>
+							<string name="_rotation" description="Rotation" tiptext="Ángulo de rotación del botón (grados)" helpid="x218F4" object="Button" text="._rotation" version="4"/>
+							<string name="_name" description="Name" tiptext="Nombre de instancia del botón" helpid="x218F1" object="Button" text="._name" version="4"/>
+							<string name="_target" description="Target" tiptext="Ruta de destino del botón" helpid="x218F6" object="Button" text="._target" version="4"/>
+							<string name="_focusrect" description="Mostrar rectángulo de enfoque" tiptext="Indica false si los rect. de enfoque de ref. están ocultos y true si aparecen" helpid="x218EE" object="Button" text="._focusrect" version="4"/>
+							<string name="_url" description="Movie clip URL" tiptext="URL desde la que se ha cargado el botón" helpid="x218F7" object="Button" text="._url" version="4"/>
+							<string name="_parent" description="Movie clip URL" tiptext="El nivel principal del botón actual" helpid="x218F2" object="Button" text="._parent" version="5"/>
+							<string name="_quality" tiptext="Establece o recupera la calidad de representación que se utiliza para un archivo SWF" helpid="x218F3" text="._quality" object="Button" version="6"/>
+							<string name="_soundbuftime" tiptext="Especifica el número de segundos que un sonido debe almacenarse previamente en el búfer antes de que comience a reproducirse sin interrupción" helpid="x218F5" text="._soundbuftime" object="Button" version="6"/>
+						</folder>
+						<ifdef mode="FEATURE_EVENT_MODEL">
+							<folder name="Controladores de eventos" id="Event Handlers" tiptext="Controladores de eventos del objeto Button" helpid="x20A6C" version="6">
+								<string name="onPress" tiptext="Se invoca cuando se produce un evento press" helpid="x2190A" object="Button" text=".onPress" version="6" type="event"/>
+								<string name="onRelease" tiptext="Se invoca cuando se produce un evento release" helpid="x2190B" object="Button" text=".onRelease" version="6" type="event"/>
+								<string name="onReleaseOutside" tiptext="Se invoca cuando se produce un evento releaseOutside" helpid="x2190C" object="Button" text=".onReleaseOutside" version="6" type="event"/>
+								<string name="onRollOver" tiptext="Se invoca cuando se produce un evento rollOver" helpid="x2190E" object="Button" text=".onRollOver" version="6" type="event"/>
+								<string name="onRollOut" tiptext="Se invoca cuando se produce un evento rollOut" helpid="x2190D" object="Button" text=".onRollOut" version="6" type="event"/>
+								<string name="onDragOver" tiptext="Se invoca cuando se produce un evento dragOver" helpid="x21906" object="Button" text=".onDragOver" version="6" type="event"/>
+								<string name="onDragOut" tiptext="Se invoca cuando se produce un evento dragOut" helpid="x21905" object="Button" text=".onDragOut" version="6" type="event"/>
+								<string name="onSetFocus" tiptext="Se invoca cuando se selecciona un objeto" helpid="x2190F" object="Button" text=".onSetFocus(oldFocus)" version="6" type="event"/>
+								<string name="onKillFocus" tiptext="Se invoca cuando un objeto deja de estar seleccionado" helpid="x21909" object="Button" text=".onKillFocus(newFocus)" version="6" type="event"/>
+								<string name="onKeyUp" tiptext="Se invoca cuando el botón tiene selección de entrada y se suelta una tecla" helpid="x21908" object="Button" text=".onKeyUp()" version="6" type="event"/>
+								<string name="onKeyDown" tiptext="Se invoca cuando el botón tiene selección de entrada y se pulsa una tecla" helpid="x21907" object="Button" text=".onKeyDown()" version="6" type="event"/>
+							</folder>
+						</ifdef>
+					</folder>
+				</ifdef>
+				<folder name="Color" id="Color" index="true" sort="false" tiptext="Clase que controla la transformación de color de clips de películas" helpid="x208DC" version="5">
+					<string name="new Color" tiptext="Crear objeto de color" helpid="x218B5" text="new Color(% destino %)" type="expression" version="5"/>
+					<folder name="Métodos" id="Methods" tiptext="Métodos del objeto Color" helpid="x20AA1" version="5">
+						<string name="getRGB" tiptext="Obtener transformación de desplazamientos RVA de color" helpid="x218B2" object="Color" text=".getRGB()" version="5"/>
+						<string name="getTransform" tiptext="Obtener transformación de color" helpid="x218B3" object="Color" text=".getTransform()" version="5"/>
+						<string name="setRGB" tiptext="Definir desplazamientos RVA de color para la transformación de color" helpid="x218B4" object="Color" text=".setRGB(% 0xRRGGBB %)" version="5">
+							<parametersdialog>
+								<label value="Color:" control="COLORCHIP"/>
+								<colorchip id="COLORCHIP" format="hex"/>
+							</parametersdialog>
+						</string>
+						<string name="setTransform" tiptext="Definir transformación de color" helpid="x218B5" object="Color" text=".setTransform(% cxform %)" version="5"/>
+					</folder>
+				</folder>
+				<folder name="Key" id="Key" index="true" sort="false" tiptext="Clase que permite interactuar con el teclado" helpid="x2094A" version="5">
+					<folder name="Métodos" id="Methods" tiptext="Métodos de la clase Key" helpid="x20A9C" version="5">
+						<string name="getAscii" tiptext="Obtener el código ASCII de la última tecla presionada o liberada" helpid="x219F7" text="Key.getAscii()" version="5" object="Key"/>
+						<string name="getCode" tiptext="Obtener el código de tecla virtual de la última tecla presionada o liberada" helpid="x219F8" text="Key.getCode()" version="5" object="Key"/>
+						<string name="isDown" tiptext="Devolver el valor true si la tecla está presionada" helpid="x219F9" text="Key.isDown(% códigoClave %)" version="5" object="Key"/>
+						<string name="addListener" tiptext="Agrega un detector para los eventos onKeyDown/onKeyUp" helpid="x219F6" text="Key.addListener(% detector %)" version="6" object="Key"/>
+						<string name="removeListener" tiptext="Quita un detector para los eventos onKeyDown/onKeyUp" helpid="x219FA" text="Key.removeListener(% detector %)" version="6" object="Key"/>
+					</folder>
+					<folder name="Constantes" id="Constants" tiptext="Propiedades de constantes de la clase Key" helpid="x20A9D" version="5">
+						<string name="BACKSPACE" tiptext="Código de tecla virtual para &lt;BACKSPACE&gt;" helpid="x219E4" text="Key.BACKSPACE" version="5" object="Key"/>
+						<string name="CAPSLOCK" tiptext="Código de tecla virtual para &lt;CAPSLOCK&gt;" helpid="x219E5" text="Key.CAPSLOCK" version="5" object="Key"/>
+						<string name="CONTROL" tiptext="Código de tecla virtual para &lt;CONTROL&gt;" helpid="x219E6" text="Key.CONTROL" version="5" object="Key"/>
+						<string name="DELETEKEY" tiptext="Código de tecla virtual para &lt;DELETE&gt;" helpid="x219E8" text="Key.DELETEKEY" version="5" object="Key"/>
+						<string name="DOWN" tiptext="Código de tecla virtual para &lt;DOWN&gt;" helpid="x219E9" text="Key.DOWN" version="5" object="Key"/>
+						<string name="END" tiptext="Código de tecla virtual para &lt;END&gt;" helpid="x219EA" text="Key.END" version="5" object="Key"/>
+						<string name="ENTER" tiptext="Código de tecla virtual para &lt;ENTER&gt;" helpid="x219EB" text="Key.ENTER" version="5" object="Key"/>
+						<string name="ESCAPE" tiptext="Código de tecla virtual para &lt;ESCAPE&gt;" helpid="x219EC" text="Key.ESCAPE" version="5" object="Key"/>
+						<string name="HOME" tiptext="Código de tecla virtual para &lt;HOME&gt;" helpid="x219ED" text="Key.HOME" version="5" object="Key"/>
+						<string name="INSERT" tiptext="Código de tecla virtual para &lt;INSERT&gt;" helpid="x219E7" text="Key.INSERT" version="5" object="Key"/>
+						<string name="LEFT" tiptext="Código de tecla virtual para &lt;LEFT&gt;" helpid="x219EE" text="Key.LEFT" version="5" object="Key"/>
+						<string name="PGUP" tiptext="Código de tecla virtual para &lt;PGUP&gt;" helpid="x219F0" text="Key.PGUP" version="5" object="Key"/>
+						<string name="PGDN" tiptext="Código de tecla virtual para &lt;PGDN&gt;" helpid="x219EF" text="Key.PGDN" version="5" object="Key"/>
+						<string name="RIGHT" tiptext="Código de tecla virtual para &lt;RIGHT&gt;" helpid="x219F1" text="Key.RIGHT" version="5" object="Key"/>
+						<string name="SHIFT" tiptext="Código de tecla virtual para &lt;SHIFT&gt;" helpid="x219F2" text="Key.SHIFT" version="5" object="Key"/>
+						<string name="SPACE" tiptext="Código de tecla virtual para &lt;SPACE&gt;" helpid="x219F3" text="Key.SPACE" version="5" object="Key"/>
+						<string name="TAB" tiptext="Código de tecla virtual para &lt;TAB&gt;" helpid="x219F4" text="Key.TAB" version="5" object="Key"/>
+						<string name="UP" tiptext="Código de tecla virtual para &lt;UP&gt;" helpid="x219F5" text="Key.UP" version="5" object="Key"/>
+					</folder>
+					<ifdef mode="FEATURE_EVENT_MODEL">
+            <folder name="Detectores" id="Listeners" tiptext="Detectores del objeto Key" helpid="x219E3" version="6">
+              <string name="onKeyDown" tiptext="Detector que se invoca al pulsar una tecla" helpid="x219E0" text=".onKeyDown" version="6" type="listener"/>
+              <string name="onKeyUp" tiptext="Detector que se invoca al soltar la tecla" helpid="x219E1" text=".onKeyUp" version="6" type="listener"/>
+            </folder>
+          </ifdef>
+				</folder>
+        <folder name="LocalConnection" id="LocalConnection" index="true" sort="false" tiptext="Clase para establecer comunicaciones entre SWF locales" version="6" helpid="x22C1B">
+            <string name="new LocalConnection" tiptext="Crear un nuevo objeto LocalConnection" text="new LocalConnection()" version="6" helpid="x22C22" type="expression"/>        
+            <folder name="Métodos" id="Methods" tiptext="Métodos para la clase LocalConnection" version="6" helpid="x22C1C">
+                <string name="close" tiptext="Cerrar una conexión abierta" text=".close()" object="LocalConnection" version="6" helpid="x22C17"/>
+                <string name="connect" tiptext="Registrar como destino para ser enviado por otros LocalConnections" text=".connect(% name %)" object="LocalConnection" version="6" helpid="x22C18"/>
+                <string name="domain" tiptext="Indica la cadena que se utilizó como prefijo del nombre de conexión" text=".domain()" object="LocalConnection" version="6" helpid="x22C19"/>
+                <string name="send" tiptext="Invocar método en otro objeto LocalConnection conectado como destino" text=".send(% target, method, ... %)" object="LocalConnection" version="6" helpid="x22C1A"/>
+            </folder>
+            <folder name="Eventos" id="Events" tiptext="Eventos generados por objetos LocalConnection" version="6" helpid="x22C26">
+                <string name="onStatus" tiptext="Se invoca cuando se despacha el envío" text=".onStatus(% infoObject %)" object="LocalConnection" version="6" helpid="x22C25"/>
+                <string name="allowDomain" tiptext="Permite a películas de otros dominios acceder a la película actual" text=".allowDomain(% domain1, ..., domainN %)" object="LocalConnection" version="6" helpid="x22C23"/>
+                <string name="allowInsecureDomain" tiptext="Permite a películas de un dominio no seguro acceder a la película actual en un dominio seguro" text=".allowInsecureDomain(% domain1, ..., domainN %)" object="LocalConnection" version="7" helpid="x22C24"/>
+            </folder>            
+        </folder>				
+				<folder name="Mouse" id="Mouse" sort="false" tiptext="Clase que controla el cursor del ratón" helpid="x20970" version="5" index="true">
+					<folder name="Métodos" id="Methods" tiptext="Métodos de la clase Mouse" helpid="x20A99" version="5">
+						<ifdef mode="FEATURE_EVENT_MODEL">
+							<string name="addListener" tiptext="Agrega un detector para los eventos onMouseDown/onMouseMove/onMouseUp" helpid="x21A2A" text="Mouse.addListener(% detector %)" version="6" object="Mouse"/>
+							<string name="removeListener" tiptext="Quita un detector de los eventos onMouseDown/onMouseMove/onMouseUp" helpid="x21A2B" text="Mouse.removeListener(% detector %)" version="6" object="Mouse"/>
+						</ifdef>
+					</folder>
+					<ifdef mode="FEATURE_EVENT_MODEL">
+						<folder name="Detectores" id="Listeners" tiptext="Detectores del objeto Mouse" helpid="x20B9F" version="6">
+              <string name="onMouseDown" tiptext="Detector que se invoca al presionar el botón del ratón" helpid="x21A26" text=".onMouseDown" version="6" type="listener"/>
+              <string name="onMouseMove" tiptext="Detector que se invoca al mover el ratón" helpid="x21A27" text=".onMouseMove" version="6" type="listener"/>
+              <string name="onMouseUp" tiptext="Detector que se invoca al soltar el botón del ratón" helpid="x21A28" text=".onMouseUp" version="6" type="listener"/>
+            </folder>
+					</ifdef>
+				</folder>
+				<!-- MovieClipLoader object -->
+				<folder name="MovieClipLoader" id="MovieClipLoader" index="true" sort="false" tiptext="Objeto que se utiliza para cargar archivos SWF, JPEG, GIF o PNG en un clip de película o nivel" helpid="x20481" version="7">
+					<string name="new MovieClipLoader" tiptext="Crear un nuevo objeto MovieClipLoader" helpid="x21A1D" text="new MovieClipLoader(%%)" type="expression" version="7"/>
+					<folder name="Métodos" id="Methods" sort="false" tiptext="Métodos del objeto MovieClipLoader" helpid="x2047D" version="7">
+						<string name="addListener" tiptext="Añade un detector para los eventos MovieClipLoader" helpid="x21A19" object="MovieClipLoader" text=".addListener(% detector %)" version="7"/>
+						<string name="getProgress" tiptext="Indica objeto que contenga información acerca del estado de la descarga" helpid="x21A1A" object="MovieClipLoader" text=".getProgress(% destino %)" version="7"/>
+						<string name="loadClip" tiptext="Carga una URL en un nivel o clip de película de destino" helpid="x21A1B" object="MovieClipLoader" text=".loadClip(% url, destino %)" version="7"/>
+						<string name="removeListener" tiptext="Elimina un detector para los eventos MovieClipLoader" helpid="x21A1C" object="MovieClipLoader" text=".removeListener(% detector %)" version="7"/>
+						<string name="unloadClip" tiptext="Carga un nivel o clip de película de destino" helpid="x21A1D" object="MovieClipLoader" text=".unloadClip(% destino %)" version="7"/>
+					</folder>
+					<folder name="Detectores" id="Listeners" tiptext="Detectores del objeto MovieClipLoader" helpid="x2047C" version="7">
+            <string name="onLoadComplete" tiptext="Se invoca al detector al concluir la descarga" helpid="x20494" text=".onLoadComplete(% destino [, estadoHTTP] %)" version="7" type="listener"/>
+            <string name="onLoadError" tiptext="Se invoca al detector cuando falla la descarga debido a un error" helpid="x20495" text=".onLoadError(% destino, códigoError [, estadoHTTP] %)" version="7" type="listener"/>
+            <string name="onLoadInit" tiptext="Se invoca al detector al inicializar la película que se ha descargado" helpid="x20498" text=".onLoadInit(% destino %)" version="7" type="listener"/>
+            <string name="onLoadProgress" tiptext="Se invoca al detector cuando se ha descargado una cantidad definida por un reproductor Flash" helpid="x20496" text=".onLoadProgress(% destino, bytesCargados, bytesTotal %)" version="7" type="listener"/>
+            <string name="onLoadStart" tiptext="Se invoca al detector al comenzar la descarga" helpid="x20497" text=".onLoadStart(% destino %)" version="7" type="listener"/>
+          </folder>
+				</folder>
+				<folder name="Selection" id="Selection" sort="false" index="true" tiptext="Clase que controla la selección del texto de edición" helpid="x209A7" version="5">
+					<folder name="Métodos" id="Methods" tiptext="Métodos de la clase Selection" helpid="x20A94" version="5">
+						<string name="getFocus" tiptext="Obtener nombre de la variable del campo de texto de edición seleccionado" helpid="x21989" text="Selection.getFocus()" object="Selection" version="5"/>
+						<string name="setFocus" tiptext="Definir el campo de texto de edición seleccionado" helpid="x2198A" text="Selection.setFocus(% nombreInstancia %)" object="Selection" version="5"/>
+						<string name="addListener" tiptext="Agrega un detector para el evento onSetFocus" helpid="x21988" text="Selection.addListener(% detector %)" object="Selection" version="6"/>
+						<string name="setSelection" tiptext="Definir el principio y el final de la selección de texto" helpid="x21BEB" text="Selection.setSelection(% iniciarÍndice, terminarÍndice %)" object="Selection" version="5"/>
+					</folder>
+				</folder>
+				<folder name="SharedObject" id="SharedObject" index="true" sort="false" tiptext="Clase para trabajar con datos guardados localmente" helpid="x20501" version="6">
+					<folder name="Métodos" id="Methods" tiptext="Métodos de la clase SharedObject" helpid="x20502" version="6">
+						<string name="flush" tiptext="Guarda inmediatamente un objeto compartido persistente localmente en un archivo local" helpid="x218E7" text=".flush(% [preservarTamaño] %)" object="SharedObject" version="6"/>
+						<string name="clear" tiptext="Purga datos del objeto compartido" helpid="x218E4" text=".clear()" object="SharedObject" version="6"/>
+						<string name="getLocal" tiptext="Indica referencia a objeto compartido persistente localmente" helpid="x218E6" text=".getLocal(% nombre [, ruta_local, origen] %)" object="SharedObject" version="6"/>
+						<string name="getSize" tiptext="Obtener el tamaño actual del objeto compartido (en bytes)" helpid="x218E8" text=".getSize()" object="SharedObject" version="6"/>
+					</folder>
+					<folder name="Propiedades" id="Properties" tiptext="Propiedades de la clase SharedObject" helpid="x20503" version="6">
+						<string name="data" tiptext="Los atributos asignados a la propiedad de datos del objeto" helpid="x218E3" text=".data" object="SharedObject" version="6"/>
+					</folder>
+					<folder name="Controladores de eventos" id="Event Handlers" tiptext="Controladores de eventos de la clase SharedObject" helpid="x20504" version="6">
+						<string name="onStatus" tiptext="Se invoca cuando se comunica un mensaje de estado para un objeto compartido" helpid="x218EA" text=".onStatus(% objetoInfo %)" type="event" object="SharedObject" version="6"/>
+					</folder>
+				</folder>
+				<ifdef mode="FEATURE_RESIZABLE_MOVIE_LAYOUT">
+					<folder name="Stage" id="Stage" sort="false" tiptext="Objeto que controla las características del escenario de la película Flash" helpid="x20B36" version="6" index="true">
+						<folder name="Métodos" id="Methods" tiptext="Métodos del objeto Stage" helpid="x20B37" version="6" sort="true">
+							<string name="addListener" tiptext="Agrega un detector al evento onResize" helpid="x21A24" text="Stage.addListener(% detector %)" version="6" object="Stage"/>
+							<string name="removeListener" tiptext="Quita un detector del evento onResize" helpid="x21A25" text="Stage.removeListener(% detector %)" version="6" object="Stage"/>
+						</folder>
+						<folder name="Propiedades" id="Properties" tiptext="Propiedades del objeto Stage" helpid="x20B38" version="6">
+							<string name="scaleMode" tiptext="Escala de película Flash: mostrar todo, ajuste exacto, sin borde, o sin escala" helpid="x21A22" text="Stage.scaleMode" version="6" object="Stage"/>
+							<string name="align" tiptext="Alineación de una película Flash: centrado, superior, superior izquierda, etc." helpid="x21A20" text="Stage.align" version="6" object="Stage"/>
+							<string name="width" tiptext="El ancho del escenario de una película Flash (en píxeles)" helpid="x21A23" text="Stage.width" version="6" object="Stage"/>
+							<string name="height" tiptext="El alto del escenario de una película Flash (en píxeles)" helpid="x21A21" text="Stage.height" version="6" object="Stage"/>
+						</folder>
+						<folder name="Controladores de eventos" id="Event Handlers" tiptext="Controladores de eventos del objeto Stage" helpid="x20B36" version="6">
+              <string name="onResize" tiptext="Se invoca cuando se ha cambiado el tamaño de la película Flash" helpid="x21A1E" text=".onResize" version="6" type="event"/>
+            </folder>
+					</folder>
+				</ifdef>
+				<!-- TextField object -->
+				<folder name="TextField" id="TextField" sort="false" index="true" tiptext="Objeto que representa instancias de campos de texto" helpid="x20A34" version="6">
+					<ifdef mode="FEATURE_TEXTFIELD_OBJECT">
+						<folder name="Métodos" id="Methods" tiptext="Métodos de los objetos de campo de texto" helpid="x20B7C" version="6">
+							<string name="removeTextField" tiptext="Quita un campo de texto creado con createTextField" helpid="x2194E" object="TextField" text=".removeTextField()" version="6"/>
+							<string name="replaceText" tiptext="Sustituya el rango de caracteres en el campo de texto" helpid="x2194F" object="TextField" text=".replaceText(% iniciarÍndice, terminarÍndice, texto %)" version="7"/>
+							<string name="getTextFormat" tiptext="Obtener información sobre el formato del texto" helpid="x2194C" object="TextField" text=".getTextFormat(% iniciarÍndice, terminarÍndice %)" version="6"/>
+							<string name="setTextFormat" tiptext="Definir información sobre el formato del texto" helpid="x21951" object="TextField" text=".setTextFormat(% formatoTexto %)" text2=".setTextFormat(% índice, formatoTexto %)" text3=".setTextFormat(% iniciarÍndice, terminarÍndice, formatoTexto %)" version="6"/>
+							<string name="getNewTextFormat" tiptext="Obtener información sobre el formato del texto para el nuevo texto" helpid="x2194B" object="TextField" text=".getNewTextFormat()" version="6"/>
+							<string name="setNewTextFormat" tiptext="Definir información sobre el formato del texto para el nuevo texto" helpid="x21950" object="TextField" text=".setNewTextFormat(% formatoTexto %)" version="6"/>
+							<string name="addListener" tiptext="Agrega un detector para los eventos onChanged/onScroller" helpid="x21949" text=".addListener(% detector %)" object="TextField" version="6"/>
+							<string name="removeListener" tiptext="Quita un detector para los eventos onChanged/onScroller" helpid="x2194D" text=".removeListener(% detector %)" object="TextField" version="6"/>
+							<string name="getDepth" tiptext="Indica el orden absoluto &quot;z&quot; del campo de texto" helpid="x2194A" object="TextField" text=".getDepth()" version="6"/>
+						</folder>
+					</ifdef>
+					<folder name="Propiedades" id="Properties" tiptext="Propiedades de los objetos TextField" helpid="x20A84" version="6">
+						<string name="scroll" tiptext="Índice de la primera línea visible en el campo de texto" helpid="x2193D" object="TextField" text=".scroll" version="6"/>
+						<string name="bottomScroll" tiptext="Índice de la última línea visible del campo de texto" helpid="x21931" object="TextField" text=".bottomScroll" version="6"/>
+						<string name="maxscroll" tiptext="Valor máximo de .scroll en el campo de texto" helpid="x2193A" object="TextField" text=".maxscroll" version="6"/>
+						<string name="type" tiptext="Tipo de campo de texto ('dinámico' o 'entrada')" helpid="x21946" object="TextField" text=".type" version="6"/>
+						<string name="textColor" tiptext="Color del texto en el campo de texto" helpid="x21943" object="TextField" text=".textColor" version="6"/>
+						<string name="borderColor" tiptext="Color del borde del campo de texto" helpid="x21930" object="TextField" text=".borderColor" version="6"/>
+						<string name="backgroundColor" tiptext="Color del fondo del campo de texto" helpid="x2192E" object="TextField" text=".backgroundColor" version="6"/>
+						<string name="text" tiptext="Texto del campo de texto" helpid="x21942" object="TextField" text=".text" version="6"/>
+						<string name="htmlText" tiptext="Texto del campo de texto con etiquetas HTML" helpid="x21936" object="TextField" text=".htmlText" version="6"/>
+						<string name="autoSize" tiptext="El campo de texto se ajusta automáticamente para encajar el texto" helpid="x2192C" object="TextField" text=".autoSize" version="6"/>
+						<string name="variable" tiptext="Nombre de la variable asociada al campo de texto" helpid="x21947" object="TextField" text=".variable" version="6"/>
+						<string name="hscroll" tiptext="Posición actual de desplazamiento horizontal" helpid="x21934" object="TextField" text=".hscroll" version="6"/>
+						<string name="maxhscroll" tiptext="Valor mínimo de .hscroll en el campo de texto" helpid="x21939" object="TextField" text=".maxhscroll" version="6"/>
+						<string name="maxChars" tiptext="Número máximo de caracteres que se pueden introducir" helpid="x21938" object="TextField" text=".maxChars" version="6"/>
+						<string name="embedFonts" tiptext="Booleano; si es verdadero, usar contornos de fuentes incorporadas" helpid="x21933" object="TextField" text=".embedFonts" version="6"/>
+						<string name="html" tiptext="Booleano; si es verdadero, usar HTML para representación de variable" helpid="x21935" object="TextField" text=".html" version="6"/>
+						<string name="border" tiptext="Booleano; si es verdadero, mostrar borde alrededor del campo de texto" helpid="x2192F" object="TextField" text=".border" version="6"/>
+						<string name="background" tiptext="Booleano; si es verdadero, mostrar fondo detrás del campo de texto" helpid="x2192D" object="TextField" text=".background" version="6"/>
+						<string name="wordWrap" tiptext="Booleano; si es verdadero, realizar ajuste de texto al final de las líneas" helpid="x21948" object="TextField" text=".wordWrap" version="6"/>
+						<string name="password" tiptext="Booleano; si es verdadero, mostrar asteriscos para ocultar caracteres" helpid="x2193C" object="TextField" text=".password" version="6"/>
+						<string name="multiline" tiptext="Booleano; si es verdadero, el usuario puede ingresar varias líneas" helpid="x2193B" object="TextField" text=".multiline" version="6"/>
+						<string name="selectable" tiptext="Booleano; si es verdadero, el usuario puede seleccionar texto con el ratón/teclado" helpid="x2193E" object="TextField" text=".selectable" version="6"/>
+						<string name="length" tiptext="Longitud del texto en la propiedad .text" helpid="x21937" object="TextField" text=".length" version="6"/>
+						<string name="textWidth" tiptext="Ancho de texto (en píxeles)" helpid="x21945" object="TextField" text=".textWidth" version="6"/>
+						<string name="textHeight" tiptext="Alto de texto (en píxeles)" helpid="x21944" object="TextField" text=".textHeight" version="6"/>
+						<string name="tabIndex" tiptext="Índice de tabulación del campo de texto" helpid="x21941" object="TextField" text=".tabIndex" version="6"/>
+						<string name="tabEnabled" tiptext="Si es verdadera, se activa la tabulación; si es falsa, se desactiva" helpid="x21940" object="TextField" text=".tabEnabled" version="6"/>
+						<string name="styleSheet" tiptext="Objeto de hoja de estilo CSS para utilizar para el campo de texto" helpid="x2193F" object="TextField" text=".styleSheet" version="7"/>
+						<string name="condenseWhite" tiptext="Si el valor es true, se condensará el espacio en blanco de HTML" helpid="x21932" object="TextField" text=".condenseWhite" version="6"/>
+						<string name="_x" description="Posición X" tiptext="Posición X del campo de texto" helpid="x21926" object="TextField" text="._x" version="4"/>
+						<string name="_y" description="Posición Y" tiptext="Posición Y del campo de texto" helpid="x21929" object="TextField" text="._y" version="4"/>
+						<string name="_xmouse" description="X Mouse Position" tiptext="Posición X del ratón" helpid="x21927" object="TextField" text="._xmouse" version="5"/>
+						<string name="_ymouse" description="Y Mouse Position" tiptext="Posición Y del ratón" helpid="x2192A" object="TextField" text="._ymouse" version="5"/>
+						<string name="_xscale" description="X Scale Factor" tiptext="Factor de escala X del campo de texto (porcentaje)" helpid="x21928" object="TextField" text="._xscale" version="4"/>
+						<string name="_yscale" description="Y Scale Factor" tiptext="Factor de escala Y del campo de texto (porcentaje)" helpid="x2192B" object="TextField" text="._yscale" version="4"/>
+						<string name="_width" description="Anchura" tiptext="Ancho del campo de texto" helpid="x21925" object="TextField" text="._width" version="4"/>
+						<string name="_height" description="Altura" tiptext="Altura del campo de texto" helpid="x2191B" object="TextField" text="._height" version="4"/>
+						<string name="_alpha" description="Alpha" tiptext="Transparencia alfa del campo de texto (porcentaje)" helpid="x2191A" object="TextField" text="._alpha" version="4"/>
+						<string name="_visible" description="Visibility" tiptext="Indica true si el campo de texto está visible y false si está oculto" helpid="x21924" object="TextField" text="._visible" version="4"/>
+						<string name="_rotation" description="Rotation" tiptext="Ángulo de rotación del campo de texto (grados)" helpid="x21920" object="TextField" text="._rotation" version="4"/>
+						<string name="_name" description="Name" tiptext="Nombre de instancia del campo de texto" helpid="x2191D" object="TextField" text="._name" version="4"/>
+						<string name="_target" description="Target" tiptext="Ruta de destino del campo de texto" helpid="x21922" object="TextField" text="._target" version="4"/>
+						<string name="_url" description="Movie clip URL" tiptext="URL desde la que se ha cargado el campo de texto" helpid="x21923" object="TextField" text="._url" version="4"/>
+						<string name="_parent" description="Movie clip URL" tiptext="El nivel principal del campo de texto actual" helpid="x2191E" object="TextField" text="._parent" version="5"/>
+						<!-- new FP8 TextField properties -->
+					</folder>
+					<folder name="Controladores de eventos" id="Event Handlers" tiptext="Controladores de eventos del objeto TextField" helpid="x20A87" version="6">
+						<string name="onChanged" tiptext="Se invoca cuando el texto cambia" helpid="x21952" object="TextField" text=".onChanged" version="6" type="event"/>
+						<string name="onSetFocus" tiptext="Se invoca cuando se selecciona el campo de texto" helpid="x21955" object="TextField" text=".onSetFocus(oldFocus)" version="6" type="event"/>
+						<string name="onKillFocus" tiptext="Se invoca cuando el campo de texto deja de seleccionarse" helpid="x21953" object="TextField" text=".onKillFocus(newFocus)" version="6" type="event"/>
+						<string name="onScroller" tiptext="Se invoca cuando cambia la posición o el rango de desplazamiento" helpid="x21954" object="TextField" text=".onScroller" version="6" type="event"/>
+					</folder>
+        </folder>
+        <folder name="TextFormat" id="TextFormat" sort="false" index="true" tiptext="Objeto que controla el formato del texto en los campos de texto" helpid="x20B5A" version="6">
+					<string name="new TextFormat" tiptext="Construir un nuevo objeto TextFormat" text="new TextFormat()" helpid="x218CD" type="expression" version="6"/>
+					<folder name="Métodos" id="Methods" tiptext="Métodos de los objetos TextFormat" helpid="x20B9A" version="6">
+						<string name="getTextExtent" tiptext="Obtener extensión de texto para X e Y" helpid="x218CD" object="TextFormat" text=".getTextExtent(% texto [, anchura] %)" version="6"/>
+					</folder>
+					<folder name="Propiedades" id="Properties" tiptext="Propiedades de los objetos TextFormat" helpid="x20B5B" version="6">
+						<string name="font" tiptext="Nombre de la fuente" object="TextFormat" text=".font" helpid="x218C1" version="6"/>
+						<string name="size" tiptext="Tamaño en puntos del texto" object="TextFormat" text=".size" helpid="x218C7" version="6"/>
+						<string name="color" tiptext="Color del texto" object="TextFormat" text=".color" helpid="x218C0" version="6"/>
+						<string name="url" tiptext="Hipervínculo de texto (nulo si no existe)" object="TextFormat" text=".url" helpid="x218CB" version="6"/>
+						<string name="target" tiptext="Ventana de destino de hipervínculo (nulo si no existe)" object="TextFormat" text=".target" helpid="x218C9" version="6"/>
+						<string name="bold" tiptext="Valor booleano que indica si el texto está en negrita" object="TextFormat" text=".bold" helpid="x218BE" version="6"/>
+						<string name="italic" tiptext="Valor booleano que indica si el texto está en cursiva" object="TextFormat" text=".italic" helpid="x218C3" version="6"/>
+						<string name="underline" tiptext="Valor booleano que indica si el texto está subrayado" object="TextFormat" text=".underline" helpid="x218CA" version="6"/>
+						<string name="align" tiptext="Alineación del texto (izquierda, centro, derecha)" object="TextFormat" text=".align" helpid="x218BC" version="6"/>
+						<string name="leftMargin" tiptext="Margen izquierdo del texto" object="TextFormat" text=".leftMargin" helpid="x218C5" version="6"/>
+						<string name="rightMargin" tiptext="Margen derecho del texto" object="TextFormat" text=".rightMargin" helpid="x218C6" version="6"/>
+						<string name="indent" tiptext="Sangría en primera línea del párrafo" object="TextFormat" text=".indent" helpid="x218C2" version="6"/>
+						<string name="blockIndent" tiptext="Sangría aplicada a todas las líneas del párrafo" object="TextFormat" text=".blockIndent" helpid="x218BD" version="6"/>
+						<string name="leading" tiptext="Interlineado del texto" object="TextFormat" text=".leading" helpid="x218C4" version="6"/>
+						<string name="bullet" tiptext="Valor booleano que indica si el texto incluye viñetas" object="TextFormat" text=".bullet" helpid="x218BF" version="6"/>
+						<string name="tabStops" tiptext="Matriz que indica la posición de las tabulaciones" object="TextFormat" text=".tabStops" helpid="x218C8" version="6"/>
+					</folder>
+			</folder>
+      </folder>
+      <!-- Added new packages and classes -->
+      <folder name="Paquete flash.display" id="flash.display package" tiptext="Clases para manipular imágenes de mapas de bits" helpid="" version="8">
+          <folder name="BitmapData" sort="false" id="[flash.display.BitmapData]" index="true" tiptext="Permite crear y manipular imágenes de mapas de bits transparentes u opacas en tiempo de ejecución." helpid="x22C1C" version="8">
+              <string name="new BitmapData" helpid="x22C02" text="new BitmapData(% width:Number, height:Number[, transparent:Boolean, fillColor:Number] %)" tiptext="Crea un nuevo objeto BitmapData con una determinada anchura y altura." version="" type="expression"/>
+              <folder name="Métodos" tiptext="Métodos de BitmapData" sort="true" id="BitmapDataMethods" index="false" version="">
+                  <string name="clone" text=".clone()" object="[flash.display.BitmapData]" version="8" helpid="x22C03" tiptext="Devuelve un nuevo objeto BitmapData con una copia exacta del mapa de bits original."/>
+                  <string name="colorTransform" text=".colorTransform(% rect:flash.geom.Rectangle, colorTransform:flash.geom.ColorTransform %)" object="[flash.display.BitmapData]" version="8" helpid="x22C04" tiptext="Ajusta los valores de color en una determinada área de una imagen de mapa de bits mediante un objeto ColorTransform."/>
+                  <string name="copyChannel" text=".copyChannel(% sourceBitmap:flash.display.BitmapData, sourceRect:flash.geom.Rectangle, destPoint:flash.geom.Point, sourceChannel:Number, destChannel:Number %)" object="[flash.display.BitmapData]" version="8" helpid="x22C05" tiptext="Transfiere datos de un canal de otro objeto BitmapData o del objeto BitmapData actual a un canal del objeto BitmapData actual."/>
+                  <string name="copyPixels" text=".copyPixels(% sourceBitmap:flash.display.BitmapData, sourceRect:flash.geom.Rectangle, destPoint:flash.geom.Point[, alphaBitmap:flash.display.BitmapData, alphaPoint:flash.geom.Point, mergeAlpha:Boolean] %)" object="[flash.display.BitmapData]" version="8" helpid="x22C06" tiptext="Proporciona una rutina rápida para la manipulación de píxeles entre imágenes sin efectos de color, rotación ni expansión."/>
+                  <string name="dispose" text=".dispose()" object="[flash.display.BitmapData]" version="8" helpid="x22C07" tiptext="Libera memoria que se utiliza para almacenar el objeto BitmapData."/>
+                  <string name="draw" text=".draw(% source:Object[, matrix:flash.geom.Matrix, colorTransform:flash.geom.ColorTransform, blendMode:Object, clipRect:flash.geom.Rectangle] %)" object="[flash.display.BitmapData]" version="8" helpid="x22C08" tiptext="Dibuja una imagen de origen o un clip de película en una imagen de destino, mediante el procesador de vectores de Flash Player."/>
+                  <string name="fillRect" text=".fillRect(% rect:flash.geom.Rectangle, color:Number %)" object="[flash.display.BitmapData]" version="8" helpid="x22C09" tiptext="Rellena un área rectangular de píxeles con un determinado color RVA alfa."/>
+                  <string name="floodFill" text=".floodFill(% x:Number, y:Number, color:Number %)" object="[flash.display.BitmapData]" version="8" helpid="x22C0A" tiptext="Realiza una operación de relleno en una imagen empezando por la coordenada (x, y)."/>
+                  <string name="getColorBoundsRect" text=".getColorBoundsRect(% mask:Number, color:Number[, findColor:Boolean] %)" object="[flash.display.BitmapData]" version="8" helpid="x22C0B" tiptext="Determina una región rectangular que encierra completamente todos los píxeles de un determinado color en la imagen de mapa de bits."/>
+                  <string name="getPixel" text=".getPixel(% x:Number, y:Number %)" object="[flash.display.BitmapData]" version="8" helpid="x22C0C" tiptext="Devuelve un entero que representa un valor de píxel RVA de un objeto BitmapData en un punto específico."/>
+                  <string name="getPixel32" text=".getPixel32(% x:Number, y:Number %)" object="[flash.display.BitmapData]" version="8" helpid="x22C0D" tiptext="Devuelve un valor de color RVA alfa que contiene datos del canal alfa y datos de RVA."/>
+                  <string name="hitTest" text=".hitTest(% firstPoint:flash.geom.Point, firstAlphaThreshold:Number, secondObject:Object[, secondBitmapPoint:flash.geom.Point, secondAlphaThreshold:Number] %)" object="[flash.display.BitmapData]" version="8" helpid="x22C0E" tiptext="Detecta la zona activa a nivel de píxeles entre una imagen de mapa de bits y un punto, un rectángulo u otra imagen de mapa de bits."/>
+                  <string name="loadBitmap" text=".loadBitmap(% id:String %)" object="[flash.display.BitmapData]" version="" helpid="x22C0F" tiptext="Devuelve un nuevo objeto BitmapData que contiene un mapa de bits que se carga desde un símbolo en la biblioteca."/>
+                  <string name="merge" text=".merge(% sourceBitmap:flash.display.BitmapData, sourceRect:flash.geom.Rectangle, destPoint:flash.geom.Point, redMult:Number, greenMult:Number, blueMult:Number, alphaMult:Number %)" object="[flash.display.BitmapData]" version="8" helpid="x22C10" tiptext="Realiza una mezcla por canal de una imagen de origen a una imagen de destino."/>
+                  <string name="setPixel" text=".setPixel(% x:Number, y:Number, color:Number %)" object="[flash.display.BitmapData]" version="8" helpid="x22C11" tiptext="Establece el valor de color de un solo píxel de un objeto BitmapData."/>
+                  <string name="setPixel32" text=".setPixel32(% x:Number, y:Number, color:Number %)" object="[flash.display.BitmapData]" version="8" helpid="x22C12" tiptext="Establece los valores de color y transparencia alfa de un solo píxel de un objeto BitmapData."/>
+              </folder>
+              <folder name="Propiedades" tiptext="Propiedades de BitmapData" sort="true" id="BitmapDataProperties" index="false" version="">
+                  <string name="height" text=".height" object="[flash.display.BitmapData]" version="" helpid="x22C13" tiptext="Altura de la imagen de mapa de bits, expresada en píxeles."/>
+                  <string name="rectangle" text=".rectangle" object="[flash.display.BitmapData]" version="" helpid="x22C14" tiptext="Rectángulo que define los límites exteriores del mapa de bits."/>
+                  <string name="transparent" text=".transparent" object="[flash.display.BitmapData]" version="" helpid="x22C15" tiptext="Define si la imagen de mapa de bits es transparente."/>
+                  <string name="width" text=".width" object="[flash.display.BitmapData]" version="" helpid="x22C16" tiptext="Anchura del mapa de bits, expresada en píxeles."/>
+              </folder>
+          </folder>
+      </folder>
+      <folder name="Paquete flash.geom" id="flash.geom package" tiptext="Clases para definir construcciones geométricas y transformar clips de película" helpid="" version="8">
+          <folder name="ColorTransform" sort="false" id="[flash.geom.ColorTransform]" index="true" tiptext="Permite ajustar matemáticamente todos los valores de color de un clip de película." helpid="x22C21" version="8">
+              <string name="new ColorTransform" helpid="x22BF6" text="new ColorTransform(% redMultiplier:Number, greenMultiplier:Number, blueMultiplier:Number, alphaMultiplier:Number, redOffset:Number, greenOffset:Number, blueOffset:Number, alphaOffset:Number %)" tiptext="Crea un objeto ColorTransform para un objeto de visualización." version="8" type="expression"/>
+              <folder name="Métodos" tiptext="Métodos de ColorTransform" sort="true" id="ColorTransformMethods" index="false" version="">
+                  <string name="concat" text=".concat(% second:flash.geom.ColorTransform %)" object="[flash.geom.ColorTransform]" version="" helpid="x22BF7" tiptext="Aplica una segunda transformación adicional de color al clip de película."/>
+                  <string name="toString" text=".toString()" object="[flash.geom.ColorTransform]" version="" helpid="x22BF8" tiptext="Formatea y devuelve una cadena que describe todas las propiedades del objeto ColorTransform."/>
+              </folder>
+              <folder name="Propiedades" tiptext="Propiedades de ColorTransform" sort="true" id="ColorTransformProperties" index="false" version="">
+                  <string name="alphaMultiplier" text=".alphaMultiplier" object="[flash.geom.ColorTransform]" version="" helpid="x22BF9" tiptext="Valor decimal que se multiplicará por el valor del canal de transparencia alfa."/>
+                  <string name="alphaOffset" text=".alphaOffset" object="[flash.geom.ColorTransform]" version="" helpid="x22BFA" tiptext="Número de -255 a 255 que se añadirá al valor del canal verde después de multiplicarse por el valor de greenMultiplier."/>
+                  <string name="blueMultiplier" text=".blueMultiplier" object="[flash.geom.ColorTransform]" version="" helpid="x22BFB" tiptext="Valor decimal que se multiplicará por el valor del canal azul."/>
+                  <string name="blueOffset" text=".blueOffset" object="[flash.geom.ColorTransform]" version="" helpid="x22BFC" tiptext="Número de -255 a 255 que se añadirá al valor del canal azul después de multiplicarse por el valor de blueMultiplier."/>
+                  <string name="greenMultiplier" text=".greenMultiplier" object="[flash.geom.ColorTransform]" version="" helpid="x22BFD" tiptext="Valor decimal que se multiplicará por el valor del canal verde."/>
+                  <string name="greenOffset" text=".greenOffset" object="[flash.geom.ColorTransform]" version="" helpid="x22BFE" tiptext="Número de -255 a 255 que se añadirá al valor del canal verde después de multiplicarse por el valor de greenMultiplier."/>
+                  <string name="redMultiplier" text=".redMultiplier" object="[flash.geom.ColorTransform]" version="" helpid="x22BFF" tiptext="Valor decimal que se multiplicará por el valor del canal rojo."/>
+                  <string name="redOffset" text=".redOffset" object="[flash.geom.ColorTransform]" version="" helpid="x22C00" tiptext="Número de -255 a 255 que se añadirá al valor del canal rojo después de multiplicarse por el valor de redMultiplier."/>
+                  <string name="rgb" text=".rgb" object="[flash.geom.ColorTransform]" version="8" helpid="x22C01" tiptext="Valor del color RVA de un objeto ColorTransform."/>
+              </folder>
+          </folder>
+          <folder name="Matrix" sort="false" id="[flash.geom.Matrix]" index="true" tiptext="Clase de matriz homogénea bidimensional estándar." helpid="x22C1E" version="8">
+              <string name="new Matrix" helpid="x22BC2" text="new Matrix(% [a:Number, b:Number, c:Number, d:Number, tx:Number, ty:Number] %)" tiptext="Crea un nuevo objeto Matrix bidimensional." version="8" type="expression"/>
+              <folder name="Métodos" tiptext="Métodos de Matrix" sort="true" id="MatrixMethods" index="false" version="">
+                  <string name="clone" text=".clone()" object="[flash.geom.Matrix]" version="8" helpid="x22BC3" tiptext="Devuelve un clon de esta matriz."/>
+                  <string name="concat" text=".concat(% m:flash.geom.Matrix %)" object="[flash.geom.Matrix]" version="" helpid="x22BC4" tiptext="Concatena la matriz con la matriz &lt;code&gt;m&lt;/code&gt;, combinando de forma eficaz los efectos geométricos de ambas matrices."/>
+                  <string name="createBox" text=".createBox(% scaleX:Number, scaleY:Number[, rotation:Number, tx:Number, ty:Number] %)" object="[flash.geom.Matrix]" version="8" helpid="x22BC5" tiptext="El método &lt;code&gt;createBox()&lt;/code&gt; contiene parámetros de escalado, rotación y traslación. Cuando se aplica a una matriz, establece los valores de la matriz según dichos parámetros."/>
+                  <string name="deltaTransformPoint" text=".deltaTransformPoint(% pt:flash.geom.Point %)" object="[flash.geom.Matrix]" version="" helpid="x22BC6" tiptext="Tras especificar un punto en el espacio de coordenadas previas a la transformación, este método devuelve las coordenadas de dicho punto después de la transformación."/>
+                  <string name="identity" text=".identity()" object="[flash.geom.Matrix]" version="" helpid="x22BC7" tiptext="Establece cada propiedad de matriz en un valor que hace que un clip de película o construcción geométrica transformada sea idéntica a la original."/>
+                  <string name="invert" text=".invert()" object="[flash.geom.Matrix]" version="8" helpid="x22BC8" tiptext="Invierte este objeto Matrix."/>
+                  <string name="rotate" text=".rotate(% angle:Number %)" object="[flash.geom.Matrix]" version="8" helpid="x22BC9" tiptext="Establece los valores en la matriz actual, de forma que pueda utilizarse para aplicar una transformación de rotación."/>
+                  <string name="scale" text=".scale(% sx:Number, sy:Number %)" object="[flash.geom.Matrix]" version="8" helpid="x22BCA" tiptext="Modifica una matriz, de forma que su aplicación provoque un cambio de tamaño de una imagen."/>
+                  <string name="toString" text=".toString()" object="[flash.geom.Matrix]" version="8" helpid="x22BCB" tiptext="Devuelve un valor de texto con las propiedades de este objeto Matrix."/>
+                  <string name="transformPoint" text=".transformPoint(% pt:flash.geom.Point %)" object="[flash.geom.Matrix]" version="8" helpid="x22BCC" tiptext="Aplica en el punto especificado la transformación geométrica representada por este objeto Matrix."/>
+                  <string name="translate" text=".translate(% tx:Number, ty:Number %)" object="[flash.geom.Matrix]" version="" helpid="x22BCD" tiptext="Modifica una matriz de forma que su transformación provoque el desplazamiento de un objeto por los ejes x e y."/>
+              </folder>
+              <folder name="Propiedades" tiptext="Propiedades de Matrix" sort="true" id="MatrixProperties" index="false" version="">
+                  <string name="a" text=".a" object="[flash.geom.Matrix]" version="8" helpid="x22BCE" tiptext="Valor de la primera fila y la primera columna."/>
+                  <string name="b" text=".b" object="[flash.geom.Matrix]" version="8" helpid="x22BCF" tiptext="Valor de la primera fila y la segunda columna."/>
+                  <string name="c" text=".c" object="[flash.geom.Matrix]" version="8" helpid="x22BD0" tiptext="Valor de la segunda fila y la primera columna."/>
+                  <string name="d" text=".d" object="[flash.geom.Matrix]" version="8" helpid="x22BD1" tiptext="Valor de la segunda fila y la segunda columna."/>
+                  <string name="tx" text=".tx" object="[flash.geom.Matrix]" version="8" helpid="x22BD2" tiptext="Valor de la tercera fila y la primera columna."/>
+                  <string name="ty" text=".ty" object="[flash.geom.Matrix]" version="8" helpid="x22BD3" tiptext="Valor de la tercera fila y la segunda columna."/>
+              </folder>
+          </folder>
+          <folder name="Point" sort="false" id="[flash.geom.Point]" index="true" tiptext="El punto representa una ubicación en un sistema de coordenadas bidimensional." helpid="x22C1D">
+              <string name="new Point" helpid="x22BB4" text="new Point(% x:Number, y:Number %)" tiptext="Crea un nuevo punto." version="" type="expression"/>
+              <folder name="Métodos" tiptext="Métodos de Point" sort="true" id="PointMethods" index="false">
+                  <string name="add" text=".add(% v:flash.geom.Point %)" object="[flash.geom.Point]" version="" helpid="x22BB5" tiptext="Añade las coordenadas de otro punto a las coordenadas de éste para crear un nuevo punto."/>
+                  <string name="clone" text=".clone()" object="[flash.geom.Point]" version="" helpid="x22BB6" tiptext="Crea una copia de este objeto Point."/>
+                  <string name="distance" text=".distance(% pt1:flash.geom.Point, pt2:flash.geom.Point %)" object="[flash.geom.Point]" version="" helpid="x22BB7" tiptext="Devuelve la distancia entre pto1 y pto2."/>
+                  <string name="equals" text=".equals(% toCompare:Object %)" object="[flash.geom.Point]" version="" helpid="x22BB9" tiptext="Determina si dos puntos son iguales."/>
+                  <string name="interpolate" text=".interpolate(% pt1:flash.geom.Point, pt2:flash.geom.Point, f:Number %)" object="[flash.geom.Point]" version="" helpid="x22BB8" tiptext="Determina un punto entre dos puntos especificados."/>
+                  <string name="normalize" text=".normalize(% length:Number %)" object="[flash.geom.Point]" version="" helpid="x22BBA" tiptext="Ajusta a una longitud establecida el tamaño del segmento de línea entre (0,0) y el punto actual."/>
+                  <string name="offset" text=".offset(% dx:Number, dy:Number %)" object="[flash.geom.Point]" version="" helpid="x22BBB" tiptext="Desplaza el objeto Point en la cantidad especificada."/>
+                  <string name="polar" text=".polar(% len:Number, angle:Number %)" object="[flash.geom.Point]" version="" helpid="x22BBC" tiptext="Convierte un par de coordenadas polares en una coordenada cartesiana."/>
+                  <string name="subtract" text=".subtract(% v:flash.geom.Point %)" object="[flash.geom.Point]" version="" helpid="x22BBD" tiptext="Resta las coordenadas de otro punto de las coordenadas de éste para crear un nuevo punto."/>
+                  <string name="toString" text=".toString()" object="[flash.geom.Point]" version="" helpid="x22BBE" tiptext="Devuelve una cadena que contiene los valores de las coordenadas x e y."/>
+              </folder>
+              <folder name="Propiedades" tiptext="Propiedades de Point" sort="true" id="PointProperties" index="false">
+                  <string name="length" text=".length" object="[flash.geom.Point]" version="" helpid="x22BBF" tiptext="Longitud del segmento de línea desde (0,0) hasta este punto."/>
+                  <string name="x" text=".x" object="[flash.geom.Point]" version="" helpid="x22BC0" tiptext="Coordenada horizontal del punto."/>
+                  <string name="y" text=".y" object="[flash.geom.Point]" version="" helpid="x22BC1" tiptext="Coordenada vertical del punto."/>
+              </folder>
+          </folder>
+          <folder name="Rectangle" sort="false" id="[flash.geom.Rectangle]" index="true" tiptext="Se utiliza para crear y modificar objetos Rectangle." helpid="x216BD" version="8">
+              <string name="new Rectangle" helpid="x22BD4" text="new Rectangle(% x:Number, y:Number, width:Number, height:Number %)" tiptext="Crea un nuevo objeto Rectangle." version="8" type="expression"/>
+              <folder name="Métodos" tiptext="Métodos de Rectangle" sort="true" id="RectangleMethods" index="false" version="">
+                  <string name="clone" text=".clone()" object="[flash.geom.Rectangle]" version="8" helpid="x22BD5" tiptext="Devuelve una copia de este objeto Rectangle."/>
+                  <string name="contains" text=".contains(% x:Number, y:Number %)" object="[flash.geom.Rectangle]" version="8" helpid="x22BD6" tiptext="Determina si el punto especificado se encuentra dentro de la región rectangular."/>
+                  <string name="containsPoint" text=".containsPoint(% pt:flash.geom.Point %)" object="[flash.geom.Rectangle]" version="8" helpid="x22BD8" tiptext="Determina si el punto especificado se encuentra dentro de la región rectangular, utilizando un objeto Point como parámetro."/>
+                  <string name="containsRectangle" text=".containsRectangle(% rect:flash.geom.Rectangle %)" object="[flash.geom.Rectangle]" version="8" helpid="x22BD9" tiptext="Determina si el objeto Rectangle especificado por el parámetro rect se encuentra dentro de este objeto Rectangle."/>
+                  <string name="equals" text=".equals(% toCompare:Object %)" object="[flash.geom.Rectangle]" version="8" helpid="x22BDA" tiptext="Determina si el objeto especificado en el parámetro toCompare es igual a este objeto Rectangle."/>
+                  <string name="inflate" text=".inflate(% dx:Number, dy:Number %)" object="[flash.geom.Rectangle]" version="8" helpid="x22BDB" tiptext="Expande el objeto Rectangle."/>
+                  <string name="inflatePoint" text=".inflatePoint(% pt:flash.geom.Point %)" object="[flash.geom.Rectangle]" version="8" helpid="x22BDC" tiptext="Expande el objeto Rectangle utilizando un objeto Point como parámetro."/>
+                  <string name="intersection" text=".intersection(% toIntersect:flash.geom.Rectangle %)" object="[flash.geom.Rectangle]" version="8" helpid="x22BDD" tiptext="Devuelve el área de intersección."/>
+                  <string name="intersects" text=".intersects(% toIntersect:flash.geom.Rectangle %)" object="[flash.geom.Rectangle]" version="8" helpid="x22BDE" tiptext="Determina si el objeto especificado en el parámetro toIntersect se intersecciona con este objeto Rectangle."/>
+                  <string name="isEmpty" text=".isEmpty()" object="[flash.geom.Rectangle]" version="8" helpid="x22BDF" tiptext="Determina si este objeto Rectangle está vacío o no."/>
+                  <string name="offset" text=".offset(% dx:Number, dy:Number %)" object="[flash.geom.Rectangle]" version="8" helpid="x22BE0" tiptext="Ajusta la ubicación del objeto Rectangle."/>
+                  <string name="offsetPoint" text=".offsetPoint(% pt:flash.geom.Point %)" object="[flash.geom.Rectangle]" version="8" helpid="x22BE1" tiptext="Ajusta la ubicación del objeto Rectangle utilizando un objeto Point como parámetro."/>
+                  <string name="setEmpty" text=".setEmpty()" object="[flash.geom.Rectangle]" version="8" helpid="x22BE2" tiptext="Establece todas las propiedades en 0."/>
+                  <string name="toString" text=".toString()" object="[flash.geom.Rectangle]" version="8" helpid="x22BE3" tiptext="Convierte este objeto Rectangle en una cadena."/>
+                  <string name="union" text=".union(% toUnion:flash.geom.Rectangle %)" object="[flash.geom.Rectangle]" version="8" helpid="x22BE4" tiptext="Añade dos rectángulos para crear un nuevo objeto Rectangle."/>
+              </folder>
+              <folder name="Propiedades" tiptext="Propiedades de Rectangle" sort="true" id="RectangleProperties" index="false" version="">
+                  <string name="bottom" text=".bottom" object="[flash.geom.Rectangle]" version="8" helpid="x22BE5" tiptext="Suma de las propiedades height e y."/>
+                  <string name="bottomRight" text=".bottomRight" object="[flash.geom.Rectangle]" version="8" helpid="x22BE6" tiptext="Esquina inferior derecha determinada por los valores x e y del punto."/>
+                  <string name="height" text=".height" object="[flash.geom.Rectangle]" version="8" helpid="x22BEF" tiptext="Altura del rectángulo."/>
+                  <string name="left" text=".left" object="[flash.geom.Rectangle]" version="8" helpid="x22BE7" tiptext="Coordenada x de la esquina superior izquierda."/>
+                  <string name="right" text=".right" object="[flash.geom.Rectangle]" version="8" helpid="x22BE8" tiptext="Suma de las propiedades width y x."/>
+                  <string name="size" text=".size" object="[flash.geom.Rectangle]" version="8" helpid="x22BE9" tiptext="Tamaño expresado como un objeto Point con valores width, height."/>
+                  <string name="top" text=".top" object="[flash.geom.Rectangle]" version="8" helpid="x22BEA" tiptext="Coordenada y de la esquina superior izquierda."/>
+                  <string name="topLeft" text=".topLeft" object="[flash.geom.Rectangle]" version="8" helpid="x22BEB" tiptext="Esquina superior izquierda determinada por los valores x e y del punto."/>
+                  <string name="width" text=".width" object="[flash.geom.Rectangle]" version="8" helpid="x22BEC" tiptext="Anchura del rectángulo."/>
+                  <string name="x" text=".x" object="[flash.geom.Rectangle]" version="8" helpid="x22BED" tiptext="Coordenada x."/>
+                  <string name="y" text=".y" object="[flash.geom.Rectangle]" version="8" helpid="x22BEE" tiptext="Coordenada y."/>
+              </folder>
+          </folder>
+          <folder name="Transform" sort="false" id="[flash.geom.Transform]" index="true" tiptext="Recopila datos sobre transformaciones de color y manipulaciones de coordenadas." helpid="x22C20">
+              <string name="new Transform" helpid="x22BF0" text="new Transform(% mc:MovieClip %)" tiptext="Crea un nuevo objeto Transform asociado con el objeto MovieClip especificado." version="" type="expression"/>
+              <folder name="Propiedades" tiptext="Propiedades de Transform" sort="true" id="TransformProperties" index="false">
+                  <string name="colorTransform" text=".colorTransform" object="[flash.geom.Transform]" version="" helpid="x22BF1" tiptext="Objeto ColorTransform que contiene valores que ajustan globalmente los colores en el clip de película."/>
+                  <string name="concatenatedColorTransform" text=".concatenatedColorTransform" object="[flash.geom.Transform]" version="" helpid="x22BF2" tiptext="Segundo conjunto de valores de transformación de color que se combinarán con la primera propiedad colorTransform para aplicar múltiples transformaciones simultáneas al clip de película de origen."/>
+                  <string name="concatenatedMatrix" text=".concatenatedMatrix" object="[flash.geom.Transform]" version="" helpid="x22BF3" tiptext="Segunda matriz de transformación que se combinará con la primera matriz, mediante la multiplicación de matrices, para aplicar múltiples transformaciones simultáneas al clip de película de origen."/>
+                  <string name="matrix" text=".matrix" object="[flash.geom.Transform]" version="" helpid="x22BF4" tiptext="Objeto Matrix de transformación que contiene valores que afectan al ajuste de tamaño, rotación y conversión del clip de película."/>
+                  <string name="pixelBounds" text=".pixelBounds" object="[flash.geom.Transform]" version="" helpid="x22BF5" tiptext="Define el rectángulo de delimitación del clip de película en el escenario."/>
+              </folder>
+          </folder>
+      </folder>
+			<ifdef mode="FEATURE_CUSTOM_ACTIONS">
+				<folder name="Edición" id="Authoring" tiptext="Objetos específicos para la herramienta de edición" helpid="x20B43" version="6">
+					<!-- Added XMLUI class -->
+					<folder name="XMLIU" sort="false" id="XMLUI" index="true" tiptext="XMLUI permite la comunicación con archivos SWF que se utilizan como interfaces de usuario personalizadas." helpid="x216A8">
+						<folder name="Métodos" tiptext="Métodos de XMLUI" sort="true" id="XMLUIMethods" index="false">
+							<string name="accept" text=".accept()" object="XMLUI" version="7" helpid="x218B7" tiptext="Cierra el cuadro de diálogo XMLUI con el estado &quot;aceptado&quot;."/>
+							<string name="cancel" text=".cancel()" object="XMLUI" version="7" helpid="x218B8" tiptext="Cierra el cuadro de diálogo XMLUI con el estado &quot;cancelado&quot;."/>
+							<string name="get" text=".get(% nombre %)" object="XMLUI" version="7" helpid="x218B9" tiptext="Recupera el valor de la propiedad especificada del cuadro de diálogo XMLUI actual."/>
+							<string name="set" text=".set(% nombre, valor %)" object="XMLUI" version="7" helpid="x218BA" tiptext="Modifica el valor de la propiedad especificada del cuadro de diálogo XMLUI actual."/>
+						</folder>
+					</folder>
+				</folder>
+			</ifdef>
+			<folder name="Utilidad" id="Utility" tiptext="Clases que ejecutan funciones de utilidades" helpid="" version="6">
+				<folder name="AsBroadcaster" sort="false" id="AsBroadcaster" index="true" tiptext="AsBroadcaster proporciona funcionalidad de notificación de eventos y administración de detector." helpid="x21842">
+					<folder name="Métodos" tiptext="Métodos de AsBroadcaster" sort="true" id="AsBroadcasterMethods" index="false">
+					</folder>
+				</folder>
+			</folder>
+		</folder>
+		<folder name="Directivas de compilador" id="Movie Control" tiptext="Directivas de compilador" sort="false">
+			<ifdef mode="FEATURE_OBJECT_MODEL">
+				<action id="#initclip" name="#initclip" text="#initclip\n" helpid="x21BB4" tiptext="Iniciar un bloque de inicialización Componente" quickey="ic" version="6"/>
+				<action id="#endinitclip" name="#endinitclip" text="#endinitclip\n" helpid="x21BB2" tiptext="Finalizar un bloque de inicialización Componente" quickey="ec" version="6"/>
+			</ifdef>
+			<action id="include" name="#include" tiptext="Incluir un script de un archivo" quickey="in" helpid="x21BB3" text="#include &quot;%ruta%&quot;\n"/>
+		</folder>
+		<folder name="Constantes" id="Constants" tiptext="Constantes globales que se utilizan en expresiones" helpid="x20A41" version="4">
+			<string name="true" tiptext="El valor booleano true" helpid="x21BBB" text="true" version="4"/>
+			<string name="false" tiptext="El valor booleano false" helpid="x21BB5" text="false" version="4"/>
+			<string name="newline" tiptext="El carácter de nueva línea" helpid="x21BB9" text="newline" version="4"/>
+			<ifdef mode="FEATURE_XML_ACTIONS_TOOLBOX">
+				<string name="null" text="null" tiptext="El valor 'nulo'." helpid="x21BBA" version="5"/>
+				<string name="undefined" text="undefined" tiptext="El valor 'indefinido'." helpid="x21BBC" version="5"/>
+			</ifdef>
+			<string name="Infinity" tiptext="El valor Infinito del tipo Número" helpid="x21BB6" text="Infinity" version="4"/>
+			<string name="-Infinity" tiptext="El valor -Infinito del tipo Número" helpid="x21BB7" text="-Infinity" version="4"/>
+		</folder>
+		<folder name="Tipos" id="Types" index="true" tiptext="Tipos integrados que se pueden utilizar para strong typing" helpid="x20000" version="6">
+			<string name="Array" tiptext="Tipo Array" helpid="x218D5" text="Array" version="6"/>
+			<string name="Boolean" tiptext="Tipo Boolean" helpid="x21B19" text="Boolean" version="6"/>
+			<string name="Button" tiptext="Tipo Button" helpid="x2190F" text="Button" version="6"/>
+			<string name="Color" tiptext="Tipo Color" helpid="x218B5" text="Color" version="6"/>
+			<string name="Date" tiptext="Tipo Date" helpid="x21A75" text="Date" version="6"/>
+			<string name="Error" tiptext="Tipo Error" helpid="x21A0C" text="Error" version="7"/>
+			<string name="Function" tiptext="Tipo Function" helpid="x2198D" text="Function" version="6"/>
+			<string name="LoadVars" tiptext="Tipo LoadVars" helpid="x2199B" text="LoadVars" version="6"/>
+			<string name="MovieClip" tiptext="Tipo MovieClip" helpid="x21ACC" text="MovieClip" version="6"/>
+			<string name="MovieClipLoader" tiptext="Tipo MovieClipLoader" helpid="x21A1D" text="MovieClipLoader" version="7"/>
+			<string name="Number" tiptext="Tipo Number" helpid="x21B03" text="Number" version="6"/>
+			<string name="Object" tiptext="Tipo Object" helpid="x21B1F" text="Object" version="6"/>
+			<string name="SharedObject" tiptext="Tipo SharedObject" helpid="x218EB" text="SharedObject" version="6"/>
+			<string name="Sound" tiptext="Tipo Sound" helpid="x21AEF" text="Sound" version="6"/>
+			<string name="String" tiptext="Tipo String" helpid="x21B0D" text="String" version="6"/>
+			<string name="TextField" tiptext="Tipo TextField" helpid="x21955" text="TextField" version="6"/>
+			<string name="TextFormat" tiptext="Tipo TextFormat" helpid="x218CD" text="TextFormat" version="6"/>
+			<string name="XML" tiptext="Tipo XML" helpid="x21968" text="XML" version="6"/>
+			<string name="XMLNode" tiptext="Tipo XMLNode" helpid="x21A49" text="XMLNode" version="6"/>
+			<string name="XMLUI" tiptext="Tipo XMLUI" helpid="x218BA" text="XMLUI"/>
+		</folder>
+		<deprecate>
+			<folder name="No soportado" id="Deprecated" index="true" tiptext="Funciones que se deben evitar en nuevo contenido" helpid="x20A42">
+				<folder name="Acciones" id="Actions" tiptext="Acciones no soportadas" helpid="x20A43">
+					<ifmode mode="SCRIPT_ASSIST_ON">
+						<action id="toggleHighQuality" name="toggleHighQuality" tiptext="Alterna entre baja y alta calidad" helpid="x21B10" quickey="tq"/>
+						<action id="tellTarget" name="tellTarget" tiptext="En tellTarget, las acciones operan en el clip de película de destino" helpid="x21B0F" quickey="tt" version="3"/>
+						<action id="ifFrameLoaded" name="ifFrameLoaded" tiptext="Realizar acciones sólo cuando se carga un fotograma determinado" helpid="x21AFA" quickey="il" version="3"/>
+					</ifmode>
+					<ifmode mode="SCRIPT_ASSIST_OFF">
+						<string name="toggleHighQuality" tiptext="Alterna entre baja y alta calidad" helpid="x21B10" text="toggleHighQuality();\n" quickey="tq"/>
+						<string name="tellTarget" tiptext="En tellTarget, los comandos funcionan en el clip de película de destino" helpid="x21B0F" text="tellTarget (% destino %) {\n}\n" quickey="tt" version="3"/>
+						<string name="ifFrameLoaded" tiptext="Realizar acciones sólo cuando se carga un fotograma determinado" helpid="x21AFA" text="ifFrameLoaded (% fotograma %) {\n}\n" quickey="il" version="3"/>
+					</ifmode>
+					<action id="call" name="call" tiptext="Llamar a una subrutina en un fotograma determinado" helpid="x21AF1" text="call (% fotograma %);\n" quickey="ca" version="4"/>
+				</folder>
+				<folder name="Operadores" id="Operators" tiptext="Operadores no soportados" helpid="x20A44">
+					<string name="&lt;&gt;" tiptext="Distinto de" helpid="x21B80" text="&lt;&gt;" version="4"/>
+					<string name="and" tiptext="Operador AND lógico" helpid="x21B68" text="and" version="4"/>
+					<string name="or" tiptext="Operador OR lógico" helpid="x21B77" text="or" version="4"/>
+					<string name="not" tiptext="Operador NOT lógico" helpid="x21B76" text="not" version="4"/>
+					<string name="add" tiptext="Concatenar cadenas" helpid="x21B66" text="add" version="4"/>
+					<string name="eq" tiptext="Probar igualdad (cadenas)" helpid="x21B85" text="eq" version="4"/>
+					<string name="ne" tiptext="Probar desigualdad (cadenas)" helpid="x21B88" text="ne" version="4"/>
+					<string name="lt" tiptext="Menos que (cadenas)" helpid="x21B89" text="lt" version="4"/>
+					<string name="le" tiptext="Menos que o igual a (cadenas)" helpid="x21B8A" text="le" version="4"/>
+					<string name="ge" tiptext="Mayor que o igual a (cadenas)" helpid="x21B87" text="ge" version="4"/>
+				</folder>
+				<folder name="Funciones" id="Functions" tiptext="Funciones no soportadas" helpid="x209BF" version="4">
+					<string name="substring" tiptext="Extraer caracteres de una cadena, empezando por el cáracter indicado por el índice" helpid="x21B0E" text="substring(% cadena, índice, conteo %)" version="4"/>
+					<string name="length" tiptext="Calcular la longitud de la cadena" helpid="x21AFC" text="length(% cadena %)" version="4"/>
+					<string name="chr" tiptext="Convertir un código ASCII en un carácter" helpid="x21AF2" text="chr(% códigoAscii %)" version="4"/>
+					<string name="ord" tiptext="Convertir un carácter en un código ASCII" helpid="x21B05" text="ord(% carácter %)" version="4"/>
+					<string name="mbsubstring" tiptext="Extraer carácteres de cadena, empezando con carácter en el índice (multibyte)" helpid="x21B00" text="mbsubstring(% cadena, índice, conteo %)" version="4"/>
+					<string name="mblength" tiptext="Calcular la longitud de la cadena (multibyte)" helpid="x21AFE" text="mblength(% cadena %)" version="4"/>
+					<string name="mbchr" tiptext="Convertir un código ASCII/S-JIS en un carácter (multibyte)" helpid="x21AFD" text="mbchr (% códigoAscii %)" version="4"/>
+					<string name="mbord" tiptext="Convertir un carácter en un código ASCII/S-JIS (multibyte)" helpid="x21AFF" text="mbord(% carácter %)" version="4"/>
+					<string name="int" tiptext="Extraer la parte del número entero de un número" helpid="x21AFB" text="int(% número %)" version="4"/>
+					<string name="random" tiptext="Generar un número aleatorio entre 0 y un número determinado" helpid="x21B23" text="random(% número %)" version="4"/>
+				</folder>
+				<folder name="Propiedades" id="Properties" tiptext="Propiedades no soportadas" helpid="x20A45" version="4">
+					<property name="_highquality" description="Calidad alta" tiptext="Indica falso si la calidad es baja y verdadero si es alta" helpid="x21B2F" variable="_highquality" version="4"/>
+					<string name="scroll" tiptext="Índice de la primera línea visible en el campo de texto" helpid="x21B3C" text=".scroll" version="4"/>
+					<string name="maxscroll" tiptext="Valor máximo de .scroll en el campo de texto" helpid="x21B3B" text=".maxscroll" version="4"/>
+				</folder>
+			</folder>
+		</deprecate>
+	</actionspanel>
+	<codehints>
+		<codehint pattern="on (press) {\n}\n"/>
+		<codehint pattern="on (release) {\n}\n"/>
+		<codehint pattern="on (releaseOutside) {\n}\n"/>
+		<codehint pattern="on (rollOver) {\n}\n"/>
+		<codehint pattern="on (rollOut) {\n}\n"/>
+		<codehint pattern="on (dragOver) {\n}\n"/>
+		<codehint pattern="on (dragOut) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;Left&gt;&quot;) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;Right&gt;&quot;) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;Home&gt;&quot;) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;End&gt;&quot;) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;Insert&gt;&quot;) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;Delete&gt;&quot;) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;Backspace&gt;&quot;) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;Enter&gt;&quot;) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;Up&gt;&quot;) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;Down&gt;&quot;) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;PageUp&gt;&quot;) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;PageDown&gt;&quot;) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;Tab&gt;&quot;) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;Escape&gt;&quot;) {\n}\n"/>
+		<codehint pattern="on (keyPress &quot;&lt;Space&gt;&quot;) {\n}\n"/>
+		<codehint pattern="onClipEvent (load) {\n}\n"/>
+		<codehint pattern="onClipEvent (unload) {\n}\n"/>
+		<codehint pattern="onClipEvent (enterFrame) {\n}\n"/>
+		<codehint pattern="onClipEvent (mouseDown) {\n}\n"/>
+		<codehint pattern="onClipEvent (mouseMove) {\n}\n"/>
+		<codehint pattern="onClipEvent (mouseUp) {\n}\n"/>
+		<codehint pattern="onClipEvent (keyDown) {\n}\n"/>
+		<codehint pattern="onClipEvent (keyUp) {\n}\n"/>
+		<codehint pattern="onClipEvent (data) {\n}\n"/>
+		<typeinfo pattern="*_mc" object="MovieClip"/>
+		<typeinfo pattern="*_array" object="Array"/>
+		<typeinfo pattern="*_str" object="String"/>
+		<typeinfo pattern="*_btn" object="Button"/>
+		<typeinfo pattern="*_txt" object="TextField"/>
+		<typeinfo pattern="*_fmt" object="TextFormat"/>
+		<typeinfo pattern="*_date" object="Date"/>
+		<typeinfo pattern="*_sound" object="Sound"/>
+		<typeinfo pattern="*_xml" object="XML"/>
+		<typeinfo pattern="*_xmlnode" object="XMLNode"/>
+		<typeinfo pattern="*_xmlsocket" object="XMLSocket"/>
+		<typeinfo pattern="*_color" object="Color"/>
+		<typeinfo pattern="*_cm" object="ContextMenu"/>
+		<typeinfo pattern="*_cmi" object="ContextMenuItem"/>
+		<typeinfo pattern="*_pj" object="PrintJob"/>
+		<typeinfo pattern="*_mcl" object="MovieClipLoader"/>
+		<typeinfo pattern="*_err" object="Error"/>
+		<typeinfo pattern="*_cam" object="Camera"/>
+		<typeinfo pattern="*_lv" object="LoadVars"/>
+		<typeinfo pattern="*_lc" object="LocalConnection"/>
+		<typeinfo pattern="*_mic" object="Microphone"/>
+		<typeinfo pattern="*_nc" object="NetConnection"/>
+		<typeinfo pattern="*_ns" object="NetStream"/>
+		<typeinfo pattern="*_so" object="SharedObject"/>
+		<typeinfo pattern="*_video" object="Video"/>
+		<typeinfo pattern="_level*" object="MovieClip"/>
+		<typeinfo pattern="_parent" object="MovieClip"/>
+		<typeinfo pattern="_root" object="MovieClip"/>
+	</codehints>
+</toolbox>

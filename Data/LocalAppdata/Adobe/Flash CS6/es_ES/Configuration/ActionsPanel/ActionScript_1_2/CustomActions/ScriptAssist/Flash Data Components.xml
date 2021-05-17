@@ -1,0 +1,44 @@
+\ufeff<?xml version="1.0" encoding="utf-8"?>
+<?xul-overlay href="../../../../XULControls/FlashDataComponentControls.xml"?>
+		<customactions>
+			<actionspanelsupplement>
+				<ifedition edition="pro">
+					<string name="addEventListener" text=".addEventListener(% %)" object="[mx.data.components.DataHolder]">
+						<parametersdialog>
+							<block id="EVENT_RDBMSRESOLVER"/>
+							<block id="LISTENER"/>
+						</parametersdialog>
+					</string>
+					<string name="addEventListener" text=".addEventListener(% nombre:String, controlador %)" object="[mx.data.components.DataSet]">
+						<parametersdialog>
+							<block id="EVENT_DATASET"/>
+							<block id="LISTENER"/>
+						</parametersdialog>
+					</string>
+					<string name="addEventListener" text=".addEventListener(% %)" object="[mx.data.components.RDBMSResolver]">
+						<parametersdialog>
+							<block id="EVENT_RDBMSRESOLVER"/>
+							<block id="LISTENER"/>
+						</parametersdialog>
+					</string>
+					<string name="addEventListener" text=".addEventListener(% %)" object="[mx.data.components.WebServiceConnector]">
+						<parametersdialog>
+							<block id="EVENT_WEBSERVICECONNECTOR"/>
+							<block id="LISTENER"/>
+						</parametersdialog>
+					</string>
+					<string name="addEventListener" text=".addEventListener(% %)" object="[mx.data.components.XMLConnector]">
+						<parametersdialog>
+							<block id="EVENT_XMLCONNECTOR"/>
+							<block id="LISTENER"/>
+						</parametersdialog>
+					</string>
+					<string name="addEventListener" text=".addEventListener(% %)" object="[mx.data.components.XUpdateResolver]">
+						<parametersdialog>
+							<block id="EVENT_XUPDATERESOLVER"/>
+							<block id="LISTENER"/>
+						</parametersdialog>
+					</string>
+				</ifedition>
+			</actionspanelsupplement>
+		</customactions>

@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xul-overlay href="../../../XULControls/FSCommand2Controls.xml"?>
+
+<toolbox>
+	<actionspanel>
+
+		<folder name="Acciones de Flash Lite" id="Flash Lite Actions" index="true" tiptext="Acciones personalizadas para Flash Lite" helpid="x20000" version="4">
+			<folder name="fscommand2" id="fscommand2" sort="false" index="true" tiptext="Se utiliza para acceder a las funciones de teléfonos móviles" helpid="x21C6A" version="4">
+				<string name="Escape" tiptext="Codifica una cadena en formato URL" helpid="x21C6B" text="fscommand2(&quot;Escape&quot;% , original , codificado %);\n" type="keyFirstArg" version="4">
+					<parametersdialog autolayout="false">
+						<row>
+							<block id="COMMAND"/>
+						</row>
+						<row>
+							<label value="Original:" align="right" control="ORIGINAL"/>
+							<textbox id="ORIGINAL" prompt="expresión"/>
+						</row>
+						<row>
+							<label value="Nombre de variable codificada:" align="right" control="ENCODED"/>
+							<textbox id="ENCODED" prompt="cadena entre comillas"/>
+						</row>
+					</parametersdialog>
+				</string>
+				<string name="FullScreen" tiptext="Establece el tamaño del área de visualización que se utilizará en la presentación" helpid="x21C6C" text="fscommand2(&quot;FullScreen&quot;% , boolean %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Pantalla completa:" align="right" control="FULLSCREEN"/>
+						<textbox id="FULLSCREEN" prompt="boolean"/>
+					</parametersdialog>
+				</string>
+				<string name="GetBatteryLevel" tiptext="Devuelve el nivel de batería actual" helpid="x21C6D" text="fscommand2(&quot;GetBatteryLevel&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetDateDay" tiptext="Devuelve el día de la fecha actual" helpid="x21C6F" text="fscommand2(&quot;GetDateDay&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetDateMonth" tiptext="Devuelve el mes de la fecha actual" helpid="x21C6E" text="fscommand2(&quot;GetDateMonth&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetDateWeekday" tiptext="Devuelve el valor numérico del nombre del día de la fecha actual" helpid="x21C70" text="fscommand2(&quot;GetDateWeekday&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetDateYear" tiptext="Devuelve el valor numérico del año de la fecha actual" helpid="x21C71" text="fscommand2(&quot;GetDateYear&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetDevice" tiptext="Identifica el teléfono móvil en el que se ejecuta Flash" helpid="x21C72" text="fscommand2(&quot;GetDevice&quot;% , &quot;dispositivo&quot;%);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetDeviceID" tiptext="Establece un parámetro que representa el identificador exclusivo del teléfono móvil" helpid="x21C73" text="fscommand2(&quot;GetDeviceID&quot;% , &quot;id&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Nombre de variable de ID:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="cadena entre comillas"/>
+					</parametersdialog>
+				</string>
+				<string name="GetFreePlayerMemory" tiptext="Devuelve la cantidad de memoria disponible para Flash Lite, expresada en kilobytes" helpid="x21C74" text="fscommand2(&quot;GetFreePlayerMemory&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetLanguage" tiptext="Establece un parámetro que identifica el idioma que se utiliza en el teléfono móvil" helpid="x21C75" text="fscommand2(&quot;GetLanguage&quot;% , &quot;lenguaje&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Nombre de variable de idioma:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="cadena entre comillas"/>
+					</parametersdialog>
+				</string>
+				<string name="GetLocaleLongDate" tiptext="Establece un parámetro en una cadena que representa la fecha actual en forma extendida" helpid="x21C76" text="fscommand2(&quot;GetLocaleLongDate&quot;% , &quot;longdate&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Nombre de variable de fecha:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="cadena entre comillas"/>
+					</parametersdialog>
+				</string>
+				<string name="GetLocaleShortDate" tiptext="Establece un parámetro en una cadena que representa la fecha actual en forma abreviada" helpid="x21C77" text="fscommand2(&quot;GetLocaleShortDate&quot;% , &quot;shortdate&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Nombre de variable de fecha:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="cadena entre comillas"/>
+					</parametersdialog>
+				</string>
+				<string name="GetLocaleTime" tiptext="Establece un parámetro en una cadena que representa la hora actual" helpid="x21C78" text="fscommand2(&quot;GetLocaleTime&quot;% , &quot;hora&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Nombre de variable de hora:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="cadena entre comillas"/>
+					</parametersdialog>
+				</string>
+				<string name="GetMaxBatteryLevel" tiptext="Devuelve el nivel de batería actual" helpid="x21C79" text="fscommand2(&quot;GetMaxBatteryLevel&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetMaxSignalLevel" tiptext="Devuelve el nivel máximo de intensidad de la señal" helpid="x21C7A" text="fscommand2(&quot;GetMaxSignalLevel&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetMaxVolumeLevel" tiptext="Devuelve el nivel máximo de volumen del teléfono móvil" helpid="x21C7B" text="fscommand2(&quot;GetMaxVolumeLevel&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetNetworkConnectStatus" tiptext="Devuelve un valor que indica el estado actual de la conexión de red" helpid="x21C7C" text="fscommand2(&quot;GetNetworkConnectStatus&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetNetworkName" tiptext="Establece un parámetro en el nombre de la red actual" helpid="x21C7D" text="fscommand2(&quot;GetNetworkName&quot;% , &quot;nombreRed&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Nombre de red:" align="right" control="NETNAME"/>
+						<textbox id="NETNAME" prompt="cadena entre comillas"/>
+					</parametersdialog>
+				</string>
+				<string name="GetNetworkRequestStatus" tiptext="Devuelve un valor que indica el estado de la solicitud HTTP más reciente" helpid="x21C7E" text="fscommand2(&quot;GetNetworkRequestStatus&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetNetworkStatus" tiptext="Devuelve un valor que indica el estado de red del teléfono" helpid="x21C7F" text="fscommand2(&quot;GetNetworkStatus&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetPlatform" tiptext="Identifica la plataforma actual" helpid="x21C80" text="fscommand2(&quot;GetPlatform&quot;% , &quot;plataforma&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Nombre de variable de plataforma:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="nombre de variable entre comillas"/>
+					</parametersdialog>
+				</string>
+				<string name="GetPowerSource" tiptext="Devuelve un valor que indica si la fuente de alimentación es externa o una batería" helpid="x21C81" text="fscommand2(&quot;GetPowerSource&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetSignalLevel" tiptext="Devuelve la intensidad de la señal actual" helpid="x21C82" text="fscommand2(&quot;GetSignalLevel&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetTimeHours" tiptext="Devuelve el valor de hora de la hora actual del día, basada en un reloj de 24 horas" helpid="x21C83" text="fscommand2(&quot;GetTimeHours&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetTimeMinutes" tiptext="Devuelve el valor de minuto de la hora actual del día" helpid="x21C84" text="fscommand2(&quot;GetTimeMinutes&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetTimeSeconds" tiptext="Devuelve el valor de segundo de la hora actual del día" helpid="x21C85" text="fscommand2(&quot;GetTimeSeconds&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetTimeZoneOffset" tiptext="Establece un parámetro que compara la zona horaria local y UTC" helpid="x21C86" text="fscommand2(&quot;GetTimeZoneOffset&quot;% , &quot;diferZonaHoraria&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Nombre de variable de desplazamiento:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="cadena entre comillas"/>
+					</parametersdialog>
+				</string>
+				<string name="GetTotalPlayerMemory" tiptext="Devuelve la cantidad total de memoria en kilobytes" helpid="x21C87" text="fscommand2(&quot;GetTotalPlayerMemory&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetVolumeLevel" tiptext="Devuelve el nivel actual de volumen del teléfono móvil" helpid="x21C88" text="fscommand2(&quot;GetVolumeLevel&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="ResetSoftKeys" tiptext="Restablece la configuración original de las teclas programables" helpid="x21C89" text="fscommand2(&quot;ResetSoftKeys&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="SetInputTextType" tiptext="Especifica el modo en que debe abrirse el campo de texto de entrada" helpid="x21C8A" text="fscommand2(&quot;SetInputTextType&quot;% , nombreVariable , tipo %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Nombre de variable de entrada:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="nombre de variable entre comillas"/>
+						<block id="INPUTTYPE"/>
+					</parametersdialog>
+				</string>
+				<string name="SetQuality" tiptext="Establece la calidad de la presentación de la animación" helpid="x21C8B" text="fscommand2(&quot;SetQuality&quot;% , calidad %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="QUALITYTYPE"/>
+					</parametersdialog>
+				</string>
+				<string name="SetSoftKeys" tiptext="Se utiliza para reasignar las teclas programables izquierda y derecha de los teléfonos móviles" helpid="x21C8C" text="fscommand2(&quot;SetSoftkeys&quot;% , izquierda , derecha %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Valor de tecla izquierda:" align="right" control="LKEY"/>
+						<textbox id="LKEY" prompt="expresión"/>
+						<label value="Valor de tecla derecha:" align="right" control="RKEY"/>
+						<textbox id="RKEY" prompt="expresión"/>
+					</parametersdialog>
+				</string>
+				<string name="StartVibrate" tiptext="Inicia la vibración del teléfono" helpid="x21C8D" text="fscommand2(&quot;StartVibrate&quot;% , horaActiv , horaDesact, repetir %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Hora de activación:" align="right" control="ONTIME"/>
+						<textbox id="ONTIME" prompt="milisegundos"/>
+						<label value="Hora de desactivación:" align="right" control="OFFTIME"/>
+						<textbox id="OFFTIME" prompt="milisegundos"/>
+						<block id="REPEAT"/>
+					</parametersdialog>
+				</string>
+				<string name="StopVibrate" tiptext="Detiene la vibración del teléfono" helpid="x21C8E" text="fscommand2(&quot;StopVibrate&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="Unescape" tiptext="Descodifica una cadena en formato URL" helpid="x21C8F" text="fscommand2(&quot;Unescape&quot;% , original , codificado %);\n" type="keyFirstArg" version="4">
+					<parametersdialog autolayout="false">
+						<row>
+							<block id="COMMAND"/>
+						</row>
+						<row>
+							<label value="Original:" align="right" control="ORIGINAL"/>
+							<textbox id="ORIGINAL" prompt="expresión"/>
+						</row>
+						<row>
+							<label value="Nombre de variable codificada:" align="right" control="ENCODED"/>
+							<textbox id="ENCODED" prompt="nombre de variable entre comillas"/>
+						</row>
+					</parametersdialog>
+				</string>
+				<string name="Quit" tiptext="Hace que Flash Lite detenga la reproducción y se cierre" helpid="x21C90" text="fscommand2(&quot;Quit&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetSoftKeyLocation" tiptext="Devuelve un valor que indica la ubicación de las teclas programables" helpid="x21C81" text="fscommand2(&quot;GetSoftKeyLocation&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+			</folder>
+			<folder name="FSCommand" id="FlashLite2" index="true" tiptext="Se utiliza para acceder a las funciones de teléfonos móviles" helpid="x21C9E" version="4">
+				<action id="FSCommand" name="Launch" tiptext="Inicia otra aplicación en el teléfono móvil" helpid="x21C91" text="fscommand( &quot;Launch&quot;% , &quot;ruta-aplicación,arg1,arg2,...,argn&quot; %);\n" version="4"/>
+				<action id="FSCommand" name="activateTextField" tiptext="Activa el campo de texto seleccionado actualmente" helpid="x21BB0" text="fscommand( &quot;activateTextField&quot;% , &quot;ruta-aplicación,arg1,arg2,...,argn&quot; %);\n" version="7"/>
+			</folder>
+				
+			<folder name="Capabilities" id="FlashLite3" index="true" tiptext="Se utiliza para determinar las capacidades del teléfono móvil" helpid="x21C92" version="4">
+				<string name="_capCompoundSound" tiptext="Indica si Flash Lite puede procesar datos de sonido compuesto" helpid="x21BA4" text="_capCompoundSound;\n" version="4"/>
+				<string name="_capEmail" tiptext="Indica si Flash Lite puede enviar mensajes de correo electrónico" helpid="x21BA5" text="_capEmail;\n" version="4"/>
+				<string name="_capMMS" tiptext="Indica si Flash Lite puede enviar mensajes MMS" helpid="x21BA9" text="_capMMS;\n" version="4"/>
+				<string name="_capSMS" tiptext="Indica si Flash Lite puede enviar mensajes SMS" helpid="x21BAC" text="_capSMS;\n" version="4"/>
+				<string name="_capMFi" tiptext="Indica si el dispositivo puede reproducir sonido MFi" helpid="x21BA7" text="_capMFi;\n" version="4"/>
+				<string name="_capMIDI" tiptext="Indica si el dispositivo puede reproducir sonido MIDI" helpid="x21BA8" text="_capMIDI;\n" version="4"/>
+				<string name="_capSMAF" tiptext="Indica si el dispositivo puede reproducir sonido SMAF" helpid="x21BAB" text="_capSMAF;\n" version="4"/>
+				<string name="_capMP3" tiptext="Indica si el dispositivo puede reproducir sonido MP3" helpid="x21BAA" text="_capMP3;\n" version="4"/>
+				<string name="_capStreamSound" tiptext="Indica si el dispositivo puede reproducir flujos de sonido" helpid="x21BAD" text="_capStreamSound;\n" version="4"/>
+				<string name="_capLoadData" tiptext="Indica si la aplicación host puede cargar datos de forma dinámica" helpid="x21BA6" text="_capLoadData;\n" version="4"/>
+				<string name="_cap4WayKeyAS" tiptext="Indica si Flash Lite ejecuta código ActionScript asociado a teclas de dirección" helpid="x21BAE" text="_cap4WayKeyAS;\n" version="4"/>
+				<string name="$version" tiptext="Contiene el número de versión de Flash Lite" helpid="x21BAF" text="$version;\n" version="4"/>
+			</folder>
+		</folder>
+	</actionspanel>
+	<colorsyntax>
+		<identifier text="_capCompoundSound"/>
+		<identifier text="_capEmail"/>
+		<identifier text="_capMMS"/>
+		<identifier text="_capSMS"/>
+		<identifier text="_capMFi"/>
+		<identifier text="_capMIDI"/>
+		<identifier text="_capSMAF"/>
+		<identifier text="_capMP3"/>
+		<identifier text="_capStreamSound"/>
+		<identifier text="_capLoadData"/>
+		<identifier text="_cap4WayKeyAS"/>
+		<identifier text="$version"/>
+		<identifier text="fscommand2"/>
+	</colorsyntax>
+</toolbox>

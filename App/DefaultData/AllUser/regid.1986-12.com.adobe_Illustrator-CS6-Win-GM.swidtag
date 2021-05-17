@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<swid:software_identification_tag xsi:schemaLocation="http://standards.iso.org/iso/19770/-2/2008/schema.xsd software_identification_tag.xsd" 
+	 xmlns:swid="http://standards.iso.org/iso/19770/-2/2008/schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--Mandatory Identity elements -->
+<swid:entitlement_required_indicator>false</swid:entitlement_required_indicator>
+<swid:product_title>Adobe Illustrator CS6</swid:product_title>
+<swid:product_version>
+	<swid:name>2.0</swid:name>
+	<swid:numeric>
+		<swid:major>2</swid:major>
+		<swid:minor>0</swid:minor>
+		<swid:build>0</swid:build>
+		<swid:review>0</swid:review>
+	</swid:numeric>
+</swid:product_version>
+<swid:software_creator>
+	<swid:name>Adobe Systems Incorporated</swid:name>
+	<swid:regid>regid.1986-12.com.adobe</swid:regid>
+</swid:software_creator>
+<swid:software_licensor>
+	<swid:name>Adobe Systems Incorporated</swid:name>
+	<swid:regid>regid.1986-12.com.adobe</swid:regid>
+</swid:software_licensor>
+<swid:software_id>
+	<swid:unique_id>Illustrator-CS6-Win-GM</swid:unique_id>
+	<swid:tag_creator_regid>regid.1986-12.com.adobe</swid:tag_creator_regid>
+</swid:software_id>
+
+<swid:tag_creator>
+	<swid:name>Adobe Systems Incorporated</swid:name>
+	<swid:regid>regid.1986-12.com.adobe</swid:regid>
+</swid:tag_creator>
+<!--Optional Identity elements -->
+<swid:license_linkage>
+	<swid:activation_status>trial</swid:activation_status>
+	<swid:channel_type>TRIAL</swid:channel_type>
+	<swid:customer_type>TRIAL</swid:customer_type>
+</swid:license_linkage>
+<swid:serial_number>916387072192745419440733</swid:serial_number>
+</swid:software_identification_tag>

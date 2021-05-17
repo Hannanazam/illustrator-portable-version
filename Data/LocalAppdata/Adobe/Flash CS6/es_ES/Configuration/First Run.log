@@ -1,0 +1,1696 @@
+[date & time]
+Friday, August 12, 2016, 13:37:11
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionScript 3.0
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionScript 3.0\FlexInfo.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionScript 3.0\jvm.ini
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionScript 3.0\Templates
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionScript 3.0\Templates\boundClass_as2.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionScript 3.0\Templates\boundClass_as3.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionScript 3.0\Templates\standardClass_as2.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionScript 3.0\Templates\standardClass_as3.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionScript 3.0\Templates\standardInterface_as3.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\CustomActions
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\CustomActions\ScriptAssist
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\CustomActions\ScriptAssist\FLVPlayback.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\CustomActions\ScriptAssist\Screens.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\name.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_3
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_3\ASColorSyntax_3.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_3\name.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\AsColorSyntax.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashJavaScript
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashJavaScript\name.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\default.jsfl
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP10
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP10\Microphone.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP10\NetConnection.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP10\NetStream.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP10\XMLSocket.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Accessibility.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Array.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\AsBroadcaster.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Boolean.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Button.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Camera.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Color.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\ContextMenu.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\ContextMenuItem.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\CustomActions.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Date.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Enumeration.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Error.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\ExtendedKey.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\File.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\FontName.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Function.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\FunctionArguments.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Key.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\LoadVars.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\LocalConnection.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Math.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Microphone.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Mouse.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\MovieClip.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\MovieClipLoader.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\NetConnection.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\NetStream.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Number.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Object.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\ObjectID.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\PrintJob.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Selection.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\SharedObject.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Sound.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Stage.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\String.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\System
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\System\capabilities.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\System\security.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\System.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\TextField
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\TextField\StyleSheet.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\TextField.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\TextFormat.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\TextSnapshot.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\URI.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\Video.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\XML.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\XMLNode.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\XMLSocket.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP7\XMLUI.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Accessibility.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Array.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\AsBroadcaster.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Boolean.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Button.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Camera.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Color.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\ContextMenu.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\ContextMenuItem.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\CustomActions.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Date.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Enumeration.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Error.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\ExtendedKey.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\File.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\display
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\display\BitmapData.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\external
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\external\ExternalInterface.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\filters
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\filters\BevelFilter.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\filters\BitmapFilter.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\filters\BlurFilter.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\filters\ColorMatrixFilter.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\filters\ConvolutionFilter.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\filters\DisplacementMapFilter.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\filters\DropShadowFilter.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\filters\GlowFilter.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\filters\GradientBevelFilter.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\filters\GradientGlowFilter.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\geom
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\geom\ColorTransform.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\geom\Matrix.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\geom\Point.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\geom\Rectangle.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\geom\Transform.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\net
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\net\FileReference.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\net\FileReferenceList.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\text
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\flash\text\TextRenderer.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\FontName.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Function.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\FunctionArguments.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Key.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\LoadVars.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\LocalConnection.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Math.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Microphone.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Mouse.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\MovieClip.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\MovieClipLoader.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\NetConnection.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\NetStream.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Number.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Object.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\ObjectID.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\PrintJob.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Selection.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\SharedObject.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Sound.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Stage.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\String.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\System
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\System\capabilities.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\System\IME.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\System\security.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\System.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\TextField
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\TextField\StyleSheet.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\TextField.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\TextFormat.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\TextSnapshot.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\URI.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\Video.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\XML.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\XMLNode.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\XMLSocket.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP8\XMLUI.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP9
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP9\flash
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP9\flash\display
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP9\flash\display\BitmapData.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP9\flash\net
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP9\flash\net\FileReference.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP9\flash\text
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP9\flash\text\TextRenderer.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP9\MovieClip.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP9\MovieClipLoader.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP9\NetStream.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP9\Sound.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\FP9\Stage.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\accessibility
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\accessibility\AccImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\accessibility\AlertAccImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\accessibility\ButtonAccImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\accessibility\CheckBoxAccImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\accessibility\ComboBaseAccImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\accessibility\ComboBoxAccImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\accessibility\DataGridAccImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\accessibility\LabelAccImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\accessibility\ListAccImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\accessibility\RadioButtonAccImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\accessibility\ScrollSelectListAccImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\accessibility\SimpleButtonAccImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\accessibility\WindowAccImpl.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\behaviors
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\behaviors\DepthControl.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\containers
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\containers\Accordion.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\containers\accordionclasses
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\containers\accordionclasses\AccordionHeader.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\containers\ScrollPane.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\containers\Window.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\Alert.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\alertClasses
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\alertClasses\AlertForm.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\Button.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\CalendarLayout.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\cells
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\cells\CheckCellRenderer.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\CheckBox.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\ComboBase.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\ComboBox.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\CustomButton.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\DataGrid.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\DateChooser.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\DateField.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\gridclasses
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\gridclasses\DataGridColumn.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\gridclasses\DataGridRow.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\HScrollBar.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\Label.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\List.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\listclasses
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\listclasses\DataProvider.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\listclasses\DataSelector.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\listclasses\ScrollSelectList.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\listclasses\SelectableRow.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\Loader.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\MediaController.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\MediaDisplay.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\MediaPlayback.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\Menu.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\MenuBar.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\menuclasses
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\menuclasses\MenuBarItem.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\menuclasses\MenuDataProvider.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\menuclasses\MenuRow.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\NumericStepper.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\ProgressBar.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\RadioButton.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\RadioButtonGroup.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\scrollClasses
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\scrollClasses\ScrollBar.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\scrollClasses\ScrollThumb.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\SimpleButton.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\AbstractPlayer.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\behaviors
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\behaviors\NamedFrameCuePointListener.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\behaviors\ObjectCuePointListener.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\behaviors\SlideCuePointListener.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\Chrome.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\config
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\config\CuePoint.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\config\CuePointEditor.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\config\CuePointList.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\config\DisplayControls.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\config\FrameVideoTime.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\config\MediaConfig.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\config\MsVideoTime.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\config\PlayerControls.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\config\VideoTime.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\CuePoint.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\FLVPlayer.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\FullScreenToggle.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\FullScreenToggleControl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\HMiniPlayBarTray.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\HPlayBarTray.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\ICompletionMonitor.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\ICuePointHolder.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\IPlayer.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\LoadBar.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\LoudButton.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\MiniPlayBar.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\MP3Player.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\MuteButton.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\PauseButton.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\PlayBar.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\PlayBarThumb.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\PlayButton.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\PlayerNetStream.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\PlayPauseButton.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\RTMPConnection.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\RTMPPlayer.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\ScreenAccommodator.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\StreamingMediaConstants.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\ToEndButton.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\ToStartButton.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\Tracer.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\VMiniPlayBarTray.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\VolumeControl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\VolumeControlHandle.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\streamingmedia\VPlayBarTray.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\TextArea.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\TextInput.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\Tree.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\treeclasses
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\treeclasses\TreeDataProvider.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\treeclasses\TreeRow.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\UIScrollBar.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\controls\VScrollBar.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\core
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\core\ComponentVersion.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\core\ext
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\core\ext\UIComponentExtensions.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\core\ext\UIObjectExtensions.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\core\ExternalContent.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\core\MediaComponentVersion.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\core\ScrollView.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\core\UIComponent.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\core\UIObject.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\core\View.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\Binding.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\ComponentMixins.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\CustomFormatter.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\CustomValidator.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\DataAccessor.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\DataType.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\DateBase.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\Encoder.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\EndPoint.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\FieldAccessor.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\Formatter.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\Kind.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\Log.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\ObjectDumper.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\binding\TypedValue.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\connclasses
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\connclasses\RPCCall.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\DataBinding.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\DataHolder.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\DataSet.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\datasetclasses
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\datasetclasses\DataSetDataProvider.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\datasetclasses\DataSetError.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\datasetclasses\DataSetIterator.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\datasetclasses\Delta.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\datasetclasses\DeltaImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\datasetclasses\DeltaItem.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\datasetclasses\DeltaPacket.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\datasetclasses\DeltaPacketConsts.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\datasetclasses\DeltaPacketImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\datasetclasses\DeltaTreeDataProvider.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\RDBMSResolver.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\resclasses
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\resclasses\FieldInfoItem.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\WebServiceConnector.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\WebServices.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\XMLConnector.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\components\XUpdateResolver.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\encoders
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\encoders\Bool.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\encoders\DatasetDeltaToXUpdateDelta.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\encoders\DateToNumber.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\encoders\Dte.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\encoders\Num.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\formatters
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\formatters\Bool.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\formatters\ComposeString.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\formatters\Custom.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\formatters\Dte.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\formatters\NumberFormatter.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\formatters\RearrangeFields.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\kinds
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\kinds\ArrayForeignKey.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\kinds\AutoTrigger.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\kinds\Calculated.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\kinds\Data.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\kinds\ForeignKeyAPI.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\kinds\Lookup.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\to
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\to\TransferObject.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\to\ValueListIterator.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\types
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\types\Bool.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\types\Custom.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\types\DataProvider.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\types\Dte.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\types\Int.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\types\Num.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\types\Obj.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\types\PhoneNumber.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\types\SocialSecurity.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\types\Str.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\types\Xm.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\data\types\ZipCode.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\effects
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\effects\Tween.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\events
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\events\EventDispatcher.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\events\LowLevelEvents.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\events\UIEventDispatcher.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\lang
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\lang\Locale.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\managers
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\managers\DepthManager.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\managers\FocusManager.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\managers\OverlappedWindows.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\managers\PopUpManager.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\managers\SystemManager.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\screens
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\screens\Form.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\screens\Screen.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\screens\Slide.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\ArrayProxy.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\DataType.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\ElementDecl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\Log.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\Namespace.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\PendingCall.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\PrefixedQName.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\QName.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\RowSetProxy.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\Schema.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\SchemaContext.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\SchemaVersion.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\ServiceManager.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\SOAPCall.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\SOAPConstants.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\SOAPFault.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\SOAPHeader.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\SOAPParameter.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\WebService.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\WebServiceProxy.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\WSDL.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\WSDLConstants.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\WSDLDocument.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\services\WSDLOperation.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\Border.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\ColoredSkinElement.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\CustomBorder.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\halo
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\halo\AccordionHeaderSkin.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\halo\ActivatorSkin.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\halo\ButtonSkin.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\halo\Defaults.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\halo\FocusRect.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\halo\RectBorder.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\RectBorder.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\sample
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\sample\ActivatorSkin.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\sample\ButtonSkin.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\sample\Defaults.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\sample\FocusRect.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\sample\RectBorder.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\skins\SkinElement.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\styles
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\styles\CSSSetStyle.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\styles\CSSStyleDeclaration.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\styles\CSSTextStyles.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\styles\StyleManager.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\Blinds.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\BroadcasterMX.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\easing
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\easing\Back.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\easing\Bounce.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\easing\Elastic.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\easing\None.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\easing\Regular.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\easing\Strong.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\Fade.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\Fly.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\Iris.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\OnEnterFrameBeacon.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\Photo.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\PixelDissolve.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\Rotate.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\Squeeze.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\Transition.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\TransitionManager.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\Tween.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\Version.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\Wipe.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\transitions\Zoom.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\utils
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\utils\ClassFinder.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\utils\Collection.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\utils\CollectionImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\utils\Delegate.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\utils\ErrorStrings.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\utils\Iterator.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\utils\IteratorImpl.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\utils\ObjectCopy.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\utils\StringFormatter.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\utils\StringTokenParser.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\utils\Utils.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\utils\XMLString.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\video
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\video\ComponentVersion.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\video\CuePointManager.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\video\FLVPlayback.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\video\FPADManager.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\video\INCManager.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\video\NCManager.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\video\SMILManager.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\video\UIManager.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\video\VideoError.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\video\VideoPlayer.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\xpath
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\xpath\FilterExpr.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\xpath\FilterStack.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\xpath\NodePathInfo.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\mx\xpath\XPathAPI.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\toplevel.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Color Sets
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Color Sets\greyscale.clr
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Color Sets\mac.clr
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Color Sets\tone.clr
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Color Sets\windows.clr
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Commands
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Commands\Convert Symbol to Flex Component.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Commands\Convert Symbol to Flex Container.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Commands\Copy Font Name for ActionScript.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Commands\Copy Motion as XML.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Commands\Export Motion XML.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Commands\Import Motion XML.jsfl
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Component Source
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Component Source\ActionScript3.0
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Component Source\ActionScript3.0\Flex
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Component Source\ActionScript3.0\Flex\mx
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Component Source\ActionScript3.0\Flex\mx\flash
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Component Source\ActionScript3.0\Flex\mx\flash\ContainerMovieClip.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Component Source\ActionScript3.0\Flex\mx\flash\FlexContentHolder.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Component Source\ActionScript3.0\Flex\mx\flash\UIMovieClip.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Components
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Components\Flex
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Components\Flex\flash-integration.swc
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Data
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Data\DataBindingClasses.swc
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Data\settings.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes\Array.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes\Boolean.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes\DataProvider.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes\Date.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes\DeltaPacket.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes\Object.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes\PhoneNumber.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes\SocialSecurity.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes\ZipCode.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Debugger
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Debugger\DebugWorkspace.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Detection
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Detection\PlayerVersions.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Encoders
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Encoders\DateToNumber.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Encoders\Number.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Flex
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Flex\ContentHolder.fla
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Include
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Include\mm_livepreview.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Include\mm_slice9livepreview.as
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\CopyMotion.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\CopyMotionAsAS3.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\CopyMotionAsAS3Template.as
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\DeployVideo.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\DeployVideoPreview.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\FLVPlayback.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\fscommand2.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\ObjectFindAndSelect.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\PasteMotion.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\PasteMotionSpecial.jsfl
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\Scripts
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\Scripts\XFLTypeListingForImport.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\Scripts\XFL_import_code.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\UIComponents.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\url.jsfl
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Keyboard Shortcuts
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Keyboard Shortcuts\Fireworks 4.wfx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Keyboard Shortcuts\Flash 5.wfx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Keyboard Shortcuts\FreeHand 10.wfx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Keyboard Shortcuts\Illustrator 10.wfx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Keyboard Shortcuts\Photoshop 6.wfx
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Kinds
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Kinds\AutoTrigger.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Kinds\Calculated.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Kinds\Data.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\LastFirstRunInstall.dat
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\LivePreviewClasses
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\LivePreviewClasses\video
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\LivePreviewClasses\video\FLVPlaybackStageLivePreview
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\missfont.map
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\3D Brush.jsx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\Building Brush.jsx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\Decorated Brush.jsx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\Fire Animation.jsx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\Flame Brush.jsx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\Flower Brush.jsx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\flowerPattern.jsx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\Grid Fill.jsx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\Lightning Brush.jsx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\Particle System.jsx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\Smoke Animation.jsx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\sprayBrush.jsx
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\curve1.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\House.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt01.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt02.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt03.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt04.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt05.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt06.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt07.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt08.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt09.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt10.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt11.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt12.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt13.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt14.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt15.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt16.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt17.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt18.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt19.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\LineBrushArt20.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\svg\test.svg
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\symbolFill.jsx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\symmetry.jsx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\SymmetryHandles.jsx
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ProcScripts\Tree Brush.jsx
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Project
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Project\Project Preferences.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Project\Project.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Project\UIAutoFill.jsfl
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Screen Types
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Screen Types\catalog.dtd
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Screen Types\ScreenNames.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\defaultdynswf.swf
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\appicondoc.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\appicondocsec.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\appicon_xl.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\background-list.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\background-list_back.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\banner.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\check_off.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\check_on.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\folder.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\icon_exchange.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\icon_help.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\new_as.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\new_flp.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\new_jsfl.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\sep_h.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\sep_v.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\siteicondoc.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\white_folder.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\images\yellow_folder.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\StartPage.swf
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Tools
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Tools\PolyStar.png
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Tools\toolConfig.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Tools\toolDefaultConfig.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\WindowSWF
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\WindowSWF\Code Snippets.swf
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\WindowSWF\Project.swf
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\ActionsPanel.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\CustomActions\Flash Data Components.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\CustomActions\FLVPlayback.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\CustomActions\Screens.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\CustomActions\ScriptAssist\Flash Data Components.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\CustomActions\ScriptAssist\UIComponents.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\CustomActions\UIComponents.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\ScriptAssist
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\ScriptAssist\ClientServer.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\ScriptAssist\Date.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\ScriptAssist\MovieClip.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_1_2\ScriptAssist\OtherActions.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_3\ActionsPanel_3.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_3\ScriptAssist
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_3\ScriptAssist\Date.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\ActionScript_3\ScriptAssist\OtherActions.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashJavaScript\FlashJavaScript.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite1_0
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite1_0\FlashLite1_0.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite1_0\name.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite1_1
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite1_1\FlashLite1_1.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite1_1\name.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite1_1\ScriptAssist
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite1_1\ScriptAssist\FlashLite1_1.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_0
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_0\ActionsPanel.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_0\CoreActions
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_0\CoreActions\ClientServer.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_0\CoreActions\Date.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_0\CoreActions\MovieClip.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_0\CustomActions
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_0\CustomActions\FlashLite2_0.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_0\name.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_1
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_1\ActionsPanel.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_1\CoreActions
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_1\CoreActions\ClientServer.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_1\CoreActions\Date.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_1\CoreActions\MovieClip.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_1\CustomActions
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_1\CustomActions\FlashLite2_1.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite2_1\name.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_0
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_0\ActionsPanel.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_0\CoreActions
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_0\CoreActions\ClientServer.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_0\CoreActions\Date.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_0\CoreActions\MovieClip.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_0\CustomActions
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_0\CustomActions\FlashLite3_0.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_0\name.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_1
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_1\ActionsPanel.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_1\CoreActions
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_1\CoreActions\ClientServer.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_1\CoreActions\Date.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_1\CoreActions\MovieClip.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_1\CustomActions
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_1\CustomActions\FlashLite3_1.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite3_1\name.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite4_0
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite4_0\ActionsPanel_3.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite4_0\name.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite4_0\ScriptAssist
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite4_0\ScriptAssist\Date.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\ActionsPanel\FlashLite4_0\ScriptAssist\OtherActions.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Associate_Controller.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Associate_Display.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\CuePointNamedFrame.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\GoToFirstScreen.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\GoToLastScreen.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\GoToNextScreen.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\GoToPreviousScreen.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\GoToScreen.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Graphic_load_graphic.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\HideScreen.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Movieclip_Bring Forward.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Movieclip_Bring to Front.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Movieclip_Duplicate.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Movieclip_GotoAndPlay.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Movieclip_GotoAndStop.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Movieclip_loadMovie.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Movieclip_Send_Backward.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Movieclip_Send_to_Back.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Movieclip_Start_Dragging.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Movieclip_Stop_Dragging.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Movieclip_unloadMovie.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Projector_Full_Screen.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\ShowScreen.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Sound_Load_library_sound.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Sound_Load_mp3_file.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Sound_Play_Sound.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Sound_Stop_All_Sounds.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Sound_Stop_Sound.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Transitions.swf
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\transitions.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Trigger.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Video_FFW.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Video_Hide.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Video_Pause.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Video_Play.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Video_RW.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Video_Show.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Video_Stop.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Behaviors\Web_Goto_Webpage.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Classes\Léame de Clases de Adobe Flash Professional CS6.pdf
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\CodeSnippets
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\CodeSnippets\CodeSnippets.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Commands\names.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes\Custom.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes\Integer.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes\Number.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes\String.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\DataTypes\XML.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Detection\DefaultDetection.html
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Detection\DefaultWithFullScreenDetection.html
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Detection\FlashHttpsDetection.html
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Detection\swfobject.js
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Encoders\Boolean.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Encoders\DatasetDeltaToXUpdateDelta.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Encoders\Date.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\filelist.txt
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\FontEmbedding
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\FontEmbedding\UnicodeTable.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Formatters
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Formatters\Boolean.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Formatters\ComposeString.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Formatters\Custom.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Formatters\Date.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Formatters\RearrangeFields.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Formatters\StandardNumberFormatter.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\Anchors.html
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\Default.html
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\DefaultWithFullScreen.html
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\FlashHttps.html
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\Flash_with_AICC_Tracking.html
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\Flash_with_SCORM_2004.html
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\Flash_with_SCORM_Tracking.html
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\FSCommand.html
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\ImageMap.html
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\Learning Extensions Srvr Files
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\Learning Extensions Srvr Files\frameset.htm
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\Learning Extensions Srvr Files\Readme.txt
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\Learning Extensions Srvr Files\results.htm
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\Learning Extensions Srvr Files\scripts
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\Learning Extensions Srvr Files\scripts\behCourseBuilder.js
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\Learning Extensions Srvr Files\scripts\cmi.js
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\HTML\PocketPC2003.html
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\date.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\inputRangeCheck.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\MakeFlexComponent.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\MotionXML.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\movieclip.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\PasteMotionSpecialDialog.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Javascript\PasteMotionSpecialDialogTemplate.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\LastFirstRunInstall.dat
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Project\ProjectStrings.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Publish Profiles
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Publish Profiles\default.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Screen Types\Form
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Screen Types\Form\catalog.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Screen Types\Form\Form.jsfl
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Screen Types\Slide
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Screen Types\Slide\catalog.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Screen Types\Slide\Slide.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\StartPage\resources\config.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Tools\PolyStar.jsfl
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\Tools\PolyStar.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\WindowSWF\names.xml
+[create dir]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\XULControls
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\XULControls\DateControls.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\XULControls\FlashDataComponentControls.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\XULControls\FLVPlaybackControls.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\XULControls\FSCommand2Controls.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\XULControls\MovieclipControls.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\XULControls\ScreenControls.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\XULControls\UIComponentControls.xml
+[copy]
+C:\Users\gestion.ITSA\AppData\Local\Adobe\Flash CS6\es_ES\Configuration\XULControls\URLControls.xml

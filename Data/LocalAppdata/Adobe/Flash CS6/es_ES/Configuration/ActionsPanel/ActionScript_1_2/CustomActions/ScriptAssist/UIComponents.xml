@@ -1,0 +1,265 @@
+\ufeff<?xml version="1.0" encoding="utf-8"?>
+<?xul-overlay href="../../../../XULControls/UIComponentControls.xml"?>
+		<customactions>
+			<actionspanelsupplement>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.containers.Accordion]">
+					<parametersdialog>
+						<block id="EVENT_ACCORDION"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.containers.ScrollPane]">
+					<parametersdialog>
+						<block id="EVENT_SCROLLPANE"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.containers.Window]">
+					<parametersdialog>
+						<block id="EVENT_WINDOW"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.Alert]">
+					<parametersdialog>
+						<block id="EVENT_ALERT"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="show" text=".show(%mensaje:String[, título:String[, indicadores:flags[, principal:Window[, controladorAccionesRatón:clickHandler[, icono:String[, botónPredeterminado:Constant]]]]]] %)" object="[mx.controls.Alert]">
+					<parametersdialog>
+						<block id="ALERT_MESSAGE"/>
+						<block id="ALERT_TITLE_OPT"/>
+						<block id="ALERT_FLAGS_OPT"/>
+						<block id="PARENT_WINDOW_OPT"/>
+						<block id="CLICK_HANDLER_OPT"/>
+						<block id="ICON_OPT"/>
+						<block id="ALERT_DEFAULT_BUTTON_OPT"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.Button]">
+					<parametersdialog>
+						<block id="EVENT_BUTTON"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.CheckBox]">
+					<parametersdialog>
+						<block id="EVENT_CHECKBOX"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.ComboBox]">
+					<parametersdialog>
+						<block id="EVENT_COMBOBOX"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addItem" text=".addItem(% [objetos:String],[etiqueta:String [,datos:Data]] %)" object="[mx.controls.ComboBox]">
+					<parametersdialog>
+						<block id="ITEM_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="addItemAt" text=".addItemAt(% índice:Number, [obj:String],[etiqueta:String [,datos:Data]] %)" object="[mx.controls.ComboBox]">
+					<parametersdialog>
+						<block id="ITEMAT_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="replaceItemAt" text=".replaceItemAt(% índice:Number, [obj:String],[etiqueta:String [,datos:Data]] %)" object="[mx.controls.ComboBox]">
+					<parametersdialog>
+						<block id="ITEMAT_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="sortItems" text=".sortItems(%[funciónComparación:String, indicadorOpciones:String]%)" object="[mx.controls.ComboBox]">
+					<parametersdialog>
+						<block id="SORTITEMS_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.DataGrid]">
+					<parametersdialog>
+						<block id="EVENT_DATAGRID"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addItem" text=".addItem(% [objetos:String],[etiqueta:String [,datos:Data]] %)" object="[mx.controls.DataGrid]">
+					<parametersdialog>
+						<block id="ITEM_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="addItemAt" text=".addItemAt(% índice:Number, [obj:String],[etiqueta:String [,datos:Data]] %)" object="[mx.controls.DataGrid]">
+					<parametersdialog>
+						<block id="ITEMAT_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="replaceItemAt" text=".replaceItemAt(% índice:Number, [obj:String],[etiqueta:String [,datos:Data]] %)" object="[mx.controls.DataGrid]">
+					<parametersdialog>
+						<block id="ITEMAT_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="sortItems" text=".sortItems(%[funciónComparación:String, indicadorOpciones:String] %)" object="[mx.controls.DataGrid]">
+					<parametersdialog>
+						<block id="SORTITEMS_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.DateChooser]">
+					<parametersdialog>
+						<block id="EVENT_DATECHOOSER"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.DateField]">
+					<parametersdialog>
+						<block id="EVENT_DATEFIELD"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.Label]">
+					<parametersdialog>
+						<block id="EVENT_LABEL"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.List]">
+					<parametersdialog>
+						<block id="EVENT_LIST"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addItem" text=".addItem(% [objetos:String],[etiqueta:String [,datos:Data]] %)" object="[mx.controls.List]">
+					<parametersdialog>
+						<block id="ITEM_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="addItemAt" text=".addItemAt(% índice:Number, [obj:String],[etiqueta:String [,datos:Data]] %)" object="[mx.controls.List]">
+					<parametersdialog>
+						<block id="ITEMAT_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="replaceItemAt" text=".replaceItemAt(% índice:Number, [obj:String],[etiqueta:String [,datos:Data]] %)" object="[mx.controls.List]">
+					<parametersdialog>
+						<block id="ITEMAT_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="sortItems" text=".sortItems(%[funciónComparación:String, indicadorOpciones:String]%)" object="[mx.controls.List]">
+					<parametersdialog>
+						<block id="SORTITEMS_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="sortItemsBy" text=".sortItemsBy(% nombreCampo:String, orden:string [, indicadorOpciones:String] %)" object="[mx.controls.List]"/>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.Loader]">
+					<parametersdialog>
+						<block id="EVENT_LOADER"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.MediaController]">
+					<parametersdialog>
+						<block id="EVENT_MEDIACONTROLLER"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.MediaDisplay]">
+					<parametersdialog>
+						<block id="EVENT_MEDIADISPLAY"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.MediaPlayback]">
+					<parametersdialog>
+						<block id="EVENT_MEDIAPLAYBACK"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.Menu]">
+					<parametersdialog>
+						<block id="EVENT_MENU"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="replaceItemAt" text=".replaceItemAt(% índice:Number, [obj:String],[etiqueta:String [,datos:Data]] %)" object="[mx.controls.Menu]">
+					<parametersdialog>
+						<block id="ITEMAT_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.MenuBar]">
+					<parametersdialog>
+						<block id="EVENT_MENUBAR"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.NumericStepper]">
+					<parametersdialog>
+						<block id="EVENT_NUMERICSTEPPER"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.ProgressBar]">
+					<parametersdialog>
+						<block id="EVENT_PROGRESSBAR"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.RadioButton]">
+					<parametersdialog>
+						<block id="EVENT_RADIOBUTTON"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.RadioButtonGroup]">
+					<parametersdialog>
+						<block id="EVENT_RADIOBUTTONGROUP"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.TextArea]">
+					<parametersdialog>
+						<block id="EVENT_TEXTAREA"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.TextInput]">
+					<parametersdialog>
+						<block id="EVENT_TEXTINPUT"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.Tree]">
+					<parametersdialog>
+						<block id="EVENT_TREE"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addItem" text=".addItem(% [objetos:String],[etiqueta:String [,datos:Data]] %)" object="[mx.controls.Tree]">
+					<parametersdialog>
+						<block id="ITEM_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="addItemAt" text=".addItemAt(% índice:Number, [obj:String],[etiqueta:String [,datos:Data]] %)" object="[mx.controls.Tree]">
+					<parametersdialog>
+						<block id="ITEMAT_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="replaceItemAt" text=".replaceItemAt(% índice:Number, [obj:String],[etiqueta:String [,datos:Data]] %)" object="[mx.controls.Tree]">
+					<parametersdialog>
+						<block id="ITEMAT_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="sortItems" text=".sortItems(%[funciónComparación:String, indicadorOpciones:String]%)" object="[mx.controls.Tree]">
+					<parametersdialog>
+						<block id="SORTITEMS_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.controls.UIScrollBar]">
+					<parametersdialog>
+						<block id="EVENT_UISCROLLBAR"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+				<string name="addEventListener" text=".addEventListener(% %)" object="[mx.managers.PopUpManager]">
+					<parametersdialog>
+						<block id="EVENT_POPUPMANAGER"/>
+						<block id="LISTENER"/>
+					</parametersdialog>
+				</string>
+			</actionspanelsupplement>
+		</customactions>

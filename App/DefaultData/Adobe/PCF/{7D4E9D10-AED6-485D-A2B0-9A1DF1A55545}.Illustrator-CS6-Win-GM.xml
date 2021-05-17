@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Payload adobeCode="{7D4E9D10-AED6-485D-A2B0-9A1DF1A55545}">
+		<!-- defaultAdobeCode for development use. -->
+		<Data key="defaultAdobeCode">Illustrator-CS6-Installer-AdobeCode</Data>
+		<Data key="LicensingCode">Illustrator-CS6-Win-GM</Data>
+		<Data key="BridgeTalkCode">/adobe/bridgetalk/illustrator-16.032</Data>
+		<Data key="AMTConfigPath">C:\Program Files\Adobe\Adobe Illustrator CS6\Support Files\Contents\Windows\AMT\application.xml</Data><Data key="DefaultDriverPayload">{4869414E-7AEA-4C8E-BE1C-8D40977FD517}</Data><Data key="InstallDate">1347011360</Data><Data key="driverAMTConfigPath">C:\Program Files\Common Files\Adobe\Adobe Illustrator CS6\Support Files\Contents\Windows\AMT\application.xml</Data><Data key="driverLEID">Illustrator-CS6-Win-GM</Data><Data key="installedLanguages">en_US</Data></Payload>
+	<Other adobeCode="Illustrator-CS6-Win-GM">
+		<Data key="EPIC_APP">Adobe Illustrator CS6</Data>
+		<Data key="EPIC_APP_34">Adobe Illustrator CS6</Data>
+		<!-- This is a windows-only serial. -->
+		<Data key="TrialSerialNumber">916387072192745419440733</Data>
+		<Data key="EULAFolderName">../../../Legal</Data>
+		<Data key="PayloadCode">{7D4E9D10-AED6-485D-A2B0-9A1DF1A55545}</Data></Other>
+	<Other adobeCode="/adobe/bridgetalk/illustrator-16.032">
+		<Data key="Specifier">illustrator-16.032</Data>
+		<Data key="ExecutableBasename">Illustrator</Data>
+		<Data key="WindowClassName">illustrator</Data>
+		<Data key="DisplayName">Adobe Illustrator CS6</Data>
+		<Data key="SupportsESTK">true</Data>
+	</Other>
+</Configuration>

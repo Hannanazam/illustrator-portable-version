@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+
+<!-- **************************************************************************** -->
+<!-- Copyright 2003 Macromedia, Inc. All Rights Reserved.                         -->
+<!-- The following is Sample Code and is subject to all restrictions on           -->
+<!-- such code as contained in the End User License Agreement accompanying        -->
+<!-- this product.                                                                -->
+<!-- **************************************************************************** -->
+
+<flash_behavior version="1.0">
+
+<!--Below is where and how we define the behavior and its parameters-->
+
+<behavior_definition dialogID="Send to Back-dialog" category="Clip de película" name="Enviar al fondo" class="movieclip, button">
+	<properties>
+		<property id="target" default="this"/> 
+	</properties>
+
+<!--The dialog window is tied to the controls below by its id-->
+<!--This controls generate the dialog using the XML to UI functionality-->
+
+		<dialog id="Send to Back-dialog" title="Enviar al fondo" buttons="accept, cancel">
+			<grid>
+			  <columns>
+			    <column>				 
+				  <rows>
+					<row align="center">
+				      <vbox>
+					    <label value="Seleccione el clip de película que desea enviar a la menor profundidad que sea posible:"/> 
+						<targetlist id="target" class="movieclip"/>
+					  </vbox>
+					</row>
+				  </rows>
+			    </column>				 
+			  </columns>
+			</grid>
+		</dialog>
+
+
+<!-- Inside the CDATA section is where you place the Actionscript to be displayed in the AS panel-->
+
+		<actionscript>
+<![CDATA[
+	//Send to Back Behavior
+	mx.behaviors.DepthControl.sendToBack($target$);
+	//End Behavior
+]]>
+		</actionscript>
+	</behavior_definition>
+
+</flash_behavior>

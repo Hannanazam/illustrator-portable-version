@@ -1,0 +1,104 @@
+\ufeff<?xml version="1.0" encoding="utf-8"?>
+<?xul-overlay href="../../../XULControls/DateControls.xml"?>
+		<customactions>
+			<actionspanelsupplement>
+				<string name="UTC" object="Date" text="Date.UTC(% año, [mes], [día], [hora], [min], [seg], [ms] %)">
+					<parametersdialog>
+						<block id="YEAR_FLEX"/>
+						<block id="MONTH_OPT_FLEX"/>
+						<block id="DAY_OPT_FLEX"/>
+						<block id="HOURS_OPT_FLEX"/>
+						<block id="MINUTES_OPT_FLEX"/>
+						<block id="SECONDS_OPT_FLEX"/>
+						<block id="MILLISECONDS_OPT_FLEX"/>
+					</parametersdialog>
+				</string>
+				<string name="setTime" object="Date" text=".setTime(% valor %)">
+					<parametersdialog>
+						<label id="MILLISECONDS_LABEL"/>
+						<textbox id="MILLISECONDS_TEXTBOX" size="15" prompt="desde 1/1/1970"/>
+					</parametersdialog>
+				</string>
+				<string name="setHours" object="Date" text=".setHours(% horas %)">
+					<parametersdialog>
+						<block id="HOURS"/>
+					</parametersdialog>
+				</string>
+				<string name="setDate" object="Date" text=".setDate(% día %)">
+					<parametersdialog>
+						<block id="DAY"/>
+					</parametersdialog>
+				</string>
+				<string name="setMonth" object="Date" text=".setMonth(% mes %)">
+					<parametersdialog>
+						<block id="MONTH"/>
+					</parametersdialog>
+				</string>
+				<string name="setFullYear" object="Date" text=".setFullYear(% año, mes, día %)">
+					<parametersdialog>
+						<block id="YEAR"/>
+						<block id="MONTH_OPT"/>
+						<block id="DAY_OPT"/>
+					</parametersdialog>
+				</string>
+				<string name="setSeconds" object="Date" text=".setSeconds(% segundos %)">
+					<parametersdialog>
+						<block id="SECONDS"/>
+					</parametersdialog>
+				</string>
+				<string name="setMinutes" object="Date" text=".setMinutes(% min %)">
+					<parametersdialog>
+						<block id="MINUTES"/>
+					</parametersdialog>
+				</string>
+				<string name="setMilliseconds" object="Date" text=".setMilliseconds(% ms %)">
+					<parametersdialog>
+						<label id="MILLISECONDS_LABEL"/>
+						<textbox id="MILLISECONDS_TEXTBOX" prompt="0-999"/>
+					</parametersdialog>
+				</string>
+				<string name="setYear" object="Date" text=".setYear(% año %)">
+					<parametersdialog>
+						<block id="YEAR"/>
+					</parametersdialog>
+				</string>
+				<string name="setUTCDate" object="Date" text=".setUTCDate(% día %)">
+					<parametersdialog>
+						<block id="DAY"/>
+					</parametersdialog>
+				</string>
+				<string name="setUTCMonth" object="Date" text=".setUTCMonth(% mes, día %)" text2=".setUTCMonth(% mes %)">
+					<parametersdialog>
+						<block id="MONTH"/>
+					</parametersdialog>
+				</string>
+				<string name="setUTCFullYear" object="Date" text=".setUTCFullYear(% año, mes, día %)">
+					<parametersdialog>
+						<block id="YEAR"/>
+						<block id="MONTH_OPT"/>
+						<block id="DAY_OPT"/>
+					</parametersdialog>
+				</string>
+				<string name="setUTCHours" object="Date" text=".setUTCHours(% horas %)">
+					<parametersdialog>
+						<block id="HOURS"/>
+					</parametersdialog>
+				</string>
+				<string name="setUTCMinutes" object="Date" text=".setUTCMinutes(% min %)">
+					<parametersdialog>
+						<block id="MINUTES"/>
+					</parametersdialog>
+				</string>
+				<string name="setUTCSeconds" object="Date" text=".setUTCSeconds(% segundos %)">
+					<parametersdialog>
+						<block id="SECONDS"/>
+					</parametersdialog>
+				</string>
+				<string name="setUTCMilliseconds" object="Date" text=".setUTCMilliseconds(% ms %)">
+					<parametersdialog>
+						<label id="MILLISECONDS_LABEL"/>
+						<textbox id="MILLISECONDS_TEXTBOX" prompt="0-999"/>
+					</parametersdialog>
+				</string>
+			</actionspanelsupplement>
+		</customactions>
